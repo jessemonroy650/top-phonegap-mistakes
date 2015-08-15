@@ -1,4 +1,4 @@
-### Top Mistakes by Developers new to Phonegap/Cordova ###
+### Top Mistakes by Developers new to Cordova/Phonegap ###
 
 
 1. **There are three similar systems, Cordova, Phonegap, and Phonegag Build. People often confuse the three very similar system and get tangle in minor variations that differentate them.**<p />
@@ -8,6 +8,9 @@
   > In 2011 Adobe purchased Nitobi and with it the rights to the PhoneGap brand, and the open source core was donated to the Apache Software Foundation under the name Cordova.
   >
   > Read more on the *[Ionic Blog](http://blog.ionic.io/what-is-cordova-phonegap/)*
+  * [Cordova](http://cordova.apache.org/)
+  * [Phonegap](http://phonegap.com/)
+  * [Phonegap Build](https://build.phonegap.com/plans)
 
 2. **Does not read the docs.**<p />
   There are three (3) sets of docs. One for *Cordova CLI* (Command Line Interface), another for *Phonegap CLI*, and one for *Phonegap Build*. They are similar, but NOT the same. Also, to add to the confusion, sometimes the Cordova documentation is the only set of docs available. This happens for some plugins. This also happens in the Phonegap Devleoper's Guide. (aka Beginners Guide)
@@ -30,7 +33,7 @@
   <p />And in case you think this is minor, even veterans like [Raymond Camden](http://www.raymondcamden.com/2015/07/15/fyi-cordova-events-must-be-run-after-deviceready) have forgotten this.
 
 5. **When designing the app, thinks phonegap works like a website.**<p />
-  Cordova/Phonegap is framework that happens to use a library, called webview in Android, that happens to HTML5 to render the UI (User Interface). It is NOT a webserver.
+  Cordova/Phonegap is framework that happens to use a library, called webview in Android (a similar libraries on other platforms), that happens to use HTML5 to render the UI (User Interface). The framework is NOT a webserver.
 
   *Quote* ***[Phonegap FAQ](http://phonegap.com/about/faq/)***
   > Q: Can you use PHP/ASP/JSF/Java/.NET with PhoneGap?
