@@ -10,13 +10,14 @@
   > In 2011 Adobe purchased Nitobi and with it the rights to the PhoneGap brand, and the open source core was donated to the Apache Software Foundation under the name Cordova.
   >
   > Read more on the *[Ionic Blog](http://blog.ionic.io/what-is-cordova-phonegap/)*
+  **The Websites**
   * [Cordova](http://cordova.apache.org/)
   * [Phonegap](http://phonegap.com/)
   * [Phonegap Build](https://build.phonegap.com/plans)
 
 2. **Does not read the docs.**<p />
   There are three (3) sets of docs. One for *Cordova CLI* (Command Line Interface), another for *Phonegap CLI*, and one for *Phonegap Build*. They are similar, but NOT the same. Also, to add to the confusion, sometimes the Cordova documentation is the only set of docs available. This happens for some plugins. This also happens in the Phonegap Devleoper's Guide. (aka Beginners Guide)
-
+  **The Documentation**
   * [Cordova](http://cordova.apache.org/docs/en/3.0.0/)
   * [Phonegap Beginner's Guide](http://docs.phonegap.com/) & [Phonegap 3.0.0](http://docs.phonegap.com/en/3.0.0/) (older,but sometimes better)
   * [Phonegap Build](http://docs.build.phonegap.com/en_US/#googtrans%28en%29)
