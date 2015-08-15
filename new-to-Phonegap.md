@@ -1,4 +1,4 @@
-## Top Mistakes by Developers new to Phonegap/Cordova ##
+### Top Mistakes by Developers new to Phonegap/Cordova ###
 
 
 1. **There are three similar systems, Cordova, Phonegap, and Phonegag Build. People often confuse the three very similar system and get tangle in minor variations that differentate them.**<p />Oddly enough, the best explanation comes from something built on top of Phonegap - *Ionic*, from their blog post *[The Last Word on Cordova and PhoneGap](http://blog.ionic.io/what-is-cordova-phonegap/)*
@@ -20,6 +20,7 @@
 
 4. **In the code, did not listen for the 'deviceready' event.**<p /> This is listed MULTIPLE times in the documentation, and is include in every example where it is appropriate. It is still missed. [Brian Ford](http://briantford.com/blog/angular-phonegap), points to the [section of documentation](http://docs.phonegap.com/en/2.3.0/cordova_events_events.md.html#deviceready) we need. 
   > Cordova consists of two code bases: native and JavaScript. While the native code is loading, a custom loading image is displayed. However, JavaScript is only loaded once the DOM loads. This means your web application could, potentially, call a Cordova JavaScript function before it is loaded.
+
   <p />And in case your think this is minor, even veterans like [Raymond Camden](http://www.raymondcamden.com/2015/07/15/fyi-cordova-events-must-be-run-after-deviceready) have forgotten this.
 
 5. **When designing the app, thinks phonegap works like a website.**<p />
@@ -29,7 +30,7 @@
 9. **Using an online example for "phonegap CLI" and then using "phonegap Build"**<p />
 10. **Not adding the new "white-list" and "white-list plugin" parameters in config.xml.**<p />
 
-## Frustrating Issues for the Volunteers ##
+### Frustrating Issues for the Volunteers ###
 
 
 1. **Not knowing if the person posting the question is using a CLI, an IDE, or Phonegap Build.**<p />In theory, phonegap works with a varitey of IDEs, but it also supports a CLI (Command Line Interface). This creates multiple issues. The largest is the environment is not setup correctly. This happens most often with MS Windows, but it also happens with Linux. Not so much on iOS (any more).
