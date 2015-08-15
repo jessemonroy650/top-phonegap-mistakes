@@ -1,32 +1,38 @@
 ### Top Mistakes by Developers new to Phonegap/Cordova ###
 
 
-1. **There are three similar systems, Cordova, Phonegap, and Phonegag Build. People often confuse the three very similar system and get tangle in minor variations that differentate them.**<p />Oddly enough, the best explanation comes from something built on top of Phonegap - *Ionic*, from their blog post *[The Last Word on Cordova and PhoneGap](http://blog.ionic.io/what-is-cordova-phonegap/)*
+1. **There are three similar systems, Cordova, Phonegap, and Phonegag Build. People often confuse the three very similar system and get tangle in minor variations that differentate them.**<p />
+  Oddly enough, the best explanation comes from something built on top of Phonegap - *Ionic*, from their blog post *[The Last Word on Cordova and PhoneGap](http://blog.ionic.io/what-is-cordova-phonegap/)*
   > PhoneGap proper was created around 2009 by a startup called Nitobi as an open source way to access the "native" environment through an embedded Web View in a native app. The goal of the project was to make it possible to build the bulk of a mobile app experience with pure web technologies like HTML5, CSS, and Javascript, but still be able to call into native code when necessary.
   >
   > In 2011 Adobe purchased Nitobi and with it the rights to the PhoneGap brand, and the open source core was donated to the Apache Software Foundation under the name Cordova.
   >
   > Read more on the *[Ionic Blog](http://blog.ionic.io/what-is-cordova-phonegap/)*
 
-2. **Does not read the docs.**<p />There are three (3) sets of docs. One for *Cordova CLI* (Command Line Interface), another for *Phonegap CLI*, and one for *Phonegap Build*. They are similar, but NOT the same. Also, to add to the confusion, sometimes the Cordova documentation is the only set of docs available. This happens for some plugins. This also happens in the Phonegap Devleoper's Guide. (aka Beginners Guide)
+2. **Does not read the docs.**<p />
+  There are three (3) sets of docs. One for *Cordova CLI* (Command Line Interface), another for *Phonegap CLI*, and one for *Phonegap Build*. They are similar, but NOT the same. Also, to add to the confusion, sometimes the Cordova documentation is the only set of docs available. This happens for some plugins. This also happens in the Phonegap Devleoper's Guide. (aka Beginners Guide)
+
   * [Cordova](http://cordova.apache.org/docs/en/3.0.0/)
   * [Phonegap Beginner's Guide](http://docs.phonegap.com/) & [Phonegap 3.0.0](http://docs.phonegap.com/en/3.0.0/) (older,but sometimes better)
   * [Phonegap Build](http://docs.build.phonegap.com/en_US/#googtrans%28en%29)
 
-3. **Does not follow the blogs.**
+3. **Does not follow the blogs.**<p />
   All three platforms have blogs and twitter accounts. Ignore at your peril.
   * Official Apache [Cordova Blog](http://cordova.apache.org/blog/) - https://twitter.com/apachecordova
   * Official Adobe [Phonegap Blog](http://phonegap.com/blog/) - https://twitter.com/phonegap
   * Official Adobe [Phonegap Build Blog](http://phonegap.com/blog/phonegap-build/) - https://twitter.com/phonegapbuild
 
-4. **In the code, did not listen for the 'deviceready' event.**<p /> This is listed MULTIPLE times in the documentation, and is include in every example where it is appropriate. It is still missed. [Brian Ford](http://briantford.com/blog/angular-phonegap), points to the [section of documentation](http://docs.phonegap.com/en/2.3.0/cordova_events_events.md.html#deviceready) we need. 
+4. **In the code, did not listen for the 'deviceready' event.**<p />
+  This is listed MULTIPLE times in the documentation, and is include in every example where it is appropriate. It is still missed. [Brian Ford](http://briantford.com/blog/angular-phonegap), points to the [section of documentation](http://docs.phonegap.com/en/2.3.0/cordova_events_events.md.html#deviceready) we need. 
+
   > Cordova consists of two code bases: native and JavaScript. While the native code is loading, a custom loading image is displayed. However, JavaScript is only loaded once the DOM loads. This means your web application could, potentially, call a Cordova JavaScript function before it is loaded.
 
   <p />And in case you think this is minor, even veterans like [Raymond Camden](http://www.raymondcamden.com/2015/07/15/fyi-cordova-events-must-be-run-after-deviceready) have forgotten this.
 
-5. **When designing the app, thinks phonegap works like a website.**
+5. **When designing the app, thinks phonegap works like a website.**<p />
   **Quote Phonegap FAQ**
   > Q: Can you use PHP/ASP/JSF/Java/.NET with PhoneGap?
+  >
   > A: A PhoneGap application may only use HTML, CSS, and JavaScript. However, you can make use of network protocols (XmlHTTPRequest, Web Sockets, etc) to easily communicate with backend services written in any language. This allows your PhoneGap app to remotely access existing business processes while the device is connected to the Internet.
 
 
