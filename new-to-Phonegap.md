@@ -23,7 +23,7 @@
   * Official Adobe [Phonegap Build Blog](http://phonegap.com/blog/phonegap-build/) - https://twitter.com/phonegapbuild
 
 4. **In the code, did not listen for the 'deviceready' event.**<p />
-  This is listed MULTIPLE times in the documentation, and is include in every example where it is appropriate. It is still missed. [Brian Ford](http://briantford.com/blog/angular-phonegap), points to the [section of documentation](http://docs.phonegap.com/en/2.3.0/cordova_events_events.md.html#deviceready) we need. 
+  This is listed MULTIPLE times in the documentation, and is include in every example where it is appropriate. It is still missed. [Brian Ford](http://briantford.com/blog/angular-phonegap) - an Angular developer, points to the [section of documentation](http://docs.phonegap.com/en/2.3.0/cordova_events_events.md.html#deviceready) we need. 
 
   > Cordova consists of two code bases: native and JavaScript. While the native code is loading, a custom loading image is displayed. However, JavaScript is only loaded once the DOM loads. This means your web application could, potentially, call a Cordova JavaScript function before it is loaded.
 
@@ -33,10 +33,16 @@
   **Quote Phonegap FAQ**
   > Q: Can you use PHP/ASP/JSF/Java/.NET with PhoneGap?
   >
-  > A: A PhoneGap application may only use HTML, CSS, and JavaScript. However, you can make use of network protocols (XmlHTTPRequest, Web Sockets, etc) to easily communicate with backend services written in any language. This allows your PhoneGap app to remotely access existing business processes while the device is connected to the Internet.
-
+  > A: A PhoneGap application may <u>only</u> use HTML, CSS, and JavaScript. However, you can make use of network protocols (XmlHTTPRequest, Web Sockets, etc) to easily communicate with backend services written in any language. This allows your PhoneGap app to remotely access existing business processes while the device is connected to the Internet.
 
 6. **Not setting "phonegap-version" in config.xml.**<p />
+  With the CLI version, if you do not assign a version for your platform _OR_ in ''Phonegap Build'' if you do not set the ```phonegap-version``` in config.xml, YOU WILL GET the latest version. If you are lucky, your program just works as expected. If you are not lucky, you'll get a set of cascasding error. 
+
+  Luckily for all of us, Holly Schinsky has written a nice blog post to explain it all:
+
+  *Cordova/PhoneGap Version Confusion*<br />
+  http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/
+
 7. **Not setting "version" for you plugins in config.xml.**<p />
 8. **Forgot to add the plugin to config.xml.**<p />
 9. **Using an online example for "phonegap CLI" and then using "phonegap Build"**<p />
