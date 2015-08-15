@@ -32,14 +32,14 @@
 5. **When designing the app, thinks phonegap works like a website.**<p />
   Cordova/Phonegap is framework that happens to use a library, called webview in Android, that happens to HTML5 to render the UI (User Interface). It is NOT a webserver.
 
-  *Quote **[Phonegap FAQ](http://phonegap.com/about/faq/)***
+  *Quote* ***[Phonegap FAQ](http://phonegap.com/about/faq/)***
   > Q: Can you use PHP/ASP/JSF/Java/.NET with PhoneGap?
   >
   > A: A PhoneGap application may <u>only</u> use HTML, CSS, and JavaScript. However, you can make use of network protocols (XmlHTTPRequest, Web Sockets, etc) to easily communicate with backend services written in any language. This allows your PhoneGap app to remotely access existing business processes while the device is connected to the Internet.
 
   In addition, both Google and Apple frown on using apps as wrappers for websites.
 
-  *Quote **[Apple iTunes Guidelines](https://developer.apple.com/app-store/review/guidelines/) - 2.12**
+  *Quote* ***[Apple iTunes Guidelines](https://developer.apple.com/app-store/review/guidelines/) - 2.12**
   > Apps that are not very useful, unique, are simply web sites bundled as Apps, or do not provide any lasting entertainment value may be rejected
 
   *Quote **[Google Play](https://developer.apple.com/app-store/review/guidelines/) - 2.12**
