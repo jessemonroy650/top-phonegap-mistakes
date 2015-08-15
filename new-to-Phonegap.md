@@ -2,18 +2,22 @@
 
 
 1. **There are three similar systems, Cordova, Phonegap, and Phonegag Build. People often confuse the three very similar system and get tangle in minor variations that differentate them.**<p />Oddly enough, the best explanation comes from something built on top of Phonegap - *Ionic*, from their blog post *[The Last Word on Cordova and PhoneGap](http://blog.ionic.io/what-is-cordova-phonegap/)*
-> PhoneGap proper was created around 2009 by a startup called Nitobi as an open source way to access the "native" environment through an embedded Web View in a native app. The goal of the project was to make it possible to build the bulk of a mobile app experience with pure web technologies like HTML5, CSS, and Javascript, but still be able to call into native code when necessary.
->
-> In 2011 Adobe purchased Nitobi and with it the rights to the PhoneGap brand, and the open source core was donated to the Apache Software Foundation under the name Cordova.
->
-> Read more on the *[Ionic Blog](http://blog.ionic.io/what-is-cordova-phonegap/)*
+  > PhoneGap proper was created around 2009 by a startup called Nitobi as an open source way to access the "native" environment through an embedded Web View in a native app. The goal of the project was to make it possible to build the bulk of a mobile app experience with pure web technologies like HTML5, CSS, and Javascript, but still be able to call into native code when necessary.
+  >
+  > In 2011 Adobe purchased Nitobi and with it the rights to the PhoneGap brand, and the open source core was donated to the Apache Software Foundation under the name Cordova.
+  >
+  > Read more on the *[Ionic Blog](http://blog.ionic.io/what-is-cordova-phonegap/)*
 
-2. **Does not read the docs.**<p />There are three (3) sets of docs. One for Cordova CLI (Command Line Interface), another for Phonegap CLI, and one for Phonegap Build. They are similar, but NOT the same. Also, to add to the confusion, sometimes the Cordova documentation is the only set of docs available. This happens for some plugins. This also happens in the Phonegap Devleoper's Guide. (aka Beginners Guide)
+2. **Does not read the docs.**<p />There are three (3) sets of docs. One for *Cordova CLI* (Command Line Interface), another for *Phonegap CLI*, and one for *Phonegap Build*. They are similar, but NOT the same. Also, to add to the confusion, sometimes the Cordova documentation is the only set of docs available. This happens for some plugins. This also happens in the Phonegap Devleoper's Guide. (aka Beginners Guide)
   * [Cordova](http://cordova.apache.org/docs/en/3.0.0/)
   * [Phonegap Beginner's Guide](http://docs.phonegap.com/) & [Phonegap 3.0.0](http://docs.phonegap.com/en/3.0.0/) (older,but sometimes better)
   * [Phonegap Build](http://docs.build.phonegap.com/en_US/#googtrans%28en%29)
 
-3. **Does not follow the blogs.**<p />
+3. **Does not follow the blogs.**<p />All three platforms have blogs and twitter accounts. Ignore at your peril.
+  * Official Apache [http://cordova.apache.org/blog/ Cordova Blog] - https://twitter.com/apachecordova
+  * Official Adobe [http://phonegap.com/blog/ Phonegap Blog] - https://twitter.com/phonegap
+  * Official Adobe [http://phonegap.com/blog/phonegap-build/ Phonegap BUILD Blog] - https://twitter.com/phonegapbuild
+
 4. **In the code, did not listen for the 'deviceready' event.**<p />
 5. **When designing the app, thinks phonegap works like a website.**<p />
 6. **Not setting "phonegap-version" in config.xml.**<p />
