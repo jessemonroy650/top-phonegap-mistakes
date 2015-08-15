@@ -2,11 +2,11 @@
 
 
 1. **There are three similar systems, Cordova, Phonegap, and Phonegag Build. People often confuse the three very similar system and get tangle in minor variations that differentate them.**<p />Oddly enough, the best explanation comes from something built on top of Phonegap - *Ionic*, from their blog post *[The Last Word on Cordova and PhoneGap](http://blog.ionic.io/what-is-cordova-phonegap/)*
->PhoneGap proper was created around 2009 by a startup called Nitobi as an open source way to access the "native" environment through an embedded Web View in a native app. The goal of the project was to make it possible to build the bulk of a mobile app experience with pure web technologies like HTML5, CSS, and Javascript, but still be able to call into native code when necessary.
+> PhoneGap proper was created around 2009 by a startup called Nitobi as an open source way to access the "native" environment through an embedded Web View in a native app. The goal of the project was to make it possible to build the bulk of a mobile app experience with pure web technologies like HTML5, CSS, and Javascript, but still be able to call into native code when necessary.
 >
->In 2011 Adobe purchased Nitobi and with it the rights to the PhoneGap brand, and the open source core was donated to the Apache Software Foundation under the name Cordova.
+> In 2011 Adobe purchased Nitobi and with it the rights to the PhoneGap brand, and the open source core was donated to the Apache Software Foundation under the name Cordova.
 >
->Read more on the *[Ionic Blog](http://blog.ionic.io/what-is-cordova-phonegap/)*
+> Read more on the *[Ionic Blog](http://blog.ionic.io/what-is-cordova-phonegap/)*
 2. **Does not read the docs.**<p />
 3. **Does not follow the blogs.**<p />
 4. **In the code, did not listen for the 'deviceready' event.**<p />
