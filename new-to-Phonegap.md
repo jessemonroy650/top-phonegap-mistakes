@@ -39,10 +39,10 @@
 
   In addition, both Google and Apple frown on using apps as wrappers for websites.
 
-  *Quote* ***[Apple iTunes Guidelines](https://developer.apple.com/app-store/review/guidelines/) - 2.12**
+  *Quote* ***[Apple iTunes Guidelines](https://developer.apple.com/app-store/review/guidelines/) - 2.12***
   > Apps that are not very useful, unique, are simply web sites bundled as Apps, or do not provide any lasting entertainment value may be rejected
 
-  *Quote **[Google Play](https://developer.apple.com/app-store/review/guidelines/) - 2.12**
+  *Quote* ***[Google Play](https://developer.apple.com/app-store/review/guidelines/) - 2.12***
   >  Apps published on Google Play may not directly or indirectly engage in or benefit from the following behavior: 
   >
   > Promotion via deceptive ads on websites, apps or other properties, including simulated system, service, or app notifications or alerts. 
