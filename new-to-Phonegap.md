@@ -33,7 +33,11 @@
 4. **In the code, did not listen for the 'deviceready' event.**<p />
   This is listed MULTIPLE times in the documentation, and is include in every example where it is appropriate. It is still missed. [Brian Ford](http://briantford.com/blog/angular-phonegap) - an Angular developer, points to the [section of documentation](http://docs.phonegap.com/en/2.3.0/cordova_events_events.md.html#deviceready) we need. 
 
+  > This is a very important event that every Cordova application should use.
+  >
   > Cordova consists of two code bases: native and JavaScript. While the native code is loading, a custom loading image is displayed. However, JavaScript is only loaded once the DOM loads. This means your web application could, potentially, call a Cordova JavaScript function before it is loaded.
+  >
+  > The Cordova <u>deviceready</u> event fires once Cordova has fully loaded. After the device has fired, you can safely make calls to Cordova function.
 
   <p />And in case you think this is minor, even veterans like [Raymond Camden](http://www.raymondcamden.com/2015/07/15/fyi-cordova-events-must-be-run-after-deviceready) have forgotten this.
 
