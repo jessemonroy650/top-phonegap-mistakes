@@ -13,7 +13,8 @@
   * [Phonegap Beginner's Guide](http://docs.phonegap.com/) & [Phonegap 3.0.0](http://docs.phonegap.com/en/3.0.0/) (older,but sometimes better)
   * [Phonegap Build](http://docs.build.phonegap.com/en_US/#googtrans%28en%29)
 
-3. **Does not follow the blogs.**<p />All three platforms have blogs and twitter accounts. Ignore at your peril.
+3. **Does not follow the blogs.**
+  All three platforms have blogs and twitter accounts. Ignore at your peril.
   * Official Apache [Cordova Blog](http://cordova.apache.org/blog/) - https://twitter.com/apachecordova
   * Official Adobe [Phonegap Blog](http://phonegap.com/blog/) - https://twitter.com/phonegap
   * Official Adobe [Phonegap Build Blog](http://phonegap.com/blog/phonegap-build/) - https://twitter.com/phonegapbuild
@@ -21,9 +22,14 @@
 4. **In the code, did not listen for the 'deviceready' event.**<p /> This is listed MULTIPLE times in the documentation, and is include in every example where it is appropriate. It is still missed. [Brian Ford](http://briantford.com/blog/angular-phonegap), points to the [section of documentation](http://docs.phonegap.com/en/2.3.0/cordova_events_events.md.html#deviceready) we need. 
   > Cordova consists of two code bases: native and JavaScript. While the native code is loading, a custom loading image is displayed. However, JavaScript is only loaded once the DOM loads. This means your web application could, potentially, call a Cordova JavaScript function before it is loaded.
 
-  <p />And in case your think this is minor, even veterans like [Raymond Camden](http://www.raymondcamden.com/2015/07/15/fyi-cordova-events-must-be-run-after-deviceready) have forgotten this.
+  <p />And in case you think this is minor, even veterans like [Raymond Camden](http://www.raymondcamden.com/2015/07/15/fyi-cordova-events-must-be-run-after-deviceready) have forgotten this.
 
-5. **When designing the app, thinks phonegap works like a website.**<p />
+5. **When designing the app, thinks phonegap works like a website.**
+  **Quote Phonegap FAQ**
+  > Q: Can you use PHP/ASP/JSF/Java/.NET with PhoneGap?
+  > A: A PhoneGap application may only use HTML, CSS, and JavaScript. However, you can make use of network protocols (XmlHTTPRequest, Web Sockets, etc) to easily communicate with backend services written in any language. This allows your PhoneGap app to remotely access existing business processes while the device is connected to the Internet.
+
+
 6. **Not setting "phonegap-version" in config.xml.**<p />
 7. **Not setting "version" for you plugins in config.xml.**<p />
 8. **Forgot to add the plugin to config.xml.**<p />
