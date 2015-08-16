@@ -1,14 +1,11 @@
-= NOTES =
+# NOTES #
 Date: 2015-08-15
 
 
 **ISSUE**
 
- - 3 dot bubble in phonegap app for settings...
- - https://groups.google.com/forum/#!topic/phonegap/1kPAHbv7OYw
-
- - PhoneGap Build Android crates floating bubble with 3 dots
- - http://stackoverflow.com/questions/31900356/phonegap-build-android-crates-floating-bubble-with-3-dots
+ - [3 dot bubble in phonegap app for settings...](https://groups.google.com/forum/#!topic/phonegap/1kPAHbv7OYw)
+ - [PhoneGap Build Android crates floating bubble with 3 dots](http://stackoverflow.com/questions/31900356/phonegap-build-android-crates-floating-bubble-with-3-dots)
 
 **Affects**
 
