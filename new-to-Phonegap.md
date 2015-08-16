@@ -74,17 +74,19 @@
   *[(Official) Messages from Phonegap Build Technical Support in the Forum](http://codesnippets.altervista.org/documentation/phonegap/bookmarks/fromSupport.html)*
 
 8. **Forgot to add the plugin to config.xml.**<p />
-  Oops. Every developer has done this at one time or another. I've done it, and them spent 8 hours debugging this mistake.
+  Oops. Every developer has done this at one time or another. I've done it, and them spent 8 hours debugging this mistake. OUCH!
 
 9. **Using an online example for "phonegap CLI" and then using "phonegap Build"**<p />
-  I confess to doing this. I also confess to giving people wrong version. Sometimes, I have given them Phonegap Build, when I should have given them Phonegap CLI.
+  I confess to doing this. I also confess to giving people the wrong version. Sometimes, I have gave them Phonegap Build, when I should have given them Phonegap CLI.
 
   This also happens on the forum, repeatedly, not with disaterous results, but when it happens, it is frustrating. Use caution.
 
 10. **Not adding the new "white-list" and "white-list plugin" parameters in config.xml.**<p />
-  This is sooo new and obnoxious, one can only have pitty on returning developers.
+  This is sooo new and obnoxious, one can only have pitty on returning developers. In addition, this was buried in Cordova Blog.
 
-  *[Notes for upgrading to cli-5.1.1 on PGB](http://community.phonegap.com/nitobi/topics/notes-for-upgrading-to-cli-5-1-1-on-pgb)*
+  *[Plugins Release and Moving plugins to npm: April 21, 2015](https://cordova.apache.org/announcements/2015/04/21/plugins-release-and-move-to-npm.html)* and **New Whitelist Plugins**
+
+  *[Notes for upgrading to cli-5.1.1 on PGB](http://community.phonegap.com/nitobi/topics/notes-for-upgrading-to-cli-5-1-1-on-pgb)* and Whitelist for Phonegap Build
 
 
 ### Frustrating Issues for the Volunteers ###
