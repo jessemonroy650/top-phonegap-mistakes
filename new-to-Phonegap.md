@@ -39,10 +39,10 @@
   >
   > The Cordova <u>deviceready</u> event fires once Cordova has fully loaded. After the device has fired, you can safely make calls to Cordova function.
 
-  <p />And in case you think this is minor, even veterans like [Raymond Camden](http://www.raymondcamden.com/2015/07/15/fyi-cordova-events-must-be-run-after-deviceready) have forgotten this.
+  <p />And in case you think this is minor, even veterans like Raymond Camden [has forgotten this](http://www.raymondcamden.com/2015/07/15/fyi-cordova-events-must-be-run-after-deviceready).
 
 5. **When designing the app, thinks phonegap works like a website.**<p />
-  Cordova/Phonegap is framework that happens to use a library, called webview in Android (a similar libraries on other platforms), that happens to use HTML5 to render the UI (User Interface). The framework is NOT a webserver.
+  Cordova/Phonegap is framework that happens to use a library, called webview on Android (and similar libraries on other platforms), that happens to use HTML5 to render the UI (User Interface). The framework is NOT a webserver.
 
   *Quote* ***[Phonegap FAQ](http://phonegap.com/about/faq/)***
   > Q: Can you use PHP/ASP/JSF/Java/.NET with PhoneGap?
@@ -63,7 +63,7 @@
   http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/
 
 7. **Not setting "version" for you plugins in config.xml.**<p />
-  I've been guilty of this mistake. Even worst, I gave people code examples making this mistake. I those people will read this one day make the appropriate correction.
+  I've been guilty of this mistake. Even worst, I gave people code examples making this mistake. I hope those people will read this one day and make the appropriate correction.
 
   In the last ''Top Mistake'' (#6), Holly Schinsky disucussed this in her blog post. But just to get the point across, here is a Post from the Nitobi Forum,
 
