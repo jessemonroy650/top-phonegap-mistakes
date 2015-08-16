@@ -1,4 +1,4 @@
-## README ##
+## Phonegap Developers' Notes ##
 
 
 * [Top Mistakes by Developers new to Cordova/Phonegap](new-to-Phonegap.md)
