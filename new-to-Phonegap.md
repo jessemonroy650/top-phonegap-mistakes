@@ -84,9 +84,9 @@
 10. **Not adding the new "white-list" and "white-list plugin" parameters in config.xml.**<p />
   This is sooo new and obnoxious, one can only have pitty on returning developers. In addition, this was buried in Cordova Blog.
 
-  *[Plugins Release and Moving plugins to npm: April 21, 2015](https://cordova.apache.org/announcements/2015/04/21/plugins-release-and-move-to-npm.html)* and **New Whitelist Plugins**
+  Cordova Blog: *[Plugins Release and Moving plugins to npm: April 21, 2015](https://cordova.apache.org/announcements/2015/04/21/plugins-release-and-move-to-npm.html)* and **New Whitelist Plugins**
 
-  *[Notes for upgrading to cli-5.1.1 on PGB](http://community.phonegap.com/nitobi/topics/notes-for-upgrading-to-cli-5-1-1-on-pgb)* and now required **Whitelist for Phonegap Build**
+  Phonegap Build Forum: *[Notes for upgrading to cli-5.1.1 on PGB](http://community.phonegap.com/nitobi/topics/notes-for-upgrading-to-cli-5-1-1-on-pgb)* and now required **Whitelist**
 
 
 ### Frustrating Issues for the Volunteers ###
