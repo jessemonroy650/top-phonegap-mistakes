@@ -5,4 +5,5 @@
 
 ### Annoyances ###
 
-* [Annoyances](annoyances/README.md)
+* [Samsung Soft Menu Button Annoyance](annoyances/SamsungMenuButton.md)
+

@@ -1,4 +1,4 @@
-# NOTES #
+# Samsung Soft Menu Button Annoyance #
 Date: 2015-08-15
 
 
