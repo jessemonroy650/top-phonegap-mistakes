@@ -1,10 +1,13 @@
 ### Top Mistakes by Developers new to Cordova/Phonegap ###
 
 
-1. **There are three similar systems, Cordova, Phonegap, and Phonegag Build. People often confuse the three very similar system and get tangle in minor variations that differentate them.**<p />
-  Oddly enough, the best explanation comes from something built on top of Phonegap - *Ionic*, from their blog post 
+1. **There are three similar systems, Cordova, Phonegap, and Phonegag Build. People often confuse the three very similar systems and get tangled in minor variations that differentiate them.
+**<p />
+  Oddly enough, the best explanation comes from something built on top of Angular, and wraps the Cordova/Phonegap CLI.
 
-  *[The Last Word on Cordova and PhoneGap](http://blog.ionic.io/what-is-cordova-phonegap/)*
+ - *Ionic*.
+
+  From the Ionic Blog *[The Last Word on Cordova and PhoneGap](http://blog.ionic.io/what-is-cordova-phonegap/)*
   > PhoneGap proper was created around 2009 by a startup called Nitobi as an open source way to access the "native" environment through an embedded Web View in a native app. The goal of the project was to make it possible to build the bulk of a mobile app experience with pure web technologies like HTML5, CSS, and Javascript, but still be able to call into native code when necessary.
   >
   > In 2011 Adobe purchased Nitobi and with it the rights to the PhoneGap brand, and the open source core was donated to the Apache Software Foundation under the name Cordova.
@@ -54,7 +57,7 @@
   *Quote* ***[Apple iTunes Guidelines](https://developer.apple.com/app-store/review/guidelines/) - 2.12***
   > Apps that are not very useful, unique, are simply web sites bundled as Apps, or do not provide any lasting entertainment value may be rejected
 
-6. **Not setting "phonegap-version" in config.xml.**<p />
+6. **Not setting "phonegap-version" in config.xml.** Phonegap Build Only<p />
   With the CLI version, if you do not assign a version for your platform _OR_ in ''Phonegap Build'' if you do not set the ```phonegap-version``` in config.xml, YOU WILL GET the latest version. If you are lucky, your program just works as expected. If you are not lucky, you'll get a set of cascasding error. 
 
   Luckily for all of us, Holly Schinsky has written a nice blog post to explain it all:
@@ -62,7 +65,7 @@
   *Cordova/PhoneGap Version Confusion*<br />
   http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/
 
-7. **Not setting "version" for you plugins in config.xml.**<p />
+7. **Not setting "version" for you plugins in config.xml.** Phonegap Build Only<p />
   I've been guilty of this mistake. Even worst, I gave people code examples making this mistake. I hope those people will read this one day and make the appropriate correction.
 
   In the last ''Top Mistake'' (#6), Holly Schinsky disucussed this in her blog post. But just to get the point across, here is a Post from the Nitobi Forum,
@@ -73,7 +76,7 @@
 
   *[(Official) Messages from Phonegap Build Technical Support in the Forum](http://codesnippets.altervista.org/documentation/phonegap/bookmarks/fromSupport.html)*
 
-8. **Forgot to add the plugin to config.xml.**<p />
+8. **Forgot to add the plugin to config.xml.** Phonegap Build Only<p />
   Oops. Every developer has done this at one time or another. I've done it, and them spent 8 hours debugging this mistake. OUCH!
 
 9. **Using an online example for "phonegap CLI" and then using "phonegap Build"**<p />
@@ -101,3 +104,6 @@
 5. **Some APIs have shifted over time because of political issues.**<p />File, File Storage, and File Transfer is the classic example of this issue. Please read the documentation carefully.
 6. **The definition for using config.xml is different for ''Cordova'', ''Phonegap'', and ''Phonegap Build''.**<p />Although they are very similar, they are different. Please read the documentation.
 
+----
+
+* 2015-08-16 - Thanks to Raymond Camden for his clarifications and corrections.
