@@ -1,7 +1,6 @@
 ### Top Mistakes by Developers new to Cordova/Phonegap ###
 
-
-1. **There are four similar systems, Cordova, Phonegap, Cordova/Phonegap SDK (or IDE), and Phonegag Build. People often confuse the four very similar systems and get tangled in minor variations that differentiate them.**<p />
+1. **There are three similar platforms, Cordova (CLI), Phonegap (CLI), and Phonegag Build and five system (<small>counting Cordova/Phonegap SDK</small>). People often confuse the three very similar platform and get tangled in minor variations that differentiate them.**<p />
   Oddly enough, the best explanation comes from something built on top of Angular, and wraps the Cordova/Phonegap CLI. - *Ionic*.
 
   From the Ionic Blog *[The Last Word on Cordova and PhoneGap](http://blog.ionic.io/what-is-cordova-phonegap/)*
@@ -11,7 +10,7 @@
   >
   > Read more on the *[Ionic Blog](http://blog.ionic.io/what-is-cordova-phonegap/)*
 
-  On the **Cordova/Phonegap SDK (or IDE)** &ndash; for all intensive purposes, this is the same as *Phonegap CLI*, with an extra step involving `config.xml`.
+  On the **Cordova/Phonegap SDK (or IDE)** &ndash; for all intensive purposes, this is the same as *Cordova/Phonegap CLI*, with an extra step involving `[config.xml](http://cordova.apache.org/docs/en/5.0.0/config_ref_index.md.html#The%20config.xml%20File_the_feature_element)`.
 
   **The Official Websites**
   * [Cordova](http://cordova.apache.org/)
@@ -21,7 +20,7 @@
 2. **Does not read the docs.**<p />
   There are three (3) sets of docs. One for *Cordova CLI* (Command Line Interface), another for *Phonegap CLI*, and one for *Phonegap Build*. They are similar, but NOT the same. Also, to add to the confusion, sometimes the Cordova documentation is the only set of docs available. This happens for some plugins. This also happens in the Phonegap Devleoper's Guide. (aka Beginners Guide)
 
-  **The Documentation**
+  **The Official Documentation**
   * [Cordova](http://cordova.apache.org/docs/en/3.0.0/)
   * [Phonegap Beginner's Guide](http://docs.phonegap.com/) & [Phonegap 3.0.0](http://docs.phonegap.com/en/3.0.0/) (older,but sometimes better)
   * [Phonegap Build](http://docs.build.phonegap.com/en_US/#googtrans%28en%29)
