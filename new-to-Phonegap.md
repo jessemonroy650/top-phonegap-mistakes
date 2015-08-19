@@ -1,11 +1,9 @@
 ### Top Mistakes by Developers new to Cordova/Phonegap ###
 
 
-1. **There are three similar systems, Cordova, Phonegap, and Phonegag Build. People often confuse the three very similar systems and get tangled in minor variations that differentiate them.
+1. **There are four similar systems, Cordova, Phonegap, Phonegap SDK (or IDE), and Phonegag Build. People often confuse the four very similar systems and get tangled in minor variations that differentiate them.
 **<p />
-  Oddly enough, the best explanation comes from something built on top of Angular, and wraps the Cordova/Phonegap CLI.
-
- - *Ionic*.
+  Oddly enough, the best explanation comes from something built on top of Angular, and wraps the Cordova/Phonegap CLI. - *Ionic*.
 
   From the Ionic Blog *[The Last Word on Cordova and PhoneGap](http://blog.ionic.io/what-is-cordova-phonegap/)*
   > PhoneGap proper was created around 2009 by a startup called Nitobi as an open source way to access the "native" environment through an embedded Web View in a native app. The goal of the project was to make it possible to build the bulk of a mobile app experience with pure web technologies like HTML5, CSS, and Javascript, but still be able to call into native code when necessary.
@@ -13,6 +11,8 @@
   > In 2011 Adobe purchased Nitobi and with it the rights to the PhoneGap brand, and the open source core was donated to the Apache Software Foundation under the name Cordova.
   >
   > Read more on the *[Ionic Blog](http://blog.ionic.io/what-is-cordova-phonegap/)*
+
+  On the **Phonegap SDK (or IDE)** &ndash; for all intensive purposes, this is the same as *Phonegap CLI*, with an extra step involving `config.xml`.
 
   **The Websites**
   * [Cordova](http://cordova.apache.org/)
