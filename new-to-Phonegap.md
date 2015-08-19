@@ -1,8 +1,7 @@
 ### Top Mistakes by Developers new to Cordova/Phonegap ###
 
 
-1. **There are four similar systems, Cordova, Phonegap, Phonegap SDK (or IDE), and Phonegag Build. People often confuse the four very similar systems and get tangled in minor variations that differentiate them.
-**<p />
+1. **There are four similar systems, Cordova, Phonegap, Phonegap SDK (or IDE), and Phonegag Build. People often confuse the four very similar systems and get tangled in minor variations that differentiate them.**<p />
   Oddly enough, the best explanation comes from something built on top of Angular, and wraps the Cordova/Phonegap CLI. - *Ionic*.
 
   From the Ionic Blog *[The Last Word on Cordova and PhoneGap](http://blog.ionic.io/what-is-cordova-phonegap/)*
