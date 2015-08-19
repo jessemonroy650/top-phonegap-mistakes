@@ -10,7 +10,7 @@
   >
   > Read more on the *[Ionic Blog](http://blog.ionic.io/what-is-cordova-phonegap/)*
 
-  On the **Cordova/Phonegap SDK (or IDE)** &ndash; for all intensive purposes, this is the same as *Cordova/Phonegap CLI*, with an extra step involving [config.xml](http://cordova.apache.org/docs/en/5.0.0/config_ref_index.md.html#The%20config.xml%20File_the_feature_element).
+  On the **Cordova/Phonegap SDK (or IDE)** &ndash; for all intensive purposes, this is the same as *Cordova/Phonegap CLI*, with an extra step involving [`config.xml`](http://cordova.apache.org/docs/en/5.0.0/config_ref_index.md.html#The%20config.xml%20File_the_feature_element).
 
   **The Official Websites**
   * [Cordova](http://cordova.apache.org/)
