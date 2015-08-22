@@ -104,7 +104,7 @@
   2. What have you tried.
   3. What did not work as expected.
   4. What level of experience you have with mobile development. THIS HELPS ALOT.<p />
-2. **Not knowing if the person posting the question is using a CLI, an IDE, or Phonegap Build.**<p />In theory, phonegap works with a varitey of IDEs, but it also supports a CLI (Command Line Interface). This creates multiple issues. The largest is the environment is not setup correctly. This happens most often with MS Windows, but it also happens with Linux. Not so much on iOS (any more).
+2. **Not knowing if the person posting the question is using a CLI, an IDE, or Phonegap Build.**<p />In theory, phonegap works with a varitey of IDEs, but it also supports a CLI (Command Line Interface). This creates multiple issues. The largest question becomes, is the environment is not setup correctly. This happens most often with MS Windows, but it also happens with Linux. Not so much on iOS (any more).
 3. **Plugins don't work.**<p />There is not much we can do expect help you understand the configuration as defined by the author of the plugin. Too often the plugin becomes neglectware and we are both stuck. In this case, choose another plugin.
 4. **Getting confused by the different versions of documentation.**<p />It is easy to get confused when looking at the ''Phonegap'' documentation and NOT REALIZE that there is documentation for ''Phonegap Build''
 5. **The documentation is a mess.**<p />Luckily the leading edge documentation is mostly correct.
