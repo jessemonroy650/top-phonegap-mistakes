@@ -40,10 +40,10 @@
   >
   > The Cordova <u>deviceready</u> event fires once Cordova has fully loaded. After the device has fired, you can safely make calls to Cordova function.
 
-  <p />And in case you think this is minor, even veterans like Raymond Camden [has forgotten this](http://www.raymondcamden.com/2015/07/15/fyi-cordova-events-must-be-run-after-deviceready).
+  <p />And in case you think this is minor, even veterans like Raymond Camden [have forgotten this](http://www.raymondcamden.com/2015/07/15/fyi-cordova-events-must-be-run-after-deviceready).
 
 5. **When designing the app, thinks phonegap works like a website.**<p />
-  Cordova/Phonegap is framework that happens to use a library, called webview on Android (and similar libraries on other platforms), that happens to use HTML5 to render the UI (User Interface). The framework is NOT a webserver.
+  Cordova/Phonegap is a framework that happens to use a library, called webview on Android (and similar libraries on other platforms), that happens to use HTML5 to render the UI (User Interface). The framework is NOT a webserver.
 
   *Quote* ***[Phonegap FAQ](http://phonegap.com/about/faq/)***
   > Q: Can you use PHP/ASP/JSF/Java/.NET with PhoneGap?
@@ -55,7 +55,7 @@
   *Quote* ***[Apple iTunes Guidelines](https://developer.apple.com/app-store/review/guidelines/) - 2.12***
   > Apps that are not very useful, unique, are simply web sites bundled as Apps, or do not provide any lasting entertainment value may be rejected
 
-6. **Not setting "phonegap-version" in config.xml.** Phonegap Build Only<p />
+6. **Not setting "phonegap version"** <p />
   With the CLI version, if you do not assign a version for your platform _OR_ in ''Phonegap Build'' if you do not set the ```phonegap-version``` in config.xml, YOU WILL GET the latest version. If you are lucky, your program just works as expected. If you are not lucky, you'll get a set of cascasding error. 
 
   Luckily for all of us, Holly Schinsky has written a nice blog post to explain it all:
@@ -101,6 +101,10 @@
 4. **The documentation is a mess.**<p />Luckily the leading edge documentation is mostly correct.
 5. **Some APIs have shifted over time because of political issues.**<p />File, File Storage, and File Transfer is the classic example of this issue. Please read the documentation carefully.
 6. **The definition for using config.xml is different for ''Cordova'', ''Phonegap'', and ''Phonegap Build''.**<p />Although they are very similar, they are different. Please read the documentation.
+
+----
+####footnotes####
+1. From the documentation, it is presumed the meaning for SDK is the SDK packaged for use with and IDE; such as Eclipse, [intel-xdk](http://xdk-software.intel.com/), MS Visual Studio, XCode, etc.
 
 ----
 
