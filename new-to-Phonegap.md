@@ -77,7 +77,7 @@
 8. **Forgot to add the plugin to config.xml.** <p />
   Oops. Every developer has done this at one time or another. I've done it, and them spent 8 hours debugging this mistake. OUCH!
 
-  Luckily on *Cordova/Phonegap CLI* this is dealt with, but on [Cordova/Phonegap SDK](http://docs.phonegap.com/en/4.0.0/config_ref_index.md.html#The%20config.xml%20File_the_feature_element) and [Phonegap Build](http://docs.build.phonegap.com/en_US/configuring_plugins.md.html#Plugins) you have do this. It is referenced differently by both. The vocabulary is different for both.
+  Luckily on *Cordova/Phonegap CLI* this is dealt with, but on [Cordova/Phonegap SDK](http://docs.phonegap.com/en/4.0.0/config_ref_index.md.html#The%20config.xml%20File_the_feature_element) and [Phonegap Build](http://docs.build.phonegap.com/en_US/configuring_plugins.md.html#Plugins) **you** have to do this. It is referenced differently by both. The vocabulary is different for both.
 
 9. **Using an online example for "phonegap CLI" and then using "phonegap Build"**<p />
   I confess to doing this. I also confess to giving people the wrong version. Sometimes, I have gave them Phonegap Build, when I should have given them Phonegap CLI.
@@ -87,7 +87,7 @@
 10. **Not adding the new "white-list" and "white-list plugin" parameters in config.xml.**<p />
   This is sooo new and obnoxious, one can only have pitty on returning developers. In addition, this was buried in Cordova Blog.
 
-  The new requirement means to access ANY website or resources on the web, you MUST use the whitelist and whitelist plugin.
+  The new requirement means to access ANY website or resources on the web, you MUST use the whitelist and whitelist plugin. This requirement goes into affect if you are using Phonegap 4.0.0 or better; including cli-5.1.1.
 
   Cordova Blog: *[Plugins Release and Moving plugins to npm: April 21, 2015](https://cordova.apache.org/announcements/2015/04/21/plugins-release-and-move-to-npm.html)* and **New Whitelist Plugins**
 
