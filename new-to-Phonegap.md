@@ -55,7 +55,7 @@
   *Quote* ***[Apple iTunes Guidelines](https://developer.apple.com/app-store/review/guidelines/) - 2.12***
   > Apps that are not very useful, unique, are simply web sites bundled as Apps, or do not provide any lasting entertainment value may be rejected
 
-6. **Not setting the "phonegap version"** for your compiler <p />
+6. **Not setting the "phonegap version" for your compiler** <p />
   With the CLI version, if you do not assign a version for your platform _OR_ in ''Phonegap Build'' if you do not set the ```phonegap-version``` in config.xml, YOU WILL GET the latest version. If you are lucky, your program just works as expected. If you are not lucky, you'll get a set of cascasding error. 
 
   Luckily for all of us, Holly Schinsky has written a nice blog post to explain it all:
@@ -63,12 +63,12 @@
   *Cordova/PhoneGap Version Confusion*<br />
   http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/
 
-7. **Not setting "version" for you plugins in config.xml.** Phonegap Build Only<p />
+7. **Not setting "version" for you plugins** <p />
   I've been guilty of this mistake. Even worst, I gave people code examples making this mistake. I hope those people will read this one day and make the appropriate correction.
 
   In the last ''Top Mistake'' (#6), Holly Schinsky disucussed this in her blog post. But just to get the point across, here is a Post from the Nitobi Forum,
 
-  *[ Notes for upgrading to cli-5.1.1 on PGB](http://community.phonegap.com/nitobi/topics/notes-for-upgrading-to-cli-5-1-1-on-pgb)*
+  *[ Notes for upgrading to cli-5.1.1 on PGB](http://community.phonegap.com/nitobi/topics/notes-for-upgrading-to-cli-5-1-1-on-pgb)(Phonegap Build)*
 
    This brings up a good point. Sometimes annoucement, or reiterations, are made on the forum. If you miss them, these set of bookmarks tries to stay up to date.
 
