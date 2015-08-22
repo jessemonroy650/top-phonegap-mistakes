@@ -85,7 +85,7 @@
 
   This relatively * NEW * requirement means to access ANY website or resources on the web, you MUST use the whitelist and the whitelist plugin. This requirement goes into affect if you are using cordova-android@4.0.0 or better; including cli-5.1.1.
 
-  To be clear, the "whitelist" has been around for a bit, but the plugin and requirement is very new. As you would expect, when the "whitelist" was added the defacto *open-access* feature was deprecated. Or said another way, the defacto *open-access* feature was scheduled and planned to be eliminated.
+  To be clear, the "whitelist" has been around for a bit, but the plugin and requirement is very new. As you would expect, when the "whitelist" was added the defacto *open-access* feature was deprecated. Or said another way, the defacto *open-access* feature was scheduled and planned to be eliminated. This change marks a stop in removing the *open-access* feature.
 
   Cordova Blog: *[Plugins Release and Moving plugins to npm: April 21, 2015](https://cordova.apache.org/announcements/2015/04/21/plugins-release-and-move-to-npm.html)* and **New Whitelist Plugins**; scroll down to the title.
 
