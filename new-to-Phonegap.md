@@ -83,7 +83,7 @@
 10. **Not adding the new "white-list" and "white-list plugin" parameters in config.xml.**<p />
   This is sooo new and obnoxious, one can only have pitty on returning developers. In addition, this was buried in both the Phonegap blog and the Cordova Blog.
 
-  The new requirement means to access ANY website or resources on the web, you MUST use the whitelist and whitelist plugin. This requirement goes into affect if you are using Phonegap 4.0.0 or better; including cli-5.1.1.
+  The relatively * NEW * requirement means to access ANY website or resources on the web, you MUST use the whitelist and the whitelist plugin. This requirement goes into affect if you are using Phonegap 4.0.0 or better; including cli-5.1.1.
 
   Cordova Blog: *[Plugins Release and Moving plugins to npm: April 21, 2015](https://cordova.apache.org/announcements/2015/04/21/plugins-release-and-move-to-npm.html)* and **New Whitelist Plugins**
 
