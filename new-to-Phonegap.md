@@ -81,7 +81,7 @@
   This also happens on the forum, repeatedly, not with disaterous results, but when it happens, it is frustrating. Use caution.
 
 10. **Not adding the new "white-list" and "white-list plugin" parameters in config.xml.**<p />
-  This is sooo new and obnoxious, one can only have pitty on returning developers. In addition, this was buried in Cordova Blog.
+  This is sooo new and obnoxious, one can only have pitty on returning developers. In addition, this was buried in both the Phonegap blog and the Cordova Blog.
 
   The new requirement means to access ANY website or resources on the web, you MUST use the whitelist and whitelist plugin. This requirement goes into affect if you are using Phonegap 4.0.0 or better; including cli-5.1.1.
 
