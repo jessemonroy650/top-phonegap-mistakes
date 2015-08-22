@@ -70,14 +70,10 @@
 
   *[ Notes for upgrading to cli-5.1.1 on PGB](http://community.phonegap.com/nitobi/topics/notes-for-upgrading-to-cli-5-1-1-on-pgb) (Phonegap Build)*
 
-   This brings up a good point. Sometimes annoucement, or reiterations, are made on the forum. If you miss them, these set of bookmarks tries to stay up to date.
-
-  *[(Official) Messages from Phonegap Build Technical Support in the Forum](http://codesnippets.altervista.org/documentation/phonegap/bookmarks/fromSupport.html)*
-
 8. **Forgot to add the plugin to config.xml.** <p />
   Oops. Every developer has done this at one time or another. I've done it, and them spent 8 hours debugging this mistake. OUCH!
 
-  Luckily on *Cordova/Phonegap CLI* this is dealt with, but on [Cordova/Phonegap SDK](http://docs.phonegap.com/en/4.0.0/config_ref_index.md.html#The%20config.xml%20File_the_feature_element) and [Phonegap Build](http://docs.build.phonegap.com/en_US/configuring_plugins.md.html#Plugins) **you** have to do this. It is referenced differently by both. The vocabulary is different for both.
+  Luckily on *Cordova/Phonegap CLI* this is dealt with, but on [Cordova/Phonegap SDK](http://docs.phonegap.com/en/4.0.0/config_ref_index.md.html#The%20config.xml%20File_the_feature_element) and [Phonegap Build](http://docs.build.phonegap.com/en_US/configuring_plugins.md.html#Plugins) **you** have to do this. It is referenced differently by both. The vocabulary is different for both. Read the docs.
 
 9. **Using an online example for "phonegap CLI" and then using "phonegap Build"**<p />
   I confess to doing this. I also confess to giving people the wrong version. Sometimes, I have gave them Phonegap Build, when I should have given them Phonegap CLI.
