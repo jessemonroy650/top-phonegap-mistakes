@@ -83,7 +83,7 @@
 10. **Not adding the new "white-list" and "white-list plugin" parameters in config.xml.**<p />
   This is sooo new and obnoxious, one can only have pitty on returning developers. In addition, this was buried in both the *Phonegap blog* and the *Cordova blog*.
 
-  This relatively * NEW * requirement means to access ANY website or resources on the web, you MUST use the whitelist and the whitelist plugin. This requirement goes into affect if you are using cordova-android@4.0.0 or better; including cli-5.1.1.
+  This relatively * NEW * requirement means &ndash; to access ANY website or resources on the web, you MUST use the whitelist and the whitelist plugin. This requirement goes into affect if you are using cordova-android@4.0.0 or better; including cli-5.1.1.
 
   To be clear, the "whitelist" has been around for a bit, but the plugin and requirement is very new. As you would expect, when the "whitelist" was added, the defacto *open-access* feature was deprecated. Or said another way, the defacto *open-access* feature was planned and scheduled to be eliminated. This change marks a step in removal of the *open-access* feature.
 
@@ -104,8 +104,8 @@
   2. What have you tried.
   3. What did not work as expected.
   4. What level of experience you have with mobile development. THIS HELPS ALOT.<p />
-2. **Not knowing if the person posting the question is using a CLI, an IDE, or Phonegap Build.**<p />In theory, phonegap works with a varitey of IDEs, but it also supports a CLI (Command Line Interface). This creates multiple issues. The largest question becomes, is the environment is not setup correctly. This happens most often with MS Windows, but it also happens with Linux. Not so much on iOS (any more).
-3. **Plugins don't work.**<p />There is not much we can do expect help you understand the configuration as defined by the author of the plugin. Too often the plugin becomes neglectware and we are both stuck. In this case, choose another plugin.
+2. **Not knowing if the person posting the question is using a CLI, an IDE, or Phonegap Build.**<p />In theory, phonegap works with a varitey of IDEs, but it also supports a CLI (Command Line Interface). This creates multiple issues. The largest question becomes, is the environment setup correctly. This happens most often with MS Windows, but it also happens with Linux. Not so much on iOS (any more).
+3. **Plugins don't work.**<p />There is not much we can do expect help you understand the configuration as defined by the author of the plugin. Too often a plugin becomes neglectware and we are both stuck. In this case, choose another plugin.
 4. **Getting confused by the different versions of documentation.**<p />It is easy to get confused when looking at the ''Phonegap'' documentation and NOT REALIZE that there is documentation for ''Phonegap Build''
 5. **The documentation is a mess.**<p />Luckily the leading edge documentation is mostly correct.
 6. **Some APIs have shifted over time because of political issues.**<p />File, File Storage, and File Transfer is the classic example of this issue. Please read the documentation carefully.
@@ -113,7 +113,7 @@
 
 ----
 ####footnotes####
-1. From the documentation, it is presumed the meaning for SDK is the SDK packaged for use with and IDE; such as Eclipse, [intel-xdk](http://xdk-software.intel.com/), MS Visual Studio, XCode, etc.
+1. From the documentation, it is presumed the meaning for SDK is the SDK packaged for use with an IDE; such as Eclipse, Android Studio, [intel-xdk](http://xdk-software.intel.com/), MS Visual Studio, XCode, etc.
 
 ----
 
