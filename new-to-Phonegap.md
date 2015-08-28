@@ -18,7 +18,7 @@
   * [Phonegap Build](https://build.phonegap.com/plans)
 
 2. **Does not read the docs.**<p />
-  There are three (3) sets of docs. One for *Cordova CLI* (Command Line Interface), another for *Phonegap CLI*, and one for *Phonegap Build*. They are similar, but NOT the same. Also, to add to the confusion, sometimes the Cordova documentation is the only set of docs available. This happens for some plugins. This also happens with Phonegap, the Phonegap Developer's Guide for example. (aka Beginners Guide)
+  There are three (3) sets of docs. One for *Cordova CLI* (Command Line Interface), another for *Phonegap CLI*, and one for *Phonegap Build*. They are similar, but NOT the same. Also, to add to the confusion, sometimes the Cordova documentation is the only set of docs available; this happens for some plugins. This also happens with Phonegap &ndash; the Phonegap Developer's Guide for example. (aka Beginners Guide)
 
   **The Official Documentation**
   * [Cordova](http://cordova.apache.org/docs/en/3.0.0/)
