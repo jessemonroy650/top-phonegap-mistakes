@@ -15,6 +15,7 @@ The groups reside in three main areas.
 2. [cordova-plugins](http://stackoverflow.com/questions/tagged/cordova-plugins) - 1243
 3. [cordova-3](http://stackoverflow.com/questions/tagged/cordova-3) - 639
 4. [visual-studio-cordova](http://stackoverflow.com/questions/tagged/visual-studio-cordova) - 571
+
 * less active below here
 * [cordova-2.0.0](http://stackoverflow.com/questions/tagged/cordova-2.0.0) - 292
 * [ngcordova](http://stackoverflow.com/questions/tagged/ngcordova) - 177
@@ -37,6 +38,7 @@ The groups reside in three main areas.
 2. [phonegap-build](http://stackoverflow.com/questions/tagged/phonegap-build)
 3. [phonegap-pushplugin](http://stackoverflow.com/questions/tagged/phonegap-pushplugin)
 4. [phonegap-desktop-app](http://stackoverflow.com/questions/tagged/phonegap-desktop-app)
+
 * less active below here
 * [phonegap-gmaps-plugin](http://stackoverflow.com/questions/tagged/phonegap-gmaps-plugin)
 * [phonegap-facebook-plugin](http://stackoverflow.com/questions/tagged/phonegap-facebook-plugin)
@@ -53,6 +55,7 @@ The groups reside in three main areas.
 
 1. [phonegap](https://groups.google.com/forum/#!forum/phonegap)
 2. [eclipse-plugin-for-phonegap](https://groups.google.com/forum/#!forum/eclipse-plugin-for-phonegap) - last post Jun, 2015
+
 * less active below here
 * [phonegap-laguna](https://groups.google.com/forum/#!forum/phonegap-laguna) - last post 10/13/14
 * [phonegapcn](https://groups.google.com/forum/#!forum/phonegapcn) - last post 1/26/14
@@ -63,6 +66,7 @@ The groups reside in three main areas.
 
 * [Main page](http://community.phonegap.com/nitobi/products)
 * [Phonegap Main Forum](http://community.phonegap.com/nitobi) - all other forums dump to this one.
+
 1. [Phonegap Build](http://community.phonegap.com/nitobi/products/nitobi_phonegap_build)
 2. [Phonegap Framework](http://community.phonegap.com/nitobi/products/nitobi_phonegap)
 3. [Plugins](http://community.phonegap.com/nitobi/products/nitobi_plugins)
