@@ -49,7 +49,8 @@ The groups reside in three main areas.
 
 ### Google Groups - Cordova Forums ###
 
-* None
+* [cordova-plugin-iosrtc](https://groups.google.com/forum/#!forum/cordova-plugin-iosrtc) - must join, a WebRTC effort by https://eface2face.com/
+* [Cordova-SQLitePlugin](https://groups.google.com/forum/#!forum/Cordova-SQLitePlugin)
 
 ### Google Groups - Phonegap Forums ###
 

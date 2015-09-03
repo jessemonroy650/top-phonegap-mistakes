@@ -2,7 +2,7 @@
 Last update: 2015-09-01
 
 * [Top Mistakes by Developers new to Cordova/Phonegap](new-to-Phonegap.md)
-* [Cordova and Phonegap Forum](cordova-phonegap-forums.md) - across the Internet
+* [Cordova and Phonegap Forums](cordova-phonegap-forums.md) - across the Internet
 
 ### Annoyances ###
 
