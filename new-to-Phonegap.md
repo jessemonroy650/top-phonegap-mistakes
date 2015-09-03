@@ -95,6 +95,11 @@
   * [Phonegap Whitelist Guide](http://docs.phonegap.com/en/4.0.0/guide_appdev_whitelist_index.md.html#Whitelist%20Guide)
   * [Phonegap Build Whitelist Guide](http://docs.build.phonegap.com/en_US/configuring_access_elements.md.html#Access%20Elements)
 
+----
+**Some additional related articles**
+
+* [7 Lessons from 3 Years of HTML5 Mobile Application Development](http://www.joshmorony.com/7-lessons-from-3-years-of-html5-mobile-application-development/)
+* [Can I use PHP to build a webapp using the PhoneGap framework?](http://www.quora.com/Can-I-use-PHP-to-build-a-webapp-using-the-PhoneGap-framework) - Quora 
 
 ### Frustrating Issues for the Volunteers ###
 
