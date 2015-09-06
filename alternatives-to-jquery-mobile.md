@@ -16,5 +16,5 @@ http://youmightnotneedjquery.com/
 *5 Lightweight jQuery Alternatives for Mobile Development*<br />
 http://tutorialzine.com/2012/04/5-lightweight-jquery-alternatives/
 
-*Popular Alternatives to JQuery*<br />
+*Popular Alternatives to JQuery* (undated)<br />
 http://www.jscripters.com/popular-jquery-alternatives/
