@@ -4,17 +4,17 @@ Jquery is one of the most useful tools for mobile development. However, over the
 
 The notes are for considering alternatives and using alternatives.
 
-jQuery considered harmful
+*jQuery considered harmful*<br />
 http://lea.verou.me/2015/04/jquery-considered-harmful/
 
-Who Is Murdering PhoneGap? It's jQuery Mobile
+*Who Is Murdering PhoneGap? It's jQuery Mobile*<br />
 http://apachecordova.blogspot.com/2012/11/who-is-murdering-phonegap-its-jquery.html
 
-You might not need jQuery
+*You might not need jQuery*<br />
 http://youmightnotneedjquery.com/
 
-5 Lightweight jQuery Alternatives for Mobile Development
+*5 Lightweight jQuery Alternatives for Mobile Development*<br />
 http://tutorialzine.com/2012/04/5-lightweight-jquery-alternatives/
 
-Popular Alternatives to JQuery
+*Popular Alternatives to JQuery*<br />
 http://www.jscripters.com/popular-jquery-alternatives/
