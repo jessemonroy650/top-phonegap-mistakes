@@ -2,7 +2,7 @@
 
 Jquery is one of the most useful tools for mobile development. However, over the years it has become a bloated library and shows no signs of changing. The library will work for phonegap development, but it's development remains central to webbrowsers NOT phonegap. This means Jquery is main intended for webbrowsers, it's error reporting comes mostly from webbrowsers, and worst of all it's fixes are intended for webbrowsers.
 
-NOTE: I've been reminded that xui.js (one of the alternatives) is no longer being actively maintained.
+**NOTE:** I've been reminded that xui.js (one of the alternatives) is no longer being actively maintained.
 
 The notes are for considering alternatives and using alternatives.
 
