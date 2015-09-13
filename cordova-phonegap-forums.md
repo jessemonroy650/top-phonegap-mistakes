@@ -1,4 +1,4 @@
-# Forums that support Phonegap #
+# Forums that support Cordova/Phonegap #
 
 The groups reside in three main areas.
 
