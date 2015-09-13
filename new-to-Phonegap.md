@@ -101,16 +101,17 @@
 
   * new [cordova npm search page](http://plugins.cordova.io/npm/index.html)
   
-  *Related Blog Posts*
+  *Blog Posts Related to #11*
   * [Cordova Plugins Registry becomes immutable](http://cordova.apache.org/news/2015/09/08/CPR-readonly.html) 2015/09/08
   * [Plugins Release and Moving plugins to npm](http://cordova.apache.org/announcements/2015/04/21/plugins-release-and-move-to-npm.html) 2015/04/21
 
-----
+
 **Some additional related articles**
 
 * [7 Lessons from 3 Years of HTML5 Mobile Application Development](http://www.joshmorony.com/7-lessons-from-3-years-of-html5-mobile-application-development/)
 * [Can I use PHP to build a webapp using the PhoneGap framework?](http://www.quora.com/Can-I-use-PHP-to-build-a-webapp-using-the-PhoneGap-framework) - Quora 
 
+----
 ### Frustrating Issues for the Volunteers ###
 
 
