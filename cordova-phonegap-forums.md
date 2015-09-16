@@ -86,7 +86,7 @@ See bottom for additional forums on Windows, Ubuntu and Firefox phones
 
 * [Ubuntu Phone and Tablet](http://ubuntuforums.org/forumdisplay.php?f=460) on ubuntuforums
 * [Ubuntu Touch](http://askubuntu.com/questions/tagged/ubuntu-touch) on stackexchange
-* [Ubuntu Touch]http://stackoverflow.com/questions/tagged/ubuntu-touch) on Stackoverflow
+* [Ubuntu Touch](http://stackoverflow.com/questions/tagged/ubuntu-touch) on Stackoverflow
 
 ### Firefox ###
 
