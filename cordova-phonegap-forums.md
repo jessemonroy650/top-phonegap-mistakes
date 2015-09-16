@@ -6,6 +6,10 @@ The groups reside in three main areas.
 2. Google Groups
 3. Nitobi (the Official Adobe Phonegap forum)
 
+Other forums are particular to their makers
+
+* [Ubuntu Phone and Tablet](http://ubuntuforums.org/forumdisplay.php?f=460)
+
 
 ## Stackoverflow ##
 
