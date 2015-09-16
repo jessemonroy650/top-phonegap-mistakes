@@ -6,10 +6,7 @@ The groups reside in three main areas.
 2. Google Groups
 3. Nitobi (the Official Adobe Phonegap forum)
 
-Other forums are particular to their makers
-
-* [Ubuntu Phone and Tablet](http://ubuntuforums.org/forumdisplay.php?f=460)
-
+See bottom for additional forums on Windows, Ubuntu and Firefox phones
 
 ## Stackoverflow ##
 
@@ -76,4 +73,24 @@ Other forums are particular to their makers
 2. [Phonegap Framework](http://community.phonegap.com/nitobi/products/nitobi_phonegap)
 3. [Plugins](http://community.phonegap.com/nitobi/products/nitobi_plugins)
 4. [Programming (Others)](http://community.phonegap.com/nitobi/products/nitobi_programming_others)
+
+## Other forums are particular to their makers ##
+
+### Windows ###
+
+* [Windows Phone](http://stackoverflow.com/questions/tagged/windows-phone) on Stackoverflow
+* [Windows Phone 7](http://stackoverflow.com/questions/tagged/windows-phone-7) on Stackoverflow
+* [Windows Phone 8](http://stackoverflow.com/questions/tagged/windows-phone-8) on Stackoverflow
+
+### Ubuntu ###
+
+* [Ubuntu Phone and Tablet](http://ubuntuforums.org/forumdisplay.php?f=460) on ubuntuforums
+* [Ubuntu Touch](http://askubuntu.com/questions/tagged/ubuntu-touch) on stackexchange
+* [Ubuntu Touch]http://stackoverflow.com/questions/tagged/ubuntu-touch) on Stackoverflow
+
+### Firefox ###
+
+At the moment I cannot find any firefox forums
+
+* [Firefox OS phone guide](https://developer.mozilla.org/en-US/Firefox_OS/Phone_guide)
 
