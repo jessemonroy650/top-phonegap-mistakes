@@ -1,10 +1,11 @@
 # Forums that support Cordova/Phonegap #
 
-The groups reside in three main areas.
+The groups reside in four areas.
 
 1. Stackoverflow
 2. Google Groups
 3. Nitobi (the Official Adobe Phonegap forum)
+4. Cordova's [Slack Channel](http://slack.cordova.io/)
 
 See bottom for additional forums on Windows, Ubuntu and Firefox phones
 
