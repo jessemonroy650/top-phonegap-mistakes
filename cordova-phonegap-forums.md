@@ -1,17 +1,16 @@
 # Forums that support Cordova/Phonegap #
 
-The groups reside in four areas.
+The groups reside in five areas.
 
 1. Stackoverflow
 2. Google Groups
 3. Nitobi (the Official Adobe Phonegap forum)
 4. Cordova's [Slack Channel](http://slack.cordova.io/)
+5. Forums dedicted to Windows, Ubuntu and Firefox phones.
 
-See bottom for additional forums on Windows, Ubuntu and Firefox phones
+##1. Stackoverflow##
 
-## Stackoverflow ##
-
-### Stackoverflow - Cordova Forums ###
+###Stackoverflow - Cordova Forums###
 
 1. [cordova](http://stackoverflow.com/questions/tagged/cordova) -  37196 questions
 2. [cordova-plugins](http://stackoverflow.com/questions/tagged/cordova-plugins) - 1243
@@ -47,9 +46,9 @@ See bottom for additional forums on Windows, Ubuntu and Firefox phones
 * [phonegap-4.0.0](http://stackoverflow.com/questions/tagged/phonegap-4.0.0)
 * [phonegap](http://stackoverflow.com/questions/tagged/phonegap) - maps to [cordova](http://stackoverflow.com/questions/tagged/cordova)
 
-## Google Groups ##
+##2. Google Groups##
 
-### Google Groups - Cordova Forums ###
+###Google Groups - Cordova Forums###
 
 * [cordova-plugin-iosrtc](https://groups.google.com/forum/#!forum/cordova-plugin-iosrtc) - must join to see threads, a WebRTC effort by https://eface2face.com/
 * [Cordova-SQLitePlugin](https://groups.google.com/forum/#!forum/Cordova-SQLitePlugin)
@@ -65,7 +64,7 @@ See bottom for additional forums on Windows, Ubuntu and Firefox phones
 * considered dead
 * [phonegap-iphone-examples](https://groups.google.com/forum/#!forum/phonegap-iphone-examples)
 
-## Nitobi Groups ##
+##3. Nitobi Groups##
 
 * [Main page](http://community.phonegap.com/nitobi/products)
 * [Phonegap Main Forum](http://community.phonegap.com/nitobi) - all other forums dump to this one.
@@ -75,7 +74,7 @@ See bottom for additional forums on Windows, Ubuntu and Firefox phones
 3. [Plugins](http://community.phonegap.com/nitobi/products/nitobi_plugins)
 4. [Programming (Others)](http://community.phonegap.com/nitobi/products/nitobi_programming_others)
 
-## Other forums are particular to their makers ##
+##5. Other forums are particular to their makers##
 
 ### Windows ###
 
