@@ -74,6 +74,10 @@ The groups reside in five areas.
 3. [Plugins](http://community.phonegap.com/nitobi/products/nitobi_plugins)
 4. [Programming (Others)](http://community.phonegap.com/nitobi/products/nitobi_programming_others)
 
+##4. Cordova##
+
+1. Cordova's [Slack Channel](http://slack.cordova.io/)
+
 ##5. Other forums are particular to their makers##
 
 ### Windows ###
