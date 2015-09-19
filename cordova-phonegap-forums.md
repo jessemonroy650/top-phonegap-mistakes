@@ -35,16 +35,16 @@ The groups reside in five areas.
 
 ### Stackoverflow - Phonegap Forums ###
 
-1. [phonegap-plugins](http://stackoverflow.com/questions/tagged/phonegap-plugins)
-2. [phonegap-build](http://stackoverflow.com/questions/tagged/phonegap-build)
-3. [phonegap-pushplugin](http://stackoverflow.com/questions/tagged/phonegap-pushplugin)
-4. [phonegap-desktop-app](http://stackoverflow.com/questions/tagged/phonegap-desktop-app)
+1. [phonegap](http://stackoverflow.com/questions/tagged/phonegap) - maps to [cordova](http://stackoverflow.com/questions/tagged/cordova)
+2. [phonegap-plugins](http://stackoverflow.com/questions/tagged/phonegap-plugins)
+3. [phonegap-build](http://stackoverflow.com/questions/tagged/phonegap-build)
+4. [phonegap-pushplugin](http://stackoverflow.com/questions/tagged/phonegap-pushplugin)
+5. [phonegap-desktop-app](http://stackoverflow.com/questions/tagged/phonegap-desktop-app)
 
 * less active below here
 * [phonegap-gmaps-plugin](http://stackoverflow.com/questions/tagged/phonegap-gmaps-plugin)
 * [phonegap-facebook-plugin](http://stackoverflow.com/questions/tagged/phonegap-facebook-plugin)
 * [phonegap-4.0.0](http://stackoverflow.com/questions/tagged/phonegap-4.0.0)
-* [phonegap](http://stackoverflow.com/questions/tagged/phonegap) - maps to [cordova](http://stackoverflow.com/questions/tagged/cordova)
 
 ##2. Google Groups##
 
