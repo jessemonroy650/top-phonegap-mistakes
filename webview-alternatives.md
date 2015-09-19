@@ -1,6 +1,6 @@
 ## Notes on Webview Alternatives ##
-Date: 2015-09-10
-Google: phonegap webview
+Date: 2015-09-10<br />
+Google: [phonegap webview](https://www.google.com/search?q=phonegap+webview)
 
 PhoneGap is an application container technology that allows you to create natively-installed applications for mobile devices using HTML, CSS, and JavaScript.
 
