@@ -14,8 +14,6 @@ On iOS, this is the Objective-C UIWebView class; on Android, this is android.web
 * *[Another explaination](http://www.asyncdev.net/2012/10/phonegap-a-misunderstood-hybrid-framework/)*
 
 
-* [Crosswalk](https://crosswalk-project.org/)
-** an x86 version of the plugin to PGB: https://build.phonegap.com/plugins/4652
-* [WKWebView](https://github.com/Telerik-Verified-Plugins/WKWebView)
-** an alternative for iOS
-* [CocoonJs](https://www.ludei.com/landing/cocoonjs-phonegap/)
+1. [Crosswalk](https://crosswalk-project.org/) an x86 version of the plugin to PGB: https://build.phonegap.com/plugins/4652
+2. [WKWebView](https://github.com/Telerik-Verified-Plugins/WKWebView) an alternative for iOS
+3. [CocoonJs](https://www.ludei.com/landing/cocoonjs-phonegap/)
