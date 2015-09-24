@@ -98,3 +98,11 @@ At the moment I cannot find any firefox forums
 
 * [Firefox OS phone guide](https://developer.mozilla.org/en-US/Firefox_OS/Phone_guide)
 
+## Related Platforms ##
+
+* http://forum.ionicframework.com/
+
+
+
+
+

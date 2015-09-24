@@ -11,7 +11,7 @@ Think of this as a "chrome-less" web browser.  It renders HTML content, without 
 On iOS, this is the Objective-C UIWebView class; on Android, this is android.webkit.WebView.
 
 * *[PhoneGap Explained Visually](http://phonegap.com/2012/05/02/phonegap-explained-visually/)*
-* *[Another explaination](http://www.asyncdev.net/2012/10/phonegap-a-misunderstood-hybrid-framework/)*
+* *[Another explanation](http://www.asyncdev.net/2012/10/phonegap-a-misunderstood-hybrid-framework/)*
 
 
 1. [Crosswalk](https://crosswalk-project.org/) an x86 version of the plugin to PGB: https://build.phonegap.com/plugins/4652

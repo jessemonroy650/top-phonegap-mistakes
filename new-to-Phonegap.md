@@ -108,8 +108,10 @@
 
 **Some additional related articles**
 
-* [7 Lessons from 3 Years of HTML5 Mobile Application Development](http://www.joshmorony.com/7-lessons-from-3-years-of-html5-mobile-application-development/)
+* [Beginner Stumbling Blocks in Phonegap & Cordova](http://scottbolinger.com/beginner-phonegap-cordova/) - Scott Bolinger - +wordpress
+* [7 Lessons from 3 Years of HTML5 Mobile Application Development](http://www.joshmorony.com/7-lessons-from-3-years-of-html5-mobile-application-development/) - Josh Morony
 * [Can I use PHP to build a webapp using the PhoneGap framework?](http://www.quora.com/Can-I-use-PHP-to-build-a-webapp-using-the-PhoneGap-framework) - Quora 
+* [Cross-platform Mistakes](http://blog.41studio.com/cross-platform-mistakes/) - 41Studio - +RubyOnRails
 
 ----
 ### Frustrating Issues for the Volunteers ###
