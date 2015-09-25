@@ -1,8 +1,6 @@
 ### Current Tripping Points to Cordova/Phonegap ###
 Date: 2015-09-25
 
-1. No support for iOS9 YET!
-
 **PhoneGap Build iOS 9 Support Status**
 
 * Sept 23, 2015
