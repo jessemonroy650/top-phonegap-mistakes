@@ -3,7 +3,8 @@ Date: 2015-09-25
 
 1. No support for iOS9 YET!
 
-'''PhoneGap Build iOS 9 Support Status'''
+**PhoneGap Build iOS 9 Support Status**
+
 * Sept 23, 2015
 * http://community.phonegap.com/nitobi/topics/phonegap-build-ios-9-support-status
 * Top line: iOS 9 is not officially supported until Cordova-iOS 4.0.0, which the Cordova team is hard at work on. However some issues can be solved with some simple configuration changes. 
@@ -16,6 +17,6 @@ Date: 2015-09-25
   Regardless, of what you are using, as the forum post states iOS 9 is not officially supported until Cordova-iOS 4.0.0. This means, create a work around, or wait until it is officially supported. OR file a bug report with cordova. OR wait until someone else creates a work around.
 
   Sometimes Phonegap makes announcements on the forum and not the blog.<br />
-  For more: [http://codesnippets.altervista.org/documentation/phonegap/bookmarks/fromSupport.html (Official) Messages from Phonegap Build Technical Support in the Forum]
+  For more: [(Official) Messages from Phonegap Build Technical Support in the Forum](http://codesnippets.altervista.org/documentation/phonegap/bookmarks/fromSupport.html)
 
 
