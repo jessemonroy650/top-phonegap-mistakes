@@ -23,18 +23,18 @@ Date: 2015-09-25
 
 You have hit:
 
-    #6 Not setting the "phonegap version" for your compiler
-    #7 Not setting "version" for you plugins
-    #10 Not adding the new "white-list" and "white-list plugin" parameters in config.xml.
+  #6 Not setting the "phonegap version" for your compiler
+  #7 Not setting "version" for you plugins
+  #10 Not adding the new "white-list" and "white-list plugin" parameters in config.xml.
 
 For #6 & #7
 
-    With the CLI version, if you do not assign a version for your platform OR in ''Phonegap Build'' if you do not set the phonegap-version in config.xml, YOU WILL GET THE LATEST VERSION. If you are lucky, your program just works as expected. If you are not lucky, you'll get a set of cascasding error.
+ > With the CLI version, if you do not assign a version for your platform OR in ''Phonegap Build'' if you do not set the phonegap-version in config.xml, YOU WILL GET THE LATEST VERSION. If you are lucky, your program just works as expected. If you are not lucky, you'll get a set of cascasding error.
 
-    Luckily for all of us, Holly Schinsky has written a nice blog post to explain it all:
+ > Luckily for all of us, Holly Schinsky has written a nice blog post to explain it all:
 
-    Cordova/PhoneGap Version Confusion
-    http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/
+ > *Cordova/PhoneGap Version Confusion*
+ > http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/
 
 For #10
 
