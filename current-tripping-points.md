@@ -27,6 +27,13 @@ You have hit:
  * \#7 **Not setting "version" for you plugins**
  * \#10 **Not adding the new "white-list" and "white-list plugin" parameters in config.xml.**
 
+From the *Phonegap Build* Forum, [Petra Adds](http://community.phonegap.com/nitobi/topics/no-support-for-ios9-yet#reply_16160589):
+
+ > I would add: without announcement, PGB changed the default PGB-version from 3.7.0 to cli-5.2.0. This causes all those who have not set 'phonegap-version' in config.xml to be confronted with the sudden need of splashscreen and whitelist plugins and additional whitelisting specifications in config and html.
+
+ > Also, several plugins seem not to build correctly with cli-5.2.0, causing log file error messages about "Class ***.java".
+
+
 For #6 & #7
 
  > With the CLI version, if you do not assign a version for your platform OR in ''Phonegap Build'' if you do not set the phonegap-version in config.xml, YOU WILL GET THE LATEST VERSION. If you are lucky, your program just works as expected. If you are not lucky, you'll get a set of cascasding error.
