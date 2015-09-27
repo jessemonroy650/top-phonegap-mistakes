@@ -23,9 +23,9 @@ Date: 2015-09-25
 
 You have hit:
 
-    #6 Not setting the "phonegap version" for your compiler
-    #7 Not setting "version" for you plugins
-    #10 Not adding the new "white-list" and "white-list plugin" parameters in config.xml.
+    #6 **Not setting the "phonegap version" for your compiler**
+    #7 **Not setting "version" for you plugins**
+    #10 **Not adding the new "white-list" and "white-list plugin" parameters in config.xml.**
 
 For #6 & #7
 
@@ -38,16 +38,13 @@ For #6 & #7
 
 For #10
 
-    This relatively * NEW * requirement means ? to access ANY website or resources on the web, you MUST use the whitelist and the whitelist plugin. This requirement goes into affect if you are using cordova-android@4.0.0 or better; including cli-5.1.1.
+ > This relatively * NEW * requirement means ? to access ANY website or resources on the web, you MUST use the whitelist and the whitelist plugin. This requirement goes into affect if you are using cordova-android@4.0.0 or better; including cli-5.1.1.
 
-    To be clear, the "whitelist" has been around for a bit, but the plugin and requirement is very new. As you would expect, when the "whitelist" was added, the defacto open-access feature was deprecated. Or said another way, the defacto open-access feature was planned and scheduled to be eliminated. This change marks a step in removal of the open-access feature.
+ > To be clear, the "whitelist" has been around for a bit, but the plugin and requirement is very new. As you would expect, when the "whitelist" was added, the defacto open-access feature was deprecated. Or said another way, the defacto open-access feature was planned and scheduled to be eliminated. This change marks a step in removal of the open-access feature.
 
-    Phonegap Build Forum: Notes for upgrading to cli-5.1.1 on PGB and now required Whitelist
+ > Phonegap Build Forum: [Notes for upgrading to cli-5.1.1 on PGB](http://community.phonegap.com/nitobi/topics/notes-for-upgrading-to-cli-5-1-1-on-pgb) and now required Whitelist
 
-    Cordova Whitelist Guide
-    Phonegap Whitelist Guide
-    Phonegap Build Whitelist Guide
-
-
-
+ > [Cordova Whitelist Guide](https://cordova.apache.org/docs/en/4.0.0/guide_appdev_whitelist_index.md.html)
+ > [Phonegap Whitelist Guide](http://docs.phonegap.com/en/4.0.0/guide_appdev_whitelist_index.md.html#Whitelist%20Guide)
+ > [Phonegap Build Whitelist Guide](http://docs.build.phonegap.com/en_US/configuring_access_elements.md.html#Access%20Elements)
 
