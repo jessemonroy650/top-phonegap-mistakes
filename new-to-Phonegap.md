@@ -80,12 +80,14 @@
 
   This also happens on the forum, repeatedly, not with disaterous results, but when it happens, it is frustrating. Use caution.
 
-10. **Not adding the new "white-list" and "white-list plugin" parameters in config.xml.**<p />
+10. **Not adding the new "white-list", "white-list plugin" parameters in config.xml AND "Content Security Policy"**<p />
   This is sooo new and obnoxious, one can only have pitty on returning developers. In addition, this was buried in both the *Phonegap blog* and the *Cordova blog*.
 
   This relatively * NEW * requirement means &ndash; to access ANY website or resources on the web, you MUST use the whitelist and the whitelist plugin. This requirement goes into affect if you are using cordova-android@4.0.0 or better; including cli-5.1.1.
 
   To be clear, the "whitelist" has been around for a bit, but the plugin and requirement is very new. As you would expect, when the "whitelist" was added, the defacto *open-access* feature was deprecated. Or said another way, the defacto *open-access* feature was planned and scheduled to be eliminated. This change marks a step in removal of the *open-access* feature.
+
+  In addition, the *Content Security Policy (CSP)* has caught numerous developers - because it was soooo poorly publicized. This CSP needs to go in every single HTML page you used, just like you have to wait for 'deviceready'. The documentation is buried in the bottom of many of the latest documentation pages.
 
   Cordova Blog: *[Plugins Release and Moving plugins to npm: April 21, 2015](https://cordova.apache.org/announcements/2015/04/21/plugins-release-and-move-to-npm.html)* and **New Whitelist Plugins**; scroll down to the title.
 
