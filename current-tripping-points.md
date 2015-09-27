@@ -35,7 +35,7 @@ From the *Phonegap Build* Forum, [Petra Adds](http://community.phonegap.com/nito
 
 For #6 & #7
 
- > With the CLI version, if you do not assign a version for your platform OR in ''Phonegap Build'' if you do not set the phonegap-version in config.xml, YOU WILL GET THE LATEST VERSION. If you are lucky, your program just works as expected. If you are not lucky, you'll get a set of cascasding error.
+ > With the CLI version, if you do not assign a version for your platform OR in ''Phonegap Build'' if you do not set the phonegap-version in config.xml, YOU WILL GET THE LATEST VERSION. If you are lucky, your program just works as expected. If you are not lucky, you'll get a set of cascading error.
 
  > Luckily for all of us, Holly Schinsky has written a nice blog post to explain it all:
 
