@@ -23,9 +23,9 @@ Date: 2015-09-25
 
 You have hit:
 
-  \#6 **Not setting the "phonegap version" for your compiler**
-  \#7 **Not setting "version" for you plugins**
-  \#10 **Not adding the new "white-list" and "white-list plugin" parameters in config.xml.**
+ * \#6 **Not setting the "phonegap version" for your compiler**
+ * \#7 **Not setting "version" for you plugins**
+ * \#10 **Not adding the new "white-list" and "white-list plugin" parameters in config.xml.**
 
 For #6 & #7
 
