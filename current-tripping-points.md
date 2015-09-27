@@ -1,7 +1,7 @@
 ### Current Tripping Points to Cordova/Phonegap ###
 Date: 2015-09-25
 
-#### No support for iOS9 YET! ####
+#### 1. No support for iOS9 YET! ####
 
 **PhoneGap Build iOS 9 Support Status**
 
@@ -18,5 +18,36 @@ Date: 2015-09-25
 
   Sometimes Phonegap makes announcements on the forum and not the blog.<br />
   For more: [(Official) Messages from Phonegap Build Technical Support in the Forum](http://codesnippets.altervista.org/documentation/phonegap/bookmarks/fromSupport.html)
+
+#### 2. Not setting compiler version ####
+
+You have hit:
+
+    #6 Not setting the "phonegap version" for your compiler
+    #7 Not setting "version" for you plugins
+    #10 Not adding the new "white-list" and "white-list plugin" parameters in config.xml.
+
+For #6 & #7
+
+    With the CLI version, if you do not assign a version for your platform OR in ''Phonegap Build'' if you do not set the phonegap-version in config.xml, YOU WILL GET THE LATEST VERSION. If you are lucky, your program just works as expected. If you are not lucky, you'll get a set of cascasding error.
+
+    Luckily for all of us, Holly Schinsky has written a nice blog post to explain it all:
+
+    Cordova/PhoneGap Version Confusion
+    http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/
+
+For #10
+
+    This relatively * NEW * requirement means ? to access ANY website or resources on the web, you MUST use the whitelist and the whitelist plugin. This requirement goes into affect if you are using cordova-android@4.0.0 or better; including cli-5.1.1.
+
+    To be clear, the "whitelist" has been around for a bit, but the plugin and requirement is very new. As you would expect, when the "whitelist" was added, the defacto open-access feature was deprecated. Or said another way, the defacto open-access feature was planned and scheduled to be eliminated. This change marks a step in removal of the open-access feature.
+
+    Phonegap Build Forum: Notes for upgrading to cli-5.1.1 on PGB and now required Whitelist
+
+    Cordova Whitelist Guide
+    Phonegap Whitelist Guide
+    Phonegap Build Whitelist Guide
+
+
 
 
