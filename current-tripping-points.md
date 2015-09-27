@@ -33,7 +33,7 @@ For #6 & #7
 
  > Luckily for all of us, Holly Schinsky has written a nice blog post to explain it all:
 
- > *Cordova/PhoneGap Version Confusion*
+ > *Cordova/PhoneGap Version Confusion*<br />
  > http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/
 
 For #10
@@ -44,7 +44,7 @@ For #10
 
  > Phonegap Build Forum: [Notes for upgrading to cli-5.1.1 on PGB](http://community.phonegap.com/nitobi/topics/notes-for-upgrading-to-cli-5-1-1-on-pgb) and now required Whitelist
 
- > [Cordova Whitelist Guide](https://cordova.apache.org/docs/en/4.0.0/guide_appdev_whitelist_index.md.html)
- > [Phonegap Whitelist Guide](http://docs.phonegap.com/en/4.0.0/guide_appdev_whitelist_index.md.html#Whitelist%20Guide)
- > [Phonegap Build Whitelist Guide](http://docs.build.phonegap.com/en_US/configuring_access_elements.md.html#Access%20Elements)
+ > * [Cordova Whitelist Guide](https://cordova.apache.org/docs/en/4.0.0/guide_appdev_whitelist_index.md.html)
+ > * [Phonegap Whitelist Guide](http://docs.phonegap.com/en/4.0.0/guide_appdev_whitelist_index.md.html#Whitelist%20Guide)
+ > * [Phonegap Build Whitelist Guide](http://docs.build.phonegap.com/en_US/configuring_access_elements.md.html#Access%20Elements)
 
