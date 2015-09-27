@@ -21,7 +21,7 @@ Date: 2015-09-25
 
 #### 2. Not setting compiler version ####
 
-You have hit:
+From [Top Mistakes by Developers new to Cordova/Phonegap](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/new-to-Phonegap.md) you have hit:
 
  * \#6 **Not setting the "phonegap version" for your compiler**
  * \#7 **Not setting "version" for you plugins**
@@ -32,7 +32,6 @@ From the *Phonegap Build* Forum, [Petra Adds](http://community.phonegap.com/nito
  > I would add: without announcement, PGB changed the default PGB-version from 3.7.0 to cli-5.2.0. This causes all those who have not set 'phonegap-version' in config.xml to be confronted with the sudden need of splashscreen and whitelist plugins and additional whitelisting specifications in config and html.
 
  > Also, several plugins seem not to build correctly with cli-5.2.0, causing log file error messages about "Class ***.java".
-
 
 For #6 & #7
 
