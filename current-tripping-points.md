@@ -29,7 +29,7 @@ From the *Phonegap Build* Forum, [Petra Adds](http://community.phonegap.com/nito
 
  FWIW: *Phonegap Build* [admitted to as much in this tweet](https://twitter.com/jessemonroy650/status/648313365505310720)
 
-**QUICK FIX*** Add this to your `config.xml`<br />
+**QUICK FIX** Add this to your `config.xml`<br />
 `<preference name="phonegap-version" value="3.7.0" />`
 
 From [Top Mistakes by Developers new to Cordova/Phonegap](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/new-to-Phonegap.md) you have hit:
@@ -53,7 +53,7 @@ For #10
 
  > To be clear, the "whitelist" has been around for a bit, but the plugin and requirement is very new. As you would expect, when the "whitelist" was added, the defacto open-access feature was deprecated. Or said another way, the defacto open-access feature was planned and scheduled to be eliminated. This change marks a step in removal of the open-access feature.
 
- > In addition, the Content Security Policy (CSP) has caught numerous developers - because it was soooo poorly publicized. <b>Depending your use and the version of Phonegap you are using, the CSP needs to go in every single HTML page you used, just like you have to wait for 'deviceready'. However, there are cases where it is not needed at all. The documentation is confusing for some, please read it carefully.</b> The documentation is buried in the bottom of many of the latest documentation pages.
+ > In addition, the Content Security Policy (CSP) has caught numerous developers - because it was soooo poorly publicized. <b>Depending on your use and the version of Phonegap you are using, the CSP needs to go in every single HTML page you used, just like you have to wait for 'deviceready'. However, there are cases where it is not needed at all. The documentation is confusing for some, please read it carefully.</b> The documentation is buried in the bottom of many of the latest documentation pages.
 
  <b>Related Links</b>
  > Phonegap Build Forum: [Notes for upgrading to cli-5.1.1 on PGB](http://community.phonegap.com/nitobi/topics/notes-for-upgrading-to-cli-5-1-1-on-pgb) and now required Whitelist
