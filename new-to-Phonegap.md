@@ -96,6 +96,8 @@
   * [Cordova Whitelist Guide](https://cordova.apache.org/docs/en/4.0.0/guide_appdev_whitelist_index.md.html) or [npm version](https://www.npmjs.com/package/cordova-plugin-whitelist)
   * [Phonegap Whitelist Guide](http://docs.phonegap.com/en/4.0.0/guide_appdev_whitelist_index.md.html#Whitelist%20Guide)
   * [Phonegap Build Whitelist Guide](http://docs.build.phonegap.com/en_US/configuring_access_elements.md.html#Access%20Elements)
+  * [cordova-plugin-whitelist](https://github.com/apache/cordova-plugin-whitelist)
+
 
   *Apple has a similar system that is in place. You can read some of the details in this link.*<br />
   See: [Configuring App Transport Security Exceptions in iOS 9 and OSX 10.11](http://ste.vn/2015/06/10/configuring-app-transport-security-ios-9-osx-10-11/)<br />
