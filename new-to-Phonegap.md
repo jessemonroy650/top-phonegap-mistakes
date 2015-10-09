@@ -1,4 +1,5 @@
 ### Top Mistakes by Developers new to Cordova/Phonegap ###
+LAST UPDATE: 2015-10-09
 
 1. **Thinking Phonegap is just one system**<p />There are three similar platforms, Cordova (CLI), Phonegap (CLI), and Phonegag Build and five system (counting Cordova/Phonegap SDK<sup>1</sup>). People often confuse the three very similar platforms and get tangled in the minor variations that differentiate them.<p />
   Oddly enough, the best explanation comes from something built on top of Angular, and wraps the Cordova/Phonegap CLI. - *Ionic*.
@@ -93,10 +94,10 @@
 
   Phonegap Build Forum: *[Notes for upgrading to cli-5.1.1 on PGB](http://community.phonegap.com/nitobi/topics/notes-for-upgrading-to-cli-5-1-1-on-pgb)* and now required **Whitelist**
 
-  * [Cordova Whitelist Guide](https://cordova.apache.org/docs/en/4.0.0/guide_appdev_whitelist_index.md.html) or [npm version](https://www.npmjs.com/package/cordova-plugin-whitelist)
+  * <s>[Cordova Whitelist Guide](https://cordova.apache.org/docs/en/4.0.0/guide_appdev_whitelist_index.md.html)</s> or [npm version](https://www.npmjs.com/package/cordova-plugin-whitelist)
   * [Phonegap Whitelist Guide](http://docs.phonegap.com/en/4.0.0/guide_appdev_whitelist_index.md.html#Whitelist%20Guide)
   * [Phonegap Build Whitelist Guide](http://docs.build.phonegap.com/en_US/configuring_access_elements.md.html#Access%20Elements)
-  * [cordova-plugin-whitelist](https://github.com/apache/cordova-plugin-whitelist)
+  * <s>[cordova-plugin-whitelist](https://github.com/apache/cordova-plugin-whitelist)</s>
 
 
   *Apple has a similar system that is in place. You can read some of the details in this link.*<br />
