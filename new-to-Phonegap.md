@@ -109,7 +109,10 @@ LAST UPDATE: 2015-10-09
 
   The rules regarding sourcing your plugins can be rather confusing. The best thing to do is read the blog posts - below. Developers that use **CLI** can source from github, again see the blog post.
 
-  * new [cordova npm search page](http://plugins.cordova.io/npm/index.html)
+  2015-10-09 - Without announcment, tweet, or blog, the repository change a full week before it was scheduled. I can do nothing, but complain.... This is damm annoying.
+
+  * <s>new [cordova npm search page](http://plugins.cordova.io/npm/index.html)</s>
+  * NEW NEW [Cordova npm search page]http://cordova.apache.org/plugins/
   
   *Blog Posts Related to #11*
   * [Cordova Plugins Registry becomes immutable](http://cordova.apache.org/news/2015/09/08/CPR-readonly.html) 2015/09/08
