@@ -88,7 +88,7 @@ LAST UPDATE: 2015-10-09
 
   To be clear, the "whitelist" has been around for a bit, but the plugin and requirement is very new. As you would expect, when the "whitelist" was added, the defacto *open-access* feature was deprecated. Or said another way, the defacto *open-access* feature was planned and scheduled to be eliminated. This change marks a step in removal of the *open-access* feature.
 
-  In addition, the *Content Security Policy (CSP)* has caught numerous developers - because it was soooo poorly publicized. This CSP needs to go in every single HTML page you used, just like you have to wait for 'deviceready'. The documentation is buried in the bottom of many of the latest documentation pages.
+  In addition, the Content Security Policy (CSP) has caught numerous developers - because it was soooo poorly publicized. <b>Depending on your use and the version of Phonegap you are using, the CSP needs to go in every single HTML page you used, just like you have to wait for 'deviceready'. However, there are cases where it is not needed at all. The documentation is confusing for some, please read it carefully.</b> The documentation is buried in the bottom of many of the latest documentation pages.
 
   Cordova Blog: *[Plugins Release and Moving plugins to npm: April 21, 2015](https://cordova.apache.org/announcements/2015/04/21/plugins-release-and-move-to-npm.html)* and **New Whitelist Plugins**; scroll down to the title.
 
