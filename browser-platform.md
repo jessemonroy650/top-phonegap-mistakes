@@ -5,7 +5,7 @@ In theory you can develop on your browser with this, and fine tune on your mobil
 
 * *Browser as a platform for your PhoneGap/Cordova apps* - September 24, 2014
 * http://www.raymondcamden.com/2014/9/24/Browser-as-a-platform-for-your-PhoneGapCordova-apps
-> Working with a limited number of plugins
+ > Working with a limited number of plugins
  - Camera
  - Device
  - Device Motion (Accelerometer)
