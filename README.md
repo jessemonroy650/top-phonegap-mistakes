@@ -1,14 +1,19 @@
 ## Phonegap Developers' Notes ##
-Last update: 2015-09-06
+Last update: 2015-10-10
 
 * [Top Mistakes by Developers new to Cordova/Phonegap](new-to-Phonegap.md)
 * [Current Tripping Points for Cordova/Phonegap Development](current-tripping-points.md)
-* [Cordova and Phonegap Forums](cordova-phonegap-forums.md) - across the Internet
-* [Alternatives to Jquery and Jquery Mobile](alternatives-to-jquery-mobile.md) - 
-* [Alternatives to the stock *webview*](webview-alternatives.md)
+* [Cordova Blog Highlights](cordova-blog-highlights.md)
+* [Cordova Browser Platform](browser-platform.md)
+* [Security Issues](Security Issues) - Last Update: 2015-10-10
 
 ### Resources ###
+
 * [Free Online Resources for Phonegap Build](free-online-resources.md)
+* [Cordova and Phonegap Forums](cordova-phonegap-forums.md) - across the Internet
+* [Alternatives to Jquery and Jquery Mobile](alternatives-to-jquery-mobile.md)
+* [Alternatives to the stock *webview*](webview-alternatives.md)
+* [Tip and Tricks](tips-and-tricks.md)
 
 ### Annoyances ###
 

@@ -92,6 +92,8 @@ LAST UPDATE: 2015-10-09
 
   Cordova Blog: *[Plugins Release and Moving plugins to npm: April 21, 2015](https://cordova.apache.org/announcements/2015/04/21/plugins-release-and-move-to-npm.html)* and **New Whitelist Plugins**; scroll down to the title.
 
+  Cordova Blog: [Apache Cordova Android 4.0.0](http://cordova.apache.org/announcements/2015/04/15/cordova-android-4.0.0.html) - This blog post outline the behaviour of the white-list for Android, including CLI.
+
   Phonegap Build Forum: *[Notes for upgrading to cli-5.1.1 on PGB](http://community.phonegap.com/nitobi/topics/notes-for-upgrading-to-cli-5-1-1-on-pgb)* and now required **Whitelist**
 
   * <s>[Cordova Whitelist Guide](https://cordova.apache.org/docs/en/4.0.0/guide_appdev_whitelist_index.md.html)</s> or [npm version](https://www.npmjs.com/package/cordova-plugin-whitelist)
