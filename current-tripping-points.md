@@ -21,16 +21,13 @@ Date: 2015-09-25
 
 ## 2. Not setting compiler version ##
 
-From the *Phonegap Build* Forum, [Petra Adds](http://community.phonegap.com/nitobi/topics/no-support-for-ios9-yet#reply_16160589):
-
- > I would add: without announcement, PGB changed the default PGB-version from 3.7.0 to cli-5.2.0. This causes all those who have not set 'phonegap-version' in config.xml to be confronted with the sudden need of splashscreen and whitelist plugins and additional whitelisting specifications in config and html.
-
- > Also, several plugins seem not to build correctly with cli-5.2.0, causing log file error messages about "Class ***.java".
-
- FWIW: *Phonegap Build* [admitted to as much in this tweet](https://twitter.com/jessemonroy650/status/648313365505310720)
-
 **QUICK FIX** Add this to your `config.xml`<br />
 `<preference name="phonegap-version" value="3.7.0" />`
+
+over the last two (2) weeks Cordova has made some major changes. The documentation has NOT caught up. I don't expect it will catch up for at least a few weeks. You have two (2) options:
+
+1) Set your Compiler version to something before Cordova 4.0.0
+2) Follow the complete protocol for using the `white-list`
 
 From [Top Mistakes by Developers new to Cordova/Phonegap](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/new-to-Phonegap.md) you have hit:
 
@@ -61,6 +58,7 @@ For #10
  > * [Cordova Whitelist Guide](https://www.npmjs.com/package/cordova-plugin-whitelist)
  > * [Phonegap Whitelist Guide](http://docs.phonegap.com/en/4.0.0/guide_appdev_whitelist_index.md.html#Whitelist%20Guide)
  > * [Phonegap Build Whitelist Guide](http://docs.build.phonegap.com/en_US/configuring_access_elements.md.html#Access%20Elements)
+ > * [White-list Plugin](https://www.npmjs.com/package/cordova-plugin-whitelist) - READ BOTTOM section for instruction on CSP
 
 
 ## 3. Plugins have MOVED!! ##

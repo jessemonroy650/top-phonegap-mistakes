@@ -19,3 +19,8 @@ google: [css turn on hardware acceleration](https://www.google.com/search?q=css+
 This article is likely the best: *HTML5 Rocks* [High Performance Animations](http://www.html5rocks.com/en/tutorials/speed/high-performance-animations/)
 
 This is good too: *Phonegap Tips* [Force Hardware Acceleration with translate3d... Sometimes](http://phonegap-tips.com/articles/force-hardware-acceleration-with-translate3d-sometimes.html)
+
+### SRCSET for Responsive Images ###
+
+* Using extended srcset and the picture element to tailor your image to every device and layout
+* http://blogs.windows.com/msedgedev/2015/10/07/using-extended-srcset-and-the-picture-element-to-tailor-your-image-to-every-device-and-layout/

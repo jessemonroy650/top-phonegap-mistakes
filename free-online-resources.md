@@ -20,3 +20,9 @@ https://www.websequencediagrams.com/#
 
 PhoneGap/Cordova App Icon and Splash Screen Generator<br />
 http://pgicons.abiro.com/
+
+### Modern, Cute, Usable Sliders ###
+* http://codepen.io/simeydotme/pen/mJLPPq
+* http://simeydotme.github.io/jQuery-ui-Slider-Pips/#styling-flat
+* https://github.com/simeydotme/jQuery-ui-Slider-Pips
+* License: MIT 

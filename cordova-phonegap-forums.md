@@ -101,6 +101,7 @@ At the moment I cannot find any firefox forums
 ## Related Platforms ##
 
 * http://forum.ionicframework.com/
+* https://www.sencha.com/forum/
 
 
 

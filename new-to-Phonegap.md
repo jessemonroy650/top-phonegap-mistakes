@@ -18,6 +18,10 @@ LAST UPDATE: 2015-10-09
   * [Phonegap](http://phonegap.com/)
   * [Phonegap Build](https://build.phonegap.com/plans)
 
+  *Blog Posts Related to #1*
+  * [Cordova vs. PhoneGap: An update](http://blog.devgeeks.org/post/73789983750/cordova-vs-phonegap-an-update) - Jan 19, 2014
+  * [PhoneGap, Cordova, and what?s in a name?](http://phonegap.com/2012/03/19/phonegap-cordova-and-what%E2%80%99s-in-a-name/) - 2012/03/19
+
 2. **Does not read the docs.**<p />
   There are three (3) sets of docs. One for *Cordova CLI* (Command Line Interface), another for *Phonegap CLI*, and one for *Phonegap Build*. They are similar, but NOT the same. Also, to add to the confusion, sometimes the Cordova documentation is the only set of docs available; this happens for some plugins. This also happens with Phonegap &ndash; the Phonegap Developer's Guide for example. (aka Beginners Guide)
 
@@ -114,7 +118,7 @@ LAST UPDATE: 2015-10-09
   2015-10-09 - Without announcment, tweet, or blog, the repository change a full week before it was scheduled. I can do nothing, but complain.... This is damm annoying.
 
   * <s>new [cordova npm search page](http://plugins.cordova.io/npm/index.html)</s>
-  * NEW NEW [Cordova npm search page]http://cordova.apache.org/plugins/
+  * NEW NEW [Cordova npm search page](http://cordova.apache.org/plugins/)
   
   *Blog Posts Related to #11*
   * [Cordova Plugins Registry becomes immutable](http://cordova.apache.org/news/2015/09/08/CPR-readonly.html) 2015/09/08
@@ -125,8 +129,9 @@ LAST UPDATE: 2015-10-09
 
 * [Beginner Stumbling Blocks in Phonegap & Cordova](http://scottbolinger.com/beginner-phonegap-cordova/) - Scott Bolinger - +wordpress
 * [7 Lessons from 3 Years of HTML5 Mobile Application Development](http://www.joshmorony.com/7-lessons-from-3-years-of-html5-mobile-application-development/) - Josh Morony
-* [Can I use PHP to build a webapp using the PhoneGap framework?](http://www.quora.com/Can-I-use-PHP-to-build-a-webapp-using-the-PhoneGap-framework) - Quora 
 * [Cross-platform Mistakes](http://blog.41studio.com/cross-platform-mistakes/) - 41Studio - +RubyOnRails
+* [PhoneGap Development Mistakes and How to Avoid Them](https://chrisgriffith.wordpress.com/2014/10/10/phonegap-development-mistakes-and-how-to-avoid-them/) - Chris Griffith
+* [Can I use PHP to build a webapp using the PhoneGap framework?](http://www.quora.com/Can-I-use-PHP-to-build-a-webapp-using-the-PhoneGap-framework) - Quora 
 
 ----
 ### Frustrating Issues for the Volunteers ###

@@ -74,27 +74,3 @@ Google: [webview alternative](https://www.google.com/search?q=webview+alternativ
 * *Android Tutorial for Beginners 20 # Android WebView Example* - Feb 2015
 * https://www.youtube.com/watch?v=nB-relROsrY
 
-
-### CLI and Cloud-based Development Systems ###
-
-1. [Phonegap](http://phonegap.com/)
-2. [Ionic](http://ionicframework.com/)
-3. [Monaca](https://monaca.io/)
-4. [Onsen UI](http://onsen.io/)
-5. [Taco](http://taco.tools/)
-6. [Telerik](http://www.telerik.com/)
-7. [Cocoon](http://cocoon.io/)
-8. [Framework7](http://www.idangero.us/framework7/)
-9. [Aerogear Platforms](https://aerogear.org/cordova/) - limited intended for "enterprise mobile"
-
-### IDE and SDK-based Development Systems ###
-
-1. [Eclipse/THyM](https://www.eclipse.org/thym/)
-2. [Visual Studio](http://aka.ms/cordova)
-3. [App Builder](http://www.getappbuilder.com/)
-4. [Intel XDK](https://software.intel.com/intel-xdk)
-
-### Tools ###
-
-1. [gapdebug](https://www.genuitec.com/products/gapdebug/)
-
