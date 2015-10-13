@@ -15,8 +15,6 @@ Last update: 2015-10-10
 * [Alternatives to the stock *webview*](webview-alternatives.md)
 * [Tip and Tricks](tips-and-tricks.md)
 
-* [Hybrid Frameworks](hybrid-frameworks.md)
-
 ### Annoyances ###
 
 * [Samsung Soft Menu Button Annoyance](annoyances/SamsungMenuButton.md)
