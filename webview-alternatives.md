@@ -2,6 +2,8 @@
 Date: 2015-09-10<br />
 Google: [phonegap webview](https://www.google.com/search?q=phonegap+webview)
 
+Notes on the webviews used by [Cordova/Phonegap are here](webview.md)
+
 Cordova/PhoneGap is an application container technology that allows you to create natively-installed applications for mobile devices using HTML, CSS, and JavaScript.
 
 The UI (user interface) for PhoneGap applications is created using HTML, CSS, and JavaScript. The UI layer of a PhoneGap application is a library - colloquially known as *webview*. It uses up to 100% of the device width and 100% of the device height 
