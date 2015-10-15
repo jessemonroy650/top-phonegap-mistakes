@@ -6,7 +6,7 @@ Can you spell disaster?
 
 [Multiple security bugs](security-issues.md) have perhaps influence this `white-list`. It is a result of this, or becuase of this, that the `white-list` system was not completely documented. Add to that the back to back *unannounced changes* to the Cordova system, and I feel like I am catching a falling knife &ndash; without a handle!!
 
-** What Reading is Below**
+**What Reading is Below**
 
 - security bugs
 - unannounced changes
