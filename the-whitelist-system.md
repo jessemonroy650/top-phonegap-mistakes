@@ -39,7 +39,13 @@ Can you spell disaster?
 
 - *TO explain this clearly, I'm going to have to do a matix.*
 
-1. white-list
+1. Version controls when you need to use it
+  - Starting with Cordova 4.0.0 the white-list is required
+  - The alternative is this quick fix &ndash; but know that this *quick fix* removes all needs for `white-list`. This creates a [security issue](http://www.androidauthority.com/google-webview-security-582363/) which you may not want to by pass.
+  -  *QUICK FIX** Add this to your `config.xml` for **PHONEGAP BUILD ONLY**<br />
+  - `<preference name="phonegap-version" value="3.7.0" />`
+  - For *Cordova/Phonegap CLI* see [Cordova/PhoneGap Version Confusion](http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/) - Outdated, but useful
+2. white-list
   - `<allow-navigation (...) />`
   - Controls which URLs the WebView itself can be navigated to. Applies to top-level navigations only.
   - `<allow-intent (...) />`
@@ -50,13 +56,13 @@ Can you spell disaster?
   - `<allow-navigation href="*" />`
   - `<allow-intent href="*" />`
   - `<access origin="*" />`
-2. CSP (in the webpage)
+3. CSP (in the webpage)
   - Filters at the webpage level
   - `<meta http-equiv="Content-Security-Policy" content=(...) />`
   - Controls which network requests (images, XHRs, etc) are allowed to be made (via webview directly).
   - **DANGEROUS, BUT WORKING**
   - `<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">`
-3. [plugin](https://www.npmjs.com/package/cordova-plugin-whitelist)
+4. [plugin](https://www.npmjs.com/package/cordova-plugin-whitelist)
   - The one you want is `cordova-plugin-whitelist`
   - *Phonegap CLI* `cordova add plugin cordova-plugin-whitelist@1.1.0`
   - *Phonegap Build* `<gap:plugin name=cordova-plugin-whitelist version=1.0.1 source=npm>`
