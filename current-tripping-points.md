@@ -1,5 +1,5 @@
 ### Current Tripping Points to Cordova/Phonegap ###
-Date: 2015-09-25
+Date: 2015-10-14
 
 ## 1. No support for iOS9 YET! ##
 
@@ -39,7 +39,7 @@ For #6 & #7
 
  > With the CLI version, if you do not assign a version for your platform OR in ''Phonegap Build'' if you do not set the phonegap-version in config.xml, YOU WILL GET THE LATEST VERSION. If you are lucky, your program just works as expected. If you are not lucky, you'll get a set of cascading errors.
 
- > Luckily for all of us, Holly Schinsky has written a nice blog post to explain it all:
+ > Luckily for all of us, Holly Schinsky has written a nice blog post to explain it all: **(NOTE: Holly has not had time to update the article since the move to NPM, use the NPM names, not the names she is using.)**
 
  > *Cordova/PhoneGap Version Confusion*<br />
  > http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/
@@ -65,7 +65,15 @@ For #10
 
 Without announcement or warning the Cordova team has moved the plugins. Luckily, the previous URL redirects, but some of the URLS &ndash; notably http://plugins.cordova.io/npm/index.html?q= is GONE!!
 
+## 4. `<feature>` is deprecated ##
 
+`<feature>` tags are deprecated. That means they are no longer used.
+You can [read about it here](http://docs.build.phonegap.com/en_US/configuring_features.md.html#Features)
 
+###I QUOTE
+
+> Aside from the `debug-server` feature, the `<feature>` tag is essentially deprecated on *PhoneGap Build* since *PhoneGap APIs* were pluginized. Permissions are now generally managed by individual plugins, and application manifests and permissions can be modified directly using the [config-file element](http://docs.build.phonegap.com/en_US/configuring_config_file_element.md.html). However for backwards-compatibility, they are still supported and map to device permissions on Android and Windows Phone 8:
+
+In other words, you have a duplicate configuration, and it is doing nothing. Take it out.
 
 

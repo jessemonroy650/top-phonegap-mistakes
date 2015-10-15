@@ -1,5 +1,5 @@
 ### Top Mistakes by Developers new to Cordova/Phonegap ###
-LAST UPDATE: 2015-10-09
+LAST UPDATE: 2015-10-14
 
 1. **Thinking Phonegap is just one system**<p />There are three similar platforms, Cordova (CLI), Phonegap (CLI), and Phonegag Build and five system (counting Cordova/Phonegap SDK<sup>1</sup>). People often confuse the three very similar platforms and get tangled in the minor variations that differentiate them.<p />
   Oddly enough, the best explanation comes from something built on top of Angular, and wraps the Cordova/Phonegap CLI. - *Ionic*.
@@ -63,7 +63,7 @@ LAST UPDATE: 2015-10-09
 6. **Not setting the "phonegap version" for your compiler** <p />
   With the CLI version, if you do not assign a version for your platform _OR_ in ''Phonegap Build'' if you do not set the ```phonegap-version``` in config.xml, YOU WILL GET THE LATEST VERSION. If you are lucky, your program just works as expected. If you are not lucky, you'll get a set of cascading error. 
 
-  Luckily for all of us, Holly Schinsky has written a nice blog post to explain it all:
+  Luckily for all of us, Holly Schinsky has written a nice blog post to explain it all: **(NOTE: Holly has not had time to update the article since the move to NPM, use the NPM names, not the names she is using.)**
 
   *Cordova/PhoneGap Version Confusion*<br />
   http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/

@@ -1,5 +1,10 @@
 ## Free Online Resources for Phonegap Build ##
 
+### Javascript Libraries ###
+Besides the usual
+
+* http://www.phoneformat.com/
+
 ### CSS Buttons ###
 CSS Buttons by Alex Wolfe and Rob Levin<br />
 https://github.com/alexwolfe/Buttons
@@ -11,6 +16,10 @@ http://www.wifeo.com/free-css-loader-generator.php
 ### CSS Related ###
 Design essentials
 https://github.com/showcases/design-essentials
+
+stylelint
+https://github.com/stylelint/stylelint
+Checks your style and syntax, written in Javascript
 
 ### Design Tools ###
 WebSequenceDiagrams.com - Draw and Edit Sequence Diagrams in seconds
