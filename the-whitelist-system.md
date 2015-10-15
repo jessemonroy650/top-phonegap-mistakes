@@ -32,6 +32,7 @@ Can you spell disaster?
   - [Cordova/PhoneGap Version Confusion](http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/) - Outdated, does not reflect new system with dashes
   - Online NPM version are not up to date.
   - Here is an example. [npm](https://www.npmjs.com/package/cordova-plugin-whitelist) says 1.0.0 , [blog](http://cordova.apache.org/news/2015/06/22/plugins-release.html) - June 22, 2015) says 1.1.0
+  - Note: the author is the same for both
 
 
 ### How it Works ###
@@ -57,7 +58,7 @@ Can you spell disaster?
   - `<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">`
 3. [plugin](https://www.npmjs.com/package/cordova-plugin-whitelist)
   - The one you want is `cordova-plugin-whitelist`
-  - *Phonegap CLI* `cordova add plugin cordova-plugin-whitelist@1.0.1`
+  - *Phonegap CLI* `cordova add plugin cordova-plugin-whitelist@1.1.0`
   - *Phonegap Build* `<gap:plugin name=cordova-plugin-whitelist version=1.0.1 source=npm>`
 
 ### What you should watch for ###
