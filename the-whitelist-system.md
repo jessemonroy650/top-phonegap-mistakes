@@ -4,7 +4,7 @@ Can you spell disaster?
 
 - **FOREWARNED.** *This document is NOT all inclusive, nor does  it cover every exception. This blog entry is a road map to understanding. It is intended for professionals. If you are new to programming and mobile in particular, you will find this confusing and frustrating.* **FOREWARNED.**
 
-[Multiple security bugs](security-issues.md) have perhaps influence this `white-list`. It is a result of this, or becuase of this, that the system was not completely documented. Add to that the back to back [unannounced changes](unannounced-changes.md) to the system, and I feel like I am catching a falling knife &ndash; without a handle!!
+[Multiple security bugs](security-issues.md) have perhaps influence this `white-list`. It is a result of this, or becuase of this, that the system was not completely documented. Add to that the back to back [unannounced changes]() to the system, and I feel like I am catching a falling knife &ndash; without a handle!!
 
 - security bugs
 - unannounced changes
