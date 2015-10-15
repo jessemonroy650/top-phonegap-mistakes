@@ -4,7 +4,9 @@ Can you spell disaster?
 
 - **FOREWARNED.** *This document is NOT all inclusive, nor does  it cover every exception. This blog entry is a road map to understanding. It is intended for professionals. If you are new to programming and mobile in particular, you will find this confusing and frustrating.* **FOREWARNED.**
 
-[Multiple security bugs](security-issues.md) have perhaps influence this `white-list`. It is a result of this, or becuase of this, that the system was not completely documented. Add to that the back to back [unannounced changes]() to the system, and I feel like I am catching a falling knife &ndash; without a handle!!
+[Multiple security bugs](security-issues.md) have perhaps influence this `white-list`. It is a result of this, or becuase of this, that the `white-list` system was not completely documented. Add to that the back to back *unannounced changes* to the Cordova system, and I feel like I am catching a falling knife &ndash; without a handle!!
+
+** What Reading is Below**
 
 - security bugs
 - unannounced changes
@@ -19,7 +21,7 @@ Can you spell disaster?
 
 ###unannounced changes###
 
-- *Need add stories to these*, *maybe**
+- *Need add stories to these*, **maybe**
 - *Phonegap Build* changes the default compiler from *2.7.0* to *cli-5.2.0* the last week of Sept.
 - *Cordova* moves the *plugin respository* on the week of Oct 5.
 
@@ -28,8 +30,9 @@ Can you spell disaster?
 - Documentation contradicts itself
 - It is hard to find versions for things
   - [Cordova/PhoneGap Version Confusion](http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/) - Outdated, does not reflect new system with dashes
-  - NPM version are not up to date.
-  - [Latest Plugin Release](http://cordova.apache.org/news/2015/06/22/plugins-release.html) - June 22, 2015
+  - Online NPM version are not up to date.
+  - Here is an example. [npm](https://www.npmjs.com/package/cordova-plugin-whitelist) says 1.0.0 , [blog](http://cordova.apache.org/news/2015/06/22/plugins-release.html) - June 22, 2015) says 1.1.0
+
 
 ### How it Works ###
 
