@@ -8,14 +8,14 @@ These are notes on the webviews that are used with Cordova/Phonegap.
 ###Android###
 
 - [Webview](http://developer.android.com/reference/android/webkit/WebView.html)
-  - Private browsing is not supported as of API 17 (Jelly Bean).
-  - As of Android 4.0.0 (API 14/ICE_CREAM_SANDWICH) it is chrome-based
+  - As of API 17/Jelly Bean, private browsing is no longer supported.
+  - As of API 19/KitKat, webview is based on [Chromium](http://www.chromium.org/Home)
 
 [Android version history](https://en.wikipedia.org/wiki/Android_version_history)
 
 ###iOS###
 
-- [WKWebView Class Reference](https://developer.apple.com/library/ios/documentation/WebKit/Reference/WKWebView_Ref/) - Available in iOS 8.0 and later.
+- [WKWebView Class Reference](https://developer.apple.com/library/ios/documentation/WebKit/Reference/WKWebView_Ref/) - Available in iOS 8.0 and later. This is based on WebKit.
 - [UIWebView Class Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIWebView_Class/) - Available in iOS 2.0 and later. In apps that run in iOS 8 and later, use WKWebView instead of this.
 
 ###Blackberry 10###
