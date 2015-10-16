@@ -41,9 +41,9 @@ Can you spell disaster?
 
 1. Version controls when you need to use it
   - Starting with Cordova 4.0.0 the white-list is required
-  - After 5.0.0 There are additional rules which [Raymond Camden](http://www.raymondcamden.com/2015/05/25/important-information-about-cordova-5, dated May of 2015) allueds to
+  - After 5.0.0, there are additional rules which [Raymond Camden](http://www.raymondcamden.com/2015/05/25/important-information-about-cordova-5, dated May of 2015) alludes to
   - The alternative is this quick fix &ndash; but know that this *quick fix* removes all needs for `white-list`. This creates a [security issue](http://www.androidauthority.com/google-webview-security-582363/) which you may not want to by pass.
-  -  *QUICK FIX** Add this to your `config.xml` for **PHONEGAP BUILD ONLY**<br />
+  - **QUICK FIX** Add this to your `config.xml` **for PHONEGAP BUILD ONLY** <br />
   - `<preference name="phonegap-version" value="3.7.0" />`
   - For *Cordova/Phonegap CLI* see [Cordova/PhoneGap Version Confusion](http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/) - Outdated, but useful
 2. white-list
@@ -61,20 +61,21 @@ Can you spell disaster?
   - Filters at the webpage level
   - `<meta http-equiv="Content-Security-Policy" content=(...) />`
   - Controls which network requests (images, XHRs, etc) are allowed to be made (via webview directly).
+  - [Raymond Camden](http://www.raymondcamden.com/2015/05/25/important-information-about-cordova-5, dated May of 2015), posted some relevent information on this
+
+    > I began to check on this and look at the different permutations.
+
+    > If you do not include the plugin and do not include the CSP, you have no access to anything.
+
+    > If you do not include the plugin and do include the CSP, you have no access to anything.
+
+    > If you include the plugin and a CSP, you have access to what CSP gives you access to.
+
+    > If you include the plugin and do not include a CSP, your access falls back to the access tag in config.xml, which is probably * (i.e. everything allowed).
+
   - **DANGEROUS, BUT WORKING**
   - `<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">`
   - Additional keywords and what they mean [CSP from Mozilla](https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives#Keywords) 
-  - [Raymond Camden](http://www.raymondcamden.com/2015/05/25/important-information-about-cordova-5, dated May of 2015), posted some relevent information on this
-
-  > I began to check on this and look at the different permutations.
-
-  >If you do not include the plugin and do not include the CSP, you have no access to anything.
-
-  >If you do not include the plugin and do include the CSP, you have no access to anything.
-
-  >If you include the plugin and a CSP, you have access to what CSP gives you access to.
-
-  >If you include the plugin and do not include a CSP, your access falls back to the access tag in config.xml, which is probably * (i.e. everything allowed).
 
 4. [plugin](https://www.npmjs.com/package/cordova-plugin-whitelist)
   - The one you want is `cordova-plugin-whitelist`
@@ -92,7 +93,7 @@ Can you spell disaster?
   - The InAppBrowser is not subject to the whitelist, nor is opening links in the system browser.
   - *conflicting* when using the `target` = `_self`: Opens in the Cordova WebView if the URL is in the white list, otherwise it opens in the InAppBrowser.
   - ?it is affect by `white-list` sometimes, but mostly by `CSP`?
-3. openwindow
+3. openwindow()
   - this can be a major security issues, use it carefully
 
 
