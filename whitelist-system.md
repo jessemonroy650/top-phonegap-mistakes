@@ -41,6 +41,7 @@ Can you spell disaster?
 
 1. Version controls when you need to use it
   - Starting with Cordova 4.0.0 the white-list is required
+  - After 5.0.0 There are additional rules which [Raymond Camden](http://www.raymondcamden.com/2015/05/25/important-information-about-cordova-5, dated May of 2015) allueds to
   - The alternative is this quick fix &ndash; but know that this *quick fix* removes all needs for `white-list`. This creates a [security issue](http://www.androidauthority.com/google-webview-security-582363/) which you may not want to by pass.
   -  *QUICK FIX** Add this to your `config.xml` for **PHONEGAP BUILD ONLY**<br />
   - `<preference name="phonegap-version" value="3.7.0" />`
@@ -63,7 +64,7 @@ Can you spell disaster?
   - **DANGEROUS, BUT WORKING**
   - `<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">`
   - Additional keywords and what they mean [CSP from Mozilla](https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives#Keywords) 
-  - [Raymond Camden]http://www.raymondcamden.com/2015/05/25/important-information-about-cordova-5, dated May of 2015, posted some relevent information on this
+  - [Raymond Camden](http://www.raymondcamden.com/2015/05/25/important-information-about-cordova-5, dated May of 2015), posted some relevent information on this
 
   > I began to check on this and look at the different permutations.
 
