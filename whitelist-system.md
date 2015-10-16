@@ -63,6 +63,18 @@ Can you spell disaster?
   - **DANGEROUS, BUT WORKING**
   - `<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">`
   - Additional keywords and what they mean [CSP from Mozilla](https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives#Keywords) 
+  - [Raymond Camden]http://www.raymondcamden.com/2015/05/25/important-information-about-cordova-5, dated May of 2015, posted some relevent information on this
+
+  > I began to check on this and look at the different permutations.
+
+  >If you do not include the plugin and do not include the CSP, you have no access to anything.
+
+  >If you do not include the plugin and do include the CSP, you have no access to anything.
+
+  >If you include the plugin and a CSP, you have access to what CSP gives you access to.
+
+  >If you include the plugin and do not include a CSP, your access falls back to the access tag in config.xml, which is probably * (i.e. everything allowed).
+
 4. [plugin](https://www.npmjs.com/package/cordova-plugin-whitelist)
   - The one you want is `cordova-plugin-whitelist`
   - *Phonegap CLI* `cordova add plugin cordova-plugin-whitelist@1.1.0`
