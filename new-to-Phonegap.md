@@ -119,6 +119,8 @@ LAST UPDATE: 2015-10-14
 
   * <s>new [cordova npm search page](http://plugins.cordova.io/npm/index.html)</s>
   * NEW NEW [Cordova npm search page](http://cordova.apache.org/plugins/)
+  * NEW NEW [Cordova CORE plugins](http://cordova.apache.org/docs/en/5.1.1/cordova/plugins/pluginapis.html)
+  * [Latest version of plugins](http://cordova.apache.org/news/2015/06/22/plugins-release.html) June 22, 2015
   
   *Blog Posts Related to #11*
   * [Cordova Plugins Registry becomes immutable](http://cordova.apache.org/news/2015/09/08/CPR-readonly.html) 2015/09/08
