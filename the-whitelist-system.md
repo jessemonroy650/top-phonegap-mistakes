@@ -62,6 +62,7 @@ Can you spell disaster?
   - Controls which network requests (images, XHRs, etc) are allowed to be made (via webview directly).
   - **DANGEROUS, BUT WORKING**
   - `<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">`
+  - Additional keywords and what they mean [CSP from Mozilla](https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives#Keywords) 
 4. [plugin](https://www.npmjs.com/package/cordova-plugin-whitelist)
   - The one you want is `cordova-plugin-whitelist`
   - *Phonegap CLI* `cordova add plugin cordova-plugin-whitelist@1.1.0`

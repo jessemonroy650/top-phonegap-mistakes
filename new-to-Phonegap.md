@@ -106,6 +106,7 @@ LAST UPDATE: 2015-10-14
   * [Phonegap Whitelist Guide](http://docs.phonegap.com/en/4.0.0/guide_appdev_whitelist_index.md.html#Whitelist%20Guide)
   * [Phonegap Build Whitelist Guide](http://docs.build.phonegap.com/en_US/configuring_access_elements.md.html#Access%20Elements)
   * <s>[cordova-plugin-whitelist](https://github.com/apache/cordova-plugin-whitelist)</s>
+  * NOTES on [CSP from Mozilla](https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives#Keywords)
 
   *Apple has a similar system that is in place. You can read some of the details in this link.*<br />
   See: [Configuring App Transport Security Exceptions in iOS 9 and OSX 10.11](http://ste.vn/2015/06/10/configuring-app-transport-security-ios-9-osx-10-11/)<br />
