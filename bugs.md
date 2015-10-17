@@ -37,4 +37,5 @@ Yes there are more bugs, I just have not seen any yet.
 
     > Strange impact for the same app on the same phone and screen when the issue is related to this splash screen only. Anyway, I suppose this should fix some other apps as well so please double check if all the (latest) 14 iOS splash screen files are included. 
 
-
+* File Input from PhoneGap 5.2.0 on iOS9 - No longer works
+* https://issues.apache.org/jira/browse/CB-9725
