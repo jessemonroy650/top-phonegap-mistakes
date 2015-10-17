@@ -39,3 +39,8 @@ Yes there are more bugs, I just have not seen any yet.
 
 * File Input from PhoneGap 5.2.0 on iOS9 - No longer works
 * https://issues.apache.org/jira/browse/CB-9725
+
+* *[Build] cli-5.2.0 cause app cannot install on iOS*
+* https://github.com/phonegap/build/issues/468
+
+

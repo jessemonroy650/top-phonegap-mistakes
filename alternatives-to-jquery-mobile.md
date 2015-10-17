@@ -20,3 +20,16 @@ http://tutorialzine.com/2012/04/5-lightweight-jquery-alternatives/
 
 *Popular Alternatives to JQuery* (undated)<br />
 http://www.jscripters.com/popular-jquery-alternatives/
+
+
+*5 Things You Should Stop Doing With jQuery*
+http://modernweb.com/2013/05/06/5-things-you-should-stop-doing-with-jquery/
+
+# Stop Using Document Ready
+# Stop Using The Wrong Iterator
+# Stop Using ?this?
+# Stop Using ALL THE jQUERIES
+# Stop Using jQuery?
+
+
+

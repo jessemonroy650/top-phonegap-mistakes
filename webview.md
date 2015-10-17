@@ -3,7 +3,7 @@ Date: 2015-10-15
 
 These are notes on the webviews that are used with Cordova/Phonegap.
 
-
+NOTE: Some of these libraries are based on [WebKit](https://www.webkit.org/). However, WebKit allows customization. This means not all features apply to all browsers that use WebKit as there base.
 
 ###Android###
 

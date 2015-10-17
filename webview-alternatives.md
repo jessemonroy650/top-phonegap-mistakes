@@ -15,6 +15,8 @@ On iOS, this is the Objective-C UIWebView class; on Android, this is android.web
 * *[PhoneGap Explained Visually](http://phonegap.com/2012/05/02/phonegap-explained-visually/)*
 * *[PhoneGap: a misunderstood hybrid framework](http://www.asyncdev.net/2012/10/phonegap-a-misunderstood-hybrid-framework/)*
 
+NOTE: Some of these libraries are based on [WebKit](https://www.webkit.org/). However, WebKit allows customization. This means not all features apply to all browsers that use WebKit as there base.
+
 Google: [webview alternative](https://www.google.com/search?q=webview+alternative)
 
 ### Webview Alternatives ###
