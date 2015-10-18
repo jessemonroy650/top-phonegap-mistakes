@@ -47,4 +47,10 @@ Yes there are more bugs, I just have not seen any yet.
 * https://github.com/phonegap/build/issues/470
 * Creates https://issues.apache.org/jira/browse/CB-9688
 
+### iOS Suspected Bugs ###
+
+* Bug: `tel:` not working with InAppBrowser (whitelist was checked)
+* Titled: Cordova InAppBrowser not working with iOS
+* http://stackoverflow.com/questions/33034398/cordova-inappbrowser-not-working-with-ios
+* Conclusion reached on 2015-10-18
 

@@ -133,8 +133,8 @@ LAST UPDATE: 2015-10-18
 
   `<feature>` tags are deprecated. That means they are no longer used.
   You can [read about it here](http://docs.build.phonegap.com/en_US/configuring_features.md.html#Features)
-
-
+  
+  Aside from the debug-server feature, the feature tag is essentially deprecated on PhoneGap Build since PhoneGap APIs were pluginized. Permissions are now generally managed by individual plugins, and application manifests and permissions can be modified directly using the config-file element. However for backwards-compatibility, they are still supported and map to device permissions on Android and Windows Phone 8:
 
 **Some additional related articles**
 
