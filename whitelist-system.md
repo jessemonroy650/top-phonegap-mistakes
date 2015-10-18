@@ -96,7 +96,9 @@ Can you spell disaster?
 3. openwindow()
   - this can be a major security issues, use it carefully
 
+### Ionic Issues ###
 
+https://groups.google.com/forum/#!topic/phonegap/W8zAKXowrJk
 
 
 
