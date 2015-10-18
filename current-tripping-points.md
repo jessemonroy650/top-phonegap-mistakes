@@ -1,5 +1,5 @@
 ### Current Tripping Points to Cordova/Phonegap ###
-Date: 2015-10-14
+Date: 2015-10-18
 
 ## 1. No support for iOS9 YET! ##
 
@@ -20,6 +20,8 @@ Date: 2015-10-14
   For more: [(Official) Messages from Phonegap Build Technical Support in the Forum](http://codesnippets.altervista.org/documentation/phonegap/bookmarks/fromSupport.html)
 
 ## 2. Not setting compiler version ##
+
+The alternative is this quick fix &ndash. However, this creates a [security issue](http://www.androidauthority.com/google-webview-security-582363/) which you may not want to by pass.
 
 **QUICK FIX** Add this to your `config.xml`<br />
 `<preference name="phonegap-version" value="3.7.0" />`
@@ -66,6 +68,19 @@ For #10
 ## 3. Plugins have MOVED!! ##
 
 Without announcement or warning the Cordova team has moved the plugins. Luckily, the previous URL redirects, but some of the URLS &ndash; notably http://plugins.cordova.io/npm/index.html?q= is GONE!!
+
+The rules regarding sourcing your plugins can be rather confusing. The best thing to do is read the blog posts - below. Developers that use CLI can source from github, again see the blog post.
+
+2015-10-09 - Without announcment, tweet, or blog, the repository change a full week before it was scheduled. I can do nothing, but complain.... This is damm annoying.
+
+- NEW NEW [Cordova npm search page](http://cordova.apache.org/plugins/)
+- NEW NEW [Cordova CORE plugins](http://cordova.apache.org/docs/en/5.1.1/cordova/plugins/pluginapis.html)
+- [Latest version of plugins](http://cordova.apache.org/news/2015/06/22/plugins-release.html) June 22, 2015
+
+- [Cordova Plugins Registry becomes immutable](http://cordova.apache.org/news/2015/09/08/CPR-readonly.html) 2015/09/08
+- [Plugins Release and Moving plugins to npm](http://cordova.apache.org/announcements/2015/04/21/plugins-release-and-move-to-npm.html) 2015/04/21
+- [List of the Latest *Core* Plugins and their versions](http://cordova.apache.org/news/2015/06/22/plugins-release.html) June 22, 2015
+
 
 ## 4. `<feature>` is deprecated ##
 

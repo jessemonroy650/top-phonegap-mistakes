@@ -1,5 +1,5 @@
 ### Top Mistakes by Developers new to Cordova/Phonegap ###
-LAST UPDATE: 2015-10-14
+LAST UPDATE: 2015-10-18
 
 1. **Thinking Phonegap is just one system**<p />There are three similar platforms, Cordova (CLI), Phonegap (CLI), and Phonegag Build and five system (counting Cordova/Phonegap SDK<sup>1</sup>). People often confuse the three very similar platforms and get tangled in the minor variations that differentiate them.<p />
   Oddly enough, the best explanation comes from something built on top of Angular, and wraps the Cordova/Phonegap CLI. - *Ionic*.
@@ -128,6 +128,12 @@ LAST UPDATE: 2015-10-14
   * [Cordova Plugins Registry becomes immutable](http://cordova.apache.org/news/2015/09/08/CPR-readonly.html) 2015/09/08
   * [Plugins Release and Moving plugins to npm](http://cordova.apache.org/announcements/2015/04/21/plugins-release-and-move-to-npm.html) 2015/04/21
   * [List of the Latest \*Core* Plugins and their versions](http://cordova.apache.org/news/2015/06/22/plugins-release.html) June 22, 2015
+
+12. **`<feature>` is deprecated**
+
+  `<feature>` tags are deprecated. That means they are no longer used.
+  You can [read about it here](http://docs.build.phonegap.com/en_US/configuring_features.md.html#Features)
+
 
 
 **Some additional related articles**

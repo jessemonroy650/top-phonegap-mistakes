@@ -1,5 +1,5 @@
 ## Security Issues ##
-Last Update: 2015-10-11
+Last Update: 2015-10-18
 
 I have more, but they are in bookmarks right now. I'll update them over the next few days.
 
@@ -18,3 +18,6 @@ All vendors have security issues. This list it provided to allow professional to
 * [Cordova](https://www.cvedetails.com/vulnerability-list/vendor_id-45/product_id-27153/Apache-Cordova.html), Apache
 * [Phonegap](https://www.cvedetails.com/product/27154/Adobe-Phonegap.html?vendor_id=53), Adobe
 * [Ionic](https://www.cvedetails.com/vulnerability-list/vendor_id-14735/product_id-30043/year-2014/Drifty-Ionic-View.html), Drifty
+
+### NEED TO GET the Stories on these ###
+A recent security issues found allows rogue code to insert weblinks into webview, and thereby be used as an attack vector. Another recent security issue will launch attaches from mp3 files

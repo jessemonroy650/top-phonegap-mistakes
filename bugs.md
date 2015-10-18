@@ -1,5 +1,5 @@
 ## Cordova/Phonegap Known Bugs ##
-Last Update: 2015-10-16
+Last Update: 2015-10-18
 
 ### Where you can find the Bug/Issue Respostitories ###
 Date: 2015-08-01
@@ -42,5 +42,9 @@ Yes there are more bugs, I just have not seen any yet.
 
 * *[Build] cli-5.2.0 cause app cannot install on iOS*
 * https://github.com/phonegap/build/issues/468
+
+* *input type file doesn't work on iOS 9*
+* https://github.com/phonegap/build/issues/470
+* Creates https://issues.apache.org/jira/browse/CB-9688
 
 
