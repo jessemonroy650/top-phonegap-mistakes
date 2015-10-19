@@ -33,9 +33,9 @@ Yes there are more bugs, I just have not seen any yet.
 
 [AmsterdamInc reports](http://community.phonegap.com/nitobi/topics/app-scaling-in-ios9#reply_16153350).
 
-    > I can confirm that this issue was caused by one of the iOS splash screen png files missing for the 667h and 736h dimensions. Apparently in iOS 9 this is now a hard requirement, compared to iOS 8, or handled differently by Phonegap.
+> I can confirm that this issue was caused by one of the iOS splash screen png files missing for the 667h and 736h dimensions. Apparently in iOS 9 this is now a hard requirement, compared to iOS 8, or handled differently by Phonegap.
 
-    > Strange impact for the same app on the same phone and screen when the issue is related to this splash screen only. Anyway, I suppose this should fix some other apps as well so please double check if all the (latest) 14 iOS splash screen files are included. 
+> Strange impact for the same app on the same phone and screen when the issue is related to this splash screen only. Anyway, I suppose this should fix some other apps as well so please double check if all the (latest) 14 iOS splash screen files are included. 
 
 * File Input from PhoneGap 5.2.0 on iOS9 - No longer works
 * https://issues.apache.org/jira/browse/CB-9725
