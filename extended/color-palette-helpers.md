@@ -30,5 +30,5 @@ http://colorbrewer2.org/
 
 *HTML Color Picker*
 http://www.w3schools.com/tags/ref_colorpicker.asp
-Picker the primary color in one of three ways.
+> Picker the primary color in one of three ways.
 ![HTML Color Picker](W3schoolsHTMLColorPicker_thumb.png)
