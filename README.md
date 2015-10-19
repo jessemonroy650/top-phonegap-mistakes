@@ -11,7 +11,7 @@ Last update: 2015-10-10
 ### Resources ###
 
 * [Free Online Resources for Phonegap Build](free-online-resources.md)
-** [Free Online Color Palette Helpers](extended/color-palette-helpers.md)
+* [Free Online Color Palette Helpers](extended/color-palette-helpers.md)
 * [Cordova and Phonegap Forums](cordova-phonegap-forums.md) - across the Internet
 * [Alternatives to Jquery and Jquery Mobile](alternatives-to-jquery-mobile.md)
 * [Alternatives to the stock *webview*](webview-alternatives.md)
