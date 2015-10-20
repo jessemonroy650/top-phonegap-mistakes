@@ -73,6 +73,10 @@ Can you spell disaster?
 
     > If you include the plugin and do not include a CSP, your access falls back to the access tag in config.xml, which is probably * (i.e. everything allowed).
 
+  - some of the stuff appears as "Voodoo", like `gap:`
+  - [Simon Mac Donald](http://www.google.com/url?q=http%3A%2F%2Fhi.im%2Fsimonmacdonald&sa=D&sntz=1&usg=AFQjCNEfbJmJ0IyPjk2hlk8PEZ5oZM8WNQ) [Adds](https://groups.google.com/d/msg/phonegap/DrYOdMrTssM/votSwdBvCwAJ)
+    > The "gap:" is used as a protocol like "http:" for the iOS side to communicate from JS to native. Basically when Cordova iOS sees "gap:" it intercepts the request and uses it to do the bridging of the two layers. At least that is my understanding of it but it's been awhile since I dove into that area.
+
   - **DANGEROUS, BUT WORKING**
   - `<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">`
   - Additional keywords and what they mean [CSP from Mozilla](https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives#Keywords) 
