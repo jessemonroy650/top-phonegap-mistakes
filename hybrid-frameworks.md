@@ -26,6 +26,8 @@ Many of these frameworks cross-over directly into Cordova and Phonegap. The larg
 3. [App Builder](http://www.getappbuilder.com/)
 4. [Intel XDK](https://software.intel.com/intel-xdk)
 5. [Appcelerator Titanium](http://www.appcelerator.com/titanium/)
+6. [IntelliJ IDEA 14](http://blog.jetbrains.com/idea/2014/09/developer-tools-for-phonegap-cordova-and-ionic-in-intellij-idea-14/)
+7. [MobileFirst](https://developer.ibm.com/mobilefirstplatform/documentation/getting-started-6-3/adding-native-functionality/apache-cordova-overview/) IBM
 
 * WebStorm
 
@@ -33,4 +35,7 @@ Many of these frameworks cross-over directly into Cordova and Phonegap. The larg
 
 1. [gapdebug](https://www.genuitec.com/products/gapdebug/)
 2. [BuilDozer](https://buildozer.io/)
+
+### Articles ###
+1. [15 Visual Studio Project Templates To Jump Start Your Code](https://visualstudiomagazine.com/articles/2015/08/01/15-visual-studio-project-templates.aspx)
 

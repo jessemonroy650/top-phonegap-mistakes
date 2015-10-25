@@ -5,12 +5,17 @@ These are notes on the webviews that are used with Cordova/Phonegap.
 
 NOTE: Some of these libraries are based on [WebKit](https://www.webkit.org/). However, WebKit allows customization. This means not all features apply to all browsers that use WebKit as there base. For a more detailed explaination, read this blog post by Paul Irish - [Webkit for Developers](http://www.paulirish.com/2013/webkit-for-developers/)
 
+Some details for these libraries are in [webview-details](webview-details.md)
 
 ###Android###
 
 - [Webview](http://developer.android.com/reference/android/webkit/WebView.html)
-  - As of API 17/Jelly Bean, private browsing is no longer supported.
-  - As of API 19/KitKat, webview is based on [Chromium](http://www.chromium.org/Home)
+  - As of API 19/KitKat(4.4-4.4.4), webview is based on [Chromium](http://www.chromium.org/Home)
+  - As of API 17/Jelly Bean(4.2-4.2.2), private browsing is no longer supported.
+  - As of API 6/Eclair(2.0?2.1), support is available for different screen densities, especially `-webkit-device-pixel-ratio` Media queries
+  - As of API 3/Cupcake(1.5), Zoom is supported
+
+  - In order to support inline HTML5 video in your application, you need to have hardware acceleration turned on.
 
 [Android version history](https://en.wikipedia.org/wiki/Android_version_history)
 
@@ -50,4 +55,12 @@ NOTE: Some of these libraries are based on [WebKit](https://www.webkit.org/). Ho
  Bottom line, it's not ready. NOTE, this is not Firefox OS. This is a library intended for Android.
 
 - [Mobile/GeckoView](https://wiki.mozilla.org/Mobile/GeckoView)
-- [Outstanding bugs](https://bugzilla.mozilla.org/show_bug.cgi?id=880107)
+- [Outstanding bugs](https://bugzilla.mozilla.org/show_bug.cgi?id=880107) - [meta] Tracking bug for GeckoView embedding work on Android
+
+### Important References ###
+
+1. [ECMAScript 5 compatibility table](http://kangax.github.io/compat-table/es5/)
+2. [browser compatibility cheat sheet](http://sheet.shiar.nl/browser)
+
+
+

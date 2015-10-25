@@ -25,6 +25,9 @@ Yes there are more bugs, I just have not seen any yet.
 
 ### iOS Known Bugs ###
 
+* *Facebook Says It Fixed A Bug That Caused Silent Audio To Vampire Your iPhone Battery*
+* http://techcrunch.com/2015/10/22/facebook-says-it-fixed-a-bug-that-caused-silent-audio-to-vampire-your-iphone-battery/#.n72ctj:3Z2C
+
 * *IPhone 6s: Display bug affecting users who restored backup from older iPhones* - October 4, 2015
 * http://rapidnewsnetwork.com/iphone-6s-display-bug-affecting-users-who-restored-backup-from-older-iphones/208835/
 

@@ -38,7 +38,7 @@ Google: [webview alternative](https://www.google.com/search?q=webview+alternativ
 4. [WebView QML Type](http://doc.qt.io/qt-5/qml-qtwebkit-webview.html) - This is a webview library, but ther are no indications this has been ported to Android or other mobile systems.
 
 
-### Important Articles ###
+### Important Articles Regarding Android ###
 
 * *Migrating to WebView in Android 4.4* - undated
 * https://developer.android.com/guide/webapps/migrating.html
@@ -77,4 +77,11 @@ Google: [webview alternative](https://www.google.com/search?q=webview+alternativ
 
 * *Android Tutorial for Beginners 20 # Android WebView Example* - Feb 2015
 * https://www.youtube.com/watch?v=nB-relROsrY
+
+### Important References ###
+
+1. [ECMAScript 5 compatibility table](http://kangax.github.io/compat-table/es5/)
+2. [browser compatibility cheat sheet](http://sheet.shiar.nl/browser)
+3. [Optimizing content for different browsers: the RIGHT way](https://www.w3.org/community/webed/wiki/Optimizing_content_for_different_browsers:_the_RIGHT_way)
+4. [How to Make All Browsers Render HTML5 Mark-up Correctly](http://code.tutsplus.com/tutorials/how-to-make-all-browsers-render-html5-mark-up-correctly-even-ie6--net-8669)
 
