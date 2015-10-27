@@ -56,11 +56,20 @@ If you implemented the whitelist system for Android before `15 Apr 2015`, then y
 
 If you have not implemented the whitelist system yet, then you want to start here. This plugin has more parameters and has better granularity that the legacy plugin.
 
+
+| Which XML element  |  Controls  |  Quirks  |
+|--------------------|------------|----------|
+| `allow-navigation` | |WebView](webview.md) | *Android* applies to iframe (non-http(s)) |
+| `allow-intent`     | URL request to system `window.open()` | *Android* equivalent to BROWSEABLE
+| `access origin`    | Controls network requests (images, XHRs, etc) via Cordova | *Android* makes allowance for [Talkback](http://www.androidcentral.com/what-google-talk-back)µ
+
+- µ = The documentation alludes the Android has this built-in.
+
 ###4. <a name=navigation>allow-navigation</a>###
 
 Controls which URLs the \*WebView* itself can be navigated to. Applies to top-level navigations only. 
 
-By default, navigations only to file:// URLs, are allowed. To allow other other URLs, you must add <allow-navigation> tags to your config.xml.
+By default, navigations only to `file://` URLs, are allowed. To allow other other URLs, you must add `<allow-navigation>` tags to your `config.xml`.
 
 *Quirks:* On Android, it also applies to iframes for non-http(s) schemes.
 
@@ -70,7 +79,7 @@ By default, navigations only to file:// URLs, are allowed. To allow other other 
 
 Controls which URLs the app is allowed to ask the \*system* to open. By default, no external URLs are allowed.
 
-This whitelist does not apply to plugins, only hyperlinks and calls to window.open().
+This whitelist does not apply to plugins, only hyperlinks and calls to `window.open()`.
 
 *Quirks:* On Android, this equates to sending an intent of type BROWSEABLE.
 
@@ -78,7 +87,13 @@ This whitelist does not apply to plugins, only hyperlinks and calls to window.op
 
 ###6. <a name=access>access origin</a>###
 
+Controls which network requests (images, XHRs, etc) are allowed to be made (via cordova native hooks).
 
+Without any `<access>` tags, only requests to `file://` URLs are allowed. However, the default Cordova application includes `<access origin="*">` by default.
+
+*Quirk:* Android also allows requests to `https://ssl.gstatic.com/accessibility/javascript/android/` by default, since this is required for TalkBack to function properly.
+
+**DANGEROUS-SETTING:** `<access origin="*" />`
 
 ###7. <a name=inappbrowser>inappbrowser</a>###
 
