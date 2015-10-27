@@ -74,6 +74,8 @@ This whitelist does not apply to plugins, only hyperlinks and calls to window.op
 
 *Quirks:* On Android, this equates to sending an intent of type BROWSEABLE.
 
+**DANGEROUS-SETTING:** `<allow-intent href="*" />`
+
 ###6. <a name=access>access origin</a>###
 
 
