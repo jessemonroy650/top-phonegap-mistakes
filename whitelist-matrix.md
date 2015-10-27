@@ -14,9 +14,10 @@ The table does not loop back or interconnect. This is, in fact, a simple expert 
 4. [Do I have to apply `allow-navigation`](#navigation)?
 5. [Do I have to apply `allow-intent`](#intent)?
 6. [Do I have to apply `access origin`](#access)?
-7. [How does this affect `inappbrowser`](#inappbrowser)?
-8. [CSP](#csp)?
-9. [ATS](#ats)?
+7. [How do I apply those config.xml elements](#config.xml)?
+8. [How does this affect `inappbrowser`](#inappbrowser)?
+9. [CSP](#csp)?
+10. [ATS](#ats)?
 
 ###1. <a name=version>Is my version of Cordova/Phonegap included</a>###
 
@@ -56,15 +57,6 @@ If you implemented the whitelist system for Android before `15 Apr 2015`, then y
 
 If you have not implemented the whitelist system yet, then you want to start here. This plugin has more parameters and has better granularity that the legacy plugin.
 
-
-| Which XML element  |  Controls  |  Quirks  |
-|--------------------|------------|----------|
-| `allow-navigation` | [WebView](webview.md) | *Android* applies to iframe (non-http(s)) |
-| `allow-intent`     | URL request to system `window.open()` | *Android* equivalent to BROWSEABLE
-| `access origin`    | Controls network requests (images, XHRs, etc) via Cordova | *Android* makes allowance for [Talkback](http://www.androidcentral.com/what-google-talk-back)µ
-
-- µ = The documentation alludes the Android has this built-in.
-
 ###4. <a name=navigation>allow-navigation</a>###
 
 Controls which URLs the \*WebView* itself can be navigated to. Applies to top-level navigations only. 
@@ -95,11 +87,21 @@ Without any `<access>` tags, only requests to `file://` URLs are allowed. Howeve
 
 **DANGEROUS-SETTING:** `<access origin="*" />`
 
-###7. <a name=inappbrowser>inappbrowser</a>###
+###7. <a name=config.xml>How do I apply those config.xml elements</a>###
 
-###8. <a name=csp>CSP</a>###
+| Which XML element  |  Controls  |  Quirks  |
+|--------------------|------------|----------|
+| `allow-navigation` | [WebView](webview.md) | *Android* applies to iframe (non-http(s)) |
+| `allow-intent`     | URL request to system `window.open()` | *Android* equivalent to BROWSEABLE
+| `access origin`    | Controls network requests (images, XHRs, etc) via Cordova | *Android* makes allowance for [Talkback](http://www.androidcentral.com/what-google-talk-back)µ
 
-###9. <a name=ats>ATS</a>###
+- µ = The documentation alludes that Android has this built-in.
+
+###8. <a name=inappbrowser>inappbrowser</a>###
+
+###9. <a name=csp>CSP</a>###
+
+###10. <a name=ats>ATS</a>###
 
 
 ----
