@@ -16,7 +16,7 @@ The table does not loop back or interconnect. This is, in fact, a simple expert 
 6. [Do I have to apply `access origin`](#access)?
 7. [How does this affect `inappbrowser`](#inappbrowser)?
 8. [How do I apply those `config.xml` elements](#config.xml)?
-9. [CSP](#csp)?
+9. [CSP (Content Security Policy)](#csp)?
 10. [ATS](#ats)?
 
 ###1. <a name=version>Is my version of Cordova/Phonegap included</a>###
@@ -112,7 +112,66 @@ The documentation suggests that the CSP be used instead of `access origin`. I di
 - ¿ = It unclear how this interacts with `inappbrowser`
 - µ = The documentation alludes that Android has this built-in.
 
-###9. <a name=csp>CSP</a>###
+###9. <a name=csp>CSP (Content Security Policy)</a>###
+
+CSP has to be the most heinous part of the `whitelist` system. It has sixteen (16) directives and they have overlapping logic. I can safely predict this will be rewritten.
+
+The CSP is configured per web page using HTTP headers. Whenever the browser loads an HTML document, the response headers of the HTTP request that delivered the document are used to configure the *content security policy* for all content that originates from this HTML document.
+
+The CSP is configured via a single header (Content-Security-Policy or X-Content-Security-Policy). The value of this header is a string that is effectively a set of directives separated by a semicolon. The directives define a list of sources that are safe to communicate with. There is a directive for each of the resource types such as images, xhr, styles, scripts.
+
+
+Each of the directives listed can define one or more sources that are safe to consume. 
+You can combine sources, which can include 'CSP Keywords', 'CSP Data(words)', and 'Host (regular) Expressions'. 
+
+**Directives**
+
+| CSP Directives | Governs
+|-----------|--------
+| child-src   | the nested browsing contexts and the execution of Workers
+| connect-src | network activities such as XMLHttpRequest::send
+| font-src    | fonts loading
+| form-action | form submissions
+| frame-ancestors | embedding of iframes, objects, applets etc
+| img-src     | loading of images
+| media-src   | video and audio sources
+| object-src  | plugins
+| script-src  | scripts execution
+| style-src   | CSS sources
+| (more)      | SEE [W3.org directives](http://www.w3.org/TR/CSP2/#directives)
+
+
+**CSP Keywords** 
+
+- \*The single quotes are required.*
+
+| CSP Keywords | Meaning
+|---------|---------
+| 'none' | Refers to the empty set; that is, no URLs match.
+| 'self' | Refers to the origin from which the protected document is being served, including the same URL scheme and port number.
+| 'unsafe-inline' | Allows the use of inline resources, such as inline `<script>` elements, javascript: URLs, inline event handlers, and inline `<style>` elements.<br>**This is what makes this ridiculous for mobile Apps**
+| 'unsafe-eval' | Allows the use of eval() and similar methods for creating code from strings. <br>**What does "similar methods" mean**
+
+**CSP Data** 
+
+| CSP Data(words) | Meaning 
+|------|---------|
+| data: | Allows data: URIs to be used as a content source. This is insecure; an attacker can also inject arbitrary data: URIs. Use this sparingly and definitely not for scripts.
+| mediastream: | Allows mediastream: URIs to be used as a content source.
+| blob: | Allows blob: URIs to be used as a content source. <br>**This is another ridiculous thing for mobile Apps**
+| filesystem: | Allows filesystem: URIs to be used as a content source.<br>**This is another ridiculous thing for mobile Apps**
+| gap: | This is required for iOS. **It is badly documented**
+
+**CSP Host (regular) Expressions**
+
+| need add | examples 
+
+There are four (4) documents worth reading on this subject.
+
+- [Content Security Policy Reference](http://content-security-policy.com/) Website
+- [CSP Policy Directives](https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives#Keywords) - Mozilla
+- [Using Content Security Policy to Make Apps More Secure]() - #60devs
+- [CSP 2 Directives](http://www.w3.org/TR/CSP2/#directives) - W3.org
 
 ###10. <a name=ats>ATS</a>###
 
