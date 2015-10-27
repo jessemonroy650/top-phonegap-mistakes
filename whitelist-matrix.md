@@ -59,7 +59,7 @@ If you have not implemented the whitelist system yet, then you want to start her
 
 | Which XML element  |  Controls  |  Quirks  |
 |--------------------|------------|----------|
-| `allow-navigation` | |WebView](webview.md) | *Android* applies to iframe (non-http(s)) |
+| `allow-navigation` | [WebView](webview.md) | *Android* applies to iframe (non-http(s)) |
 | `allow-intent`     | URL request to system `window.open()` | *Android* equivalent to BROWSEABLE
 | `access origin`    | Controls network requests (images, XHRs, etc) via Cordova | *Android* makes allowance for [Talkback](http://www.androidcentral.com/what-google-talk-back)µ
 
