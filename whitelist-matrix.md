@@ -1,9 +1,9 @@
-## White-list Matrix ##
+# White-list Matrix #
 Date: 2015-10-26
 
-Often I think someone at Microsoft designed this, but then I realize that the entire things was the product of multiple committes working indepently - with no real design criteria. 
+Often I think someone at Microsoft designed this, but then I realize that the entire things was the product of multiple committes working indepently - with no real design criteria, it all makes sense.
 
-If you have never heard of a [decision table](https://en.wikipedia.org/wiki/Decision_table), today you'll learn of the value of them. This easy enough. Start at the top (1.) and continue till to the bottom (9.). If you drop out anywhere along the way. You are done. 
+If you have never heard of a [decision table](https://en.wikipedia.org/wiki/Decision_table), today you'll learn of the value of them. This easy enough. Start at the top (1.) and continue till to the bottom (9.). If you drop out anywhere along the way. You are done.  However, the tables in 1., 7., 
 
 The table does not loop back or interconnect. This is, in fact, a simple expert system &ndash; with you as the feedback. Meaning, if you discover an error, let me know. I or someone else will adjust this set of tables.
 
@@ -14,8 +14,8 @@ The table does not loop back or interconnect. This is, in fact, a simple expert 
 4. [Do I have to apply `allow-navigation`](#navigation)?
 5. [Do I have to apply `allow-intent`](#intent)?
 6. [Do I have to apply `access origin`](#access)?
-7. [How do I apply those config.xml elements](#config.xml)?
-8. [How does this affect `inappbrowser`](#inappbrowser)?
+7. [How does this affect `inappbrowser`](#inappbrowser)?
+8. [How do I apply those `config.xml` elements](#config.xml)?
 9. [CSP](#csp)?
 10. [ATS](#ats)?
 
@@ -32,7 +32,7 @@ The table does not loop back or interconnect. This is, in fact, a simple expert 
 - ¢ = Cordova and Phonegap versions do NOT align, but are close. This version is not the \*pinned* version either. If you do not know the difference, [learn](http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/) - [official release policy](https://github.com/apache/cordova-coho/blob/master/docs/versioning-and-release-strategy.md).
 - ¥ = This include cli-5.1.0 and cli.5.2.0
 - £ = As of 2015-10-28, iOS9 is officially **not** supported until *Cordova iOS 4.0.0* is released ([SEE](http://community.phonegap.com/nitobi/topics/phonegap-build-ios-9-support-status)).
-- § = ATS requires &ndash; if you are using Apple's SSL, the server you connect to [run TLSv1.2](http://ste.vn/2015/06/10/configuring-app-transport-security-ios-9-osx-10-11/)
+- § = ATS requires &ndash; if you are using Apple's SSL, then the server you connect to [run TLSv1.2](http://ste.vn/2015/06/10/configuring-app-transport-security-ios-9-osx-10-11/)
 
 ###2. <a name=guide>Which guide</a>###
 
@@ -87,7 +87,21 @@ Without any `<access>` tags, only requests to `file://` URLs are allowed. Howeve
 
 **DANGEROUS-SETTING:** `<access origin="*" />`
 
-###7. <a name=config.xml>How do I apply those config.xml elements</a>###
+###7. <a name=inappbrowser>inappbrowser</a>###
+
+This one point where the documentation conflicts itself. If you do a search for `whitelist` you will see do different conflicting lines. The poor design here indicates that this will be re-written.
+
+*In the middle of the  3rd paragraph is*
+
+> The InAppBrowser is not subject to the whitelist, nor is opening links in the system browser.
+
+*In `cordova.InAppBrowser.open()`, under 'target' is*
+
+> _self: Opens in the Cordova WebView if the URL is in the white list, otherwise it opens in the InAppBrowser.
+
+###8. <a name=config.xml>How do I apply those `config.xml` elements</a>###
+
+The documentation suggests that the CSP be used instead of `access origin`. I disagree. CSP is confusing and unclear. Further the design by committee lends it ripe for a re-write.
 
 | Which XML element  |  Controls  |  Quirks  |
 |--------------------|------------|----------|
@@ -96,8 +110,6 @@ Without any `<access>` tags, only requests to `file://` URLs are allowed. Howeve
 | `access origin`    | Controls network requests (images, XHRs, etc) via Cordova | *Android* makes allowance for [Talkback](http://www.androidcentral.com/what-google-talk-back)µ
 
 - µ = The documentation alludes that Android has this built-in.
-
-###8. <a name=inappbrowser>inappbrowser</a>###
 
 ###9. <a name=csp>CSP</a>###
 
