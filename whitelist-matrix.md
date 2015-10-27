@@ -26,7 +26,6 @@ The table does not loop back or interconnect. This is, in fact, a simple expert 
 | 3.x | Available   |  - |
 | 4.x | Required    | white-list, plugin |
 | 5.x<sup>¥</sup> | Required    | white-list, plugin, CSP |
-| 5.x<sup>¥</sup> | Required    | white-list, plugin, CSP |
 | Any above AND iOS9<sup>£</sup> | Required | Apple's ATS<sup>§</sup> |
 
 - ¢ = Cordova and Phonegap versions do NOT align, but are close. This version is not the \*pinned* version either. If you do not know the difference, [learn](http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/) - [official release policy](https://github.com/apache/cordova-coho/blob/master/docs/versioning-and-release-strategy.md).
@@ -36,11 +35,11 @@ The table does not loop back or interconnect. This is, in fact, a simple expert 
 
 ###2. <a name=guide>Which guide</a>###
 
-For all intensive purpose, there are three (3) whitelist guides. They are all have mistakes, lack current information, and suffer from negelect. However, the important 
+For all intensive purpose, there are three (3) whitelist guides. They are all have mistakes, lack current information, and suffer from negelect. However, the important pointer are available for each platform. So, if you are working on Windows, Blackberry, Tizen, or one of the other platform, do read the appropriate guide. 
 
-1. [Cordova Whitelist Guide](http://cordova.apache.org/docs/en/5.1.1/guide/appdev/whitelist/index.html)
-2. Phonegap Whitelist Guide](http://docs.phonegap.com/en/edge/guide_appdev_whitelist_index.md.html#Whitelist%20Guide)
-3. [Phonegap Build Whitelist Guide](http://docs.build.phonegap.com/en_US/configuring_access_elements.md.html#Access%20Elements)
+1. [Cordova Whitelist Guide](http://cordova.apache.org/docs/en/5.1.1/guide/appdev/whitelist/index.html) - Cordova CLI and SDK
+2. [Phonegap Whitelist Guide](http://docs.phonegap.com/en/edge/guide_appdev_whitelist_index.md.html#Whitelist%20Guide) - Phonegap CLI and SDK
+3. [Phonegap Build Whitelist Guide](http://docs.build.phonegap.com/en_US/configuring_access_elements.md.html#Access%20Elements) - Phonegap Build only
 
 
 ###3. <a name=plugin>Which plugin, `whitelist` or `legacy-whitelist`</a>###
