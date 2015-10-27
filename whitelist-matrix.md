@@ -89,7 +89,7 @@ Without any `<access>` tags, only requests to `file://` URLs are allowed. Howeve
 
 ###7. <a name=inappbrowser>inappbrowser</a>###
 
-This one point where the documentation conflicts itself. If you do a search for `whitelist` you will see do different conflicting lines. The poor design here indicates that this will be re-written.
+This one point where the documentation conflicts itself. If you do a search for `whitelist` you will see do different conflicting lines. The poor design here indicates that this will be re-written. The inconsistence in the writing style points to multiple authors, hence the neglect.
 
 *In the middle of the  3rd paragraph is*
 
@@ -101,14 +101,15 @@ This one point where the documentation conflicts itself. If you do a search for 
 
 ###8. <a name=config.xml>How do I apply those `config.xml` elements</a>###
 
-The documentation suggests that the CSP be used instead of `access origin`. I disagree. CSP is confusing and unclear. Further the design by committee lends it ripe for a re-write.
+The documentation suggests that the CSP be used instead of `access origin`. I disagree. CSP is confusing and unclear. Further the design by committee lends it ripe for a re-write. In addition, the inconsitency with inappbrowser adds to more confusion.
 
 | Which XML element  |  Controls  |  Quirks  |
 |--------------------|------------|----------|
-| `allow-navigation` | [WebView](webview.md) | *Android* applies to iframe (non-http(s)) |
-| `allow-intent`     | URL request to system `window.open()` | *Android* equivalent to BROWSEABLE
-| `access origin`    | Controls network requests (images, XHRs, etc) via Cordova | *Android* makes allowance for [Talkback](http://www.androidcentral.com/what-google-talk-back)µ
+| `allow-navigation` | [WebView](webview.md) | *Android* applies to iframe (non-http(s))<sup>¿</sup> |
+| `allow-intent`     | URL request to system `window.open()` | *Android* equivalent to BROWSEABLE<sup>¿</sup>
+| `access origin`    | Controls network requests (images, XHRs, etc) via Cordova | *Android* makes allowance for [Talkback](http://www.androidcentral.com/what-google-talk-back) <sup>µ</sup>
 
+- ¿ = It unclear how this interacts with `inappbrowser`
 - µ = The documentation alludes that Android has this built-in.
 
 ###9. <a name=csp>CSP</a>###
