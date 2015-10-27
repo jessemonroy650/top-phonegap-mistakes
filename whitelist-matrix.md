@@ -46,16 +46,37 @@ For all intensive purpose, there are three (3) whitelist guides. They all have m
 
 `legacy-whitelist`
 
-This plugin implements the Cordova 3.6 Whitelist policy for Cordova 4.0. If you implemented the whitelist system for Android before `15 Apr 2015`, then you can still use this system. As of that date, the new `whitelist` plugin is available and it runs with a different set of rules.
+> This plugin implements the Cordova 3.6 Whitelist policy for Cordova 4.0. 
+
+If you implemented the whitelist system for Android before `15 Apr 2015`, then you can still use this system. As of that date, the new `whitelist` plugin is available and it runs with a different set of rules. However, the `legacy-whitelist` is also available and is currently support - but not likely much longer.
 
 `whitelist`
 
+> This plugin implements a whitelist policy for navigating the application webview on Cordova 4.0
+
+If you have not implemented the whitelist system yet, then you want to start here. This plugin has more parameters and has better granularity that the legacy plugin.
 
 ###4. <a name=navigation>allow-navigation</a>###
 
+Controls which URLs the \*WebView* itself can be navigated to. Applies to top-level navigations only. 
+
+By default, navigations only to file:// URLs, are allowed. To allow other other URLs, you must add <allow-navigation> tags to your config.xml.
+
+*Quirks:* On Android, it also applies to iframes for non-http(s) schemes.
+
+**DANGEROUS-SETTING:** `<allow-navigation href="*" />`
+
 ###5. <a name=intent>allow-intent</a>###
 
+Controls which URLs the app is allowed to ask the \*system* to open. By default, no external URLs are allowed.
+
+This whitelist does not apply to plugins, only hyperlinks and calls to window.open().
+
+*Quirks:* On Android, this equates to sending an intent of type BROWSEABLE.
+
 ###6. <a name=access>access origin</a>###
+
+
 
 ###7. <a name=inappbrowser>inappbrowser</a>###
 
