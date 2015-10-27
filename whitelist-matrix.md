@@ -18,7 +18,7 @@ The table does not loop back or interconnect. This is, in fact, a simple expert 
 8. [CSP](#csp)?
 9. [ATS](#ats)?
 
-###<a name=version>Is my version of Cordova/Phonegap included</a>###
+###1. <a name=version>Is my version of Cordova/Phonegap included</a>###
 
 | Your Version of<br>*Cordova/Phonegap Tools* <sup>¢</sup> | support | notes |
 |----------------------------------|---------|-------|
