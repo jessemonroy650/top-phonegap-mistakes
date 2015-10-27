@@ -29,7 +29,7 @@ The table does not loop back or interconnect. This is, in fact, a simple expert 
 | 5.x<sup>¥</sup> | Required    | white-list, plugin, CSP |
 | Any above AND iOS9<sup>£</sup> | Required | Apple's ATS<sup>§</sup> |
 
-- ¢ = Cordova and Phonegap versions do NOT align, but are close. This version is not the \*pinned* version either. If you do not know the difference, [learn](http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/) - [official release policy](https://github.com/apache/cordova-coho/blob/master/docs/versioning-and-release-strategy.md).
+- ¢ = Cordova and Phonegap versions do NOT align, but are close. This version is not the \*pinned* version either. If you do not know the difference, [learn](http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/) &mdash; [official release policy](https://github.com/apache/cordova-coho/blob/master/docs/versioning-and-release-strategy.md).
 - ¥ = This include cli-5.1.0 and cli.5.2.0
 - £ = As of 2015-10-28, iOS9 is officially **not** supported until *Cordova iOS 4.0.0* is released ([SEE](http://community.phonegap.com/nitobi/topics/phonegap-build-ios-9-support-status)).
 - § = ATS requires &ndash; if you are using Apple's SSL, then the server you connect to [run TLSv1.2](http://ste.vn/2015/06/10/configuring-app-transport-security-ios-9-osx-10-11/)
@@ -49,7 +49,7 @@ For all intensive purpose, there are three (3) whitelist guides. They all have m
 
 > This plugin implements the Cordova 3.6 Whitelist policy for Cordova 4.0. 
 
-If you implemented the whitelist system for Android before `15 Apr 2015`, then you can still use this system. As of that date, the new `whitelist` plugin is available and it runs with a different set of rules. However, the `legacy-whitelist` is also available and is currently support - but not likely much longer.
+If you implemented the whitelist system for Android before `15 Apr 2015`, then you can still use this system. As of that date, the new `whitelist` plugin is available and it runs with a different set of rules. However, the `legacy-whitelist` is also available and is currently supported - but not much longer.
 
 `whitelist`
 
@@ -89,7 +89,7 @@ Without any `<access>` tags, only requests to `file://` URLs are allowed. Howeve
 
 ###7. <a name=inappbrowser>inappbrowser</a>###
 
-This one point where the documentation conflicts itself. If you do a search for `whitelist` you will see do different conflicting lines. The poor design here indicates that this will be re-written. The inconsistence in the writing style points to multiple authors, hence the neglect.
+This is one point where the documentation conflicts with it's self. If you do a search for `whitelist` on the [documentation](https://www.npmjs.com/package/cordova-plugin-inappbrowser) you will see the different conflicting lines. The poor design indicates that this will be re-written. The inconsistence in the writing style points to multiple authors, hence the neglect.
 
 *In the middle of the  3rd paragraph is*
 
@@ -115,7 +115,7 @@ The documentation suggests that the CSP be used instead of `access origin`. I di
 ###9. <a name=csp>CSP (Content Security Policy)</a>###
 
 **Opinion**
-> CSP has to be the most *heinous* part of the `whitelist` system. It has sixteen (16) directives and they have overlapping logic. I can safely predict this will be rewritten.
+> CSP has to be the most *heinous* part of the `whitelist` system. It has sixteen (16) directives and they have overlapping logic. I can safely predict this will be rewritten. 
 
 The CSP is configured per web page using HTTP headers. Whenever the browser loads an HTML document, the response headers of the HTTP request that delivered the document are used to configure the *content security policy* for all content that originates from this HTML document.
 
@@ -161,7 +161,7 @@ You can combine sources, which can include 'CSP Keywords', 'CSP Data(words)', an
 | mediastream: | Allows mediastream: URIs to be used as a content source.
 | blob: | Allows blob: URIs to be used as a content source. <br>**This is another ridiculous thing for mobile Apps**
 | filesystem: | Allows filesystem: URIs to be used as a content source.<br>**This is another ridiculous thing for mobile Apps**
-| gap: | *This dataword \*only\* applies to Cordova/Phonegap.* At this time, it is only required for iOS. **It is badly documented**
+| gap: | *This dataword only applies to Cordova/Phonegap.* At this time, it is only required for iOS. **It is badly documented**
 
 **CSP Host (regular) Expressions**
 
