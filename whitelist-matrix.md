@@ -5,7 +5,7 @@ Date: 2015-10-26
 
 ###<a name=first_decision>First Decision Table</a>###
 
-| Your Version of *Cordova/Phonegap Tools* <sup>¢</sup> | support | notes |
+| Your Version of<br>*Cordova/Phonegap Tools* <sup>¢</sup> | support | notes |
 |----------------------------------|---------|-------|
 | 2.x | Not support | deprecated |
 | 3.x | Available   |  - |
