@@ -81,6 +81,7 @@ Can you spell disaster?
 
   - **DANGEROUS, BUT WORKING**
   - `<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">`
+  - `<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *">`
   - Additional keywords and what they mean [CSP from Mozilla](https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives#Keywords) 
   - Wait KIDS! There is a whole [website that support CSP](http://content-security-policy.com/)
   - And here is an article [Using Content Security Policy to Make Apps More Secure](https://60devs.com/using-content-security-policy.html)
