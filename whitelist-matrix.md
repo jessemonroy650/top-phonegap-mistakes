@@ -34,7 +34,7 @@ The table does not loop back or interconnect. This is, in fact, a simple expert 
 - £ = As of 2015-10-28, iOS9 is officially **not** supported until *Cordova iOS 4.0.0* is released ([SEE](http://community.phonegap.com/nitobi/topics/phonegap-build-ios-9-support-status)).
 - § = ATS requires &ndash; if you are using Apple's SSL, the server you connect to [run TLSv1.2](http://ste.vn/2015/06/10/configuring-app-transport-security-ios-9-osx-10-11/)
 
-###<a name=guide>Which guide</a>###
+###2. <a name=guide>Which guide</a>###
 
 For all intensive purpose, there are three (3) whitelist guides. They are all have mistakes, lack current information, and suffer from negelect. However, the important 
 
@@ -43,7 +43,7 @@ For all intensive purpose, there are three (3) whitelist guides. They are all ha
 3. [Phonegap Build Whitelist Guide](http://docs.build.phonegap.com/en_US/configuring_access_elements.md.html#Access%20Elements)
 
 
-###<a name=plugin>Which plugin, `whitelist` or `legacy-whitelist`</a>###
+###3. <a name=plugin>Which plugin, `whitelist` or `legacy-whitelist`</a>###
 
 `legacy-whitelist`
 
@@ -52,17 +52,17 @@ This plugin implements the Cordova 3.6 Whitelist policy for Cordova 4.0. If you 
 `whitelist`
 
 
-###<a name=navigation>allow-navigation</a>###
+###4. <a name=navigation>allow-navigation</a>###
 
-###<a name=intent>allow-intent</a>###
+###5. <a name=intent>allow-intent</a>###
 
-###<a name=access>access origin</a>###
+###6. <a name=access>access origin</a>###
 
-###<a name=inappbrowser>inappbrowser</a>###
+###7. <a name=inappbrowser>inappbrowser</a>###
 
-###<a name=csp>CSP</a>###
+###8. <a name=csp>CSP</a>###
 
-###<a name=ats>ATS</a>###
+###9. <a name=ats>ATS</a>###
 
 
 ----
