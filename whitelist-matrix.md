@@ -161,7 +161,7 @@ You can combine sources, which can include 'CSP Keywords', 'CSP Data(words)', an
 | mediastream: | Allows mediastream: URIs to be used as a content source.
 | blob: | Allows blob: URIs to be used as a content source. <br>**This is another ridiculous thing for mobile Apps**
 | filesystem: | Allows filesystem: URIs to be used as a content source.<br>**This is another ridiculous thing for mobile Apps**
-| gap: | This is required for iOS. **It is badly documented**
+| gap: | *This dataword \*only\* applies to Cordova/Phonegap.* At this time, it is only required for iOS. **It is badly documented**
 
 **CSP Host (regular) Expressions**
 
