@@ -105,8 +105,8 @@ The documentation suggests that the CSP be used instead of `access origin`. I di
 
 | Which XML element  |  Controls  |  Quirks  |
 |--------------------|------------|----------|
-| `allow-navigation` | [WebView](webview.md) | *Android* applies to iframe (non-http(s))<sup>¿</sup> |
-| `allow-intent`     | URL request to system `window.open()` | *Android* equivalent to BROWSEABLE<sup>¿</sup>
+| `allow-navigation` | [WebView](webview.md)<sup>¿</sup> | *Android* applies this to iframes (non-http(s))
+| `allow-intent`     | URL request to system `window.open()`<sup>¿</sup> | *Android* equivalent to BROWSEABLE
 | `access origin`    | Controls network requests (images, XHRs, etc) via Cordova | *Android* makes allowance for [Talkback](http://www.androidcentral.com/what-google-talk-back) <sup>µ</sup>
 
 - ¿ = It unclear how this interacts with `inappbrowser`
