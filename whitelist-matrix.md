@@ -35,7 +35,7 @@ The table does not loop back or interconnect. This is, in fact, a simple expert 
 
 ###2. <a name=guide>Which guide</a>###
 
-For all intensive purpose, there are three (3) whitelist guides. They are all have mistakes, lack current information, and suffer from negelect. However, the important pointer are available for each platform. So, if you are working on Windows, Blackberry, Tizen, or one of the other platform, do read the appropriate guide. 
+For all intensive purpose, there are three (3) whitelist guides. They all have mistakes, lack current information, and suffer from neglect. However, there are important pointers for each platform. So, if you are working on *Windows, Blackberry, Tizen*, or one of the other platform, do read the appropriate guide. 
 
 1. [Cordova Whitelist Guide](http://cordova.apache.org/docs/en/5.1.1/guide/appdev/whitelist/index.html) - Cordova CLI and SDK
 2. [Phonegap Whitelist Guide](http://docs.phonegap.com/en/edge/guide_appdev_whitelist_index.md.html#Whitelist%20Guide) - Phonegap CLI and SDK
