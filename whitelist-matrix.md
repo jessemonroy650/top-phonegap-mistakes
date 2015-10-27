@@ -114,7 +114,8 @@ The documentation suggests that the CSP be used instead of `access origin`. I di
 
 ###9. <a name=csp>CSP (Content Security Policy)</a>###
 
-CSP has to be the most heinous part of the `whitelist` system. It has sixteen (16) directives and they have overlapping logic. I can safely predict this will be rewritten.
+**Opinion**
+> CSP has to be the most *heinous* part of the `whitelist` system. It has sixteen (16) directives and they have overlapping logic. I can safely predict this will be rewritten.
 
 The CSP is configured per web page using HTTP headers. Whenever the browser loads an HTML document, the response headers of the HTTP request that delivered the document are used to configure the *content security policy* for all content that originates from this HTML document.
 
