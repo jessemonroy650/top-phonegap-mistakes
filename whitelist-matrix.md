@@ -3,8 +3,9 @@ Date: 2015-10-26
 
 1. [Does it Apply](#first_decision)?
 
-<a name=first_decision>&nbsp;</a>
+<a name=first_decision>
 ### First Decision Table ###
+</a>
 
 | Your Version of *Cordova/Phonegap Tools* <sup>¢</sup> | support | notes |
 |----------------------------------|---------|-------|
