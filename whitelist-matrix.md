@@ -127,19 +127,27 @@ You can combine sources, which can include 'CSP Keywords', 'CSP Data(words)', an
 
 **Directives**
 
-| CSP Directives | Governs
-|-----------|--------
-| child-src   | the nested browsing contexts and the execution of Workers
-| connect-src | network activities such as XMLHttpRequest::send
-| font-src    | fonts loading
-| form-action | form submissions
-| frame-ancestors | embedding of iframes, objects, applets etc
-| img-src     | loading of images
-| media-src   | video and audio sources
-| object-src  | plugins
-| script-src  | scripts execution
-| style-src   | CSS sources
+| CSP Directives | W3 Section | Governs
+|----------------|------------|--------
+| base-uri    | 7.1  | restricts the URLs that can be used to specify the document base URL
+| child-src   | 7.2  | the nested browsing contexts and the execution of Workers
+| connect-src | 7.3  | network activities such as XMLHttpRequest::send
+| default-src | 7.4  | sets a default source list for a number of directives
+| font-src    | 7.5  | fonts loading
+| form-action | 7.6  | form submissions
+| frame-ancestors | 7.7  | embedding of iframes, objects, applets etc
+| frame-src   | 7.8  | *is deprecated*
+| img-src     | 7.9  | loading of images
+| media-src   | 7.10 | video and audio sources
+| plugin-types | 1.12 | (these are MIME-type plugins, not Cordova)
+| report-uri  | 7.13 | a URL to which the user agent sends reports about policy violation
+| sandbox     | 7.14 | specifies an HTML sandbox policy that the user agent applies to the protected resource
+| object-src  | 7.11 | objects (flash, audio, etc.)
+| script-src  | 7.15 | scripts execution
+| style-src   | 7.16 | CSS sources
+
 | (more)      | SEE [W3.org directives](http://www.w3.org/TR/CSP2/#directives)
+
 
 
 **CSP Keywords** 
@@ -150,7 +158,7 @@ You can combine sources, which can include 'CSP Keywords', 'CSP Data(words)', an
 |---------|---------
 | 'none' | Refers to the empty set; that is, no URLs match.
 | 'self' | Refers to the origin from which the protected document is being served, including the same URL scheme and port number.
-| 'unsafe-inline' | Allows the use of inline resources, such as inline `<script>` elements, javascript: URLs, inline event handlers, and inline `<style>` elements.<br>**This is what makes this ridiculous for mobile Apps**
+| 'unsafe-inline' | Allows the use of inline resources, such as inline `<script>` elements, javascript: URLs, inline event handlers, and inline `<style>` elements.<br>**This is what makes this ridiculous for mobile Apps**<br>  [Early event handlers](http://www.quirksmode.org/js/events_early.html) -- [Working with Inline Event Handlers](http://www.htmlgoodies.com/html5/javascript/working-with-inline-event-handlers.html#fbid=UZJyfkvftFq)
 | 'unsafe-eval' | Allows the use of eval() and similar methods for creating code from strings. <br>**What does "similar methods" mean**
 
 **CSP Data** 
