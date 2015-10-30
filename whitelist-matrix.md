@@ -36,22 +36,25 @@ The table does not loop back or interconnect. This is, in fact, a simple expert 
 
 ###2. <a name=guide>Which guide</a>###
 
-For all intensive purpose, there are three (3) whitelist guides. They all have mistakes, lack current information, and suffer from neglect. However, there are important pointers for each platform. So, if you are working on *Windows, Blackberry, Tizen*, or one of the other platform, do read the appropriate guide. 
+For all intensive purpose, there are three (3) whitelist guides. They all have mistakes, lack current information, and suffer from neglect. However, there are important pointers for each platform. So, if you are working on *Windows, Blackberry, Tizen*, or one of the other platform, do read the appropriate guide.
+
+However, the best and most accurate information seems to come from from the documentation for the `whitelist` plugin.
 
 1. [Cordova Whitelist Guide](http://cordova.apache.org/docs/en/5.1.1/guide/appdev/whitelist/index.html) - Cordova CLI and SDK
 2. [Phonegap Whitelist Guide](http://docs.phonegap.com/en/edge/guide_appdev_whitelist_index.md.html#Whitelist%20Guide) - Phonegap CLI and SDK
 3. [Phonegap Build Whitelist Guide](http://docs.build.phonegap.com/en_US/configuring_access_elements.md.html#Access%20Elements) - Phonegap Build only
+4. [cordova-plugin-whitelist](https://www.npmjs.com/package/cordova-plugin-whitelist) - npm
 
 
 ###3. <a name=plugin>Which plugin, `whitelist` or `legacy-whitelist`</a>###
 
-`legacy-whitelist`
+`[legacy-whitelist]()`
 
 > This plugin implements the Cordova 3.6 Whitelist policy for Cordova 4.0. 
 
 If you implemented the whitelist system for Android before `15 Apr 2015`, then you can still use this system. As of that date, the new `whitelist` plugin is available and it runs with a different set of rules. However, the `legacy-whitelist` is also available and is currently supported - but not much longer.
 
-`whitelist`
+`[whitelist](https://www.npmjs.com/package/cordova-plugin-whitelist)`
 
 > This plugin implements a whitelist policy for navigating the application webview on Cordova 4.0
 
@@ -145,10 +148,7 @@ You can combine sources, which can include 'CSP Keywords', 'CSP Data(words)', an
 | object-src  | 7.11 | objects (flash, audio, etc.)
 | script-src  | 7.15 | scripts execution
 | style-src   | 7.16 | CSS sources
-
 | (more)      | SEE [W3.org directives](http://www.w3.org/TR/CSP2/#directives)
-
-
 
 **CSP Keywords** 
 
