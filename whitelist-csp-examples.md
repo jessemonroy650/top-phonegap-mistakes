@@ -53,5 +53,15 @@ overlaps with 'frame-ancestors' and 'plugin-types'
 | style-src  | used, if it contains value, otherwise 'default-src'
 'unsafe-inline' and 'unsafe-eval' are required to over-ride the default setting, regardless of 'default-src'
 
+#### References ####
+
+- [W3.org CSP2](http://www.w3.org/TR/CSP2/)
+- [Mozilla CSP Policy Directives](https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives)
+- [http://content-security-policy.com/](http://content-security-policy.com/)
+- [CanIUse](http://caniuse.com/#search=csp)
+
+#### Useful Articles ####
+
+- [Using Content Security Policy to Make Apps More Secure](https://60devs.com/using-content-security-policy.html)
 
 

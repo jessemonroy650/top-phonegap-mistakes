@@ -46,15 +46,21 @@ To walk throught the various pieces of the different systems would be tedious. N
 
 ### Deciding What You Need ###
 
-[whitelist-matrix.md](whitelist-matrix.md)
+Often I think someone at Microsoft designed this, but then I realize that the entire things was the product of multiple committes working indepently - with no real design criteria, it all makes sense.
+
+The matrix in the next page is a series of decision tables that will walk you through to making the correct choices. It is infact a expert system. It will not write your code, but it will tell you what you need to write, and what you do not need to write.
+
+[whitelist-matrix.md](whitelist-matrix.md) NOT FINISHED, in rough state. About 80% done.
 
 ### Examples ###
 
-[whitelist-examples.md](whitelist-examples.md)
+Examples for each part. If you have any you'd like to lend, please email me or create an issue.
 
-[whitelist-csp-examples.md](whitelist-csp-examples.md)
+[whitelist-examples.md](whitelist-examples.md)  NOT STARTED, not even close.
 
-[whitelist-ats-examples.md](whitelist-ats-examples.md)
+[whitelist-csp-examples.md](whitelist-csp-examples.md) NOT FINISHED, in rough state. About 40% done.
+
+[whitelist-ats-examples.md](whitelist-ats-examples.md) JUST STARTED, in raw state. About 10% done.
 
 <a name=annoyances>
 ### Annoyances in creating this document ###

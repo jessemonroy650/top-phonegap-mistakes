@@ -1,11 +1,9 @@
 # White-list Matrix #
 Date: 2015-10-26
 
-Often I think someone at Microsoft designed this, but then I realize that the entire things was the product of multiple committes working indepently - with no real design criteria, it all makes sense.
-
 If you have never heard of a [decision table](https://en.wikipedia.org/wiki/Decision_table), today you'll learn of the value of them. This easy enough. Start at the top (1.) and continue till to the bottom (9.). If you drop out anywhere along the way. You are done.  However, the tables in 1., 7., 
 
-The table does not loop back or interconnect. This is, in fact, a simple expert system &ndash; with you as the feedback. Meaning, if you discover an error, let me know. I or someone else will adjust this set of tables.
+This table does not loop back or interconnect. This is, in fact, a simple expert system &ndash; with you as the feedback. Meaning, if you discover an error, let me know. I or someone else will adjust this set of tables.
 
 
 1. [Is my version of Cordova/Phonegap included](#version)?
@@ -124,6 +122,13 @@ The CSP is configured per web page using HTTP headers. Whenever the browser load
 
 The CSP is configured via a single header (Content-Security-Policy or X-Content-Security-Policy). The value of this header is a string that is effectively a set of directives separated by a semicolon. The directives define a list of sources that are safe to communicate with. There is a directive for each of the resource types such as images, xhr, styles, scripts.
 
+Several websites were culled for information
+
+- [W3.org CSP2](http://www.w3.org/TR/CSP2/)
+- [Mozilla CSP Policy Directives](https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives)
+- [http://content-security-policy.com/](http://content-security-policy.com/)
+- [CanIUse](http://caniuse.com/#search=csp)
+
 
 Each of the directives listed can define one or more sources that are safe to consume. 
 You can combine sources, which can include 'CSP Keywords', 'CSP Data(words)', and 'Host (regular) Expressions'. 
@@ -148,7 +153,8 @@ You can combine sources, which can include 'CSP Keywords', 'CSP Data(words)', an
 | object-src  | 7.11 | objects (flash, audio, etc.)
 | script-src  | 7.15 | scripts execution
 | style-src   | 7.16 | CSS sources
-| (more)      | SEE [W3.org directives](http://www.w3.org/TR/CSP2/#directives)
+
+- SEE [W3.org directives](http://www.w3.org/TR/CSP2/#directives) for more details
 
 **CSP Keywords** 
 
@@ -161,6 +167,9 @@ You can combine sources, which can include 'CSP Keywords', 'CSP Data(words)', an
 | 'unsafe-inline' | Allows the use of inline resources, such as inline `<script>` elements, javascript: URLs, inline event handlers, and inline `<style>` elements.<br>**This is what makes this ridiculous for mobile Apps**<br>  [Early event handlers](http://www.quirksmode.org/js/events_early.html) -- [Working with Inline Event Handlers](http://www.htmlgoodies.com/html5/javascript/working-with-inline-event-handlers.html#fbid=UZJyfkvftFq)
 | 'unsafe-eval' | Allows the use of eval() and similar methods for creating code from strings. <br>**What does "similar methods" mean**
 
+- SEE [W3.org source list syntax](http://www.w3.org/TR/CSP2/#source-list-syntax) for some details. There is no clear definition or descriptions for these keywords.
+- SEE [Mozilla Keywords](https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives#Keywords) for some definitions
+
 **CSP Data** 
 
 | CSP Data(words) | Meaning 
@@ -170,6 +179,10 @@ You can combine sources, which can include 'CSP Keywords', 'CSP Data(words)', an
 | blob: | Allows blob: URIs to be used as a content source. <br>**This is another ridiculous thing for mobile Apps**
 | filesystem: | Allows filesystem: URIs to be used as a content source.<br>**This is another ridiculous thing for mobile Apps**
 | gap: | *This dataword only applies to Cordova/Phonegap.* At this time, it is only required for iOS. **It is badly documented**
+
+- SEARCH [W3.org CSP2](http://www.w3.org/TR/CSP2/) for some usage rules
+- SEE [Mozilla Data](https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives#Data) for some description on these words.
+- SEE []()
 
 **CSP Host (regular) Expressions**
 
