@@ -19,7 +19,7 @@ Before any of this was implemented, all the members of the various team shared t
 
 The resulting documentations is a two-plus (2+) week effort to find all the various pieces. There were a <a href=#annoyances>number of annoyance</a> that extened the process.
 
-To walk throught the various pieces would be tedious. Not that that does not need to be done. However, let's cut to the chase and get back to the original goal &ndash; "one blog post." As such, **the code that follow turns off the entire whitelist system**. It is up to you to secure your App. If you don't, then you probably don't know that the [Night of the Living Dead](https://en.wikipedia.org/wiki/Living_Dead) has three parts.
+To walk throught the various pieces would be tedious. Not that that does not need to be done. However, let's cut to the chase and get back to the original goal &ndash; "one blog post." As such, *the code that follow **turns off** the entire whitelist system*. It is up to you to secure your App. If you don't, then you probably don't know that the [Night of the Living Dead](https://en.wikipedia.org/wiki/Living_Dead) has three parts.
 
 
 
