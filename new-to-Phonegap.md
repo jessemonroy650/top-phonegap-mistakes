@@ -50,7 +50,7 @@ LAST UPDATE: 2015-10-18
   <p />And in case you think this is minor, even veterans like Raymond Camden [have forgotten this](http://www.raymondcamden.com/2015/07/15/fyi-cordova-events-must-be-run-after-deviceready).
 
 5. **When designing the app, thinks phonegap works like a website.**<p />
-  Cordova/Phonegap is a framework that happens to use a library, called webview on Android (and similar libraries on other platforms), that happens to use HTML5 to render the UI (User Interface). The framework is NOT a webserver.
+  Cordova/Phonegap is a framework that happens to use a library, called webview on Android (and similar libraries on other platforms), that happens to use HTML5 to render the UI (User Interface). The framework is NOT a webserver. The framework is also NOT a webbrowser.
 
   *Quote* ***[Phonegap FAQ](http://phonegap.com/about/faq/)***
   > Q: Can you use PHP/ASP/JSF/Java/.NET with PhoneGap?
