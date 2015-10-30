@@ -10,17 +10,12 @@ Note: from here forward I will use Cordova to mean *Cordova CLI*, *Phonegap CLI*
 
 For the whitelist system used with *Cordova*, there is actually four (4) unrelated systems in place. 
 
-1. [legacy-whitelist plugin](https://www.npmjs.com/package/cordova-plugin-legacy-whitelist) (avoid)
-2. [whitelist plugin](https://www.npmjs.com/package/cordova-plugin-whitelist) (Cordova's)
-3. [W3's CSP](http://www.w3.org/TR/CSP2/) (Content Security Policy Level 2)
-4. [Apple's ATS](https://web.archive.org/web/20150905111538/https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/) (App Transport Security)
+1. [legacy-whitelist plugin](https://www.npmjs.com/package/cordova-plugin-legacy-whitelist) (avoid) was the previous `whitelist` system. It is provide for backwards compatibilty only.
+2. [whitelist plugin](https://www.npmjs.com/package/cordova-plugin-whitelist) (Cordova's) is the new `whitelist` system. It is required as of *Cordova Tools 4.0.0*. It has three (3) parts.
+3. [W3's CSP](http://www.w3.org/TR/CSP2/) (Content Security Policy Level 2) is a whitelist system that is implemented page by page. It is required as of *Cordova Tools 5.0.0*. It has sixteen (16) parts.
+4. [Apple's ATS](https://web.archive.org/web/20150905111538/https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/) (App Transport Security)  is a whitelist system exclusive to iOS. It required as of *iOS9*. It is implement in the `Info.plist`
 
-- *legacy-whitelist plugin* was the previous `whitelist` system. It is provide for backwards compatibilty only.
-- *whitelist plugin* is the new `whitelist` system. It is required as of *Cordova Tools 4.0.0*. It has three (3) parts.
-- *W3's CSP* is a whitelist system that is implemented page by page. It is required as of *Cordova Tools 5.0.0*. It has sixteen (16) parts.
-- ***Apple's ATS*** is a whitelist system exclusive to iOS. It required as of *iOS9*. It is implement in the `Info.plist`
-
-
+Before any of this was implemented, all the members of the various team shared the same [fever dream](https://answers.yahoo.com/question/index?qid=20080201212121AA2xedD). As a result, today we have the various systems to deal with.
 
 
 ### Annoyances in creating this document ###
