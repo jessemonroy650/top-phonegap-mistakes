@@ -26,14 +26,16 @@ To walk throught the various pieces of the different systems would be tedious. N
     <access origin="*" />
 
 - Add to every webpages that need internet or network access
-**DANGEROUS, BUT WORKING**
+- **DANGEROUS, BUT WORKING**
+`
     <meta http-equiv="Content-Security-Policy" 
               content="default-src *; 
                        style-src 'self' 'unsafe-inline' 'unsafe-eval'; 
                        script-src 'self' 'unsafe-inline' 'unsafe-eval';">
+`
 
 - Add to the `Info.plist`
-**DANGEROUS, BUT WORKING**
+- **DANGEROUS, BUT WORKING**
     <key>NSAppTransportSecurity</key>
          <dict>
          <key>NSAllowsArbitraryLoads</key>
