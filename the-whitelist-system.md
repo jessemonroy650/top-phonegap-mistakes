@@ -15,6 +15,9 @@ For the whitelist system used with Cordova, there is actually four (4) unrelated
 3. [W3's CSP](http://www.w3.org/TR/CSP2/) (Content Security Policy Level 2)
 4. [Apple's ATS]() (App Transport Security)
 
+
+
+### Annoyances in creating this document ###
 - It is NOT helpful that the Cordova Website continues to change and move pages.
 - It is NOT helpful that Apple's removes important documents. Like [this one](https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/index.html#//apple_ref/doc/uid/TP40016240) that is widely referenced. Guess what Apple, there is [this thing called archive.org](https://web.archive.org/web/20150905111538/https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/)
 - It is NOT helpful that both Google and Apple proclaim the world must use HTTPS to talk to them.
