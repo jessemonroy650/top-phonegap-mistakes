@@ -18,7 +18,7 @@ For the whitelist system used with *Cordova*, there is actually four (4) unrelat
 - *legacy-whitelist plugin* was the previous `whitelist` system. It is provide for backwards compatibilty only.
 - *whitelist plugin* is the new `whitelist` system. It is required as of *Cordova Tools 4.0.0*. It has three (3) parts.
 - *W3's CSP* is a whitelist system that is implemented page by page. It is required as of *Cordova Tools 5.0.0*. It has sixteen (16) parts.
-- Apple's ATS is a whitelist system exclusive to iOS. It required as of *iOS9*. It is implement in the `Info.plist`
+- ***Apple's ATS*** is a whitelist system exclusive to iOS. It required as of *iOS9*. It is implement in the `Info.plist`
 
 
 
