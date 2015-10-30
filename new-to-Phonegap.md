@@ -59,12 +59,12 @@ LAST UPDATE: 2015-10-18
 
   This also means that assets (javascript, css, etc) should be on the device NOT the network.
 
-  For example, if you have this:
-  > `<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>`
-  or this
-  > `<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>`
-  Change it to this:
-  > `<script src="jquery-1.11.3.min.js"></script>`
+  For example, if you have this:<br>
+  `<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>`<br>
+  or this<br>
+  `<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>`<br>
+  Change it to this:<br>
+  `<script src="jquery-1.11.3.min.js"></script>`
 
   In addition, Apple frowns on using apps as wrappers for websites.
 
