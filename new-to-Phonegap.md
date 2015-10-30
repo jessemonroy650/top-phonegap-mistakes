@@ -57,12 +57,14 @@ LAST UPDATE: 2015-10-18
   >
   > A: A PhoneGap application may <u>only</u> use HTML, CSS, and JavaScript. However, you can make use of network protocols (XmlHTTPRequest, Web Sockets, etc) to easily communicate with backend services written in any language. This allows your PhoneGap app to remotely access existing business processes while the device is connected to the Internet.
 
-  This also means that assets (javascript, css, etc) should be on the device NOT the netowork.
+  This also means that assets (javascript, css, etc) should be on the device NOT the network.
 
   For example, if you have this:
-  `<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>`
+  > `<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>`
+  or this
+  > `<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>`
   Change it to this:
-  `<script src="jquery-1.11.3.min.js"></script>`
+  > `<script src="jquery-1.11.3.min.js"></script>`
 
   In addition, Apple frowns on using apps as wrappers for websites.
 
