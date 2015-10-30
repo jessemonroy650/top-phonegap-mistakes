@@ -15,7 +15,7 @@ For the whitelist system used with *Cordova*, there is actually four (4) unrelat
 3. [W3's CSP](http://www.w3.org/TR/CSP2/) (Content Security Policy Level 2) is a whitelist system that is implemented webpage by webpage. It is required as of *Cordova Tools 5.0.0*. It has sixteen (16) parts.
 4. [Apple's ATS](https://web.archive.org/web/20150905111538/https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/) (App Transport Security)  is a whitelist system exclusive to iOS. It required as of *iOS9*. It is implemented in the `Info.plist`
 
-To walk throught the various pieces of the different systems would be tedious. Not that that does not need to be done. However, let's cut to the chase and get back to the original goal &ndash; "a one blog post." As such, *the code that follows*<br>***turns off ALL the whitelist systems***.<br> This means your app is not secured against attacks. It is up to you to secure your App. If you don't, then you probably don't know that the [Night of the Living Dead](https://en.wikipedia.org/wiki/Living_Dead) has three parts.
+To walk throught the various pieces of the different systems would be tedious. Not that that does not need to be done. However, let's cut to the chase and get back to the original goal &ndash; "a one blog post." As such,<p>*the code that follows* ***turns off ALL the whitelist systems***.<p> This means your app is not secured against attacks. It is up to you to secure your App. If you don't, then you probably don't know that the [Night of the Living Dead](https://en.wikipedia.org/wiki/Living_Dead) has three parts.
 
 ### Turning It All Off ###
 
