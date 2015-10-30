@@ -46,13 +46,13 @@ However, the best and most accurate information seems to come from from the docu
 
 ###3. <a name=plugin>Which plugin, `whitelist` or `legacy-whitelist`</a>###
 
-`[legacy-whitelist]()`
+[`legacy-whitelist`](https://www.npmjs.com/package/cordova-plugin-legacy-whitelist)
 
 > This plugin implements the Cordova 3.6 Whitelist policy for Cordova 4.0. 
 
 If you implemented the whitelist system for Android before `15 Apr 2015`, then you can still use this system. As of that date, the new `whitelist` plugin is available and it runs with a different set of rules. However, the `legacy-whitelist` is also available and is currently supported - but not much longer.
 
-`[whitelist](https://www.npmjs.com/package/cordova-plugin-whitelist)`
+[`whitelist`](https://www.npmjs.com/package/cordova-plugin-whitelist)
 
 > This plugin implements a whitelist policy for navigating the application webview on Cordova 4.0
 
