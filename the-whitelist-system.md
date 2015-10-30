@@ -21,24 +21,24 @@ To walk throught the various pieces of the different systems would be tedious. N
 
 - Add to `config.xml`
 **DANGEROUS, BUT WORKING**
-    `<allow-navigation href="*" />`
-    `<allow-intent href="*" />`
-    `<access origin="*" />`
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+    <access origin="*" />
 
 - Add to every webpages that need internet or network access
 **DANGEROUS, BUT WORKING**
-    `<meta http-equiv="Content-Security-Policy" 
+    <meta http-equiv="Content-Security-Policy" 
               content="default-src *; 
                        style-src 'self' 'unsafe-inline' 'unsafe-eval'; 
-                       script-src 'self' 'unsafe-inline' 'unsafe-eval';">`
+                       script-src 'self' 'unsafe-inline' 'unsafe-eval';">
 
 - Add to the `Info.plist`
 **DANGEROUS, BUT WORKING**
-    `<key>NSAppTransportSecurity</key>
+    <key>NSAppTransportSecurity</key>
          <dict>
          <key>NSAllowsArbitraryLoads</key>
          <true/>
-         </dict>`
+         </dict>
    
 ## Lucy, Esplain Youself ##
 
