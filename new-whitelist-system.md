@@ -1,5 +1,7 @@
 ## Cordova/Phonegap the white-list system ##
 
+A final version is in progress. You can [read it here](new-whitelist-system.md)
+
 Can you spell disaster? 
 
 - **FOREWARNED.** *This document is NOT all inclusive, nor does  it cover every exception. This blog entry is a road map to understanding. It is intended for professionals. If you are new to programming and mobile in particular, you will find this confusing and frustrating.* **FOREWARNED.**
