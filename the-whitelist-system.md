@@ -2,9 +2,9 @@
 
 MOVED the original to [whitelist-system.md](whitelist-system.md)
 
-Originally I wanted to do this as one blog post, but as the issues grew and the complexity increased, it appeared the best strategey is to have several pages.
+Originally I wanted to do this as a one blog post, but as the issues grew and the complexity increased, it appeared the best strategey is to have several pages.
 
-Note: from here forward I will use Cordova to mean *Cordova CLI*, *Phonegap CLI*, and *Phonegap Build*. If there is a difference, I will try to make it abundantly clear. If you don't know there is a difference [read this](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/new-to-Phonegap.md)
+Note: from here forward I will use **Cordova** to mean *Cordova CLI*, *Phonegap CLI*, and *Phonegap Build*. If there is a difference, I will try to make it abundantly clear. If you did not know there is a difference, [read this](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/new-to-Phonegap.md)
 
 ### Here is the breakdown. ###
 
@@ -15,14 +15,15 @@ For the whitelist system used with *Cordova*, there is actually four (4) unrelat
 3. [W3's CSP](http://www.w3.org/TR/CSP2/) (Content Security Policy Level 2) is a whitelist system that is implemented webpage by webpage. It is required as of *Cordova Tools 5.0.0*. It has sixteen (16) parts.
 4. [Apple's ATS](https://web.archive.org/web/20150905111538/https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/) (App Transport Security)  is a whitelist system exclusive to iOS. It required as of *iOS9*. It is implement in the `Info.plist`
 
+To walk throught the various pieces would be tedious. Not that that does not need to be done. However, let's cut to the chase and get back to the original goal &ndash; "a one blog post." As such, *the code that follow* ***turns off ALL the whitelist systems***. It is up to you to secure your App. If you don't, then you probably don't know that the [Night of the Living Dead](https://en.wikipedia.org/wiki/Living_Dead) has three parts.
+
+
+
+
+
 Before any of this was implemented, all the members of the various team shared the same [fever dream](https://answers.yahoo.com/question/index?qid=20080201212121AA2xedD). As a result, today we have the various systems to deal with.
 
-The resulting documentations is a two-plus (2+) week effort to find all the various pieces. There were a <a href=#annoyances>number of annoyance</a> that extened the process.
-
-To walk throught the various pieces would be tedious. Not that that does not need to be done. However, let's cut to the chase and get back to the original goal &ndash; "one blog post." As such, *the code that follow* ***turns off*** *the entire whitelist system*. It is up to you to secure your App. If you don't, then you probably don't know that the [Night of the Living Dead](https://en.wikipedia.org/wiki/Living_Dead) has three parts.
-
-
-
+The resulting blog post and reference pages is a two-plus (2+) week effort. There were a <a href=#annoyances>number of annoyance</a> that extened the process.
 
 
 <a name=annoyances>
