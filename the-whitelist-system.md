@@ -20,7 +20,7 @@ To walk throught the various pieces of the different systems would be tedious. N
 ### Turning It All Off ###
 
 - Add to `config.xml`
-**DANGEROUS, BUT WORKING**
+- **DANGEROUS, BUT WORKING**
 ```
     <allow-navigation href="*" />
     <allow-intent href="*" />
@@ -48,6 +48,7 @@ To walk throught the various pieces of the different systems would be tedious. N
 
 ## Lucy, Esplain Youself ##
 
+This sentence to be expanded to describe the link.
 [whitelist-system.md](new-whitelist-system.md)
 
 ### Deciding What You Need ###
