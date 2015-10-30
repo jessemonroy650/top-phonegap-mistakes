@@ -40,15 +40,30 @@ To walk throught the various pieces of the different systems would be tedious. N
          <true/>
          </dict>`
    
+## Lucy, Esplain Youself ##
+
+[whitelist-system.md](new-whitelist-system.md)
+
+### Deciding What You Need ###
+
+[whitelist-matrix.md](whitelist-matrix.md)
+
+### Examples ###
+
+[whitelist-examples.md](whitelist-examples.md)
+
+[whitelist-csp-examples.md](whitelist-csp-examples.md)
+
+[whitelist-ats-examples.md](whitelist-ats-examples.md)
+
+<a name=annoyances>
+### Annoyances in creating this document ###
+</a>
 
 Before any of this was implemented, all the members of the various team shared the same [fever dream](https://answers.yahoo.com/question/index?qid=20080201212121AA2xedD). As a result, today we have the various systems to deal with.
 
 The resulting blog post and reference pages is a two-plus (2+) week effort. There were a <a href=#annoyances>number of annoyance</a> that extened the process.
 
-
-<a name=annoyances>
-### Annoyances in creating this document ###
-</a>
 - It is NOT helpful that the Cordova Website continues to change and move pages.
 - It is NOT helpful that the Cordova team is weak in communications. (Please remember they all volunteer for this, and help is needed.)
 - It is NOT helpful that Apple's removes important documents. Like [this one](https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/index.html#//apple_ref/doc/uid/TP40016240) that is widely referenced. Guess what Apple, there is [this thing called archive.org](https://web.archive.org/web/20150905111538/https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/)

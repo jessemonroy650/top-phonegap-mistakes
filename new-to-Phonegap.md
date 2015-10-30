@@ -63,7 +63,7 @@ LAST UPDATE: 2015-10-18
   `<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>`<br>
   or this<br>
   `<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>`<br>
-  Change it to this:<br>
+  change it to this:<br>
   `<script src="jquery-1.11.3.min.js"></script>`
 
   In addition, Apple frowns on using apps as wrappers for websites.
