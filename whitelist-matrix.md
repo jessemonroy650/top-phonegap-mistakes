@@ -10,7 +10,7 @@ This is, in fact, a simple expert system &ndash; with you as the feedback. Meani
 
 1. [Is my version of Cordova/Phonegap included](#version)?
 2. [Which `whitelist` guide should I use](#guide)?
-3. [Which plugin, `legacy-whitelist` or `whitelist`](#plugin)?
+3. [Which plugin, `whitelist` or `legacy-whitelist`](#plugin)?<br>**The Cordova `whitelist`**
 4. [Do I have to apply `allow-navigation`](#navigation)?
 5. [Do I have to apply `allow-intent`](#intent)?
 6. [Do I have to apply `access origin`](#access)?
@@ -25,7 +25,7 @@ This is, in fact, a simple expert system &ndash; with you as the feedback. Meani
 cordova -v
 ```
 
-It is recommend that you move to Cordova V4.x as a minimum. Older versions are difficult to support and many plugins do not work correctly.
+It is recommend that you move to *Cordova Tools* V4.x as a minimum. Older versions are difficult to support and many plugins do not work correctly.
 
 | Your Version of<br>*Cordova/Phonegap Tools* <sup>¢</sup> | `whitelist`<br>support | notes |
 |----------------------------------|---------|-------|
@@ -52,7 +52,13 @@ However, the best and most accurate information seems to come from from the docu
 4. [cordova-plugin-whitelist](https://www.npmjs.com/package/cordova-plugin-whitelist) - npm
 
 
-###3. <a name=plugin>Which plugin, `legacy-whitelist` or `whitelist`</a>###
+###3. <a name=plugin>Which plugin, `whitelist` or `legacy-whitelist`</a>###
+
+> This plugin implements a whitelist policy for navigating the application webview on Cordova 4.0
+
+[`whitelist`](https://www.npmjs.com/package/cordova-plugin-whitelist)
+
+If you have not implemented the `whitelist` system yet, then you want to start here. This plugin has more parameters and has better granularity that the legacy plugin.
 
 [`legacy-whitelist`](https://www.npmjs.com/package/cordova-plugin-legacy-whitelist)
 
@@ -60,15 +66,11 @@ However, the best and most accurate information seems to come from from the docu
 
 If you implemented the whitelist system for Android before `15 Apr 2015`, then you can still use this system. As of that date, the new `whitelist` plugin is available and it runs with a different set of rules. While the `legacy-whitelist` is currently supported, you are \*strongly\* encouraged to move to the `whitelist` plugin.
 
-[`whitelist`](https://www.npmjs.com/package/cordova-plugin-whitelist)
-
-> This plugin implements a whitelist policy for navigating the application webview on Cordova 4.0
-
-If you have not implemented the `whitelist` system yet, then you want to start here. This plugin has more parameters and has better granularity that the legacy plugin.
-
 ##The Cordova `whitelist`##
 
 The Cordova `whitelist` has three (3) parts; `allow-navigation`, `allow-intent`, and `access origin`.
+
+- [Cordova whitelist Examples]( whitelist-examples.md)
 
 ###4. <a name=navigation>allow-navigation</a>###
 
@@ -211,8 +213,6 @@ There are four (4) documents worth reading on this subject.
 - [CanIUse](http://caniuse.com/#search=csp)
 
 ## Apple's ATS##
-
-
 ###10. <a name=ats>ATS</a>###
 
 - [ATS Examples]( whitelist-ats-examples.md)
