@@ -119,7 +119,7 @@ This is one point where the documentation conflicts with it's self. If you do a 
 | Which XML element  |  Controls  |  Quirks  |
 |--------------------|------------|----------|
 | `allow-navigation` | [WebView](webview.md)<sup>¿</sup> | *Android* applies this to iframes (non-http(s))
-| `allow-intent`     | URL request to system `window.open()`<sup>¿</sup> | *Android* equivalent to BROWSEABLE<br><b>does not apply to plugin</b>
+| `allow-intent`     | URL request to system `window.open()`<sup>¿</sup> | 1. *Android* equivalent to BROWSEABLE<br>2. <b>does not apply to plugin</b>
 | `access origin`    | Controls network requests (images, XHRs, etc) via Cordova Hooks | *Android* makes allowance for [Talkback](http://www.androidcentral.com/what-google-talk-back) <sup>µ</sup><br>th default Cordova application includes `<access origin="*">`
 
 - ¿ = It unclear from the documentation how this interacts with `inappbrowser`.
