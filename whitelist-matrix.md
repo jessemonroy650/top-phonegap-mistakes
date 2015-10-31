@@ -127,6 +127,10 @@ This is one point where the documentation conflicts with it's self. If you do a 
 - ¿ = It unclear from the documentation how this interacts with `inappbrowser`.
 - µ = The documentation alludes that Android has this built-in.
 
+
+#### [Cordova whitelist Examples]( whitelist-examples.md) ####
+
+
 ##W3's CSP##
 ###9. <a name=csp>CSP (Content Security Policy)</a>###
 
