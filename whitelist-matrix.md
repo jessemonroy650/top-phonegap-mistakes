@@ -68,11 +68,11 @@ If you have not implemented the `whitelist` system yet, then you want to start h
 
 ##The Cordova `whitelist`##
 
-The Cordova `whitelist` has three (3) parts; `allow-navigation`, `allow-intent`, and `access`.
+The Cordova `whitelist` has three (3) parts; `allow-navigation`, `allow-intent`, and `access origin`.
 
 ###4. <a name=navigation>allow-navigation</a>###
 
-Controls which URLs the \*WebView* itself can be navigated to. Applies to top-level navigations only. 
+Controls which URLs the \*WebView\* itself can be navigated to. Applies to top-level navigations only. 
 
 By default, navigations only to `file://` URLs are allowed. To allow other URLs, you must add `<allow-navigation>` tags to your `config.xml`.
 
@@ -82,7 +82,7 @@ By default, navigations only to `file://` URLs are allowed. To allow other URLs,
 
 ###5. <a name=intent>allow-intent</a>###
 
-Controls which URLs the app is allowed to ask the \*system* to open. By default, no external URLs are allowed.
+Controls which URLs the app is allowed to ask the \*system\* to open. By default, no external URLs are allowed.
 
 This whitelist does not apply to plugins, only hyperlinks and calls to `window.open()`.
 
@@ -92,7 +92,7 @@ This whitelist does not apply to plugins, only hyperlinks and calls to `window.o
 
 ###6. <a name=access>access origin</a>###
 
-Controls which network requests (images, XHRs, etc) are allowed to be made (via cordova native hooks).
+Controls which \*network\* requests (images, XHRs, etc) are allowed to be made (via cordova native hooks).
 
 Without any `<access>` tags, only requests to `file://` URLs are allowed. However, the default Cordova application includes `<access origin="*">` by default.
 
