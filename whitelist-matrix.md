@@ -207,6 +207,38 @@ There are four (4) documents worth reading on this subject.
 ## Apple's ATS##
 ###10. <a name=ats>ATS</a>###
 
+As part of Apples move to iOS 9 Apple is mandating the use of Apple Transport System (ATS). This basically means that all comms should use https rather than http. At the moment it is easy to create exceptions to the ATS policy, Apple is likely to tighten up these exceptions over time, though it is difficult to see how they can make it 100% mandatory as some server sites simply will not work over https and may never be converted. 
+
+There are known issues with some sites using https AND Apples ATS. It is not simply the case that you need to add 's' to the http call. Apple mandates TLS1.2 with iOS9 and https and some sites will not work with TLS1.2 though they will work with https. Amazons Web Services is known to have problems. It is easy to create an exception 
+
+https://mobile.awsblog.com/post/Tx2QM69ZE6BGTYX/Preparing-Your-Apps-for-iOS-9
+
+```
+<key>NSAppTransportSecurity</key>
+<dict>
+      <key>NSExceptionDomains</key>
+      <dict>
+            <key>amazonaws.com</key>
+            <dict>
+                  <key>NSThirdPartyExceptionMinimumTLSVersion</key>
+                  <string>TLSv1.0</string>
+                  <key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+                  <false/>
+                  <key>NSIncludesSubdomains</key>
+                  <true/>
+            </dict>
+            <key>amazonaws.com.cn</key>
+            <dict>
+                  <key>NSThirdPartyExceptionMinimumTLSVersion</key>
+                  <string>TLSv1.0</string>
+                  <key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+                  <false/>
+                  <key>NSIncludesSubdomains</key>
+                  <true/>
+            </dict>
+      </dict>
+</dict>
+```
 
 ----
 
