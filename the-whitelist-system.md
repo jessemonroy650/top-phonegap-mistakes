@@ -19,7 +19,7 @@ For the whitelist system used with *Cordova*, there is actually four (4) unrelat
 
 To walk throught the various pieces of the different systems would be tedious. Not that that does not need to be done. There are at least five (5) documents that directly support this blog. However, let's cut to the chase and get back to the original goal &ndash; "a one blog post."<p>As such,*the code that follows* ***turns off ALL whitelist systems***. *This means your app is not secured against attacks. It is up to <u>you</u> to secure your App.* If you don't, then you probably don't know that the [Night of the Living Dead](https://en.wikipedia.org/wiki/Living_Dead) has three parts.
 
-Below this code, you can ***turn on and apply ALL the whitelist system***, complete with details *explanations, directions and examples*.
+Below this code, you can ***turn on and apply ALL the whitelist system***, complete with detailed *explanations, directions and examples*.
 
 ### Turning It All Off ###
 
