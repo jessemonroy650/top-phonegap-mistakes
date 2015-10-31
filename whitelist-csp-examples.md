@@ -37,15 +37,15 @@ Date: 2015-10-28
 | default-src | this directive is the fallback for many directives. | The follow directives use this directive as a fallback.<br>*child-src, connect-src, font-src, img-src, media-src, object-src, script-src, style-src* |
 | font-src    | used, if it contains value, otherwise 'default-src'  | - |
 | form-action | used, if it contains value, otherwise "acts" as if *fatal error* and report violation  | - |
-| frame-ancestors<sup>¥</sup> | <s>(used, if it contains value, otherwise value is treated as "*".)</s><sup>¥</sup> | The follow HTML elements are affected by this directive.<br>*frame, iframe, object, embed or applet* |
+| frame-ancestors<sup>¥</sup> | <s>(used, if it contains value, otherwise value is treated as "*".)</s><sup>¥</sup> | <s>The follow HTML elements are affected by this directive.<br>*frame, iframe, object, embed or applet*</s><sup>¥</sup> |
 | frame-src   | is deprecated  | - |
 | img-src     | used, if it contains value, otherwise 'default-src'  | - |
 | media-src   | used, if it contains value, otherwise 'default-src' | - |
-| object-src  | used, if it contains value, otherwise 'default-src' | overlaps with 'frame-ancestors' and 'plugin-types'<br>Unclear as to outcome. |
+| object-src  | used, if it contains value, otherwise 'default-src' | overlaps with <s>'frame-ancestors'</s><sup>¥</sup> and 'plugin-types'<br>Unclear as to outcome. |
 | plugin-types | restricts plugins via MIME type | - |
 | report-uri<sup>¥</sup>  | -  | - |
 | sandbox<sup>¥</sup>     | -  | - |
-| source-src  | used, if it contains value, otherwise 'default-src'  | - | 'unsafe-inline' and 'unsafe-eval' are required to over-ride the default setting, regardless of 'default-src' |
+| source-src | used, if it contains value, otherwise 'default-src' | 'unsafe-inline' and 'unsafe-eval' are required to over-ride the default setting, regardless of 'default-src' |
 | style-src  | used, if it contains value, otherwise 'default-src' | 'unsafe-inline' and 'unsafe-eval' are required to over-ride the default setting, regardless of 'default-src' |
 
 - ¥ = W3 [CSP 3.3. HTML meta Element ](http://www.w3.org/TR/CSP2/#delivery-html-meta-element) says,<br>*5. Remove all occurrences of report-uri, frame-ancestors, and sandbox directives from directive-set.*
