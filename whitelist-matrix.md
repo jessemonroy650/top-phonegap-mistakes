@@ -204,10 +204,11 @@ You can combine sources, which can include 'CSP Keywords', 'CSP Data(words)', an
 | mediastream: | Allows `mediastream:` URIs to be used as a content source.
 | blob: | Allows `blob:` URIs to be used as a content source. <br>**This is another ridiculous thing for mobile Apps**
 | filesystem: | Allows `filesystem:` URIs to be used as a content source.<br>**This is another ridiculous thing for mobile Apps**
-| gap: | *This dataword only applies to Cordova/Phonegap.* At this time, it is only required for iOS. **It is badly documented**
+| gap: | *This dataword only applies to Cordova/Phonegap.* At this time, it is required only on iOS (when using UIWebView) and is needed for JS->native communication. **It is badly documented**
 
 - SEARCH [W3.org CSP2](http://www.w3.org/TR/CSP2/) for some usage rules
 - SEE [Mozilla Data](https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives#Data) for some description on these words.
+- SEE [cordova-plugin-whitelist](https://www.npmjs.com/package/cordova-plugin-whitelist); search for `gap:`. This is the extent of the documentation.
 
 **CSP Host (regular) Expressions**
 
