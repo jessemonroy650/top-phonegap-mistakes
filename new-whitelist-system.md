@@ -23,7 +23,7 @@ Poor coding and standards have led to numerous security bugs (see below) being i
 
 The uses of whitelists and the Content Security Policy (CSP) tag are meant as a way of bringing security back to browsers and web applications. 
 
-*\*The principle behind\** the use of whitelists and CSP is simple. The programmer defines what resources they wish to use and connect to in advance. For each request that goes out, the client browser or application checks to see that the request for a resource such as a JSON file, a css file, an image or whatever is allowed. It also checks that the request that comes back is from the right server. The whitelist forces (in a nice way) a programmer to consider which resources they need to use and to define this in advance. Cordova V4.0 and later forces you to use whitelists. 
+*The principle behind* the use of whitelists and CSP is simple. The programmer defines what resources they wish to use and connect to in advance. For each request that goes out, the client browser or application checks to see that the request for a resource such as a JSON file, a css file, an image or whatever is allowed. It also checks that the request that comes back is from the right server. The whitelist forces (in a nice way) a programmer to consider which resources they need to use and to define this in advance. Cordova V4.0 and later forces you to use whitelists. 
 
 The Cordova whitelist plugin and CSP are complementary, CSP appears to be aimed more at web browsers, whilst the plugin is clearly aimed at the Cordova/PhoneGap community. The section below on CSP covers the various permutations of having and not having the whitelist plugin and the CSP tag.
 
