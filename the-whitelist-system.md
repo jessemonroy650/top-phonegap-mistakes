@@ -1,6 +1,6 @@
 ## Cordova/Phonegap the whitelist system ##
 
-MOVED the original to [whitelist-system.md](whitelist-system.md)
+MOVED the original to [whitelist-system.md](new-whitelist-system.md)
 
 Originally, I wanted to do this as a one blog post, but as the issues grew and the complexity increased, it appeared the best strategey is to have several pages. The resulting blog post and reference pages is a two-plus (2+) week effort. There were a <a href=#annoyances>number of annoyance</a> that extened the process.
 
@@ -53,7 +53,7 @@ After the answers below, below that are links to more details explanations and e
 
 No system is straight forward. Security systems tend to be compromises of care and the real world. Jim Dennis, reminds me that, "Security is a matter of policy. As an administrator (or developer), it is your job to enfore policy, not security."
 
-The Cordova `whitelist` system is about how best to apply real-world policy over a hybrid application. As such, sacrifices and compromises are every where. The link below is a document that walks through much of the Cordova `whitelist` system.
+The Cordova `whitelist` system is about how best to apply your real-world policies over a hybrid application. As such, sacrifices and compromises are every where. The link below is a document that walks through much of the Cordova `whitelist` system.
 
 [whitelist-system.md](new-whitelist-system.md)
 
