@@ -21,7 +21,7 @@ After the answers below, below that are links to more details explanations and e
 
 ### Turning It All Off ###
 
-- Start by adding the `[whitelist](https://www.npmjs.com/package/cordova-plugin-whitelist)` plugin.
+- Start by adding the [`whitelist`](https://www.npmjs.com/package/cordova-plugin-whitelist) plugin.
 - Then to disable the `whitelist` system, add to `config.xml`
 - **DANGEROUS, BUT WORKING**
 ```
