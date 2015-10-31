@@ -133,7 +133,7 @@ This is one point where the documentation conflicts with it's self. If you do a 
 **Opinion**
 > CSP has to be the most *heinous* part of the `whitelist` system. It has sixteen (16) directives and they have overlapping logic. Note, some developer have implemented this in a morning. *You are forewarned.*
 
-The CSP is configured per web page using HTTP headers (or HTML equivalent). Whenever the browser loads an HTML document, the response headers of the HTTP request that delivered the document are used to configure the *content security policy* for all content that originates from this HTML document.
+The CSP is configured per web page using HTTP headers (or HTML equivalent). Whenever the browser loads an HTML document, the response headers of the HTTP  (or HTML equivalent) request that the delivered document use the *content security policy* for all content that originates from this HTML document.
 
 The CSP is configured via a single header (Content-Security-Policy or X-Content-Security-Policy). The value of this header is a string that is effectively a set of directives separated by a semicolon. The directives define a list of sources that are safe to communicate with. There is a directive for each of the resource types such as images, xhr, styles, scripts.
 
