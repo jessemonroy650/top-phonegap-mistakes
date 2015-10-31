@@ -30,7 +30,7 @@ It is recommend that you move to Cordova V4.x as a minimum. Older versions are d
 | Your Version of<br>*Cordova/Phonegap Tools* <sup>¢</sup> | `whitelist`<br>support | notes |
 |----------------------------------|---------|-------|
 | 2.x | Not support | deprecated |
-| 3.x | Available   |  - |
+| 3.x | Available   | white-list, (legacy) plugin |
 | 4.x | Required    | white-list, plugin |
 | 5.x<sup>¥</sup> | Required    | white-list, plugin, CSP |
 | Any above AND iOS9<sup>£</sup> | Required | Apple's ATS<sup>§</sup> |
