@@ -131,7 +131,7 @@ This is one point where the documentation conflicts with it's self. If you do a 
 **Opinion**
 > CSP has to be the most *heinous* part of the `whitelist` system. It has sixteen (16) directives and they have overlapping logic. Note, some developer have implemented this in a morning. *You are forewarned.*
 
-The CSP is configured per web page using HTTP headers. Whenever the browser loads an HTML document, the response headers of the HTTP request that delivered the document are used to configure the *content security policy* for all content that originates from this HTML document.
+The CSP is configured per web page using HTTP headers (or HTML equivalent). Whenever the browser loads an HTML document, the response headers of the HTTP request that delivered the document are used to configure the *content security policy* for all content that originates from this HTML document.
 
 The CSP is configured via a single header (Content-Security-Policy or X-Content-Security-Policy). The value of this header is a string that is effectively a set of directives separated by a semicolon. The directives define a list of sources that are safe to communicate with. There is a directive for each of the resource types such as images, xhr, styles, scripts.
 
@@ -205,16 +205,16 @@ There are four (4) documents worth reading on this subject.
 - [Content Security Policy Reference](http://content-security-policy.com/) Website
 - [CSP Policy Directives](https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives#Keywords) - Mozilla
 - [Using Content Security Policy to Make Apps More Secure]() - #60devs
-- [CSP 2 Directives](http://www.w3.org/TR/CSP2/#directives) - W3.org
 
 ## Apple's ATS##
 ###10. <a name=ats>ATS</a>###
 
-As part of Apples move to iOS 9 Apple is mandating the use of Apple Transport System (ATS). This basically means that all comms should use https rather than http. At the moment it is easy to create exceptions to the ATS policy, Apple is likely to tighten up these exceptions over time, though it is difficult to see how they can make it 100% mandatory as some server sites simply will not work over https and may never be converted. 
+As part of Apples move to iOS 9 Apple is mandating the use of Apple Transport System (ATS). This basically means that all comms should use `https:` rather than `http:`. At the moment, it is easy to create exceptions to the ATS policy. Apple is likely to tighten up these exceptions over time, though it is difficult to see how they can make it 100% mandatory. The issue being that some server sites simply will not work over `https:` and may never be converted.
 
-There are known issues with some sites using https AND Apples ATS. It is not simply the case that you need to add 's' to the http call. Apple mandates TLS1.2 with iOS9 and https and some sites will not work with TLS1.2 though they will work with https. Amazons Web Services is known to have problems. It is easy to create an exception 
+Note,there are known issues with some sites using `https:` AND Apples ATS. It is not as simple as adding 's' to the `http:` call. Apple mandates [TLS1.2](https://en.wikipedia.org/wiki/Transport_Layer_Security) with iOS9 and `https:`, and some sites will not work with TLS1.2 though they will work with `https:`. Google ads and Amazons Web Services are known to have problems. It is easy to create an exception 
 
-https://mobile.awsblog.com/post/Tx2QM69ZE6BGTYX/Preparing-Your-Apps-for-iOS-9
+- Google Ads [Handling App Transport Security in iOS 9 ](http://googleadsdeveloper.blogspot.com/2015/08/handling-app-transport-security-in-ios-9.html)
+- AWS [Preparing Your Apps for iOS 9](https://mobile.awsblog.com/post/Tx2QM69ZE6BGTYX/Preparing-Your-Apps-for-iOS-9)
 
 ```
 <key>NSAppTransportSecurity</key>
