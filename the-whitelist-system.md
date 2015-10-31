@@ -34,8 +34,8 @@ After the answers, below that are links with more details explanations and examp
 **after 4.0.0**
 - **For use with full production apps.**
 - Start by adding the [`whitelist`](https://www.npmjs.com/package/cordova-plugin-whitelist) plugin. **required**
+-  - *Phonegap Build* Only `<gap:plugin name=cordova-plugin-whitelist source=npm>`
 -  - *Phonegap CLI* `cordova add plugin cordova-plugin-whitelist`
--  - *Phonegap Build* `<gap:plugin name=cordova-plugin-whitelist source=npm>`
 - Then to disable the `whitelist` system, add to `config.xml`
 - **DANGEROUS, BUT WORKING**
 ```
@@ -44,7 +44,8 @@ After the answers, below that are links with more details explanations and examp
     <access origin="*" />
 ```
 
-- To disable the `CSP` system, add this to every webpages that needs internet or network access, inline code (`<script>` and `<style>`), or `eval()`.
+- To disable the `CSP` system, add this to every webpages that needs internet or network access, inline code ([Javascript](http://www.quirksmode.org/js/events_early.html) 
+or [style](http://matthewjamestaylor.com/blog/adding-css-to-html-with-link-embed-inline-and-import)), or `eval()`.
 - **DANGEROUS, BUT WORKING**
 ```
     <meta http-equiv="Content-Security-Policy" 
