@@ -15,8 +15,8 @@ This is, in fact, a simple expert system &ndash; with you as the feedback. Meani
 5. [Do I have to apply `allow-intent`](#intent)?
 6. [Do I have to apply `access origin`](#access)?
 7. [How does this affect `inappbrowser`](#inappbrowser)?
-8. [How do I apply those `config.xml` elements](#config.xml)?
-9. [CSP (Content Security Policy)](#csp)?
+8. [How do I apply those `config.xml` elements](#config.xml)?<br>**W3's CSP**
+9. [CSP (Content Security Policy)](#csp)?<br>**Apple's ATS**
 10. [ATS](#ats)?
 
 ###1. <a name=version>Is my version of Cordova/Phonegap included</a>###
