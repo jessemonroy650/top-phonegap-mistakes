@@ -141,7 +141,7 @@ https://groups.google.com/forum/#!topic/phonegap/W8zAKXowrJk
 - It is hard to find versions for things
   - [Cordova/PhoneGap Version Confusion](http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/) - Outdated, does not reflect new system with dashes
   - Online NPM version are not up to date.
-  - Here is an example. [npm](https://www.npmjs.com/package/cordova-plugin-whitelist) says 1.0.0 , [blog](http://cordova.apache.org/news/2015/06/22/plugins-release.html) - June 22, 2015) says 1.1.0
+  - Here is an example. [npm](https://www.npmjs.com/package/cordova-plugin-whitelist) undated, says 1.0.0; [blog](http://cordova.apache.org/news/2015/06/22/plugins-release.html) - June 22, 2015, says 1.1.0
   - Note: the author is the same for both
 
 
