@@ -10,7 +10,7 @@ This is, in fact, a simple expert system &ndash; with you as the feedback. Meani
 
 1. [Is my version of Cordova/Phonegap included](#version)?
 2. [Which `whitelist` guide should I use](#guide)?
-3. [Which plugin, `whitelist` or `legacy-whitelist`](#plugin)?
+3. [Which plugin, `legacy-whitelist` or `whitelist`](#plugin)?
 4. [Do I have to apply `allow-navigation`](#navigation)?
 5. [Do I have to apply `allow-intent`](#intent)?
 6. [Do I have to apply `access origin`](#access)?
@@ -52,7 +52,7 @@ However, the best and most accurate information seems to come from from the docu
 4. [cordova-plugin-whitelist](https://www.npmjs.com/package/cordova-plugin-whitelist) - npm
 
 
-###3. <a name=plugin>Which plugin, `whitelist` or `legacy-whitelist`</a>###
+###3. <a name=plugin>Which plugin, `legacy-whitelist` or `whitelist`</a>###
 
 [`legacy-whitelist`](https://www.npmjs.com/package/cordova-plugin-legacy-whitelist)
 
