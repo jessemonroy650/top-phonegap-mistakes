@@ -1,11 +1,23 @@
 ## Phonegap Whitelist Examples ##
 Date: 2015-10-28
 
+There are more examples coming
 
 
+- **DANGEROUS, BUT WORKING**
+```
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+    <access origin="*" />
+```
+
+
+
+
+----
 
 **Access By Default**
-
+|------------------|------------------| Access By Default |--------|
 | directive        | Controls         | `file:` | `http(s):` | iframe | Controls<br>other plugins |
 |------------------|------------------|---------|------------|--------|---------------|
 | allow-navigation | webview          |  Yes    |    No      |   No   |     No        |
