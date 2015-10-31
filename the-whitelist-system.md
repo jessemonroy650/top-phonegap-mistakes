@@ -1,4 +1,4 @@
-## Cordova/Phonegap the whitelist system ##
+## HOW TO apply the Cordova/Phonegap the whitelist system ##
 
 MOVED the original to [new-whitelist-system.md](new-whitelist-system.md)
 
@@ -19,7 +19,7 @@ For the whitelist system used with *Cordova*, there is actually four (4) unrelat
 
 To walk throught the various pieces of the different systems would be tedious. Not that that does not need to be done. There are at least five (5) documents that directly support this blog. However, let's cut to the chase and get back to the original goal &ndash; "a one blog post."<p>As such,*the code that follows* ***turns off ALL whitelist systems***. *This means your app is not secured against attacks. It is up to <u>you</u> to secure your App.* If you don't, then you probably don't know that the [Night of the Living Dead](https://en.wikipedia.org/wiki/Living_Dead) has three parts.
 
-After the answers, below that are links with more details explanations and examples.
+After the answers, below that are links with more details explanations, directions and examples on exactly how to apply the "white system".
 
 ### Turning It All Off ###
 
