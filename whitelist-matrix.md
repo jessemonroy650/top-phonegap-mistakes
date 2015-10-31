@@ -224,6 +224,7 @@ Note, there are known issues with some sites using `https:` AND Apples ATS. It i
 - Google Ads [Handling App Transport Security in iOS 9 ](http://googleadsdeveloper.blogspot.com/2015/08/handling-app-transport-security-in-ios-9.html)
 - AWS [Preparing Your Apps for iOS 9](https://mobile.awsblog.com/post/Tx2QM69ZE6BGTYX/Preparing-Your-Apps-for-iOS-9)
 
+**Solution for amazonaws.com**
 ```
 <key>NSAppTransportSecurity</key>
 <dict>
