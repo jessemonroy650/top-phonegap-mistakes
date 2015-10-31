@@ -17,7 +17,8 @@ There are more examples coming
 ----
 
 **Access By Default**
-|------------------|------------------| Access By Default |--------|
+
+|------------------|------------------|---------|------------|--------|---------------|
 | directive        | Controls         | `file:` | `http(s):` | iframe | Controls<br>other plugins |
 |------------------|------------------|---------|------------|--------|---------------|
 | allow-navigation | webview          |  Yes    |    No      |   No   |     No        |
