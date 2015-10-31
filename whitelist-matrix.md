@@ -135,20 +135,19 @@ This is one point where the documentation conflicts with it's self. If you do a 
 
 The CSP is configured per web page using HTTP headers (or HTML equivalent). Whenever the browser loads an HTML document, the response headers of the HTTP  (or HTML equivalent) request that the delivered document use the *content security policy* for all content that originates from this HTML document.
 
-The CSP is configured via a single header (Content-Security-Policy or X-Content-Security-Policy). The value of this header is a string that is effectively a set of directives separated by a semicolon. The directives define a list of sources that are safe to communicate with. There is a directive for each of the resource types such as images, xhr, styles, scripts.
+The CSP is configured via a single header (Content-Security-Policy or X-Content-Security-Policy). The value of this header is a string that effectively sets directives separated by a semicolon. The directives define a list of sources that are safe to communicate with. There is a directive available for each of the resource types such as images, xhr, styles, scripts.
 
-Several websites were culled for information
+Several websites were culled for information to give this specificaiton clarity.
 
 - [W3.org CSP2](http://www.w3.org/TR/CSP2/)
 - [Mozilla CSP Policy Directives](https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives)
 - [http://content-security-policy.com/](http://content-security-policy.com/)
-- [CanIUse](http://caniuse.com/#search=csp)
 
+
+**Directives**
 
 Each of the directives listed can define one or more sources that are safe to consume. 
 You can combine sources, which can include 'CSP Keywords', 'CSP Data(words)', and 'Host (regular) Expressions'. 
-
-**Directives**
 
 | CSP Directives | W3 Section | Governs
 |----------------|------------|--------
@@ -200,13 +199,16 @@ You can combine sources, which can include 'CSP Keywords', 'CSP Data(words)', an
 
 **CSP Host (regular) Expressions**
 
-| need add | examples 
+| name     |   usage  | Example |
+|----------|----------|---------|
+| need add | examples | - |
 
 There are four (4) documents worth reading on this subject.
 
 - [Content Security Policy Reference](http://content-security-policy.com/) Website
 - [CSP Policy Directives](https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives#Keywords) - Mozilla
 - [Using Content Security Policy to Make Apps More Secure]() - #60devs
+- [CanIUse](http://caniuse.com/#search=csp)
 
 ## Apple's ATS##
 
