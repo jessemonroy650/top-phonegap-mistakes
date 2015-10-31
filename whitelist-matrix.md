@@ -126,6 +126,9 @@ This is one point where the documentation conflicts with it's self. If you do a 
 - µ = The documentation alludes that Android has this built-in.
 
 ##W3's CSP##
+
+- [CSP Examples]( whitelist-csp-examples.md)
+
 ###9. <a name=csp>CSP (Content Security Policy)</a>###
 
 **Opinion**
@@ -207,6 +210,10 @@ There are four (4) documents worth reading on this subject.
 - [Using Content Security Policy to Make Apps More Secure]() - #60devs
 
 ## Apple's ATS##
+
+- [ATS Examples]( whitelist-ats-examples.md)
+
+
 ###10. <a name=ats>ATS</a>###
 
 As part of Apples move to iOS 9, Apple is mandating the use of [Apple Transport System](https://web.archive.org/web/20150905111538/https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/) (ATS). This basically means that all web communications should use `https:` rather than `http:`. At the moment, it is easy to create exceptions to the ATS policy. Apple is likely to tighten up these exceptions over time, though it is difficult to see how they can make it 100% mandatory. The issue being that some server sites simply will not work over `https:` and may never convert.
