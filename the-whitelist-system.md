@@ -1,8 +1,10 @@
 ## Cordova/Phonegap the whitelist system ##
 
-MOVED the original to [whitelist-system.md](new-whitelist-system.md)
+MOVED the original to [new-whitelist-system.md](new-whitelist-system.md)
 
-Originally, I wanted to do this as a one blog post, but as the issues grew and the complexity increased, it appeared the best strategey is to have several pages. The resulting blog post and reference pages is a two-plus (2+) week effort. There were a <a href=#annoyances>number of annoyance</a> that extened the process.
+Originally, I wanted to do this as a one blog post, but as the issues grew and the complexity increased, it appeared the best strategey is to have several pages. The resulting blog post and reference pages is a two-plus (2+) week effort. There were a <a href=#annoyances>number of annoyance</a> that extened the process. 
+
+As such I want to thank **Rob Willett** for his invaluable assitance and advice. If you find errors, they are mine. If you have some praise, send some luv to Rob.
 
 Note: From here forward I will use **Cordova** to mean *Cordova CLI*, *Phonegap CLI*, and *Phonegap Build*. If there is a difference, I will try to make it abundantly clear. If you did not know there is a difference, [read this](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/new-to-Phonegap.md)
 
@@ -15,13 +17,13 @@ For the whitelist system used with *Cordova*, there is actually four (4) unrelat
 3. [W3's CSP](http://www.w3.org/TR/CSP2/) (Content Security Policy Level 2) is a whitelist system that is implemented webpage by webpage. It is required as of *Cordova Tools 5.0.0*. It has sixteen (16) parts.
 4. [Apple's ATS](https://web.archive.org/web/20150905111538/https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/) (App Transport Security)  is a whitelist system exclusive to iOS. It required as of *iOS9*. It is implemented in the `Info.plist`
 
-To walk throught the various pieces of the different systems would be tedious. Not that that does not need to be done. However, let's cut to the chase and get back to the original goal &ndash; "a one blog post."<p>As such,*the code that follows* ***turns off ALL the whitelist systems***. *This means your app is not secured against attacks. It is up to you to secure your App.* If you don't, then you probably don't know that the [Night of the Living Dead](https://en.wikipedia.org/wiki/Living_Dead) has three parts.
+To walk throught the various pieces of the different systems would be tedious. Not that that does not need to be done. There are at least five (5) documents that directly support this blog. However, let's cut to the chase and get back to the original goal &ndash; "a one blog post."<p>As such,*the code that follows* ***turns off ALL whitelist systems***. *This means your app is not secured against attacks. It is up to <u>you</u> to secure your App.* If you don't, then you probably don't know that the [Night of the Living Dead](https://en.wikipedia.org/wiki/Living_Dead) has three parts.
 
-After the answers below, below that are links to more details explanations and examples.
+After the answers, below that are links with more details explanations and examples.
 
 ### Turning It All Off ###
 
-- Start by adding the [`whitelist`](https://www.npmjs.com/package/cordova-plugin-whitelist) plugin.
+- Start by adding the [`whitelist`](https://www.npmjs.com/package/cordova-plugin-whitelist) plugin. **required**
 - Then to disable the `whitelist` system, add to `config.xml`
 - **DANGEROUS, BUT WORKING**
 ```
@@ -30,7 +32,7 @@ After the answers below, below that are links to more details explanations and e
     <access origin="*" />
 ```
 
-- To disable the `CSP` system, add this to every webpages that needs internet or network access.
+- To disable the `CSP` system, add this to every webpages that needs internet or network access, inline code `<script>` and `<style>`, or `eval()`.
 - **DANGEROUS, BUT WORKING**
 ```
     <meta http-equiv="Content-Security-Policy" 
@@ -51,7 +53,7 @@ After the answers below, below that are links to more details explanations and e
 
 ## Lucy, Esplain Youself ##
 
-No system is straight forward. Security systems tend to be compromises of care and the real world. Jim Dennis, reminds me that, "Security is a matter of policy. As an administrator (or developer), it is your job to enfore policy, not security."
+No system is straight forward. Security systems tend to be compromises of care and the real world. Jim Dennis, reminds me that, *"Security is a matter of policy. As an administrator (or developer), it is your job to enfore policy, not security."*
 
 The Cordova `whitelist` system is about how best to apply your real-world policies over a hybrid application. As such, sacrifices and compromises are every where. The link below is a document that walks through much of the Cordova `whitelist` system.
 
