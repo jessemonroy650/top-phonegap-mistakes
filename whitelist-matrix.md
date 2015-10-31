@@ -192,7 +192,6 @@ You can combine sources, which can include 'CSP Keywords', 'CSP Data(words)', an
 
 - SEARCH [W3.org CSP2](http://www.w3.org/TR/CSP2/) for some usage rules
 - SEE [Mozilla Data](https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives#Data) for some description on these words.
-- SEE []()
 
 **CSP Host (regular) Expressions**
 
