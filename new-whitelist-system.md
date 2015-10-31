@@ -10,12 +10,12 @@ Can you spell disaster?
 
 - Background 
 - The legacy whitelist plugin
-- Security bugs
-- Unannounced changes
-- Documentation Issues
 - How it Works
 - What you should watch for
 - Samples
+- Security bugs
+- Unannounced changes
+- Documentation Issues
 
 ###Background###
 
@@ -25,7 +25,7 @@ The uses of whitelists and the Content Security Policy (CSP) tag are meant as a 
 
 *The principle behind* the use of whitelists and CSP is simple. The programmer defines what resources they wish to use and connect to in advance. For each request that goes out, the client browser or application checks to see that the request for a resource such as a JSON file, a css file, an image or whatever is allowed. It also checks that the request that comes back is from the right server. The whitelist forces (in a nice way) a programmer to consider which resources they need to use and to define this in advance. Cordova V4.0 and later forces you to use whitelists. 
 
-The Cordova whitelist plugin and CSP are complementary, CSP appears to be aimed more at web browsers, whilst the plugin is clearly aimed at the Cordova/PhoneGap community. The section below on CSP covers the various permutations of having and not having the whitelist plugin and the CSP tag.
+The Cordova whitelist plugin and CSP are complementary; whilst the plugin is clearly aimed at the Cordova/PhoneGap community, CSP appears to be aimed more at web browsers. The section below on CSP covers the various permutations of having and not having the whitelist plugin and the CSP tag.
 
 This website provides an excellent description of CSP
 
@@ -43,30 +43,12 @@ https://github.com/apache/cordova-plugin-legacy-whitelist
 
 This simply extends the old way of doing whitelist plugins pre Cordova V4.0. **Using the legacy plugin is NOT recommended for long term or even medium term use and is not needed. Use the Cordova whitelist plugin and make your code more secure.** 
 
-###Security bugs###
-
--[draft](security-issues.md)
-- Android, iOS, Window
-
-###Unannounced changes###
-
-- *Need add stories to these*, **maybe**
-- *Phonegap Build* changes the default compiler from *2.7.0* to *cli-5.2.0* the last week of Sept.
-- *Cordova* moves the *plugin respository* on the week of Oct 5.
-
-###Documentation Issues###
-- The white-list Guides are incomplete and have errors.
-- Documentation contradicts itself
-- It is hard to find versions for things
-  - [Cordova/PhoneGap Version Confusion](http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/) - Outdated, does not reflect new system with dashes
-  - Online NPM version are not up to date.
-  - Here is an example. [npm](https://www.npmjs.com/package/cordova-plugin-whitelist) says 1.0.0 , [blog](http://cordova.apache.org/news/2015/06/22/plugins-release.html) - June 22, 2015) says 1.1.0
-  - Note: the author is the same for both
-
 
 ### How it Works ###
 
-- *To explain this clearly, I?m going to have to do a matrix.*
+**IN THE FUTURE, THIS SECTION WILL HAVE ITEMS MOVED OR DELETED.**
+
+- *To explain this clearly, there is [a matrix](whitelist-matrix.md).* It is separate from this document.
 
 1. Version controls when you need to use it
   - Starting with Cordova 4.0.0 the white-list is required
@@ -137,3 +119,25 @@ https://groups.google.com/forum/#!topic/phonegap/W8zAKXowrJk
 ### Samples ###
 
 [DN: I may put a sample set of tags in here if I can work out what is happening. Rob]
+
+###Security bugs###
+
+-[draft](security-issues.md)
+- Android, iOS, Window
+
+###Unannounced changes###
+
+- *Need add stories to these*, **maybe**
+- *Phonegap Build* changes the default compiler from *2.7.0* to *cli-5.2.0* the last week of Sept.
+- *Cordova* moves the *plugin respository* on the week of Oct 5.
+
+###Documentation Issues###
+- The white-list Guides are incomplete and have errors.
+- Documentation contradicts itself
+- It is hard to find versions for things
+  - [Cordova/PhoneGap Version Confusion](http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/) - Outdated, does not reflect new system with dashes
+  - Online NPM version are not up to date.
+  - Here is an example. [npm](https://www.npmjs.com/package/cordova-plugin-whitelist) says 1.0.0 , [blog](http://cordova.apache.org/news/2015/06/22/plugins-release.html) - June 22, 2015) says 1.1.0
+  - Note: the author is the same for both
+
+
