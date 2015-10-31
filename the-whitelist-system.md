@@ -4,7 +4,7 @@ MOVED the original to [new-whitelist-system.md](new-whitelist-system.md)
 
 Originally, I wanted to do this as a one blog post, but as the issues grew and the complexity increased, it appeared the best strategey is to have several pages. The resulting blog post and reference pages is a two-plus (2+) week effort. There were a <a href=#annoyances>number of annoyance</a> that extened the process. 
 
-As such I want to thank **Rob Willett** for his invaluable assitance and advice. If you find errors, they are mine. If you have some praise, send some luv to Rob.
+As such I want to thank **Rob Willett** for his invaluable assitance and advice. If you find errors, they are mine. If you have praise, send some luv to Rob.
 
 Note: From here forward I will use **Cordova** to mean *Cordova CLI*, *Phonegap CLI*, and *Phonegap Build*. If there is a difference, I will try to make it abundantly clear. If you did not know there is a difference, [read this](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/new-to-Phonegap.md)
 
@@ -50,6 +50,9 @@ After the answers, below that are links with more details explanations and examp
          <true/>
          </dict>
 ```
+
+###You should have full access, and be completely insecure.###
+
 
 ## Lucy, Esplain Youself ##
 
