@@ -245,6 +245,8 @@ Note, there are known issues with some sites using `https:` AND Apples ATS. It i
 
 ----
 
+#### Unapplied Notes ####
+
 When I say the information about the `whitelist` system was buried, I mean these three (3) blog posts
 
 Plugins Release and Moving plugins to npm: April 21, 2015
@@ -259,5 +261,7 @@ http://cordova.apache.org/announcements/2015/04/15/cordova-android-4.0.0.html
 - latest default app created by cordova-cli will include this plugin by default
 
 SEE: org.apache.cordova.inappbrowser@0.5.4
+
+SEE: Major Changes
 http://cordova.apache.org/announcements/2015/04/15/cordova-android-4.0.0.html
 
