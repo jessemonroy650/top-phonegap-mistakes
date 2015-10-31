@@ -1,7 +1,7 @@
 # White-list Matrix #
 Date: 2015-10-26
 
-By this point you should know there are three (3) platforms. If not, [read this](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/new-to-Phonegap.md)
+By this point you should know there are [three (3) platforms](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/new-to-Phonegap.md) and [three (3) security systems](the-whitelist-system.md).
 
 If you have never heard of a [decision table](https://en.wikipedia.org/wiki/Decision_table), today you'll learn of the value of them. This easy enough. Start at the top (1.) and continue till to the bottom (9.). If you drop out anywhere along the way. You are done.  
 

@@ -77,7 +77,7 @@ The Cordova `whitelist` system is about how best to apply your real-world polici
 
 Often I think someone at Microsoft designed this, but then I realize that the entire things was the product of multiple committes, working indepently, with no real design criteria &ndash; then it all makes sense.
 
-The matrix on the next page is a series of decision tables that help make you make some choices. The system is infact a expert system. It will not write your code, but it will tell you what you need to write, and what you do not need to write.
+As there are three (3) seperate systems and they do not talk about each other, it is difficult to decide how they relate to each other. The matrix on the next page is a series of decision tables that help make you make some choices. The system is infact a expert system. It will not write your code, but it will tell you what you need to write, and what you do not need to write.
 
 [whitelist-matrix.md](whitelist-matrix.md) &ndash; NOT FINISHED, in rough state. About 85% done.
 

@@ -13,6 +13,7 @@ Can you spell disaster?
 - How it Works
 - What you should watch for
 - Samples
+- Ionic Issues
 - Security bugs
 - Unannounced changes
 - Documentation Issues
@@ -116,13 +117,13 @@ This simply extends the old way of doing whitelist plugins pre Cordova V4.0. **U
 3. openwindow()
   - this can be a major security issues, use it carefully
 
-### Ionic Issues ###
-
-https://groups.google.com/forum/#!topic/phonegap/W8zAKXowrJk
-
 ### Samples ###
 
 [DN: I may put a sample set of tags in here if I can work out what is happening. Rob]
+
+### Ionic Issues ###
+
+https://groups.google.com/forum/#!topic/phonegap/W8zAKXowrJk
 
 ###Security bugs###
 
