@@ -2,9 +2,7 @@
 
 MOVED the original to [whitelist-system.md](whitelist-system.md)
 
-Originally, I wanted to do this as a one blog post, but as the issues grew and the complexity increased, it appeared the best strategey is to have several pages.
-
-The resulting blog post and reference pages is a two-plus (2+) week effort. There were a <a href=#annoyances>number of annoyance</a> that extened the process.
+Originally, I wanted to do this as a one blog post, but as the issues grew and the complexity increased, it appeared the best strategey is to have several pages. The resulting blog post and reference pages is a two-plus (2+) week effort. There were a <a href=#annoyances>number of annoyance</a> that extened the process.
 
 Note: From here forward I will use **Cordova** to mean *Cordova CLI*, *Phonegap CLI*, and *Phonegap Build*. If there is a difference, I will try to make it abundantly clear. If you did not know there is a difference, [read this](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/new-to-Phonegap.md)
 
