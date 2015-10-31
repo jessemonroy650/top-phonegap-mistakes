@@ -190,7 +190,7 @@ You can combine sources, which can include 'CSP Keywords', 'CSP Data(words)', an
 |---------|---------
 | 'none' | Refers to the empty set; that is, no URLs match.
 | 'self' | Refers to the origin from which the protected document is being served, including the same URL scheme and port number.
-| 'unsafe-inline' | Allows the use of inline resources, such as inline `<script>` elements, javascript: URLs, inline event handlers, and inline `<style>` elements.<br>**This is what makes this ridiculous for mobile Apps**<br>  [Early event handlers](http://www.quirksmode.org/js/events_early.html) -- [Working with Inline Event Handlers](http://www.htmlgoodies.com/html5/javascript/working-with-inline-event-handlers.html#fbid=UZJyfkvftFq)
+| 'unsafe-inline' | Allows the use of inline resources, such as inline `<script>` elements, javascript: URLs, inline event handlers, and inline `<style>` elements.<br>**This is what makes this ridiculous for mobile Apps**<br>  [Early event handlers](http://www.quirksmode.org/js/events_early.html) -- [Working with Inline Event Handlers](http://www.htmlgoodies.com/html5/javascript/working-with-inline-event-handlers.html)
 | 'unsafe-eval' | Allows the use of eval() and similar methods for creating code from strings. <br>**What does "similar methods" mean?** No one says.
 
 - SEE [W3.org source list syntax](http://www.w3.org/TR/CSP2/#source-list-syntax) for some details. It is no clear definition or descriptions for these keywords.
