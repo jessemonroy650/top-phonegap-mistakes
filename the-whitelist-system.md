@@ -70,7 +70,7 @@ or [style](http://matthewjamestaylor.com/blog/adding-css-to-html-with-link-embed
 
 ## Lucy, Esplain Youself ##
 
-No system is straight forward. Security systems tend to be compromises of care and the real world. Jim Dennis, reminds me that, *"Security is a matter of policy. As an administrator (or developer), it is your job to enfore policy, not define security."*
+No security system is straight forward. Security systems tend to be compromises of caution and the real world. Jim Dennis, reminds me that, *"Security is a matter of policy. As an administrator (or developer), it is your job to enfore policy, not define security."*
 
 The Cordova `whitelist` system is about how best to apply your real-world policies over a hybrid application. As such, sacrifices and compromises are every where. The link below is a document that walks through much of the Cordova `whitelist` system.
 
@@ -78,9 +78,9 @@ The Cordova `whitelist` system is about how best to apply your real-world polici
 
 ### Deciding What You Need ###
 
-Often I think someone at Microsoft designed this, but then I realize that the entire things was the product of multiple committes, working indepently, with no real design criteria &ndash; then it all makes sense.
+Often I think someone at Microsoft designed this, but then I realize that the entire thing was the product of multiple committes, working indepently, with no real design criteria &ndash; then, this all makes sense.
 
-As there are three (3) seperate systems and they do not talk about each other, it is difficult to decide how they relate to each other. The matrix on the next page is a series of decision tables that help make you make some choices. The system is infact a expert system. It will not write your code, but it will tell you what you need to write, and what you do not need to write.
+As there are three (3) seperate systems and they do not talk about each other, it is difficult to decide how they relate to each other. The matrix on the next page is a series of questions and decision tables that help make you make choices. This matrix is infact an expert system. It will not write your code, but it will tell you what you need to write, and what you do not need to write.
 
 [whitelist-matrix.md](whitelist-matrix.md) &ndash; NOT FINISHED, in rough state. About 85% done.
 
@@ -88,11 +88,11 @@ As there are three (3) seperate systems and they do not talk about each other, i
 
 Examples for each part. If you have any you'd like to lend, please email me or create an issue.
 
-[whitelist-examples.md](whitelist-examples.md) &ndash; NOT STARTED, not even close.
+[whitelist-examples.md](whitelist-examples.md) &ndash; NOT FINISHED, in raw state. About 10% done.
 
-[whitelist-csp-examples.md](whitelist-csp-examples.md) &ndash; NOT FINISHED, in rough state. About 40% done.
+[whitelist-csp-examples.md](whitelist-csp-examples.md) &ndash; NOT FINISHED, in rough state. About 60% done.
 
-[whitelist-ats-examples.md](whitelist-ats-examples.md) &ndash; JUST STARTED, in raw state. About 10% done.
+[whitelist-ats-examples.md](whitelist-ats-examples.md) &ndash; JUST STARTED, in raw state. About 20% done.
 
 
 ### <a name=annoyances>Annoyances in creating this document</a> ###
