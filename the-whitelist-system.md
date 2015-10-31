@@ -4,6 +4,8 @@ MOVED the original to [whitelist-system.md](whitelist-system.md)
 
 Originally, I wanted to do this as a one blog post, but as the issues grew and the complexity increased, it appeared the best strategey is to have several pages.
 
+The resulting blog post and reference pages is a two-plus (2+) week effort. There were a <a href=#annoyances>number of annoyance</a> that extened the process.
+
 Note: From here forward I will use **Cordova** to mean *Cordova CLI*, *Phonegap CLI*, and *Phonegap Build*. If there is a difference, I will try to make it abundantly clear. If you did not know there is a difference, [read this](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/new-to-Phonegap.md)
 
 ### Here is the breakdown. ###
@@ -21,7 +23,8 @@ After the answers below, below that are links to more details explanations and e
 
 ### Turning It All Off ###
 
-- Add to `config.xml`
+- Start by adding the `[whitelist](https://www.npmjs.com/package/cordova-plugin-whitelist)` plugin.
+- Then to disable the `whitelist` system, add to `config.xml`
 - **DANGEROUS, BUT WORKING**
 ```
     <allow-navigation href="*" />
@@ -29,7 +32,7 @@ After the answers below, below that are links to more details explanations and e
     <access origin="*" />
 ```
 
-- Add to every webpages that need internet or network access
+- To disable the `CSP` system, add this to every webpages that needs internet or network access.
 - **DANGEROUS, BUT WORKING**
 ```
     <meta http-equiv="Content-Security-Policy" 
@@ -38,7 +41,7 @@ After the answers below, below that are links to more details explanations and e
                        script-src 'self' 'unsafe-inline' 'unsafe-eval';">
 ```
 
-- Add to the `Info.plist`
+- To disable Apple's `ATS` for iOS9, add to the `Info.plist`.
 - **DANGEROUS, BUT WORKING**
 ```
     <key>NSAppTransportSecurity</key>
@@ -50,16 +53,19 @@ After the answers below, below that are links to more details explanations and e
 
 ## Lucy, Esplain Youself ##
 
-This sentence to be expanded to describe the link.
+No system is straight forward. Security systems tend to be compromises of care and the real world. Jim Dennis, reminds me that, "Security is a matter of policy. As an administrator (or developer), it is your job to enfore policy, not security."
+
+The Cordova `whitelist` system is about how best to apply real-world policy over a hybrid application. As such, sacrifices and compromises are every where. The link below is a document that walks through much of the Cordova `whitelist` system.
+
 [whitelist-system.md](new-whitelist-system.md)
 
 ### Deciding What You Need ###
 
-Often I think someone at Microsoft designed this, but then I realize that the entire things was the product of multiple committes working indepently - with no real design criteria, it all makes sense.
+Often I think someone at Microsoft designed this, but then I realize that the entire things was the product of multiple committes, working indepently, with no real design criteria &ndash; then it all makes sense.
 
-The matrix in the next page is a series of decision tables that will walk you through to making the correct choices. It is infact a expert system. It will not write your code, but it will tell you what you need to write, and what you do not need to write.
+The matrix on the next page is a series of decision tables that help make you make some choices. The system is infact a expert system. It will not write your code, but it will tell you what you need to write, and what you do not need to write.
 
-[whitelist-matrix.md](whitelist-matrix.md) &ndash; NOT FINISHED, in rough state. About 80% done.
+[whitelist-matrix.md](whitelist-matrix.md) &ndash; NOT FINISHED, in rough state. About 85% done.
 
 ### Examples ###
 
@@ -71,21 +77,15 @@ Examples for each part. If you have any you'd like to lend, please email me or c
 
 [whitelist-ats-examples.md](whitelist-ats-examples.md) &ndash; JUST STARTED, in raw state. About 10% done.
 
-<a name=annoyances>
-### Annoyances in creating this document ###
-</a>
 
-Before any of this was implemented, all the members of the various team shared the same [fever dream](https://answers.yahoo.com/question/index?qid=20080201212121AA2xedD). As a result, today we have the various systems to deal with.
+### <a name=annoyances>Annoyances in creating this document</a> ###
 
-The resulting blog post and reference pages is a two-plus (2+) week effort. There were a <a href=#annoyances>number of annoyance</a> that extened the process.
+Before any of this was implemented, all the members of the various teams shared the same [fever dream](https://answers.yahoo.com/question/index?qid=20080201212121AA2xedD). As a result, today we have the various systems to deal with.
 
 - It is NOT helpful that the Cordova Website continues to change and move pages.
 - It is NOT helpful that the Cordova team is weak in communications. (Please remember they all volunteer for this, and help is needed.)
 - It is NOT helpful that Apple's removes important documents. Like [this one](https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/index.html#//apple_ref/doc/uid/TP40016240) that is widely referenced. Guess what Apple, there is [this thing called archive.org](https://web.archive.org/web/20150905111538/https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/)
 - It is NOT helpful that both Google and Apple proclaim that the world must use HTTPS to talk to them. Thank you Homeland f#ck US
 - It is NOT helpful that the press [contrives issue](http://recode.net/2015/08/27/google-tells-developers-how-to-get-around-apples-new-security-rules-so-they-can-keep-selling-ads/) between Google and Apple.
-
-
-
 
 
