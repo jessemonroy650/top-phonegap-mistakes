@@ -23,6 +23,12 @@ After the answers, below that are links with more details explanations and examp
 
 ### Turning It All Off ###
 
+**before 4.0.0**
+- The easiest way to *turn it all off* is to develop with a version before 4.0.0.
+- For *Phonegap Build* ONLY use: `<preference name="phonegap-version" value="3.7.0" />` 
+- For *Cordova/Phonegap CLI* See the outdated, but useful: [Cordova/PhoneGap  Version Confusion](http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/) 
+
+**after 4.0.0**
 - Start by adding the [`whitelist`](https://www.npmjs.com/package/cordova-plugin-whitelist) plugin. **required**
 - Then to disable the `whitelist` system, add to `config.xml`
 - **DANGEROUS, BUT WORKING**
@@ -51,12 +57,13 @@ After the answers, below that are links with more details explanations and examp
          </dict>
 ```
 
-###You should have full access, and be completely insecure.###
+###You should now have full access, and be completely insecure.###
 
+----
 
 ## Lucy, Esplain Youself ##
 
-No system is straight forward. Security systems tend to be compromises of care and the real world. Jim Dennis, reminds me that, *"Security is a matter of policy. As an administrator (or developer), it is your job to enfore policy, not security."*
+No system is straight forward. Security systems tend to be compromises of care and the real world. Jim Dennis, reminds me that, *"Security is a matter of policy. As an administrator (or developer), it is your job to enfore policy, not define security."*
 
 The Cordova `whitelist` system is about how best to apply your real-world policies over a hybrid application. As such, sacrifices and compromises are every where. The link below is a document that walks through much of the Cordova `whitelist` system.
 
