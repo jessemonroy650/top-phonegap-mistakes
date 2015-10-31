@@ -67,6 +67,9 @@ If you implemented the whitelist system for Android before `15 Apr 2015`, then y
 If you have not implemented the `whitelist` system yet, then you want to start here. This plugin has more parameters and has better granularity that the legacy plugin.
 
 ##The Cordova `whitelist`##
+
+The Cordova `whitelist` has three (3) parts; `allow-navigation`, `allow-intent`, and `access`.
+
 ###4. <a name=navigation>allow-navigation</a>###
 
 Controls which URLs the \*WebView* itself can be navigated to. Applies to top-level navigations only. 
