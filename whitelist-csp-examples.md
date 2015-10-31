@@ -48,7 +48,7 @@ Date: 2015-10-28
 | source-src  | used, if it contains value, otherwise 'default-src'  | - | 'unsafe-inline' and 'unsafe-eval' are required to over-ride the default setting, regardless of 'default-src' |
 | style-src  | used, if it contains value, otherwise 'default-src' | 'unsafe-inline' and 'unsafe-eval' are required to over-ride the default setting, regardless of 'default-src' |
 
-- ¥ = W3 [CSP 3.3. HTML meta Element ](http://www.w3.org/TR/CSP2/#delivery-html-meta-element) says, **5. Remove all occurrences of report-uri, frame-ancestors, and sandbox directives from directive-set.**
+- ¥ = W3 [CSP 3.3. HTML meta Element ](http://www.w3.org/TR/CSP2/#delivery-html-meta-element) says,<br>*5. Remove all occurrences of report-uri, frame-ancestors, and sandbox directives from directive-set.*
 
 ####<a name=references>References</a>####
 
