@@ -1,6 +1,8 @@
 ## Whitelist CSP Examples ##
 Date: 2015-10-28
 
+**THERE ARE MORE EXAMPLES COMING. DESCRIPTIONS WILL BE ADDED**
+
 <!-- Good default declaration:
     * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
     * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
@@ -25,42 +27,35 @@ Date: 2015-10-28
                style-src 'self' 'unsafe-inline' 'unsafe-eval'; 
                script-src 'self' 'unsafe-inline' 'unsafe-eval';">
 
-| directive   | usage |
-|-------------|-------|
-| base-uri    | unclear
-| child-src   | used, if it contains value, otherwise 'default-src'
-| connect-src | used, if it contains value, otherwise 'default-src'
-| default-src | the follow directives use this directive as a fallback
-child-src, connect-src, font-src, img-src, media-src, object-src, script-src, style-src 
+####<a name=bydefault>Access By Default</a>####
 
-| font-src    | used, if it contains value, otherwise 'default-src'
-| form-action | used, if it contains value, "acts" as if *fatal error* and report violation
-| frame-ancestors | used, if it contains value, otherwise value is treated as "*".
-the follow HTML elements are affected by this directive
-frame, iframe, object, embed or applet 
+| directive   | usage | Also Applies to |
+|-------------|-------|-----------------|
+| base-uri    | unclear | - |
+| child-src   | used, if it contains value, otherwise 'default-src' | - |
+| connect-src | used, if it contains value, otherwise 'default-src' | - |
+| default-src | the follow directives use this directive as a fallback  | child-src, connect-src, font-src, img-src, media-src, object-src, script-src, style-src  |
+| font-src    | used, if it contains value, otherwise 'default-src'  | - |
+| form-action | used, if it contains value, "acts" as if *fatal error* and report violation  | - |
+| frame-ancestors | used, if it contains value, otherwise value is treated as "*". | The follow HTML elements are affected by this directive<br>frame, iframe, object, embed or applet |
+| frame-src   | is deprecated  | - |
+| img-src     | used, if it contains value, otherwise 'default-src'  | - |
+| media-src   | used, if it contains value, otherwise 'default-src' | - |
+| object-src  | used, if it contains value, otherwise 'default-src' | overlaps with 'frame-ancestors' and 'plugin-types' | - |
+| plugin-types | restricts plugins via MIME type | - |
+| report-uri  | -  | - |
+| sandbox     | -  | - |
+| source-src  | used, if it contains value, otherwise 'default-src'  | - | 'unsafe-inline' and 'unsafe-eval' are required to over-ride the default setting, regardless of 'default-src' |
+| style-src  | used, if it contains value, otherwise 'default-src' | 'unsafe-inline' and 'unsafe-eval' are required to over-ride the default setting, regardless of 'default-src' |
 
-| frane-src   | is deprecated
-| img-src     | used, if it contains value, otherwise 'default-src'
-| media-src   | used, if it contains value, otherwise 'default-src'
-| object-src  | used, if it contains value, otherwise 'default-src'
-overlaps with 'frame-ancestors' and 'plugin-types'
-| plugin-types | restricts plugins via MIME type
-| report-uri  |
-| sandbox     |
-| source-src  | used, if it contains value, otherwise 'default-src'
-'unsafe-inline' and 'unsafe-eval' are required to over-ride the default setting, regardless of 'default-src'
-
-| style-src  | used, if it contains value, otherwise 'default-src'
-'unsafe-inline' and 'unsafe-eval' are required to over-ride the default setting, regardless of 'default-src'
-
-#### References ####
+####<a name=references>References</a>####
 
 - [W3.org CSP2](http://www.w3.org/TR/CSP2/)
 - [Mozilla CSP Policy Directives](https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives)
 - [http://content-security-policy.com/](http://content-security-policy.com/)
 - [CanIUse](http://caniuse.com/#search=csp)
 
-#### Useful Articles ####
+####<a name=usefularticles>Useful Articles</a>####
 
 - [Using Content Security Policy to Make Apps More Secure](https://60devs.com/using-content-security-policy.html)
 

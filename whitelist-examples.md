@@ -1,7 +1,7 @@
 ## Phonegap Whitelist Examples ##
 Date: 2015-10-28
 
-There are more examples coming
+**THERE ARE MORE EXAMPLES COMING. DESCRIPTIONS WILL BE ADDED**
 
 
 - **DANGEROUS, BUT WORKING**
@@ -16,7 +16,7 @@ There are more examples coming
 
 ----
 
-**<a name=bydefault>Access By Default</a>**
+####<a name=bydefault>Access By Default</a>####
 
 | directive        | Controls         | `file:` | `http(s):` | iframe | Controls<br>other plugins |
 |------------------|------------------|---------|------------|--------|---------------|
@@ -25,3 +25,7 @@ There are more examples coming
 | access origin    | network (cordova)|  Yes    |    No<sup>¥</sup>      |   No   |     Yes       |
 
 - ¥ = Cordova (CLI/SDK) Applications, by default, have this turn on. **NOT CONFIRMED**
+
+####<a name=references>References</a>####
+
+####<a name=usefularticles>Useful Articles</a>####
