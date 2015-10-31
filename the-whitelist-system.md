@@ -28,6 +28,9 @@ After the answers, below that are links with more details explanations and examp
 - For *Phonegap Build* ONLY use: `<preference name="phonegap-version" value="3.7.0" />` 
 - For *Cordova/Phonegap CLI* See the outdated, but useful: [Cordova/PhoneGap  Version Confusion](http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/) 
 
+###Use only for development. You should now have full access and completely insecure.###
+
+
 **after 4.0.0**
 - Start by adding the [`whitelist`](https://www.npmjs.com/package/cordova-plugin-whitelist) plugin. **required**
 - Then to disable the `whitelist` system, add to `config.xml`
