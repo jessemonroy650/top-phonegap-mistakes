@@ -16,7 +16,7 @@ There are more examples coming
 
 ----
 
-**Access By Default**
+**<a name=bydefault>Access By Default</a>**
 
 | directive        | Controls         | `file:` | `http(s):` | iframe | Controls<br>other plugins |
 |------------------|------------------|---------|------------|--------|---------------|

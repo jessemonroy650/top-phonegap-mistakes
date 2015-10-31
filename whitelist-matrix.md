@@ -1,6 +1,8 @@
 # White-list Matrix #
 Date: 2015-10-26
 
+By this point you should know there are three (3) platforms. If not, [read this](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/new-to-Phonegap.md)
+
 If you have never heard of a [decision table](https://en.wikipedia.org/wiki/Decision_table), today you'll learn of the value of them. This easy enough. Start at the top (1.) and continue till to the bottom (9.). If you drop out anywhere along the way. You are done.  
 
 However, the tables in 1., 7., 9., and 10. are short cuts (or aides) to help you get to the right place. You will notice, the tables do not loop back or interconnect. This was intentionally done to help you work in a linear fashion.
@@ -54,6 +56,8 @@ However, the best and most accurate information seems to come from from the docu
 
 ###3. <a name=plugin>Which plugin, `whitelist` or `legacy-whitelist`</a>###
 
+If you are not aware of it, we have move to an [NPM system](https://cordova.apache.org/announcements/2015/04/21/plugins-release-and-move-to-npm.html)
+
 > This plugin implements a whitelist policy for navigating the application webview on Cordova 4.0
 
 [`whitelist`](https://www.npmjs.com/package/cordova-plugin-whitelist)
@@ -104,7 +108,7 @@ Without any `<access>` tags, only requests to `file://` URLs are allowed. Howeve
 
 ###7. <a name=inappbrowser>inappbrowser</a>###
 
-This is one point where the documentation conflicts with it's self. If you do a search for 'whitelist' on the [documentation](https://www.npmjs.com/package/cordova-plugin-inappbrowser) you will see conflicting lines. The inconsistencey in the writing style points to multiple authors, poor design, and neglect. Expect a rewrite of the documentation.
+This is one point where the documentation conflicts with it's self. If you do a search for 'whitelist' on the [documentation](https://www.npmjs.com/package/cordova-plugin-inappbrowser) you will see conflicting lines. The inconsistencey in the writing style points to multiple authors, poor design, and neglect. At a minimum, expect a rewrite of the documentation.
 
 *In the middle of the  3rd paragraph is*
 
@@ -121,11 +125,13 @@ This is one point where the documentation conflicts with it's self. If you do a 
 | Which XML element  |  Controls  |  Quirks  |
 |--------------------|------------|----------|
 | `allow-navigation` | [WebView](webview.md)<sup>¿</sup> | *Android* applies this to iframes (non-http(s))
-| `allow-intent`     | URL request to system `window.open()`<sup>¿</sup> | 1. *Android* equivalent to BROWSEABLE<br>2. <b>does not apply to plugin</b>
+| `allow-intent`     | URL request to system `window.open()`<sup>¿</sup> | 1. *Android* equivalent to BROWSEABLE<br>2. <b>does not apply to plugins</b>
 | `access origin`    | Controls network requests (images, XHRs, etc) via Cordova Hooks | *Android* makes allowance for [Talkback](http://www.androidcentral.com/what-google-talk-back) <sup>µ</sup><br>th default Cordova application includes `<access origin="*">`
 
 - ¿ = It unclear from the documentation how this interacts with `inappbrowser`.
 - µ = The documentation alludes that Android has this built-in.
+
+- See [access by default](whitelist-examples.md#bydefault)
 
 
 #### [Cordova whitelist Examples]( whitelist-examples.md) ####
