@@ -27,7 +27,7 @@ cordova -v
 
 It is recommend that you move to Cordova V4.x as a minimum. Older versions are difficult to support and many plugins do not work correctly.
 
-| Your Version of<br>*Cordova/Phonegap Tools* <sup>¢</sup> | support | notes |
+| Your Version of<br>*Cordova/Phonegap Tools* <sup>¢</sup> | `whitelist`<br>support | notes |
 |----------------------------------|---------|-------|
 | 2.x | Not support | deprecated |
 | 3.x | Available   |  - |
