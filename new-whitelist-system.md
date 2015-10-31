@@ -55,22 +55,22 @@ This simply extends the old way of doing whitelist plugins pre Cordova V4.0. **U
   - After 5.0.0, there are additional rules which [Raymond Camden](http://www.raymondcamden.com/2015/05/25/important-information-about-cordova-5), dated May of 2015 alludes to
   - The alternative is this quick fix &ndash; but know that this *quick fix* removes all needs for `white-list`. This creates a [security issue](http://www.androidauthority.com/google-webview-security-582363/) which you may not want to by pass.
   - **QUICK FIX** Add this to your `config.xml` **for PHONEGAP BUILD ONLY** <br />
-  - `<preference name=?phonegap-version? value=?3.7.0? />`
+  - `<preference name="phonegap-version" value="3.7.0" />`
   - For *Cordova/Phonegap CLI* see [Cordova/PhoneGap Version Confusion](http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/) - Outdated, but useful
 2. white-list
-  - `<allow-navigation (?) />`
+  - `<allow-navigation (...) />`
   - Controls which URLs the WebView itself can be navigated to. Applies to top-level navigations only.
-  - `<allow-intent (?) />`
+  - `<allow-intent (...) />`
   - Controls which URLs the app is allowed to ask the system to open. By default, no external URLs are allowed.
-  - `<access origin=(?) />`
+  - `<access origin=(...) />`
   - Controls which network requests (images, XHRs, etc) are allowed to be made (via cordova native hooks).
   - **DANGEROUS, BUT WORKING**
-  - `<allow-navigation href=?*? />`
-  - `<allow-intent href=?*? />`
-  - `<access origin=?*? />`
+  - `<allow-navigation href="*" />`
+  - `<allow-intent href="*" />`
+  - `<access origin="*" />`
 3. CSP (in the webpage)
   - Filters at the webpage level
-  - `<meta http-equiv=?Content-Security-Policy? content=(?) />`
+  - `<meta http-equiv="Content-Security-Policy" content=(...") />`
   - Controls which network requests (images, XHRs, etc) are allowed to be made (via web view directly).
   - [Raymond Camden](http://www.raymondcamden.com/2015/05/25/important-information-about-cordova-5, dated May of 2015), posted some relevant information on this
 
@@ -84,31 +84,35 @@ This simply extends the old way of doing whitelist plugins pre Cordova V4.0. **U
 
     > If you include the plugin and do not include a CSP, your access falls back to the access tag in config.xml, which is probably * (i.e. everything allowed).
 
-  - some of the stuff appears as ?Voodoo?, like `gap:`
+  - some of the stuff appears as "Voodoo", like `gap:`
   - [Simon Mac Donald](http://www.google.com/url?q=http%3A%2F%2Fhi.im%2Fsimonmacdonald&sa=D&sntz=1&usg=AFQjCNEfbJmJ0IyPjk2hlk8PEZ5oZM8WNQ) [Adds](https://groups.google.com/d/msg/phonegap/DrYOdMrTssM/votSwdBvCwAJ)
-    > The ?gap:? is used as a protocol like ?http:? for the iOS side to communicate from JS to native. Basically when Cordova iOS sees ?gap:? it intercepts the request and uses it to do the bridging of the two layers. At least that is my understanding of it but it?s been awhile since I dove into that area.
+    > The `gap:` is used as a protocol like `http:` for the iOS side to communicate from JS to native. Basically when Cordova iOS sees `gap:` it intercepts the request and uses it to do the bridging of the two layers. At least that is my understanding of it but it's been awhile since I dove into that area.
 
   - **DANGEROUS, BUT WORKING**
-  - `<meta http-equiv=?Content-Security-Policy? content=?default-src *; style-src ?self? ?unsafe-inline?; script-src ?self? ?unsafe-inline? ?unsafe-eval??>`
+  - `<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">`
   - Additional keywords and what they mean [CSP from Mozilla](https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives#Keywords) 
   - Wait KIDS! There is a whole [website that support CSP](http://content-security-policy.com/)
 
 4. [plugin](https://www.npmjs.com/package/cordova-plugin-whitelist)
   - The one you want is `cordova-plugin-whitelist`
-  - *Phonegap CLI* `cordova add plugin cordova-plugin-whitelist@1.1.0` [DN: Do you want to stick to a version? Surely let them pull the latest and greatest? Rob]
+  - While some advise using not using version numbers so you get the "latest and greatest", the side effect is that in future upgrades your code will break in unexpectecd ways.
+  - The developer is advised to make an "objective" decision
+  - *Phonegap CLI* `cordova add plugin cordova-plugin-whitelist`
+  - *Phonegap CLI* `cordova add plugin cordova-plugin-whitelist@1.1.0`
+  - *Phonegap Build* `<gap:plugin name=cordova-plugin-whitelist source=npm>`
   - *Phonegap Build* `<gap:plugin name=cordova-plugin-whitelist version=1.0.1 source=npm>`
 
 ### What you should watch for ###
 
 1. web view
-  - each platform has it?s own library, as should be expected
-  - each has it?s own bugs, we need to be proactive
+  - each platform has it's own library, as should be expected
+  - each has it's own bugs, we need to be proactive
   - we draw clear barrier between web view and the internet 
 2. inappbrowser
   - does NOT have access to the hardware on the mobile device
   - The InAppBrowser is not subject to the whitelist, nor is opening links in the system browser.
   - *conflicting* when using the `target` = `_self`: Opens in the Cordova WebView if the URL is in the white list, otherwise it opens in the InAppBrowser.
-  - ?it is affect by `white-list` sometimes, but mostly by `CSP`?
+  - it is affect by `white-list` sometimes, but mostly by `CSP`
 3. openwindow()
   - this can be a major security issues, use it carefully
 
