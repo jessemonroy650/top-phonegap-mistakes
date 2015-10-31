@@ -34,6 +34,8 @@ After the answers, below that are links with more details explanations and examp
 **after 4.0.0**
 - **For use with full production apps.**
 - Start by adding the [`whitelist`](https://www.npmjs.com/package/cordova-plugin-whitelist) plugin. **required**
+-  - *Phonegap CLI* `cordova add plugin cordova-plugin-whitelist`
+-  - *Phonegap Build* `<gap:plugin name=cordova-plugin-whitelist source=npm>`
 - Then to disable the `whitelist` system, add to `config.xml`
 - **DANGEROUS, BUT WORKING**
 ```
