@@ -57,7 +57,16 @@ This simply extends the old way of doing whitelist plugins pre Cordova V4.0. **U
   - **QUICK FIX** Add this to your `config.xml` **for PHONEGAP BUILD ONLY** <br />
   - `<preference name="phonegap-version" value="3.7.0" />`
   - For *Cordova/Phonegap CLI* see [Cordova/PhoneGap Version Confusion](http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/) - Outdated, but useful
-2. white-list
+
+2. [plugin](https://www.npmjs.com/package/cordova-plugin-whitelist)
+  - The one you want is `cordova-plugin-whitelist`
+  - While some advise using not using version numbers so you get the "latest and greatest", the side effect is that in future upgrades your code will break in unexpectecd ways.
+  - The developer is advised to make an "objective" decision
+  - *Phonegap CLI* `cordova add plugin cordova-plugin-whitelist`
+  - *Phonegap CLI* `cordova add plugin cordova-plugin-whitelist@1.1.0`
+  - *Phonegap Build* `<gap:plugin name=cordova-plugin-whitelist source=npm>`
+  - *Phonegap Build* `<gap:plugin name=cordova-plugin-whitelist version=1.0.1 source=npm>`
+3. white-list
   - `<allow-navigation (...) />`
   - Controls which URLs the WebView itself can be navigated to. Applies to top-level navigations only.
   - `<allow-intent (...) />`
@@ -68,7 +77,7 @@ This simply extends the old way of doing whitelist plugins pre Cordova V4.0. **U
   - `<allow-navigation href="*" />`
   - `<allow-intent href="*" />`
   - `<access origin="*" />`
-3. CSP (in the webpage)
+4. CSP (in the webpage)
   - Filters at the webpage level
   - `<meta http-equiv="Content-Security-Policy" content=(...") />`
   - Controls which network requests (images, XHRs, etc) are allowed to be made (via web view directly).
@@ -92,15 +101,6 @@ This simply extends the old way of doing whitelist plugins pre Cordova V4.0. **U
   - `<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">`
   - Additional keywords and what they mean [CSP from Mozilla](https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives#Keywords) 
   - Wait KIDS! There is a whole [website that support CSP](http://content-security-policy.com/)
-
-4. [plugin](https://www.npmjs.com/package/cordova-plugin-whitelist)
-  - The one you want is `cordova-plugin-whitelist`
-  - While some advise using not using version numbers so you get the "latest and greatest", the side effect is that in future upgrades your code will break in unexpectecd ways.
-  - The developer is advised to make an "objective" decision
-  - *Phonegap CLI* `cordova add plugin cordova-plugin-whitelist`
-  - *Phonegap CLI* `cordova add plugin cordova-plugin-whitelist@1.1.0`
-  - *Phonegap Build* `<gap:plugin name=cordova-plugin-whitelist source=npm>`
-  - *Phonegap Build* `<gap:plugin name=cordova-plugin-whitelist version=1.0.1 source=npm>`
 
 ### What you should watch for ###
 

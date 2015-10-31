@@ -42,7 +42,7 @@ After the answers, below that are links with more details explanations and examp
     <access origin="*" />
 ```
 
-- To disable the `CSP` system, add this to every webpages that needs internet or network access, inline code `<script>` and `<style>`, or `eval()`.
+- To disable the `CSP` system, add this to every webpages that needs internet or network access, inline code (`<script>` and `<style>`), or `eval()`.
 - **DANGEROUS, BUT WORKING**
 ```
     <meta http-equiv="Content-Security-Policy" 
@@ -71,7 +71,7 @@ No system is straight forward. Security systems tend to be compromises of care a
 
 The Cordova `whitelist` system is about how best to apply your real-world policies over a hybrid application. As such, sacrifices and compromises are every where. The link below is a document that walks through much of the Cordova `whitelist` system.
 
-[whitelist-system.md](new-whitelist-system.md) &ndash; NOT FINISHED, in rough state. About 75% done.
+[new-whitelist-system.md](new-whitelist-system.md) &ndash; NOT FINISHED, in rough state. About 75% done.
 
 ### Deciding What You Need ###
 
