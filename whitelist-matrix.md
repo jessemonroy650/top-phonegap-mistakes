@@ -102,7 +102,7 @@ Without any `<access>` tags, only requests to `file://` URLs are allowed. Howeve
 
 ###7. <a name=inappbrowser>inappbrowser</a>###
 
-This is one point where the documentation conflicts with it's self. If you do a search for 'whitelist' on the [documentation](https://www.npmjs.com/package/cordova-plugin-inappbrowser) you will see conflicting lines. The inconsistence in the writing style points to multiple authors, poor design, and neglect. Expect a rewrite.
+This is one point where the documentation conflicts with it's self. If you do a search for 'whitelist' on the [documentation](https://www.npmjs.com/package/cordova-plugin-inappbrowser) you will see conflicting lines. The inconsistencey in the writing style points to multiple authors, poor design, and neglect. Expect a rewrite of the documentation.
 
 *In the middle of the  3rd paragraph is*
 
@@ -120,7 +120,7 @@ This is one point where the documentation conflicts with it's self. If you do a 
 |--------------------|------------|----------|
 | `allow-navigation` | [WebView](webview.md)<sup>¿</sup> | *Android* applies this to iframes (non-http(s))
 | `allow-intent`     | URL request to system `window.open()`<sup>¿</sup> | *Android* equivalent to BROWSEABLE<br><b>does not apply to plugin</b>
-| `access origin`    | Controls network requests (images, XHRs, etc) via Cordova | *Android* makes allowance for [Talkback](http://www.androidcentral.com/what-google-talk-back) <sup>µ</sup><br>th default Cordova application includes `<access origin="*">`
+| `access origin`    | Controls network requests (images, XHRs, etc) via Cordova Hooks | *Android* makes allowance for [Talkback](http://www.androidcentral.com/what-google-talk-back) <sup>µ</sup><br>th default Cordova application includes `<access origin="*">`
 
 - ¿ = It unclear from the documentation how this interacts with `inappbrowser`.
 - µ = The documentation alludes that Android has this built-in.
