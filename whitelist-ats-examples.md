@@ -1,7 +1,7 @@
 # ATS Examples #
 Last Update: 2015-11-01
 
-**Turns off all security. Widely given as an answer. This is dangerous, working. CAUTION: Your app maybe rejected, unless you have a good reason for using this.[SEE](#appRejected)** <sup>[1](#footnotes)</sup>
+**Turns off all security.** Widely given as an answer<sup>[1](#footnotes)</sup>. This is dangerous, working.<br>CAUTION: Your app maybe rejected, unless you have a good reason for using this.[SEE](#appRejected)
 ```
 <key>NSAppTransportSecurity</key>
     <dict>
@@ -72,6 +72,9 @@ ATS is not listed as an issue.
 **APPLE** *Information Property List Key Reference: NSAppTransportSecurity*<br>
 https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW33
 
+**AMAZON** *Preparing Your Apps for iOS 9*<br>
+https://mobile.awsblog.com/post/Tx2QM69ZE6BGTYX/Preparing-Your-Apps-for-iOS-9
+
 **GOOGLE** *Handling App Transport Security in iOS 9*<br>
 http://googleadsdeveloper.blogspot.com/2015/08/handling-app-transport-security-in-ios-9.html
 
@@ -89,7 +92,8 @@ https://github.com/AFNetworking/AFNetworking/issues/2779#issuecomment-112030880<
 
 >Please be careful in sharing the NSAllowsArbitraryLoads solution. It is not the recommended fix from Apple.
 
-Another set of possible answer.<br>
+More sets of possible answer.<br>
+http://stackoverflow.com/a/31807139/3255670
 http://stackoverflow.com/a/32764234/3255670
 
 ##<a name=usefularticles>Useful Articles</a>##
