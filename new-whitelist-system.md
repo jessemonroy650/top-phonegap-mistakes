@@ -40,6 +40,7 @@ There are currently two (2) plugins available form Cordova for implementing the 
 
 ### How it Works ###
 
+
 **IN THE FUTURE, THIS SECTION WILL HAVE ITEMS MOVED OR DELETED.**
 
 - *To explain this clearly, there is [a matrix](whitelist-matrix.md).* It is separate from this document.
