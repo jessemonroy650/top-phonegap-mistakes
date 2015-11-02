@@ -47,6 +47,7 @@ Below this code, you can ***turn on and apply ALL the whitelist system***, compl
 - To disable the `CSP` system, add this to every webpages that needs internet or network access, inline code ([Javascript](http://www.quirksmode.org/js/events_early.html) 
 or [style](http://matthewjamestaylor.com/blog/adding-css-to-html-with-link-embed-inline-and-import)), or `eval()`.
 - **DANGEROUS, BUT WORKING**
+- CAUTION: Your app maybe rejected, unless you have a good reason for using this. [SEE](#whitelist-ats-examples.mdappRejected). Alternatives available in [ATS Examples](whitelist-ats-examples.md) 
 ```
     <meta http-equiv="Content-Security-Policy" 
               content="default-src *; 
@@ -63,8 +64,9 @@ or [style](http://matthewjamestaylor.com/blog/adding-css-to-html-with-link-embed
          <true/>
          </dict>
 ```
-
 ###You should now have full access, and be completely insecure.###
+
+- [ATS Examples](whitelist-ats-examples.md)
 
 ----
 
