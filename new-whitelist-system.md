@@ -36,7 +36,7 @@ http://www.html5rocks.com/en/tutorials/security/content-security-policy/
 
 There are currently two (2) plugins available form Cordova for implementing the `whitelist` system. There is the [Cordova whitelist plugin](https://github.com/apache/cordova-plugin-whitelist) and also a [legacy whitelist plugin](https://github.com/apache/cordova-plugin-legacy-whitelist). The new plugin simply extends the old way of doing things, with the whitelist plugins pre-Cordova V4.0. 
 
-*Using the legacy plugin is **NOT** recommended for long term or even medium term use. Instead, use the new [Cordova whitelist plugin]() and make your code more secure.*
+*Using the legacy plugin is* **NOT** *recommended for long term or even medium term use. Instead, use the new [Cordova whitelist plugin]() and make your code more secure.*
 
 ### How it Works ###
 
