@@ -40,7 +40,7 @@ This goes in the <head> section of your **index.html**. Notice that for each acc
                    style-src 'self' 'unsafe-inline';">
 ```
 
-The gap: flag is needed for when you have the CSP on iOS. The ?unsafe-inline? flags are due to using a JavaScript library that changes the DOM model.
+The gap: flag is needed for when you have the CSP on iOS. The 'unsafe-inline' flags are due to using a JavaScript library that changes the DOM model.
 
 ###EXAMPLE 02###
 
