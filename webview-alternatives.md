@@ -23,8 +23,7 @@ Google: [webview alternative](https://www.google.com/search?q=webview+alternativ
 
 1. [Crosswalk](https://crosswalk-project.org/) an x86 version of the plugin to PGB: https://build.phonegap.com/plugins/4652
 2. [WKWebView](https://github.com/Telerik-Verified-Plugins/WKWebView) an alternative for **iOS**
-3. [SFSafariViewController](https://developer.apple.com/library/prerelease/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/index.html#//apple_ref/occ/cl/SFSafariViewController) It shares cookies and other website data with Safari, and has many of Safari's great features, such as Safari AutoFill and Safari Reader. **iOS, noticed with iOS9** [SEE](http://community.phonegap.com/nitobi/topics/sfsafariviewcontroller-webview-alternative-for-ios9-or-better)
-
+3. [cordova-plugin-safariviewcontroller](https://github.com/EddyVerbruggen/cordova-plugin-safariviewcontroller)
 ### Work in Progress ###
 
 1. [WinRT XAML Toolkit](http://winrtxamltoolkit.codeplex.com/) - work in progress (last update may 2014) for **Windows** Runtime using XAML supports Windows 8+
@@ -36,6 +35,7 @@ Google: [webview alternative](https://www.google.com/search?q=webview+alternativ
 2. [Zirco](http://code.google.com/p/zirco-browser/source/browse/trunk/src/org/zirco/ui/components/CustomWebView.java?r=435) - an open-source alternative browser for Android. The code is READ-ONLY mode. [The browser itself](https://code.google.com/p/zirco-browser/) is still available on [Google Play](https://play.google.com/store/apps/details?id=org.zirco&hl=en).
 3. [JavaFX](https://docs.oracle.com/javafx/2/webview/jfxpub-webview.htm) - A tutorial entitled  *Adding HTML Content to JavaFX Applications*
 4. [WebView QML Type](http://doc.qt.io/qt-5/qml-qtwebkit-webview.html) - This is a webview library, but ther are no indications this has been ported to Android or other mobile systems.
+3. [SFSafariViewController](https://developer.apple.com/library/prerelease/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/index.html#//apple_ref/occ/cl/SFSafariViewController) - It shares cookies and other website data with Safari, and has many of Safari's great features, such as Safari AutoFill and Safari Reader. **iOS, noticed with iOS9** [SEE](http://community.phonegap.com/nitobi/topics/sfsafariviewcontroller-webview-alternative-for-ios9-or-better)
 
 
 ### Important Articles Regarding Android ###
