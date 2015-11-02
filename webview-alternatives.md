@@ -23,7 +23,8 @@ Google: [webview alternative](https://www.google.com/search?q=webview+alternativ
 
 1. [Crosswalk](https://crosswalk-project.org/) an x86 version of the plugin to PGB: https://build.phonegap.com/plugins/4652
 2. [WKWebView](https://github.com/Telerik-Verified-Plugins/WKWebView) an alternative for **iOS**
-3. [cordova-plugin-safariviewcontroller](https://github.com/EddyVerbruggen/cordova-plugin-safariviewcontroller)
+3. [cordova-plugin-safariviewcontroller](https://github.com/EddyVerbruggen/cordova-plugin-safariviewcontroller)  another alternative for **iOS**
+
 ### Work in Progress ###
 
 1. [WinRT XAML Toolkit](http://winrtxamltoolkit.codeplex.com/) - work in progress (last update may 2014) for **Windows** Runtime using XAML supports Windows 8+
