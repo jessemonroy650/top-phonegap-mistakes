@@ -53,6 +53,10 @@ Last Update: 2015-11-01
 </dict>
 ```
 
+**APPLE** *Information Property List Key Reference: NSAppTransportSecurity*<br>
+https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW33
+
+----
 
 ####<a name=bydefault>Access By Default</a>####
 
@@ -106,20 +110,20 @@ https://medium.com/five-minute-watchkit/how-to-disable-app-transport-security-2c
 
 Fix iOS 9 App Transport Security Issues In Apache Cordova - Oct 14, 2015<br>
 https://blog.nraboy.com/2015/10/fix-ios-9-app-transport-security-issues-in-apache-cordova/
-"""
-If your Apache Cordova application uses the InAppBrowser plugin to access external resources such as websites, you might have experienced the following error:
-"""
-> webView:didFailLoadWithError - -1200: An SSL error has occurred and a secure connection to the server cannot be made.
+
+> If your Apache Cordova application uses the InAppBrowser plugin to access external resources such as websites, you might have experienced the following error:
+
+> > webView:didFailLoadWithError - -1200: An SSL error has occurred and a secure connection to the server cannot be made.
 
 How do I load an HTTP URL with App Transport Security enabled in iOS 9? [duplicate]<br>
 http://stackoverflow.com/questions/30731785/how-do-i-load-an-http-url-with-app-transport-security-enabled-in-ios-9/30732693#30732693
 
 Transport Security has Blocked a cleartext HTTP<br>
-http://stackoverflow.com/questions/31254725/transport-security-has-blocked-a-cleartext-http?noredirect=1#comment52543453_31254725
+http://stackoverflow.com/questions/31254725/transport-security-has-blocked-a-cleartext-http
 
 ####<a name=footnotes>Footnotes</a>####
 
-\#1 This answer was given widely. I suspect this was originally given by Apple. Answer available from [Google](http://googleadsdeveloper.blogspot.com/2015/08/handling-app-transport-security-in-ios-9.html), [Ionic](http://blog.ionic.io/preparing-for-ios-9/), and several blogs list on this page.
+1. This answer was given widely. I suspect this was originally given by Apple. Answer available from [Google](http://googleadsdeveloper.blogspot.com/2015/08/handling-app-transport-security-in-ios-9.html), [Ionic](http://blog.ionic.io/preparing-for-ios-9/), and several blogs list on this page.
 
 
 
