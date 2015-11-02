@@ -1,7 +1,7 @@
 # ATS Examples #
 Last Update: 2015-11-01
 
-**Turns off all security.** Widely given as an answer<sup>[1](#footnotes)</sup>. This is dangerous, working.<br>CAUTION: Your app maybe rejected, unless you have a good reason for using this.[SEE](#appRejected)
+**Turns off all security.** Widely given as an answer<sup>[1](#footnotes)</sup>. This is dangerous, working.<br>*CAUTION:* Your app maybe rejected, unless you have a good reason for using this. [SEE](#appRejected)
 ```
 <key>NSAppTransportSecurity</key>
     <dict>
@@ -128,7 +128,7 @@ http://stackoverflow.com/questions/31254725/transport-security-has-blocked-a-cle
 
 ####<a name=footnotes>Footnotes</a>####
 
-1. This answer was given widely. I suspect this was originally given by Apple. Answer available from [Google](http://googleadsdeveloper.blogspot.com/2015/08/handling-app-transport-security-in-ios-9.html), [Ionic](http://blog.ionic.io/preparing-for-ios-9/), and several blogs list on this page.
+1. This answer was given widely. I suspect this was originally given by Apple. Answer available from [Google](http://googleadsdeveloper.blogspot.com/2015/08/handling-app-transport-security-in-ios-9.html), [Ionic](http://blog.ionic.io/preparing-for-ios-9/), several blogs list on this page, and as the answer on many StackOverflow questions.
 
 
 
