@@ -228,12 +228,21 @@ There are four (4) documents worth reading on this subject.
 
 As part of Apples move to iOS 9, Apple is mandating the use of [Apple Transport System](https://web.archive.org/web/20150905111538/https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/) (ATS). This basically means that all web communications should use `https:` rather than `http:`. At the moment, it is easy to create exceptions to the ATS policy. Apple is likely to tighten up these exceptions over time, though it is difficult to see how they can make it 100% mandatory. The issue being that some server sites simply will not work over `https:` and may never convert.
 
-Note, there are known issues with some sites using `https:` AND Apple's ATS. It is not as simple as adding an 's' to `http:`. Apple mandates [TLS1.2](https://en.wikipedia.org/wiki/Transport_Layer_Security) (or better) when using iOS9 and `https:`. On some sites, TLS1.2 will not work, though they will work with `https:`. Google Ads and Amazons Web Services are known to have problems. Luckily, it is easy to create an exception.
+Note, there are known issues with some sites using `https:` *and* Apple's ATS. It is not as simple as adding an 's' to `http:`. Apple mandates [TLS1.2](https://en.wikipedia.org/wiki/Transport_Layer_Security) (or better) when using iOS9 and `https:`. On some sites, TLS1.2 will not work, though they will work with `https:`. Google Ads and Amazons Web Services are known to have problems. Luckily, it is easy to create an exception.
 
 - Google Ads [Handling App Transport Security in iOS 9 ](http://googleadsdeveloper.blogspot.com/2015/08/handling-app-transport-security-in-ios-9.html)
 - AWS [Preparing Your Apps for iOS 9](https://mobile.awsblog.com/post/Tx2QM69ZE6BGTYX/Preparing-Your-Apps-for-iOS-9)
 - [ATS Examples]( whitelist-ats-examples.md)
 - You can also by pass this subject by using an alternate SSL drive, more on that later.
+
+**Turns off all security.** [Google](http://googleadsdeveloper.blogspot.com/2015/08/handling-app-transport-security-in-ios-9.html) and [Ionic](http://blog.ionic.io/preparing-for-ios-9/) provide these answers.<br>*CAUTION:* Your app maybe rejected, unless you have a good reason for using this. [SEE](#appRejected)
+```
+<key>NSAppTransportSecurity</key>
+    <dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+    </dict>
+```
 
 **Solution for amazonaws.com**
 ```
