@@ -1,4 +1,4 @@
-## ATS Examples ##
+# ATS Examples #
 Last Update: 2015-11-01
 
 **Turns off all security. - Widely given as an answer.** <sup>[1](#footnotes)</sup>
@@ -58,12 +58,12 @@ https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlis
 
 ----
 
-####<a name=bydefault>Access By Default</a>####
+##<a name=bydefault>Access By Default</a>##
 
 As of iOS9, all network access is turned off by default.
 ***NONE.***
 
-####<a name=references>References</a>####
+##<a name=references>References</a>##
 
 **APPLE** *About the security content of iOS 9.1*<br>
 https://support.apple.com/en-us/HT205370<br>
@@ -91,7 +91,7 @@ https://github.com/AFNetworking/AFNetworking/issues/2779#issuecomment-112030880<
 Another set of possible answer.<br>
 http://stackoverflow.com/a/32764234/3255670
 
-####<a name=usefularticles>Useful Articles</a>####
+##<a name=usefularticles>Useful Articles</a>##
 
 Cordova 5.3.1 and iOS9 platform - I can't load images and scripts form external sources<br>
 http://stackoverflow.com/a/33422392/3255670
