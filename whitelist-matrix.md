@@ -235,7 +235,7 @@ Note, there are known issues with some sites using `https:` *and* Apple's ATS. I
 - [ATS Examples]( whitelist-ats-examples.md)
 - You can also by pass this subject by using an alternate SSL drive, more on that later.
 
-**Turns off all security.** [Google](http://googleadsdeveloper.blogspot.com/2015/08/handling-app-transport-security-in-ios-9.html) and [Ionic](http://blog.ionic.io/preparing-for-ios-9/) provide these answers.<br>*CAUTION:* Your app maybe rejected, unless you have a good reason for using this. [SEE](#appRejected)
+**Turns off all security.** [Google](http://googleadsdeveloper.blogspot.com/2015/08/handling-app-transport-security-in-ios-9.html) and [Ionic](http://blog.ionic.io/preparing-for-ios-9/) provide these answers.<br>*CAUTION:* Your app maybe rejected, unless you have a good reason for using this. [SEE](whitelist-ats-examples.md#appRejected)
 ```
 <key>NSAppTransportSecurity</key>
     <dict>
