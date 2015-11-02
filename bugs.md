@@ -12,8 +12,7 @@ If you don't know this by now, you should. Cordova manages the base code that is
 
 Other bugs for other phonegap open source products can be found by walking the tree from the root https://github.com/phonegap/{productName}
 
-
-### Known Bugs ###
+### <a name=otherKnownBugs>Other Known Bugs</a> ###
 
 Yes there are more bugs, I just have not seen any yet. 
 
@@ -23,7 +22,7 @@ Yes there are more bugs, I just have not seen any yet.
 - Blackberry
 - etc
 
-### iOS Known Bugs ###
+### <a name=iOSKnownBugs>iOS Known Bugs</a> ###
 
 * *Facebook Says It Fixed A Bug That Caused Silent Audio To Vampire Your iPhone Battery*
 * http://techcrunch.com/2015/10/22/facebook-says-it-fixed-a-bug-that-caused-silent-audio-to-vampire-your-iphone-battery/#.n72ctj:3Z2C
@@ -50,10 +49,17 @@ Yes there are more bugs, I just have not seen any yet.
 * https://github.com/phonegap/build/issues/470
 * Creates https://issues.apache.org/jira/browse/CB-9688
 
-### iOS Suspected Bugs ###
+### <a name=iOSSuspectedBugs>iOS Suspected Bugs</a> ###
 
 * Bug: `tel:` not working with InAppBrowser (whitelist was checked)
 * Titled: Cordova InAppBrowser not working with iOS
 * http://stackoverflow.com/questions/33034398/cordova-inappbrowser-not-working-with-ios
 * Conclusion reached on 2015-10-18
 
+### <a name=ionicKnownBugs>Ionic Known Bugs</a> ###
+
+* Preparing for iOS 9 - Sept 12, 2015
+* http://community.phonegap.com/nitobi/topics/sfsafariviewcontroller-webview-alternative-for-ios9-or-better?rfm=1
+* window.location bug
+* Radio button issue
+* App Transport Security

@@ -23,7 +23,7 @@ Google: [webview alternative](https://www.google.com/search?q=webview+alternativ
 
 1. [Crosswalk](https://crosswalk-project.org/) an x86 version of the plugin to PGB: https://build.phonegap.com/plugins/4652
 2. [WKWebView](https://github.com/Telerik-Verified-Plugins/WKWebView) an alternative for **iOS**
-
+3. [SFSafariViewController](https://developer.apple.com/library/prerelease/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/index.html#//apple_ref/occ/cl/SFSafariViewController) It shares cookies and other website data with Safari, and has many of Safari's great features, such as Safari AutoFill and Safari Reader. **iOS, noticed with iOS9** [SEE](http://community.phonegap.com/nitobi/topics/sfsafariviewcontroller-webview-alternative-for-ios9-or-better)
 
 ### Work in Progress ###
 

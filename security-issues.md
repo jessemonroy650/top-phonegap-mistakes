@@ -1,7 +1,7 @@
 ## Security Issues ##
 Last Update: 2015-10-18
 
-I have more, but they are in bookmarks right now. I'll update them over the next few days.
+*I have more security issues, but they are in bookmarks right now. I'll update them over the next few days. This page also needs organization.*
 
 * *Apache Cordova Vulnerability: 10% of Android Banking Apps Vulnerable*
 * https://securityintelligence.com/apache-cordova-phonegap-vulnerability-android-banking-apps/
