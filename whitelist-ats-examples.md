@@ -71,21 +71,20 @@ https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlis
 **GOOGLE** *Handling App Transport Security in iOS 9*<br>
 http://googleadsdeveloper.blogspot.com/2015/08/handling-app-transport-security-in-ios-9.html
 
-**IONIC**  *Preparing for iOS 9*<br>
+**IONIC** *Preparing for iOS 9*<br>
 http://blog.ionic.io/preparing-for-ios-9/
 
-https://github.com/AFNetworking/AFNetworking/issues/2779#issuecomment-112030880
-"""
-I want to make sure everyone fully understands this behavior. I spent some time in the labs last week at WWDC, and got the following information.
+https://github.com/AFNetworking/AFNetworking/issues/2779#issuecomment-112030880<br>
 
-Setting NSAllowsArbitraryLoads to true will allow it to work, but Apple was very clear in that they intend to reject apps who use this flag without a specific reason. The main reason to use NSAllowsArbitraryLoads I can think of would be user created content (link sharing, custom web browser, etc). And in this case, Apple still expects you to include exceptions that enforce the ATS for the URLs you are in control of.
+>I want to make sure everyone fully understands this behavior. I spent some time in the labs last week at WWDC, and got the following information.
 
-If you do need access to specific URLs that are not served over TLS 1.2, you need to write specific exceptions for those domains, not use NSAllowsArbitraryLoads set to yes. You can find more info in the NSURLSesssion WWDC session.
+>Setting NSAllowsArbitraryLoads to true will allow it to work, but Apple was very clear in that they intend to reject apps who use this flag without a specific reason. The main reason to use NSAllowsArbitraryLoads I can think of would be user created content (link sharing, custom web browser, etc). And in this case, Apple still expects you to include exceptions that enforce the ATS for the URLs you are in control of.
 
-Please be careful in sharing the NSAllowsArbitraryLoads solution. It is not the recommended fix from Apple.
-"""
+>If you do need access to specific URLs that are not served over TLS 1.2, you need to write specific exceptions for those domains, not use NSAllowsArbitraryLoads set to yes. You can find more info in the NSURLSesssion WWDC session.
 
-Another set of possible answer.
+>Please be careful in sharing the NSAllowsArbitraryLoads solution. It is not the recommended fix from Apple.
+
+Another set of possible answer.<br>
 http://stackoverflow.com/a/32764234/3255670
 
 ####<a name=usefularticles>Useful Articles</a>####
