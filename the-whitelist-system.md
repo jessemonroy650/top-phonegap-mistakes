@@ -93,7 +93,7 @@ Examples for each part. If you have any you'd like to lend, please email me or c
 
 [whitelist-csp-examples.md](whitelist-csp-examples.md) &ndash; NOT FINISHED, in rough state. About 60% done.
 
-[whitelist-ats-examples.md](whitelist-ats-examples.md) &ndash; JUST STARTED, in raw state. About 90% done.
+[whitelist-ats-examples.md](whitelist-ats-examples.md) &ndash; ALMOST FINISHED, in good state. About 90% done. Need more examples, some comments.
 
 
 ### <a name=annoyances>Annoyances in creating this document</a> ###
