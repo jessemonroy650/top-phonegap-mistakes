@@ -61,17 +61,17 @@ As of iOS9, all network access is turned off by default.
 
 ####<a name=references>References</a>####
 
-**APPLE** About the security content of iOS 9.1
-https://support.apple.com/en-us/HT205370
-Not listed as an issue.
+**APPLE** *About the security content of iOS 9.1*<br>
+https://support.apple.com/en-us/HT205370<br>
+ATS is not listed as an issue.
 
-**APPLE** Information Property List Key Reference: NSAppTransportSecurity
+**APPLE** *Information Property List Key Reference: NSAppTransportSecurity*<br>
 https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW33
 
-**GOOGLE** Handling App Transport Security in iOS 9
+**GOOGLE** *Handling App Transport Security in iOS 9*<br>
 http://googleadsdeveloper.blogspot.com/2015/08/handling-app-transport-security-in-ios-9.html
 
-**IONIC** Preparing for iOS 9
+**IONIC**  *Preparing for iOS 9*<br>
 http://blog.ionic.io/preparing-for-ios-9/
 
 https://github.com/AFNetworking/AFNetworking/issues/2779#issuecomment-112030880
