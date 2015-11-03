@@ -1,6 +1,19 @@
 ### Top Mistakes by Developers new to Cordova/Phonegap ###
 LAST UPDATE: 2015-10-18
 
+<a href=#001>1</a>
+<a href=#002>2</a>
+<a href=#003>3</a>
+<a href=#004>4</a>
+<a href=#005>5</a>
+<a href=#006>6</a>
+<a href=#007>7</a>
+<a href=#008>8</a>
+<a href=#009>9</a>
+<a href=#010>10</a>
+<a href=#011>11</a>
+<a href=#012>12</a>
+
 1. **Thinking Phonegap is just one system**<p />There are three similar platforms, Cordova (CLI), Phonegap (CLI), and Phonegag Build and five system (counting Cordova/Phonegap SDK<sup>1</sup>). People often confuse the three very similar platforms and get tangled in the minor variations that differentiate them.<p />
   Oddly enough, the best explanation comes from something built on top of Angular, and wraps the Cordova/Phonegap CLI. - *Ionic*.
 
@@ -143,7 +156,7 @@ LAST UPDATE: 2015-10-18
   * [Plugins Release and Moving plugins to npm](http://cordova.apache.org/announcements/2015/04/21/plugins-release-and-move-to-npm.html) 2015/04/21
   * [List of the Latest \*Core* Plugins and their versions](http://cordova.apache.org/news/2015/06/22/plugins-release.html) June 22, 2015
 
-12. **`<feature>` is deprecated**
+<a name=012>12</a>. **`<feature>` is deprecated**
 
   `<feature>` tags are deprecated. That means they are no longer used.
   You can [read about it here](http://docs.build.phonegap.com/en_US/configuring_features.md.html#Features)
