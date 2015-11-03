@@ -22,6 +22,16 @@ Yes there are more bugs, I just have not seen any yet.
 - Blackberry
 - etc
 
+
+### <a name=androidKnownBugs>Android Known Bugs</a> ###
+
+* *Google No Longer Provides Patches for WebView Jelly Bean and Prior*
+* https://web.archive.org/web/20150905130759/https://community.rapid7.com/community/metasploit/blog/2015/01/11/google-no-longer-provides-patches-for-webview-jelly-bean-and-prior
+> Over the past year, independent researcher Rafay Baloch (of "Rafay's Hacking Articles") and Rapid7's Joe Vennix have been knocking out Android WebView exploits somewhat routinely, based both on published research and original findings. Today, Metasploit ships with 11 such exploits, thanks to Rafay, Joe, and the rest of the open source security community. Generally speaking, these exploits affect "only" Android 4.3 and prior -- either native Android 4.3, or apps built with 4.3 WebView compatibility
+>
+> Google responds: 
+> > If the affected version [of WebView] is before 4.4, we generally do not develop the patches ourselves, but welcome patches with the report for consideration. Other than notifying OEMs, we will not be able to take action on any report that is affecting versions before 4.4 that are not accompanied with a patch.
+
 ### <a name=iOSKnownBugs>iOS Known Bugs</a> ###
 
 * *Facebook Says It Fixed A Bug That Caused Silent Audio To Vampire Your iPhone Battery*
