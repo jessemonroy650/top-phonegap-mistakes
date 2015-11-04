@@ -5,8 +5,12 @@
 - http://docs.build.phonegap.com/en_US/configuring_plugins.md.html#Plugins
 - http://docs.build.phonegap.com/en_US/configuring_plugins.md.html#plugin-params
 
-Source: https://cordova.apache.org/news/2015/06/22/plugins-release.html
+**To version or not to version.**
 
+- Do **not set** the version, get the latest and greatest. However, as version change so does the chance for you code to break.
+- Do **set** the version, your code will always work. Make the chanes at your pace, not those of the Cordova "core" team.
+
+Source: https://cordova.apache.org/news/2015/06/22/plugins-release.html
 ```
 <gap:plugin name=cordova-plugin-battery-status source=npm version=1.1.0 />
 <gap:plugin name=cordova-plugin-camera         source=npm version=1.2.0 />
