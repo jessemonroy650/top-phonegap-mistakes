@@ -11,10 +11,10 @@ Can you spell disaster?
 - Background 
 - The legacy whitelist plugin
 - How it Works
-- - Version
-- - Plugin
-- - The Plugin White List
--- CSP
+  - - Version
+  - - Plugin
+  - - The Plugin White List
+  - - CSP
 - What you should watch for
 - Samples
 - Ionic Issues
