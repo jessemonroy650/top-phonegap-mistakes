@@ -1,9 +1,9 @@
 # Core Plugins Setup#
 
 
-
-http://docs.build.phonegap.com/en_US/configuring_plugins.md.html#Plugins
-http://docs.build.phonegap.com/en_US/configuring_plugins.md.html#plugin-params
+**Phonegap Build**
+- http://docs.build.phonegap.com/en_US/configuring_plugins.md.html#Plugins
+- http://docs.build.phonegap.com/en_US/configuring_plugins.md.html#plugin-params
 
 Source: https://cordova.apache.org/news/2015/06/22/plugins-release.html
 
