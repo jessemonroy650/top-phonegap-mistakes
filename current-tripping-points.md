@@ -2,23 +2,16 @@
 Last Update: 2015-11-03
 <br>Date: 2015-10-18
 
-## 1. No support for iOS9 YET! ##
+## 1. iOS9 is Now supported ##
 
-**PhoneGap Build iOS 9 Support Status**
+Read the blog post
 
-* Sept 23, 2015
-* http://community.phonegap.com/nitobi/topics/phonegap-build-ios-9-support-status
-* Top line: iOS 9 is **NOT** officially supported until Cordova-iOS 4.0.0, which the Cordova team is hard at work on. However some issues can be solved with some simple configuration changes. 
+Apache Cordova iOS 3.9.2<br>
+http://cordova.apache.org/announcements/2015/11/02/cordova-ios-3-9-2.html
 
-> At this point in time, 4 bugs are reported to the Cordova Bug repository. Your issue does not appear in the respository - as of this date.
+> We are happy to announce that Cordova iOS 3.9.2 has been released and will be the default iOS version.
 
- * 4 bugs - https://issues.apache.org/jira/browse/CB-9684?jql=text%20~%20%22iOS9%22
- * 1 bug - https://openradar.appspot.com/22186109
-
-  Regardless, of what you are using, as the forum post states, iOS 9 is not officially supported until Cordova-iOS 4.0.0. This means, if you encouter a bug, you must - create a work around, or wait until it is officially supported, _OR_ file a bug report with cordova, _OR_ wait until someone else creates a work around.
-  
-  Sometimes Phonegap makes announcements on the forum and not the blog.<br />
-  For more: [(Official) Messages from Phonegap Build Technical Support in the Forum](http://codesnippets.altervista.org/documentation/phonegap/bookmarks/fromSupport.html)
+> This release addresses multiple iOS 9/9.1 and XCode 7/7.1 issues. It also deprecates a number of APIs, which will be removed in Cordova iOS 4.0.0. For a full list of API changes see API changes in 4.0.md
 
 ## 2. Plugins have MOVED!! ##
 
