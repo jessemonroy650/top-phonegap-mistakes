@@ -4,6 +4,7 @@ Date: 2015-10-28
 
 **THERE ARE MORE EXAMPLES COMING. DESCRIPTIONS WILL BE ADDED**
 
+```
 <!-- Good default declaration:
     * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
     * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
@@ -27,6 +28,7 @@ Date: 2015-10-28
       content="default-src *; 
                style-src 'self' 'unsafe-inline' 'unsafe-eval'; 
                script-src 'self' 'unsafe-inline' 'unsafe-eval';">
+```
 
 ####<a name=bydefault>Access By Default</a>####
 
