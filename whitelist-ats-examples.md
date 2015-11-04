@@ -24,6 +24,34 @@ Last Update: 2015-11-01
 </dict>
 ```
 
+**Solution for [amazonaws.com](https://mobile.awsblog.com/post/Tx2QM69ZE6BGTYX/Preparing-Your-Apps-for-iOS-9)**
+```
+<key>NSAppTransportSecurity</key>
+<dict>
+      <key>NSExceptionDomains</key>
+      <dict>
+            <key>amazonaws.com</key>
+            <dict>
+                  <key>NSThirdPartyExceptionMinimumTLSVersion</key>
+                  <string>TLSv1.0</string>
+                  <key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+                  <false/>
+                  <key>NSIncludesSubdomains</key>
+                  <true/>
+            </dict>
+            <key>amazonaws.com.cn</key>
+            <dict>
+                  <key>NSThirdPartyExceptionMinimumTLSVersion</key>
+                  <string>TLSv1.0</string>
+                  <key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+                  <false/>
+                  <key>NSIncludesSubdomains</key>
+                  <true/>
+            </dict>
+      </dict>
+</dict>
+```
+
 **[ATS General Purpose](http://stackoverflow.com/a/30732693/3255670)**
 ```
 <key>NSAppTransportSecurity</key>
