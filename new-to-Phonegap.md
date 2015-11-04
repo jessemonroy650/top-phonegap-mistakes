@@ -13,6 +13,7 @@ LAST UPDATE: 2015-10-18
 <a href=#010>10</a>
 <a href=#011>11</a>
 <a href=#012>12</a>
+<a href=#013>13</a>
 
 1. **Thinking Phonegap is just one system**<p />There are three similar platforms, Cordova (CLI), Phonegap (CLI), and Phonegag Build and five system (counting Cordova/Phonegap SDK<sup>1</sup>). People often confuse the three very similar platforms and get tangled in the minor variations that differentiate them.<p />
   Oddly enough, the best explanation comes from something built on top of Angular, and wraps the Cordova/Phonegap CLI. - *Ionic*.
@@ -163,6 +164,14 @@ LAST UPDATE: 2015-10-18
   
   > Aside from the debug-server feature, the feature tag is essentially deprecated on PhoneGap Build since PhoneGap APIs were pluginized. Permissions are now generally managed by individual plugins, and application manifests and permissions can be modified directly using the config-file element. However for backwards-compatibility, they are still supported and map to device permissions on Android and Windows Phone 8:
 
+<a name=013>13</a>. **For some Cordova Plugins, there is likely an HTML5 API.**
+
+  SEE: http://mobilehtml5.org/
+
+  **NOTE:** Many HTML5 APIs will work with *Cordova*, and where appropriate *Cordova* will use the HTML5 API. However, sometimes the *Cordova* Plugin and *HTML5 API* clash; not all instances are reported or tested. (Keep in mind more than 2000 Android devices are in the field.)
+
+  There will be more on this later. Just getting started. 2015-11-03
+
 **Some additional related articles**
 
 * [Beginner Stumbling Blocks in Phonegap & Cordova](http://scottbolinger.com/beginner-phonegap-cordova/) - Scott Bolinger - +wordpress
@@ -172,8 +181,8 @@ LAST UPDATE: 2015-10-18
 * [Can I use PHP to build a webapp using the PhoneGap framework?](http://www.quora.com/Can-I-use-PHP-to-build-a-webapp-using-the-PhoneGap-framework) - Quora 
 
 ----
-### Frustrating Issues for the Volunteers ###
 
+### Frustrating Issues for the Volunteers ###
 
 1. **Not getting enough information from a posting**<p />We know that Phonegap entices new developer because of the promise of mobile development, so we try to be patient.<p /> Please post the following information:
   1. What you are trying to do. Be specific, not general.

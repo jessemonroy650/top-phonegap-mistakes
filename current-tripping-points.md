@@ -1,5 +1,6 @@
 ### Current Tripping Points to Cordova/Phonegap ###
-Date: 2015-10-18
+Last Update: 2015-11-03
+<br>Date: 2015-10-18
 
 ## 1. No support for iOS9 YET! ##
 
@@ -19,53 +20,7 @@ Date: 2015-10-18
   Sometimes Phonegap makes announcements on the forum and not the blog.<br />
   For more: [(Official) Messages from Phonegap Build Technical Support in the Forum](http://codesnippets.altervista.org/documentation/phonegap/bookmarks/fromSupport.html)
 
-## 2. Not setting compiler version ##
-
-The alternative is this quick fix &ndash. However, this creates a [security issue](http://www.androidauthority.com/google-webview-security-582363/) which you may not want to by pass.
-
-**QUICK FIX** Add this to your `config.xml`<br />
-`<preference name="phonegap-version" value="3.7.0" />`
-
-over the last two (2) weeks Cordova has made some major changes. The documentation has NOT caught up. I don't expect it will catch up for at least a few weeks. You have two (2) options:
-
-1) Set your Compiler version to something before Cordova 4.0.0
-2) Follow the complete protocol for using the `white-list`
-
-From [Top Mistakes by Developers new to Cordova/Phonegap](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/new-to-Phonegap.md) you have hit:
-
- * \#6 **Not setting the "phonegap version" for your compiler**
- * \#7 **Not setting "version" for you plugins**
- * \#10 **Not adding the new "white-list" and "white-list plugin" parameters in config.xml.**
-
-For #6 & #7
-
- > With the CLI version, if you do not assign a version for your platform OR in ''Phonegap Build'' if you do not set the phonegap-version in config.xml, YOU WILL GET THE LATEST VERSION. If you are lucky, your program just works as expected. If you are not lucky, you'll get a set of cascading errors.
-
- > Luckily for all of us, Holly Schinsky has written a nice blog post to explain it all: **(NOTE: Holly has not had time to update the article since the move to NPM, use the NPM names, not the names she is using.)**
-
- > *Cordova/PhoneGap Version Confusion*<br />
- > http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/
-
-For #10
-
- > This relatively * NEW * requirement means &ndash; to access ANY website or resources on the web, you MUST use the whitelist and the whitelist plugin. This requirement goes into affect, if you are using cordova-android@4.0.0 or better; including cli-5.1.1 and cli-5.2.0. If however, your version is before 4.0.0, let's say 3.5.0 or 3.7.0, then you will *not* have to add the *white-list* requirement.
-
- > To be clear, the "whitelist" has been around for a bit, but the plugin and requirement is very new. As you would expect, when the "whitelist" was added, the defacto open-access feature was deprecated. Or said another way, the defacto open-access feature was planned and scheduled to be eliminated. This change marks a step in removal of the open-access feature.
-
- > In addition, the Content Security Policy (CSP) has caught numerous developers - because it was soooo poorly publicized. <b>Depending on your use and the version of Phonegap you are using, the CSP needs to go in every single HTML page you used, just like you have to wait for 'deviceready'. However, there are cases where it is not needed at all. The documentation is confusing for some, please read it carefully.</b> The documentation is buried in the bottom of many of the latest documentation pages.
-
- > Lastly, Raymond Camden in his blog points to a [LARGE change in policy starting with Cordova 5](http://www.raymondcamden.com/2015/05/25/important-information-about-cordova-5)
-
- <b>Related Links</b>
- > Phonegap Build Forum: [Notes for upgrading to cli-5.1.1 on PGB](http://community.phonegap.com/nitobi/topics/notes-for-upgrading-to-cli-5-1-1-on-pgb) and now required Whitelist
-
- > * [Cordova Whitelist Guide](https://www.npmjs.com/package/cordova-plugin-whitelist)
- > * [Phonegap Whitelist Guide](http://docs.phonegap.com/en/4.0.0/guide_appdev_whitelist_index.md.html#Whitelist%20Guide)
- > * [Phonegap Build Whitelist Guide](http://docs.build.phonegap.com/en_US/configuring_access_elements.md.html#Access%20Elements)
- > * [White-list Plugin](https://www.npmjs.com/package/cordova-plugin-whitelist) - READ BOTTOM section for instruction on CSP
-
-
-## 3. Plugins have MOVED!! ##
+## 2. Plugins have MOVED!! ##
 
 Without announcement or warning the Cordova team has moved the plugins. Luckily, the previous URL redirects, but some of the URLS &ndash; notably http://plugins.cordova.io/npm/index.html?q= is GONE!!
 
@@ -82,7 +37,7 @@ The rules regarding sourcing your plugins can be rather confusing. The best thin
 - [List of the Latest *Core* Plugins and their versions](http://cordova.apache.org/news/2015/06/22/plugins-release.html) June 22, 2015
 
 
-## 4. `<feature>` is deprecated ##
+## 3. `<feature>` is deprecated ##
 
 `<feature>` tags are deprecated. That means they are no longer used.
 You can [read about it here](http://docs.build.phonegap.com/en_US/configuring_features.md.html#Features)

@@ -30,6 +30,10 @@ Some details for these libraries are in [webview-details](webview-details.md)
 
 ###Windows 10###
 
+Finally found it. 2015-11-03
+
+- [WebView](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.webview.aspx)
+
 - [What's new in Windows 10](https://dev.windows.com/en-us/getstarted/whats-new-windows-10#web) - undated
 
 > The WebView control uses the same rendering engine as the new Edge browser. This provides the most accurate, standards-compliant mode of HTML rendering.
