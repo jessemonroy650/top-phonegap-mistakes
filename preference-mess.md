@@ -17,13 +17,13 @@ Date: 2015-11-06
 
 ### `<preference>` ##
 
-**global **
+**global**
 
 | preference | platforms |PGB|
 |------------|-----------|---|
 | fullscreen |   all     | Y |
 
-** Multi-Platform **
+**Multi-Platform**
 
 | preference                   |PGB| platforms                | Note |
 |------------------------------|---|--------------------------|------|
@@ -102,11 +102,13 @@ Date: 2015-11-06
 | <s>splash-screen-duration</s> |  Android  | Deprecated, use [SplashScreenDelay](http://docs.phonegap.com/en/3.6.0/guide_platforms_android_config.md.html) or the [cordova-plugin-splashscreen](https://www.npmjs.com/package/cordova-plugin-splashscreen)
 
 
-###Better alternatives to some prefer3nces###
+###Better alternatives to some preferences###
 
-[cordova-plugin-splashscreen](https://www.npmjs.com/package/cordova-plugin-splashscreen)
+Plugin: [cordova-plugin-splashscreen](https://www.npmjs.com/package/cordova-plugin-splashscreen)
+This has the issue that sometimes you need to use `<platform>`, but not for *Phonegap Build*.
 
-This has the issue of need to use `<platform>`, but not for *Phonegap Build*
+*Phonegap Build* uses `<gap:platform (...)` to decide which platforms to build. It has NO `<platform>`.
+
 
 It has only two methods:
 
