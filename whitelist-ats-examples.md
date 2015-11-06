@@ -1,7 +1,10 @@
 # ATS Examples #
-Last Update: 2015-11-01
+Last Update: 2015-11-05
 
 **Turns off all security.** Widely given as an answer<sup>[1](#footnotes)</sup>. This is dangerous, working.<br>*CAUTION:* Your app maybe rejected, unless you have a good reason for using this. [SEE](#appRejected)
+
+**NOTE** If you are using *Phonegap Build*, you may want to read the section on `[gap:config-file](http://docs.build.phonegap.com/en_US/configuring_config_file_element.md.html#Config%20File%20Elements)` which will help you include these XML elements into your product.
+
 ```
 <key>NSAppTransportSecurity</key>
     <dict>
