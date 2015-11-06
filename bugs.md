@@ -27,6 +27,7 @@ Yes there are more bugs, I just have not seen any yet.
 
 * *Google No Longer Provides Patches for WebView Jelly Bean and Prior*
 * https://web.archive.org/web/20150905130759/https://community.rapid7.com/community/metasploit/blog/2015/01/11/google-no-longer-provides-patches-for-webview-jelly-bean-and-prior
+
 > Over the past year, independent researcher Rafay Baloch (of "Rafay's Hacking Articles") and Rapid7's Joe Vennix have been knocking out Android WebView exploits somewhat routinely, based both on published research and original findings. Today, Metasploit ships with 11 such exploits, thanks to Rafay, Joe, and the rest of the open source security community. Generally speaking, these exploits affect "only" Android 4.3 and prior -- either native Android 4.3, or apps built with 4.3 WebView compatibility
 >
 > Google responds: 
