@@ -11,8 +11,8 @@ Date: 2015-11-06
 | element        | Notes |
 |----------------|-------|
 | `<preference>` | See below |
-| `<feature>`    | If you work directly in an SDK and using the platform-specific config.xml file as source, you use the <feature> tag to enable device-level APIs and external plugins. |
-| `<platform>`   | Used with CLI to set the `<preference>` for a particular platform. |
+| `<feature>`    | If you work directly in an SDK and are using the platform-specific `config.xml` file as source, you use the `<feature>` tag to enable device-level APIs and external plugins. Otherwise this is not used for *Cordova/Phonegap CLI* or *Phonegap Build*. |
+| `<platform>`   | Used with *Cordova/Phonegap CLI* to set the `<preference>` for a particular platform. |
 
 
 ### `<preference>` ##
