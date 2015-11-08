@@ -38,7 +38,7 @@ So far not too bad.
 
 However, `<preference>` is the worst of the pack
 
-There is only one preference that, in theory, works across all platforms.
+There is only one preference that, in theory, works across all platforms, and that is `fullscreen`.
 
 https://issues.apache.org/jira/browse/CB-8635?jql=project%20%3D%20CB%20AND%20resolution%20%3D%20Unresolved%20AND%20text%20~%20%22fullscreen%22%20ORDER%20BY%20priority%20DESC
 

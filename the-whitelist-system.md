@@ -2,6 +2,8 @@
 
 MOVED the original to [new-whitelist-system.md](new-whitelist-system.md)
 
+If you have any questions, I am usually in the [Google Group for Phonegap](https://groups.google.com/forum/#!forum/phonegap)
+
 Originally, I wanted to do this as a one blog post, but as the issues grew and the complexity increased, it appeared the best strategey is to have several pages. The resulting blog post and reference pages is a two-plus (2+) week effort. There were a <a href=#annoyances>number of annoyance</a> that extened the process. 
 
 As such I want to thank **Rob Willett** for his invaluable assitance and advice. If you find errors, they are mine. If you have praise, send some luv to Rob.
@@ -94,6 +96,9 @@ Examples for each part. If you have any you'd like to lend, please email me or c
 [whitelist-csp-examples.md](whitelist-csp-examples.md) &ndash; NOT FINISHED, in rough state. About 60% done.
 
 [whitelist-ats-examples.md](whitelist-ats-examples.md) &ndash; ALMOST FINISHED, in good state. About 90% done. Need more examples, some comments.
+
+
+If you have any questions, I am usually in the [Google Group for Phonegap](https://groups.google.com/forum/#!forum/phonegap)
 
 
 ### <a name=annoyances>Annoyances in creating this document</a> ###
