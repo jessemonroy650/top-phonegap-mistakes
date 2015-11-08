@@ -3,6 +3,10 @@ Last Update: 2015-10-18
 
 *I have more security issues, but they are in bookmarks right now. I'll update them over the next few days. This page also needs organization.*
 
+* *Lookout discovers new trojanized adware; 20K popular apps caught in the crossfire*
+* https://blog.lookout.com/blog/2015/11/04/trojanized-adware/
+> Unlike older types of adware that were obvious and obnoxious, prompting users to uninstall them, this new type of adware is silent, working in the background. These malicious apps root the device unbeknownst to the user. To add insult to injury, victims will likely not be able to uninstall the malware, leaving them with the options of either seeking out professional help to remove it, or simply purchasing a new device.
+
 * *Apache Cordova Vulnerability: 10% of Android Banking Apps Vulnerable*
 * https://securityintelligence.com/apache-cordova-phonegap-vulnerability-android-banking-apps/
 > The IBM Security X-Force Research team has uncovered a serious vulnerability that affects many Android applications built on the Apache Cordova (previously PhoneGap) platform. According to AppBrain, this affects 5.8 percent of Android apps.

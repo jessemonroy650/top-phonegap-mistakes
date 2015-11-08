@@ -233,7 +233,7 @@ Note, there are known issues with some sites using `https:` *and* Apple's ATS. I
 - Google Ads [Handling App Transport Security in iOS 9 ](http://googleadsdeveloper.blogspot.com/2015/08/handling-app-transport-security-in-ios-9.html)
 - AWS [Preparing Your Apps for iOS 9](https://mobile.awsblog.com/post/Tx2QM69ZE6BGTYX/Preparing-Your-Apps-for-iOS-9)
 - [ATS Examples]( whitelist-ats-examples.md)
-- You can also by pass this subject by using an alternate SSL drive, more on that later.
+- You can also by pass this subject by using an alternate SSL driver, more on that later.
 
 **Turns off all security.** [Google](http://googleadsdeveloper.blogspot.com/2015/08/handling-app-transport-security-in-ios-9.html) and [Ionic](http://blog.ionic.io/preparing-for-ios-9/) provide these answers.<br>*CAUTION:* Your app maybe rejected, unless you have a good reason for using this. [SEE](whitelist-ats-examples.md#appRejected)
 ```

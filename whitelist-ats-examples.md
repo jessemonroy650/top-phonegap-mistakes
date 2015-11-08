@@ -140,6 +140,8 @@ Plugin as a solution
 
 ----
 
+Working with Apple?s App Transport Security<br>
+http://www.neglectedpotential.com/2015/06/working-with-apples-application-transport-security/
 
 How to Disable App Transport Security - Oct 13, 2015<br>
 https://medium.com/five-minute-watchkit/how-to-disable-app-transport-security-2c8d5d298160
