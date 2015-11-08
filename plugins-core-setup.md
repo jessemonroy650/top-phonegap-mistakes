@@ -5,6 +5,10 @@
 - http://docs.build.phonegap.com/en_US/configuring_plugins.md.html#Plugins
 - http://docs.build.phonegap.com/en_US/configuring_plugins.md.html#plugin-params
 
+**Where to get the names and version**
+
+Usually all the latest plugins, as released by Cordova, are usable. You can always find the latest plugins list on the Cordova Blog and look for [Plugins Release](https://cordova.apache.org/blog/).
+
 **To version or not to version.**
 
 - Do **not set** the version, get the latest and greatest. However, as version change so does the chance for you code to break.
