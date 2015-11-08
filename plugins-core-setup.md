@@ -14,6 +14,7 @@ Usually all the latest plugins, as released by Cordova, are usable. You can alwa
 - Do **not set** the version, get the latest and greatest. However, as version change so does the chance for you code to break.
 - Do **set** the version, your code will always work. Make the chanes at your pace, not those of the Cordova "core" team.
 
+**Versions set**
 ```
 <gap:plugin name=cordova-plugin-battery-status source=npm version=1.1.0 />
 <gap:plugin name=cordova-plugin-camera         source=npm version=1.2.0 />
@@ -66,4 +67,3 @@ Usually all the latest plugins, as released by Cordova, are usable. You can alwa
 ```
 
 Source: https://cordova.apache.org/news/2015/06/22/plugins-release.html<br>
-**Versions set**
