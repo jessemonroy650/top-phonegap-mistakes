@@ -1,16 +1,20 @@
-## HOW TO apply the Cordova/Phonegap the whitelist system ##
+# HOW TO apply the Cordova/Phonegap the whitelist system #
+Date: 2015-10-28<br>
+Last Update: 2015-11-09
 
-MOVED the original to [new-whitelist-system.md](new-whitelist-system.md)
+***If you have any questions, I am usually in the [Google Group for Phonegap](https://groups.google.com/forum/#!forum/phonegap)**
 
-If you have any questions, I am usually in the [Google Group for Phonegap](https://groups.google.com/forum/#!forum/phonegap)
+This blog post is one page. It has three (3) parts.
 
-Originally, I wanted to do this as a one blog post, but as the issues grew and the complexity increased, it appeared the best strategey is to have several pages. The resulting blog post and reference pages is a two-plus (2+) week effort. There were a <a href=#annoyances>number of annoyance</a> that extened the process. 
+1. The Breakdown. - the four big parts of the `whitelist` system
+2. Turning It All Off. - turn off security, get the job done.
+3. Lucy, Esplain Youself. - 5+ pages with references, examples, and  tips
 
-As such I want to thank **Rob Willett** for his invaluable assitance and advice. If you find errors, they are mine. If you have praise, send some luv to Rob.
+As such, I want to thank *Rob Willett* for his invaluable assitance and advice. If you find errors, they are mine. If you have praise, send some luv to Rob.
 
-Note: From here forward I will use **Cordova** to mean *Cordova CLI*, *Phonegap CLI*, and *Phonegap Build*. If there is a difference, I will try to make it abundantly clear. If you did not know there is a difference, [read this](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/new-to-Phonegap.md)
+*Note:* From here forward I will use **Cordova** to mean *Cordova CLI*, *Phonegap CLI*, and *Phonegap Build*. If there is a difference, I will try to make it abundantly clear. If you did not know there is a difference, [read this](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/new-to-Phonegap.md)
 
-### Here is the breakdown. ###
+##The breakdown.##
 
 For the whitelist system used with *Cordova*, there is actually four (4) unrelated systems in place. 
 
@@ -19,22 +23,22 @@ For the whitelist system used with *Cordova*, there is actually four (4) unrelat
 3. [W3's CSP](http://www.w3.org/TR/CSP2/) (Content Security Policy Level 2) is a whitelist system that is implemented webpage by webpage. It is required as of *Cordova Tools 5.0.0*. It has sixteen (16) parts.
 4. [Apple's ATS](https://web.archive.org/web/20150905111538/https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/) (App Transport Security)  is a whitelist system exclusive to iOS. It required as of *iOS9*. It is implemented in the `Info.plist`
 
-To walk throught the various pieces of the different systems would be tedious. Not that that does not need to be done. There are at least five (5) documents that directly support this blog. However, let's cut to the chase and get back to the original goal &ndash; "a one blog post."<p>As such,*the code that follows* ***turns off ALL whitelist systems***. *This means your app is not secured against attacks. It is up to <u>you</u> to secure your App.* If you don't, then you probably don't know that the [Night of the Living Dead](https://en.wikipedia.org/wiki/Living_Dead) has three parts.
+To walk throught the various different systems would be tedious. As such, there are at least five (5) documents that directly support this blog. However, let's cut to the chase.
 
-Below this code, you can ***turn on and apply ALL the whitelist system***, complete with detailed *explanations, directions and examples*.
+<p>As such,*the code that follows* ***turns off ALL whitelist systems***. *This means your app is not secured against attacks. It is up to <u>you</u> to secure your App.* Below that, you can ***turn on and apply ALL the whitelist system***, complete with detailed *explanations, directions, examples, and tips*.
 
-### Turning It All Off ###
+##Turning It All Off##
 
 **before 4.0.0**
-- **Use only for development.**
+- **Recommended: For development only.**
 - The easiest way to *turn it all off* is to develop with a version before 4.0.0.
 - For *Phonegap Build* ONLY use: `<preference name="phonegap-version" value="3.7.0" />` 
 - For *Cordova/Phonegap CLI* See the outdated, but useful: [Cordova/PhoneGap  Version Confusion](http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/) 
-- **You should now have full access and be completely insecure.**
+- **After following these directions, you should now have full access and be completely insecure.**
 
 
 **after 4.0.0**
-- **For use with full production apps.**
+- **Recommended: For production applications.**
 - Start by adding the [`whitelist`](https://www.npmjs.com/package/cordova-plugin-whitelist) plugin. **required**
 -  - *Phonegap Build* Only `<gap:plugin name=cordova-plugin-whitelist source=npm>`
 -  - *Phonegap CLI* `cordova add plugin cordova-plugin-whitelist`
@@ -98,7 +102,7 @@ Examples for each part. If you have any you'd like to lend, please email me or c
 [whitelist-ats-examples.md](whitelist-ats-examples.md) &ndash; ALMOST FINISHED, in good state. About 90% done. Need more examples, some comments.
 
 
-If you have any questions, I am usually in the [Google Group for Phonegap](https://groups.google.com/forum/#!forum/phonegap)
+***If you have any questions, I am usually in the [Google Group for Phonegap](https://groups.google.com/forum/#!forum/phonegap)**
 
 
 ### <a name=annoyances>Annoyances in creating this document</a> ###

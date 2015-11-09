@@ -1,5 +1,8 @@
-# White-list Matrix #
-Date: 2015-10-26
+## Whitelist Worksheet (Matrix) ##
+Date: 2015-10-26<br>
+Last Update: 2015-11-09
+
+`[The Whitelist System](the-whitelist-system.md)`-> `Whitelist Worksheet (Matrix)`
 
 By this point you should know there are [three (3) platforms](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/new-to-Phonegap.md) and [three (3) security systems](the-whitelist-system.md).
 
