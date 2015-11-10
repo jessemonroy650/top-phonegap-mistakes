@@ -1,5 +1,6 @@
 # Core Plugins Setup#
 
+*This page is only for **Phonegap Build***
 
 **Phonegap Build**
 - http://docs.build.phonegap.com/en_US/configuring_plugins.md.html#Plugins
