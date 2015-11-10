@@ -6,9 +6,9 @@ Last Update: 2015-11-09
 
 This blog post is one page. It has three (3) parts.
 
-1. The Breakdown. - the four big parts of the `whitelist` system
-2. Turning It All Off. - turn off security, get the job done.
-3. Lucy, Esplain Youself. - 5+ pages with references, examples, and  tips
+1. *The Breakdown.* - the four big parts of the `whitelist` system
+2. *Turning It All Off.* - turn off security, get the job done.
+3. *Lucy, Esplain Youself.* - 5+ pages with references, examples, and  tips
 
 As such, I want to thank *Rob Willett* for his invaluable assitance and advice. If you find errors, they are mine. If you have praise, send some luv to Rob.
 

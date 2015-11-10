@@ -11,8 +11,8 @@ Usually all the latest plugins, as released by Cordova, are usable. You can alwa
 
 **To version or not to version.**
 
-- Do **not set** the version, get the latest and greatest. However, as version change so does the chance for you code to break.
 - Do **set** the version, your code will always work. Make the chanes at your pace, not those of the Cordova "core" team.
+- Do **not set** the version, get the latest and greatest. However, as version change so does the chance for you code to break.
 
 **Versions set**
 ```
