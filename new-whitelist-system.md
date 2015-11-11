@@ -2,7 +2,7 @@
 Date: 2015-10-24<br>
 Last Update: 2015-11-09
 
-`[The Whitelist System](the-whitelist-system.md)`-> `Cordova/Phonegap: The White-list System Explained`
+[`The Whitelist System`](the-whitelist-system.md)-> `Cordova/Phonegap: The White-list System Explained`
 
 Can you spell disaster? 
 
