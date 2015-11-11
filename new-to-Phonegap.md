@@ -15,7 +15,7 @@ LAST UPDATE: 2015-10-18
 <a href=#012>12</a>
 <a href=#013>13</a>
 
-1. **Thinking Phonegap is just one system**<p />There are three similar platforms, Cordova (CLI), Phonegap (CLI), and Phonegag Build and five system (counting Cordova/Phonegap SDK<sup>1</sup>). People often confuse the three very similar platforms and get tangled in the minor variations that differentiate them.<p />
+<a name=001>1.</a> **Thinking Phonegap is just one system**<p />There are three similar platforms, Cordova (CLI), Phonegap (CLI), and Phonegag Build and five system (counting Cordova/Phonegap SDK<sup>1</sup>). People often confuse the three very similar platforms and get tangled in the minor variations that differentiate them.<p />
   Oddly enough, the best explanation comes from something built on top of Angular, and wraps the Cordova/Phonegap CLI. - *Ionic*.
 
   From the Ionic Blog *[The Last Word on Cordova and PhoneGap](http://blog.ionic.io/what-is-cordova-phonegap/)*
@@ -38,7 +38,7 @@ LAST UPDATE: 2015-10-18
   * [Cordova vs. PhoneGap: An update](http://blog.devgeeks.org/post/73789983750/cordova-vs-phonegap-an-update) - Jan 19, 2014
   * [PhoneGap, Cordova, and what?s in a name?](http://phonegap.com/2012/03/19/phonegap-cordova-and-what%E2%80%99s-in-a-name/) - 2012/03/19
 
-2. **Does not read the docs.**<p />
+<a name=002>2.</a> **Does not read the docs.**<p />
   There are three (3) sets of docs. One for *Cordova CLI* (Command Line Interface), another for *Phonegap CLI*, and one for *Phonegap Build*. They are similar, but NOT the same. Also, to add to the confusion, sometimes the Cordova documentation is the only set of docs available; this happens for some plugins. This also happens with Phonegap &ndash; the Phonegap Developer's Guide for example. (aka Beginners Guide)
 
   **The Official Documentation**
@@ -46,13 +46,13 @@ LAST UPDATE: 2015-10-18
   * [Phonegap Beginner's Guide](http://docs.phonegap.com/) & [Phonegap 3.0.0](http://docs.phonegap.com/en/3.0.0/) (older,but sometimes better)
   * [Phonegap Build](http://docs.build.phonegap.com/en_US/#googtrans%28en%29)
 
-3. **Does not follow the blogs.**<p />
+<a name=003>3.</a> **Does not follow the blogs.**<p />
   All three platforms have blogs and twitter accounts. Ignore at your peril.
   * Official Apache [Cordova Blog](http://cordova.apache.org/blog/) - https://twitter.com/apachecordova
   * Official Adobe [Phonegap Blog](http://phonegap.com/blog/) - https://twitter.com/phonegap
   * Official Adobe [Phonegap Build Blog](http://phonegap.com/blog/phonegap-build/) - https://twitter.com/phonegapbuild
 
-4. **In the code, did not listen for the 'deviceready' event.**<p />
+<a name=004>4.</a> **In the code, did not listen for the 'deviceready' event.**<p />
   This is listed MULTIPLE times in the documentation, and is include in every example where it is appropriate. It is still missed. [Brian Ford](http://briantford.com/blog/angular-phonegap) - an Angular developer, points to the [section of documentation](http://docs.phonegap.com/en/2.3.0/cordova_events_events.md.html#deviceready) we need. 
 
   > This is a very important event that every Cordova application should use.
@@ -63,7 +63,7 @@ LAST UPDATE: 2015-10-18
 
   <p />And in case you think this is minor, even veterans like Raymond Camden [have forgotten this](http://www.raymondcamden.com/2015/07/15/fyi-cordova-events-must-be-run-after-deviceready).
 
-5. **When designing the app, thinks phonegap works like a website.**<p />
+<a name=005>5.</a> **When designing the app, thinks phonegap works like a website.**<p />
   Cordova/Phonegap is a framework that happens to use a library, called webview on Android (and similar libraries on other platforms), that happens to use HTML5 to render the UI (User Interface). The framework is NOT a webserver. The framework is also NOT a webbrowser.
 
   *Quote* ***[Phonegap FAQ](http://phonegap.com/about/faq/)***
@@ -85,7 +85,7 @@ LAST UPDATE: 2015-10-18
   *Quote* ***[Apple iTunes Guidelines](https://developer.apple.com/app-store/review/guidelines/) - 2.12***
   > Apps that are not very useful, unique, are simply web sites bundled as Apps, or do not provide any lasting entertainment value may be rejected
 
-6. **Not setting the "phonegap version" for your compiler** <p />
+<a name=006>6.</a>**Not setting the "phonegap version" for your compiler** <p />
   With the CLI version, if you do not assign a version for your platform _OR_ in ''Phonegap Build'' if you do not set the ```phonegap-version``` in config.xml, YOU WILL GET THE LATEST VERSION. If you are lucky, your program just works as expected. If you are not lucky, you'll get a set of cascading error. 
 
   Luckily for all of us, Holly Schinsky has written a nice blog post to explain it all: **(NOTE: Holly has not had time to update the article since the move to NPM, use the NPM names, not the names she is using.)**
@@ -93,24 +93,24 @@ LAST UPDATE: 2015-10-18
   *Cordova/PhoneGap Version Confusion*<br />
   http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/
 
-7. **Not setting "version" for you plugins** <p />
+<a name=007>7.</a> **Not setting "version" for you plugins** <p />
   I've been guilty of this mistake. Even worst, I gave people code examples making this mistake. I hope those people will read this one day and make the appropriate correction.
 
   In the last ''Top Mistake'' (#6), Holly Schinsky disucussed this in her blog post. But just to get the point across, here is a Post from the Nitobi Forum,
 
   *[ Notes for upgrading to cli-5.1.1 on PGB](http://community.phonegap.com/nitobi/topics/notes-for-upgrading-to-cli-5-1-1-on-pgb) (Phonegap Build)*
 
-8. **Forgot to add the plugin to config.xml.** <p />
+<a name=008>8.</a> **Forgot to add the plugin to config.xml.** <p />
   Oops. Every developer has done this at one time or another. I've done it, and them spent 8 hours debugging this mistake. OUCH!
 
   Luckily on *Cordova/Phonegap CLI* this is dealt with, but on [Cordova/Phonegap SDK](http://docs.phonegap.com/en/4.0.0/config_ref_index.md.html#The%20config.xml%20File_the_feature_element) and [Phonegap Build](http://docs.build.phonegap.com/en_US/configuring_plugins.md.html#Plugins) **you** have to do this. It is referenced differently by both. The vocabulary is different for both. Read the docs.
 
-9. **Using an online example for "phonegap CLI" and then using "phonegap Build"**<p />
+<a name=009>9.</a> **Using an online example for "phonegap CLI" and then using "phonegap Build"**<p />
   I confess to doing this. I also confess to giving people the wrong version. Sometimes, I have gave them Phonegap Build, when I should have given them Phonegap CLI.
 
   This also happens on the forum, repeatedly, not with disaterous results, but when it happens, it is frustrating. Use caution.
 
-10. **Not adding the new "white-list", "white-list plugin" parameters in config.xml AND "Content Security Policy"**<p />
+<a name=010>10.</a>. **Not adding the new "white-list", "white-list plugin" parameters in config.xml AND "Content Security Policy"**<p />
   This is sooo new and obnoxious, one can only have pitty on returning developers. In addition, this was buried in both the *Phonegap blog* and the *Cordova blog*.
 
   This relatively * NEW * requirement means &ndash; to access ANY website or resources on the web, you MUST use the whitelist and the whitelist plugin. This requirement goes into affect, if you are using cordova-android@4.0.0 or better; including cli-5.1.1 &amp; cli-5.2.0. If however, your version is before 4.0.0, let use say 3.5.0 or 3.7.0, then you will *not* have to add the *white-list* requirement.
@@ -141,7 +141,7 @@ LAST UPDATE: 2015-10-18
   * [WWDC 2015 session 703, ?Privacy and Your App?, 30:18](https://developer.apple.com/videos/wwdc/2015/?id=703)
   * [How to Disable App Transport Security ? Five Minute WatchKit ? Medium](https://medium.com/five-minute-watchkit/how-to-disable-app-transport-security-2c8d5d298160) - Oct 13, 2015
 
-11. **You need to get your plugins from NPM now.**
+<a name=011>11.</a> **You need to get your plugins from NPM now.**
 
   The rules regarding sourcing your plugins can be rather confusing. The best thing to do is read the blog posts - below. Developers that use **CLI** can source from github, again see the blog post.
 
