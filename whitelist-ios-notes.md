@@ -4,7 +4,17 @@ Last Update: 2015-11-11
 
 [`The Whitelist System`](the-whitelist-system.md) -> `Whitelist iOS Notes`
 
-There are parts to the whitelist system. 
+There are parts to the whitelist system
+
+1. Cordova `whitelist` plugin
+2. W3's CSP
+3. Apple's ATS
+
+| OS version | `whitelist` plugin         |            `CSP`                  | `ATS` |
+|------------|----------------------------|------------------------------------|------|
+| iOS8       | Does not apply<br>not need | Applies via UIWebview or WKWebview |  No  |
+| iOS9       | `<access>` only      | Yes and requires duplicate in `<access>` |  Yes |
+
 
 - Pull Request: [Remove iOS whitelist](https://issues.apache.org/jira/browse/CB-9972)
 - [Proposal to Remove the Cordova iOS Native Whitelist](https://github.com/shazron/cordova-discuss/blob/ios-remove-whitelist/proposals/ios-whitelist-removal.md)
