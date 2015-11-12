@@ -12,8 +12,8 @@ There are parts to the whitelist system
 
 | OS version | `whitelist` plugin         |            `CSP`                  | `ATS` |
 |------------|----------------------------|------------------------------------|------|
-| iOS8       | Does not apply<br>not need | Applies via UIWebview or WKWebview |  No  |
-| iOS9       | `<access>` only      | Yes and requires duplicate in `<access>` |  Yes |
+| iOS8     | Does not apply<br>not needed | Applies via UIWebview or WKWebview |  No  |
+| iOS9 | `<access>` only | Yes and requires<br>duplicate entries in `<access>` |  Yes |
 
 
 - Pull Request: [Remove iOS whitelist](https://issues.apache.org/jira/browse/CB-9972)
