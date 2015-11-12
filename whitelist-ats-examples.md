@@ -2,7 +2,7 @@
 Date: 2015-10-25<br>
 Last Update: 2015-11-09
 
-`[The Whitelist System](the-whitelist-system.md)`-> `Whitelist ATS Examples`
+[`The Whitelist System`](the-whitelist-system.md) -> `Whitelist ATS Examples`
 
 **Turns off all security.** Widely given as an answer<sup>[1](#footnotes)</sup>. This is dangerous, working.<br>*CAUTION:* Your app maybe rejected, unless you have a good reason for using this. [SEE](#appRejected)
 
