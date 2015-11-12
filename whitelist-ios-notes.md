@@ -7,13 +7,13 @@ Last Update: 2015-11-11
 There are parts to the whitelist system
 
 1. Cordova `whitelist` plugin
-2. W3's CSP
-3. Apple's ATS
+2. W3's `CSP`
+3. Apple's `ATS`
 
 | OS version | `whitelist` plugin         |            `CSP`                  | `ATS` |
 |------------|----------------------------|------------------------------------|------|
 | iOS8     | Does not apply<br>not needed | Applies via UIWebview or WKWebview |  No  |
-| iOS9 | `<access>` only | Yes and requires<br>duplicate entries in `<access>` |  Yes |
+| iOS9    | `<access>` only | Yes and requires duplicate entries in `<access>` |  Yes |
 
 
 - Pull Request: [Remove iOS whitelist](https://issues.apache.org/jira/browse/CB-9972)
