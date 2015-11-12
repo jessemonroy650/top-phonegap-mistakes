@@ -56,15 +56,15 @@ Usually all the latest plugins, as released by Cordova, are usable. You can alwa
 <gap:plugin name="cordova-plugin-geolocation"    source="npm" />
 <gap:plugin name="cordova-plugin-globalization"  source="npm" />
 <gap:plugin name="cordova-plugin-inappbrowser"   source="npm" />
-<gap:plugin name="cordova-plugin-legacy-whitelist" source="npm" />
+<gap:plugin name="cordova-plugin-legacy-whitelist" source="npm" /> <!-- NEW -->
 <gap:plugin name="cordova-plugin-media"          source="npm" />
 <gap:plugin name="cordova-plugin-media-capture"  source="npm" />
 <gap:plugin name="cordova-plugin-network-information" source="npm" />
 <gap:plugin name="cordova-plugin-splashscreen"   source="npm" />
-<gap:plugin name="cordova-plugin-statusbar"      source="npm" />
-<gap:plugin name="cordova-plugin-test-framework" source="npm" />
+<gap:plugin name="cordova-plugin-statusbar"      source="npm" /> <!-- NEW -->
+<gap:plugin name="cordova-plugin-test-framework" source="npm" /> <!-- NEW -->
 <gap:plugin name="cordova-plugin-vibration"      source="npm" />
-<gap:plugin name="cordova-plugin-whitelist"      source="npm" />
+<gap:plugin name="cordova-plugin-whitelist"      source="npm" /> <!-- NEW -->
 ```
 
 Source: https://cordova.apache.org/news/2015/06/22/plugins-release.html<br>

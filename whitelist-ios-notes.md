@@ -35,4 +35,3 @@ By [csantanapr](https://github.com/cordova/cordova-discuss/pull/27#issuecomment-
 [Paragraph #4](https://github.com/shazron/cordova-discuss/blob/ios-remove-whitelist/proposals/ios-whitelist-removal.md)
 
 > In the last released version of the `cordova-cli`, all `<access>` tags are automatically converted to `ATS` directives in the app's `Info.plist` file. 
-
