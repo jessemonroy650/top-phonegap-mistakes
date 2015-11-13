@@ -79,7 +79,7 @@ There are currently two (2) plugins available form Cordova for implementing the 
   - Filters at the webpage level
   - `<meta http-equiv="Content-Security-Policy" content=(...") />`
   - Controls which network requests (images, XHRs, etc) are allowed to be made (via web view directly).
-  - [Raymond Camden](http://www.raymondcamden.com/2015/05/25/important-information-about-cordova-5, dated May of 2015), posted some relevant information on this
+  - [Raymond Camden](http://www.raymondcamden.com/2015/05/25/important-information-about-cordova-5), posted some relevant information on this
 
     > I began to check on this and look at the different permutations.
 

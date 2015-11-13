@@ -16,6 +16,7 @@ There are three factors that contribute to this.
 -- It's out of date.
 -- It has errors.
 -- It has not kept up with changes.
+-- On *Phonecap Build*, You can override the setting with [config-file](http://phonegap.com/blog/2014/01/30/customizing-your-android-manifest-and-ios-property-list-on-phonegap-build/)
 
 2. Developers new to *Cordova* are unaware that there are 5 different system.
 - Cordova CLI
@@ -32,7 +33,7 @@ Even if we put that all aside and just look at the documentation, it is a challe
 |----------------|-------|
 | `<preference>` | See below |
 | `<feature>`    | If you work directly in an SDK and are using the platform-specific `config.xml` file as source, you use the `<feature>` tag to enable device-level APIs and external plugins. Otherwise this is not used for *Cordova/Phonegap CLI* or *Phonegap Build*. |
-| `<platform>`   | Used with *Cordova/Phonegap CLI* to set the `<preference>` for a particular platform. |
+| `<platform>`   | Used with *Cordova/Phonegap CLI* to set the `<preference>` and `<icon>` for a particular platform. |
 
 So far not too bad. 
 
@@ -45,8 +46,9 @@ https://issues.apache.org/jira/browse/CB-8635?jql=project%20%3D%20CB%20AND%20res
 
 ----
 
-- Cordova CLI [The config.xml File](http://cordova.apache.org/docs/en/5.1.1/config_ref/index.html)
-- Phonegap Buid [Configuring - Preferences](http://docs.build.phonegap.com/en_US/configuring_preferences.md.html#Preferences)
+Sources:
+- Cordova CLI [The config.xml File](http://cordova.apache.org/docs/en/5.4.0/config_ref/index.html)
+- Phonegap Build [Configuring - Preferences](http://docs.build.phonegap.com/en_US/configuring_preferences.md.html#Preferences)
 - [iOS Configuration](http://cordova.apache.org/docs/en/5.1.1/guide/platforms/ios/config.html)
 - [Android Configuration](http://cordova.apache.org/docs/en/5.1.1/guide/platforms/android/config.html)
 - [BlackBerry 10 Configuration](http://cordova.apache.org/docs/en/5.1.1/guide/platforms/blackberry10/config.html)
@@ -55,10 +57,12 @@ https://issues.apache.org/jira/browse/CB-8635?jql=project%20%3D%20CB%20AND%20res
 |----------------|-------|
 | `<preference>` | See below |
 | `<feature>`    | If you work directly in an SDK and are using the platform-specific `config.xml` file as source, you use the `<feature>` tag to enable device-level APIs and external plugins. Otherwise this is not used for *Cordova/Phonegap CLI* or *Phonegap Build*. |
-| `<platform>`   | Used with *Cordova/Phonegap CLI* to set the `<preference>` for a particular platform. |
+| `<platform>`   | Used with *Cordova/Phonegap CLI* to set the `<preference>` for a particular platform.<br>It is also supposed to work with icons and splash screens |
 
 
 ### `<preference>` ##
+
+**According to Cordova CLI [The config.xml File](http://cordova.apache.org/docs/en/5.4.0/config_ref/index.html)**
 
 **global**
 
@@ -75,7 +79,7 @@ https://issues.apache.org/jira/browse/CB-8635?jql=project%20%3D%20CB%20AND%20res
 | HideKeyboardFormAccessoryBar | - | iOS and BlackBerry       | - |
 | Orientation                  | Y | Android, iOS, WP8, Amazon Fire OS and Firefox OS. | can use with `<platform>` |
 
-**[iOS Configuration](http://cordova.apache.org/docs/en/5.1.1/guide/platforms/ios/config.html)**
+**According to [iOS Configuration](http://cordova.apache.org/docs/en/5.1.1/guide/platforms/ios/config.html)**
 
 | preference                        |  Marked MP | Should MP | Note |
 |-----------------------------------|------------|-----------|------|
@@ -95,7 +99,7 @@ https://issues.apache.org/jira/browse/CB-8635?jql=project%20%3D%20CB%20AND%20res
 | OverrideUserAgent                 |     No     |     Yes   | Android has. |
 | AppendUserAgent                   |     No     |     Yes   | Android has. |
 
-**[Android Configuration](http://cordova.apache.org/docs/en/5.1.1/guide/platforms/android/config.html)**
+**According to [Android Configuration](http://cordova.apache.org/docs/en/5.1.1/guide/platforms/android/config.html)**
 
 | preference                 | Marked MP | Should MP | Note |
 |----------------------------|-----------|-----------|------|
