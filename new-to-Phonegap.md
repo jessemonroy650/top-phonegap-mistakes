@@ -34,9 +34,9 @@ LAST UPDATE: 2015-11-14
   In addition, this leads to reading the wrong docs for the wrong platform. A common mistake for *Phonegap Build* is to use the [*Cordova* construct](http://cordova.apache.org/docs/en/5.1.1/config_ref/index.html) of `<platform>` and `<feature>`
 
   **The Official Websites**
-  *[Cordova](http://cordova.apache.org/)
-  *[Phonegap](http://phonegap.com/)
-  *[Phonegap Build](https://build.phonegap.com/plans)
+  * [Cordova](http://cordova.apache.org/)
+  * [Phonegap](http://phonegap.com/)
+  * [Phonegap Build](https://build.phonegap.com/plans)
 
   *Blog Posts Related to #1*
   * [Cordova vs. PhoneGap: An update](http://blog.devgeeks.org/post/73789983750/cordova-vs-phonegap-an-update) - Jan 19, 2014
@@ -69,7 +69,7 @@ LAST UPDATE: 2015-11-14
 
   <p />And in case you think this is minor, even veterans like Raymond Camden [have forgotten this](http://www.raymondcamden.com/2015/07/15/fyi-cordova-events-must-be-run-after-deviceready).
 
-###<a name=005>5.</a> **When designing the app, thinks phonegap works like a website. ###
+###<a name=005>5.</a> When designing the app, thinks phonegap works like a website. ###
 
   Cordova/Phonegap is a framework that happens to use a library, called webview on Android (and similar libraries on other platforms), that happens to use HTML5 to render the UI (User Interface). The framework is NOT a webserver. The framework is also NOT a webbrowser.
 
@@ -101,7 +101,7 @@ LAST UPDATE: 2015-11-14
   *Cordova/PhoneGap Version Confusion*<br />
   http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/
 
-###<a name=007>7.</a> **Not setting "version" for you plugins###
+###<a name=007>7.</a> Not setting "version" for you plugins###
 
   I've been guilty of this mistake. Even worst, I gave people code examples making this mistake. I hope those people will read this one day and make the appropriate correction.
 
@@ -109,7 +109,7 @@ LAST UPDATE: 2015-11-14
 
   *[ Notes for upgrading to cli-5.1.1 on PGB](http://community.phonegap.com/nitobi/topics/notes-for-upgrading-to-cli-5-1-1-on-pgb) (Phonegap Build)*
 
-###<a name=008>8.</a> **Forgot to add the plugin to config.xml.###
+###<a name=008>8.</a> Forgot to add the plugin to config.xml.###
 
   Oops. Every developer has done this at one time or another. I've done it, and them spent 8 hours debugging this mistake. OUCH!
 
@@ -121,7 +121,7 @@ LAST UPDATE: 2015-11-14
 
   This also happens on the forum, repeatedly, not with disaterous results, but when it happens, it is frustrating. Use caution.
 
-###<a name=010>10.</a>. Not adding the new "white-list", "white-list plugin" parameters in config.xml AND "Content Security Policy"###
+###<a name=010>10.</a> Not adding the new "white-list", "white-list plugin" parameters in config.xml AND "Content Security Policy"###
 
   This is sooo new and obnoxious, one can only have pitty on returning developers. In addition, this was buried in both the *Phonegap blog* and the *Cordova blog*.
 
@@ -145,15 +145,14 @@ LAST UPDATE: 2015-11-14
 
   2015-10-09 - Without announcment, tweet, or blog, the repository change a full week before it was scheduled. I can do nothing, but complain.... This is damm annoying.
 
-  * <s>new [cordova npm search page](http://plugins.cordova.io/npm/index.html)</s>
-  * NEW NEW [Cordova npm search page](http://cordova.apache.org/plugins/)
-  * NEW NEW [Cordova CORE plugins](http://cordova.apache.org/docs/en/5.1.1/cordova/plugins/pluginapis.html)
+  * [Cordova npm search page](http://cordova.apache.org/plugins/)
+  * [Cordova CORE plugins](http://cordova.apache.org/docs/en/5.1.1/cordova/plugins/pluginapis.html)
   * [Latest version of plugins](http://cordova.apache.org/news/2015/06/22/plugins-release.html) June 22, 2015
   
   *Blog Posts Related to #11*
-  * [Cordova Plugins Registry becomes immutable](http://cordova.apache.org/news/2015/09/08/CPR-readonly.html) 2015/09/08
-  * [Plugins Release and Moving plugins to npm](http://cordova.apache.org/announcements/2015/04/21/plugins-release-and-move-to-npm.html) 2015/04/21
-  * [List of the Latest \*Core* Plugins and their versions](http://cordova.apache.org/news/2015/06/22/plugins-release.html) June 22, 2015
+  * Cordova [Cordova Plugins Registry becomes immutable](http://cordova.apache.org/news/2015/09/08/CPR-readonly.html) 2015/09/08
+  * Cordova [Plugins Release and Moving plugins to npm](http://cordova.apache.org/announcements/2015/04/21/plugins-release-and-move-to-npm.html) 2015/04/21
+  * Cordova [List of the Latest \*Core* Plugins and their versions](http://cordova.apache.org/news/2015/06/22/plugins-release.html) June 22, 2015
 
 ###<a name=012>12</a>. For *Phonegap Build* ONLY `<feature>` is deprecated ###
 
