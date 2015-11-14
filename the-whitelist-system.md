@@ -2,7 +2,7 @@
 Date: 2015-10-28<br>
 Last Update: 2015-11-09
 
-***If you have any questions, I am usually in the [Google Group for Phonegap](https://groups.google.com/forum/#!forum/phonegap)**
+***If you have any questions, I am usually in the [Google Group for Phonegap](https://groups.google.com/forum/#!forum/phonegap)***
 
 This blog post is one page. It has three (3) parts.
 
