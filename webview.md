@@ -7,6 +7,8 @@ NOTE: Some of these libraries are based on [WebKit](https://www.webkit.org/). Ho
 
 Some details for these libraries are in [webview-details](webview-details.md)
 
+- [What is a WebView?](http://developer.telerik.com/featured/what-is-a-webview/)
+
 ###Android###
 
 - [Webview](http://developer.android.com/reference/android/webkit/WebView.html)

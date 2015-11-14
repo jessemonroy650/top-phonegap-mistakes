@@ -68,3 +68,11 @@ Usually all the latest plugins, as released by Cordova, are usable. You can alwa
 ```
 
 Source: https://cordova.apache.org/news/2015/06/22/plugins-release.html<br>
+
+### Related Articles ###
+
+- [Checking for platform and plugin updates in your Cordova project](http://www.raymondcamden.com/2015/11/04/checking-for-platform-and-plugin-updates-in-your-cordova-project) - November 4, 2015
+- [PhoneGap Developer?s Guide to the iOS Status Bar](http://devgirl.org/2014/07/31/phonegap-developers-guid/) - July 31, 2014
+
+
+
