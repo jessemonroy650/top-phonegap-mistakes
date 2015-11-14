@@ -34,9 +34,9 @@ LAST UPDATE: 2015-11-14
   In addition, this leads to reading the wrong docs for the wrong platform. A common mistake for *Phonegap Build* is to use the [*Cordova* construct](http://cordova.apache.org/docs/en/5.1.1/config_ref/index.html) of `<platform>` and `<feature>`
 
   **The Official Websites**
-  * [Cordova](http://cordova.apache.org/)
-  * [Phonegap](http://phonegap.com/)
-  * [Phonegap Build](https://build.phonegap.com/plans)
+  *[Cordova](http://cordova.apache.org/)
+  *[Phonegap](http://phonegap.com/)
+  *[Phonegap Build](https://build.phonegap.com/plans)
 
   *Blog Posts Related to #1*
   * [Cordova vs. PhoneGap: An update](http://blog.devgeeks.org/post/73789983750/cordova-vs-phonegap-an-update) - Jan 19, 2014
