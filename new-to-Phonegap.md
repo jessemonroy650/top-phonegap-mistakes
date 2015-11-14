@@ -1,4 +1,4 @@
-### Top Mistakes by Developers new to Cordova/Phonegap ###
+## Top Mistakes by Developers new to Cordova/Phonegap ##
 DATE: 2015-10-18<br>
 LAST UPDATE: 2015-11-14
 
@@ -16,7 +16,10 @@ LAST UPDATE: 2015-11-14
 <a href=#012>12</a>
 <a href=#013>13</a>
 
-<a name=001>1.</a> **Thinking Phonegap is just one system**<p />There are three similar platforms, Cordova (CLI), Phonegap (CLI), and Phonegag Build and five system (counting Cordova/Phonegap SDK<sup>1</sup>). People often confuse the three very similar platforms and get tangled in the minor variations that differentiate them.<p />
+###<a name=001>1.</a> Thinking Phonegap is Just One System ###
+
+  There are three similar platforms, Cordova (CLI), Phonegap (CLI), and Phonegag Build and five system (counting Cordova/Phonegap SDK<sup>1</sup>). People often confuse the three very similar platforms and get tangled in the minor variations that differentiate them.
+
   Oddly enough, the best explanation comes from something built on top of Angular, and wraps the Cordova/Phonegap CLI. - *Ionic*.
 
   From the Ionic Blog *[The Last Word on Cordova and PhoneGap](http://blog.ionic.io/what-is-cordova-phonegap/)*
