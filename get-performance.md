@@ -2,10 +2,11 @@
 Last Update: 2015-10-11
 
 Generally, the tips come in two varities.
+
 1. Do this.
 2. Don't do this.
 
-### Do this ###
+### 1. Do this ###
 
 * [Performance & UX Considerations For Successful PhoneGap Apps](http://www.tricedesigns.com/2013/03/11/performance-ux-considerations-for-successful-phonegap-apps/) - Andrew Trice - March 11, 2013 
  1. Hardware Acceleration
@@ -17,7 +18,7 @@ Generally, the tips come in two varities.
  7. UI & UX Considerations
  8. Test On Devices
 
-### Don't do this. ###
+### 2. Don't do this. ###
 
 * [You half assed it. That is why your PhoneGap application sucks.](http://sintaxi.com/you-half-assed-it) - Brock Whitten - undated
  > Here are just a few rather obvious mistakes they make.
