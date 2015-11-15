@@ -43,7 +43,7 @@ https://developer.apple.com/library/ios/documentation/AppleApplications/Referenc
 *Use Supported iOS Rich Media MIME Types*
 **NEED make table for**
 
-*Don?t Use Unsupported iOS Technologies*
+*Don't Use Unsupported iOS Technologies*
 **NEED make table for**
 
 
@@ -69,6 +69,9 @@ https://support.apple.com/en-us/HT205370
 - CVE-2015-7005 : Apple
 - CVE-2015-7012 : Apple
 - CVE-2015-7014
+
+
+- [Apple Speeds Up WebKit?s JS Engine with LLVM JIT](http://www.infoq.com/news/2014/05/safari-webkit-javascript-llvm)
 
 ## Android ##
 WebView android

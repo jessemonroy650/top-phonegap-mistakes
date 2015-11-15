@@ -39,6 +39,21 @@ Google: [webview alternative](https://www.google.com/search?q=webview+alternativ
 3. [SFSafariViewController](https://developer.apple.com/library/prerelease/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/index.html#//apple_ref/occ/cl/SFSafariViewController) - It shares cookies and other website data with Safari, and has many of Safari's great features, such as Safari AutoFill and Safari Reader. **iOS, noticed with iOS9** [SEE](http://community.phonegap.com/nitobi/topics/sfsafariviewcontroller-webview-alternative-for-ios9-or-better)
 
 
+### Important Articles ###
+
+- [Web API Extension Comparison](https://github.com/crosswalk-project/crosswalk-website/wiki/Web-API-Extension-Comparison) - Sep 1, 2013
+
+> Notes on different ways to extend the API for a given webview library. Includes notes on some libraries not included here.
+
+- [Developing a mobile cross-platform library - Part 1. Exploring](http://www.skyscanner.net/blogs/developing-mobile-cross-platform-library-part-1-exploring) - 11 February 2014
+- [Developing a mobile cross-platform library - Part 2. C++](http://www.skyscanner.net/blogs/developing-mobile-cross-platform-library-part-2-c) - 24 February 2014
+- [Developing a mobile cross-platform library - Part 3. JavaScript](http://www.skyscanner.net/blogs/developing-mobile-cross-platform-library-part-3-javascript) - 25 March 2014
+
+### Important Articles Regarding iOS ###
+
+- [Boost your iOS 8 Mobile App Performance with WKWebView](http://devgirl.org/2014/11/10/boost-your-ios-8-mobile-app-performance-with-wkwebview/) - November 10, 2014
+- [PhoneGap for iPhone exposed](https://web.archive.org/web/20111212050707/http://blogs.nitobi.com/jesse/2009/11/04/phonegap-for-iphone-exposed) - 2009/11/04
+
 ### Important Articles Regarding Android ###
 
 * *Migrating to WebView in Android 4.4* - undated
