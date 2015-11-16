@@ -16,6 +16,8 @@ There are parts to the whitelist system
 | iOS9    | `<access>` only | Yes and requires duplicate entries in `<access>` |  Yes |
 
 
+While the `whitelist` plugin is needed, two of the three elements are not used. `<allow-navigation ()>` and `<allow-intent (...)` are neither used nor enforced. This means you do not need to use these elements, they are effectively ignored.
+
 - Pull Request: [Remove iOS whitelist](https://issues.apache.org/jira/browse/CB-9972)
 - [Proposal to Remove the Cordova iOS Native Whitelist](https://github.com/shazron/cordova-discuss/blob/ios-remove-whitelist/proposals/ios-whitelist-removal.md)
 - There was [*Consensus on the ML (Mailing List)*](https://github.com/cordova/cordova-discuss/pull/27#issuecomment-155261590) for the Proposal
