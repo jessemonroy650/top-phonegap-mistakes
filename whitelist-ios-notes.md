@@ -1,6 +1,6 @@
 ## Whitelist Notes for iOS ##
 Date: 2015-11-11<br>
-Last Update: 2015-11-11
+Last Update: 2015-11-15T20:45:35 (Mountain Time, USA)
 
 [`The Whitelist System`](the-whitelist-system.md) -> `Whitelist iOS Notes`
 
