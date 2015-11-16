@@ -11,12 +11,11 @@ There are three (3) parts to the whitelist system
 3. Apple's `ATS`
 
 | OS version | `whitelist` plugin         |            `CSP`                  | `ATS` |
-|------------|----------------------------|------------------------------------|------|
-| iOS8     | Does not apply<br>not needed | Applies via UIWebview or WKWebview |  No  |
-| iOS9    | `<access>` only | Yes and requires duplicate entries in `<access>` |  Yes |
+|------------|----------------------------|-----------------------------------|-------|
+| iOS8     | Does not apply,<br>not needed | Applies via UIWebview or WKWebview |  No  |
+| iOS9     | Does not apply,<br>not needed | Yes and requires duplicate entries in `<access>` |  Yes |
 
-
-While the `whitelist` plugin is needed, two of the three elements are not used. `<allow-navigation ()>` and `<allow-intent (...)>` are neither used nor enforced. This means you do not need to use these elements, they are effectively ignored.
+All `<access>` tags are automatically converted to `ATS` directives in the app's `Info.plist` file. 
 
 - Pull Request: [Remove iOS whitelist](https://issues.apache.org/jira/browse/CB-9972)
 - [Proposal to Remove the Cordova iOS Native Whitelist](https://github.com/shazron/cordova-discuss/blob/ios-remove-whitelist/proposals/ios-whitelist-removal.md)
