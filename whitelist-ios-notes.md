@@ -1,10 +1,10 @@
 ## Whitelist Notes for iOS ##
 Date: 2015-11-11<br>
-Last Update: 2015-11-15T20:45:35 (Mountain Time, USA)
+Last Update: 2015-11-15T20:47:21(Mountain Time, USA)
 
 [`The Whitelist System`](the-whitelist-system.md) -> `Whitelist iOS Notes`
 
-There are parts to the whitelist system
+There are three (3) parts to the whitelist system
 
 1. Cordova `whitelist` plugin
 2. W3's `CSP`
