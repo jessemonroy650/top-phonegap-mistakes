@@ -1,6 +1,6 @@
 # HOW TO apply the Cordova/Phonegap the whitelist system #
 Date: 2015-10-28<br>
-Last Update: 2015-11-09
+Last Update: 2015-11-16
 
 ***If you have any questions, I am usually in the [Google Group for Phonegap](https://groups.google.com/forum/#!forum/phonegap)***
 
@@ -16,12 +16,13 @@ As such, I want to thank *Rob Willett* for his invaluable assitance and advice. 
 
 ##The breakdown.##
 
-For the whitelist system used with *Cordova*, there is actually four (4) unrelated systems in place. 
+For the whitelist system used with *Cordova*, there is actually five (5) unrelated systems in place. 
 
 1. [legacy-whitelist plugin](https://www.npmjs.com/package/cordova-plugin-legacy-whitelist) (avoid) was the previous `whitelist` system. It is provided for backwards compatibilty only.
 2. [whitelist plugin](https://www.npmjs.com/package/cordova-plugin-whitelist) (Cordova's) is the new `whitelist` system. It is required as of *Cordova Tools 4.0.0*. It has three (3) parts. This plugin does NOT apply to iOS.
-3. [W3's CSP](http://www.w3.org/TR/CSP2/) (Content Security Policy Level 2) is a whitelist system that is implemented webpage by webpage. It is required as of *Cordova Tools 5.0.0*. It has sixteen (16) parts.
-4. [Apple's ATS](https://web.archive.org/web/20150905111538/https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/) (App Transport Security)  is a whitelist system exclusive to iOS. It required as of *iOS9*. It is implemented in the `Info.plist`
+3. [W3's `access`](http://www.w3.org/TR/widgets-access/) (Widget Access Request Policy) is usually lumped in with Cordova's `whitelist` plugin.
+4. [W3's CSP](http://www.w3.org/TR/CSP2/) (Content Security Policy Level 2) is a whitelist system that is implemented webpage by webpage. It is required as of *Cordova Tools 5.0.0*. It has sixteen (16) parts.
+5. [Apple's ATS](https://web.archive.org/web/20150905111538/https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/) (App Transport Security)  is a whitelist system exclusive to iOS. It required as of *iOS9*. It is implemented in the `Info.plist`
 
 To walk throught the various different systems would be tedious. As such, there are at least five (5) documents that directly support this blog. However, let's cut to the chase.
 
@@ -36,10 +37,9 @@ To walk throught the various different systems would be tedious. As such, there 
 - For *Cordova/Phonegap CLI* See the outdated, but useful: [Cordova/PhoneGap  Version Confusion](http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/) 
 - **After following these directions, you should now have full access and be completely insecure.**
 
-
 **after 4.0.0**
 - **Recommended: For production applications.**
-- Start by adding the [`whitelist`](https://www.npmjs.com/package/cordova-plugin-whitelist) plugin. **required**
+- Start by adding the [`whitelist`](https://www.npmjs.com/package/cordova-plugin-whitelist) plugin. **required all platforms, except iOS**
 -  - *Phonegap Build* Only `<gap:plugin name=cordova-plugin-whitelist source=npm>`
 -  - *Phonegap CLI* `cordova add plugin cordova-plugin-whitelist`
 - Then to disable the `whitelist` system, add to `config.xml`
@@ -71,8 +71,9 @@ or [style](http://matthewjamestaylor.com/blog/adding-css-to-html-with-link-embed
 ```
 ###You should now have full access, and be completely insecure.###
 
-- [CSP Examples](whitelist-csp-examples.md)
-- [ATS Examples](whitelist-ats-examples.md)
+- [`<access Examples>`](whitelist-access-examples.md) - NOT STARTED.
+- [CSP Examples](whitelist-csp-examples.md) - 60% done.
+- [ATS Examples](whitelist-ats-examples.md) - 90% done.
 
 ----
 
@@ -97,6 +98,8 @@ As there are three (3) seperate systems and they do not talk about each other, i
 Examples for each part. If you have any you'd like to lend, please email me or create an issue.
 
 [whitelist-examples.md](whitelist-examples.md) &ndash; NOT FINISHED, in raw state. About 10% done.
+
+[`<access Examples>`](whitelist-access-examples.md) &ndash; NOT STARTED.
 
 [whitelist-csp-examples.md](whitelist-csp-examples.md) &ndash; NOT FINISHED, in rough state. About 60% done.
 
