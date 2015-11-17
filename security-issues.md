@@ -1,7 +1,12 @@
 ## Security Issues ##
-Last Update: 2015-10-18
+Date: 2015-10-18<br>
+Last Update: 2015-11-16
 
 *I have more security issues, but they are in bookmarks right now. I'll update them over the next few days. This page also needs organization.*
+
+* New Android exploit can hack any handset in one shot
+* http://www.engadget.com/2015/11/12/new-android-exploit-can-hack-any-handset-in-one-shot/
+> Hackers have discovered a critical exploit in Chrome for Android reportedly capable of compromising virtually every version of Android running the latest Chrome. (...) While the inner workings of the exploit are still largely under wraps, we do know that it leverages JavaScript v8 to gain full administrative access to the victim's phone.
 
 * *Lookout discovers new trojanized adware; 20K popular apps caught in the crossfire*
 * https://blog.lookout.com/blog/2015/11/04/trojanized-adware/

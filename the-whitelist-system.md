@@ -42,12 +42,13 @@ To walk throught the various different systems would be tedious. As such, there 
 - Start by adding the [`whitelist`](https://www.npmjs.com/package/cordova-plugin-whitelist) plugin. **required all platforms, except iOS**
 -  - *Phonegap Build* Only `<gap:plugin name=cordova-plugin-whitelist source=npm>`
 -  - *Phonegap CLI* `cordova add plugin cordova-plugin-whitelist`
+-  - *iOS* the `whitelist` plugin is *not* used. However, the `<access (...)>` tag is used for iOS9.
 - Then to disable the `whitelist` system, add to `config.xml`
 - **DANGEROUS, BUT WORKING**
 ```
     <allow-navigation href="*" />
     <allow-intent href="*" />
-    <access origin="*" />
+    <access origin="*" /> <!-- Required for iOS9 -->
 ```
 
 - To disable the `CSP` system, add this to every webpages that needs internet or network access, inline code ([Javascript](http://www.quirksmode.org/js/events_early.html) 
