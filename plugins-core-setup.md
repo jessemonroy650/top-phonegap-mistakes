@@ -8,7 +8,7 @@
 
 **Where to get the names and version**
 
-Usually all the latest plugins, as released by Cordova, are usable. You can always find the latest plugins list on the Cordova Blog and look for [Plugins Release](https://cordova.apache.org/blog/).
+Usually all the latest plugins, as released by Cordova, are usable. You can always find the latest plugins list on the [Cordova Blog](https://cordova.apache.org/blog/) and look for *Plugins Release*.
 
 **To version or not to version.**
 
