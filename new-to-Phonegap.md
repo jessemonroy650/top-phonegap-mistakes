@@ -31,7 +31,7 @@ LAST UPDATE: 2015-11-14
 
   On the **Cordova/Phonegap SDK (or IDE)** &ndash; for all intensive purposes, these are the same as *Cordova/Phonegap CLI*, with an extra step involving [`config.xml`](http://cordova.apache.org/docs/en/5.0.0/config_ref_index.md.html#The%20config.xml%20File_the_feature_element).
 
-  In addition, this leads to reading the wrong docs for the wrong platform. A common mistake for *Phonegap Build* is to use the [*Cordova* construct](http://cordova.apache.org/docs/en/5.1.1/config_ref/index.html) of `<platform>` and `<feature>`
+  In addition, this leads to reading the wrong docs for the wrong platform. A common mistake for *Phonegap Build* is to use the [*Cordova* construct](http://cordova.apache.org/docs/en/5.1.1/config_ref/index.html) of <s>`<platform>`</s> and `<feature>`. As of today (2015-11-17), `<platform>` is supported by *Phonegap Build* [SEE](http://phonegap.com/blog/2015/11/17/config_xml_update)
 
   **The Official Websites**
   * [Cordova](http://cordova.apache.org/)
