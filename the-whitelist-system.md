@@ -22,7 +22,7 @@ For the whitelist system used with *Cordova*, there is actually five (5) unrelat
 2. [whitelist plugin](https://www.npmjs.com/package/cordova-plugin-whitelist) (Cordova's) is the new `whitelist` system. It is required as of *[Cordova Tools 5.0.0](http://cordova.apache.org/news/2015/04/21/tools-release.html) (April 21, 2015)*. It has three (3) parts. This plugin does NOT apply to iOS.
 3. [W3's `access`](http://www.w3.org/TR/widgets-access/) (Widget Access Request Policy) is usually lumped in with Cordova's `whitelist` plugin documentation, but it is seperate and overlaps with the other systems.
 4. [W3's CSP](http://www.w3.org/TR/CSP2/) (Content Security Policy Level 2) is a whitelist system that is implemented webpage by webpage. It is required as of *[Cordova Tools 5.0.0](http://cordova.apache.org/news/2015/04/21/tools-release.html) (April 21, 2015)*. It has sixteen (16) parts. 
-5. [Apple's ATS](https://web.archive.org/web/20150905111538/https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/) (App Transport Security)  is a whitelist system exclusive to iOS. It required as of *iOS9*. It is implemented in the `Info.plist`. It does *not* required the `whitelist` plugin.
+5. [Apple's ATS](https://web.archive.org/web/20150905111538/https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/) (App Transport Security)  is a whitelist system exclusive to iOS. It required as of *iOS9*. It is implemented in the `Info.plist`.
 
 To walk throught the various different systems would be tedious. As such, there are at least five (5) documents that directly support this blog. However, let's cut to the chase.
 
@@ -80,7 +80,7 @@ or [style](http://matthewjamestaylor.com/blog/adding-css-to-html-with-link-embed
 
 ## Lucy, Esplain Youself ##
 
-No security system is straight forward. Security systems tend to be compromises of caution and the real world. Jim Dennis, reminds me that, *"Security is a matter of policy. As an administrator (or developer), it is your job to enfore policy, not define security."*
+No security system is straight forward. Security systems tend to be compromises of caution and the real world. [Jim Dennis](https://en.wikipedia.org/wiki/Linux_Gazette), reminds me that, *"Security is a matter of policy. As an administrator (or developer), it is your job to enfore policy, not define security."*
 
 The Cordova `whitelist` system is about how best to apply your real-world policies over a hybrid application. As such, sacrifices and compromises are every where. The link below is a document that walks through much of the Cordova `whitelist` system.
 
