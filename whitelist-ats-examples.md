@@ -115,8 +115,8 @@ http://googleadsdeveloper.blogspot.com/2015/08/handling-app-transport-security-i
 **IONIC** *Preparing for iOS 9*<br>
 http://blog.ionic.io/preparing-for-ios-9/
 
-**<a name=appRejected>YOUR APP MAYBE REJECTED</a>**<br>
-https://github.com/AFNetworking/AFNetworking/issues/2779#issuecomment-112030880<br>
+**<a name=appRejected>YOUR iOS APP MAYBE REJECTED</a>**<br>
+https://github.com/AFNetworking/AFNetworking/issues/2779#issuecomment-112030880  (June 15, 2015)<br>
 
 >I want to make sure everyone fully understands this behavior. I spent some time in the labs last week at WWDC, and got the following information.
 

@@ -62,7 +62,7 @@ or [style](http://matthewjamestaylor.com/blog/adding-css-to-html-with-link-embed
 ```
 
 - To disable Apple's `ATS` for iOS9, add to the `Info.plist`.
-- **CAUTION:** Your app maybe rejected, unless you have a good reason for using this. [SEE](whitelist-ats-examples.md#appRejected). Alternatives [available](whitelist-ats-examples.md).
+- **CAUTION:** Your app maybe rejected, unless you have a good reason for using this, [SEE](whitelist-ats-examples.md#appRejected). Alternatives [available](whitelist-ats-examples.md).
 ```
     <key>NSAppTransportSecurity</key>
          <dict>

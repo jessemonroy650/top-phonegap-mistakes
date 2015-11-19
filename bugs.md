@@ -10,7 +10,12 @@ If you don't know this by now, you should. Cordova manages the base code that is
 * [Phonegap CLI](https://github.com/phonegap/phonegap-cli/issues)
 * [Phonegap Build](https://github.com/phonegap/build/issues/)
 
-Other bugs for other phonegap open source products can be found by walking the tree from the root https://github.com/phonegap/{productName}
+Other bugs for other Cordova/Ppphonegap open source products can be found by walking the tree from the root, for example
+
+* https://github.com/phonegap/{productName} - get 'productName'
+* https://github.com/apache/cordova-plugin-{name} - gets cordova-plugin-'name'
+* http://git.apache.org/ - has links to "distribution source", and "git" and "official" repository
+
 
 ### <a name=otherKnownBugs>Other Known Bugs</a> ###
 
