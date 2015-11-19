@@ -1,5 +1,6 @@
 ## Cordova/Phonegap Known Bugs ##
-Last Update: 2015-10-18
+Date: 2015-08-01<br>
+Last Update: 2015-11-18
 
 ### Where you can find the Bug/Issue Respostitories ###
 Date: 2015-08-01
