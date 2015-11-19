@@ -175,3 +175,9 @@ It has only two methods:
 | ShowSplashScreen            | Browser
 | SplashScreenWidth           | Browser
 | SplashScreenHeight          | Browser
+
+
+####Unapplied Notes####
+
+
+http://community.phonegap.com/nitobi/topics/phonegap_build_now_supports_all_phonegap_preferences
