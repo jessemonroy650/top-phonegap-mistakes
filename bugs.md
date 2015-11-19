@@ -3,19 +3,25 @@ Date: 2015-08-01<br>
 Last Update: 2015-11-18
 
 ### Where you can find the Bug/Issue Respostitories ###
-Date: 2015-08-01
 
-If you don't know this by now, you should. Cordova manages the base code that is used for Phonegap and other simmilar systems include, but not limited to, Sencha Touch, Ionic, 
+If you don't know this by now, you should. Cordova manages the base code that is used for Phonegap and other simmilar systems include, but not limited to, Sencha Touch, Ionic, Monaca, Onsen Ui, etc. ([more](hybrid-frameworks.md)) 
 
 * [Cordova](https://issues.apache.org/jira/browse/CB/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel)
 * [Phonegap CLI](https://github.com/phonegap/phonegap-cli/issues)
 * [Phonegap Build](https://github.com/phonegap/build/issues/)
 
-Other bugs for other Cordova/Ppphonegap open source products can be found by walking the tree from the root, for example
+Other bugs for other Cordova/Ppphonegap open source products can be found by walking the tree from the root, for example:
 
 * https://github.com/phonegap/{productName} - get 'productName'
 * https://github.com/apache/cordova-plugin-{name} - gets cordova-plugin-'name'
 * http://git.apache.org/ - has links to "distribution source", and "git" and "official" repository
+
+### Security Issues ####
+
+Security issues are in a different files
+
+- ([security-issues.md](security-issues.md)) - mostly Android
+- ([security-issues-ios.md](security-issues-ios.md)) - iOS related
 
 
 ### <a name=otherKnownBugs>Other Known Bugs</a> ###
