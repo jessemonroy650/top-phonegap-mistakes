@@ -95,7 +95,7 @@ Controls which URLs the app is allowed to ask the \*system\* to open. By default
 
 This whitelist does not apply to plugins, only hyperlinks and calls to `window.open()`.
 
-*Quirks:* On Android, this equates to sending an intent of type BROWSEABLE.
+*Quirks:* On Android, this equates to sending an intent of type BROWSEABLE. This includes, but is not limited to: `tel:`, `sms:`, `mailto:`, `geo:`, `market:`, `itms:`, `itms-apps:`.
 
 **DANGEROUS-SETTING:** `<allow-intent href="*" />`
 

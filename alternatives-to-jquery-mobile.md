@@ -22,14 +22,14 @@ http://tutorialzine.com/2012/04/5-lightweight-jquery-alternatives/
 http://www.jscripters.com/popular-jquery-alternatives/
 
 
-*5 Things You Should Stop Doing With jQuery*
+*5 Things You Should Stop Doing With jQuery*<br />
 http://modernweb.com/2013/05/06/5-things-you-should-stop-doing-with-jquery/
 
-# Stop Using Document Ready
-# Stop Using The Wrong Iterator
-# Stop Using ?this?
-# Stop Using ALL THE jQUERIES
-# Stop Using jQuery?
+1. Stop Using Document Ready
+2. Stop Using The Wrong Iterator
+3. Stop Using "this"
+4. Stop Using ALL THE jQUERIES
+5. Stop Using jQuery...
 
 
 

@@ -75,29 +75,30 @@ https://support.apple.com/en-us/HT205370
 
 ## Android ##
 WebView android
-_Class Overview_
+    _Class Overview_
 
-Zoom cupcake
-Mediaquery -webkit-device-pixel-ratio Eclair
+    Zoom cupcake
 
-In order to support inline HTML5 video in your application you need to have hardware acceleration turned on.
+    Mediaquery -webkit-device-pixel-ratio Eclair
 
-WebChromeClient (+stuff) to support Full Screen (things)
+    > In order to support inline HTML5 video in your application you need to have hardware acceleration turned on.
 
-WRAP_CONTENT is legacy parameter.
+    WebChromeClient (+stuff) to support Full Screen (things)
 
-_Cookie and Window Management_
+    WRAP_CONTENT is legacy parameter.
 
-The standard behavior for an Activity is to be destroyed and recreated, when the device orientation or any other configuration changes. This will cause the WebView to reload the current page. If you don't want that, you can set your Activity to handle the orientation and keyboardHidden changes, and then just leave the WebView alone. It'll automatically re-orient itself as appropriate. Read Handling Runtime Changes for more information about how to handle configuration changes during runtime.
+    _Cookie and Window Management_
 
-_(...) support different screen densities_
+    > The standard behavior for an Activity is to be destroyed and recreated, when the device orientation or any other configuration changes. This will cause the WebView to reload the current page. If you don't want that, you can set your Activity to handle the orientation and keyboardHidden changes, and then just leave the WebView alone. It'll automatically re-orient itself as appropriate. Read Handling Runtime Changes for more information about how to handle configuration changes during runtime.
 
- Starting with API level ECLAIR, WebView supports DOM, CSS, and meta tag features to help you (as a web developer) target screens with different screen densities.
+    _(...) support different screen densities_
 
-_Summary_
-_Constants_
-"geo:0,0?q="
-"mailto:"
-"tel:"
-_Public Constructors_
-_Public Methods_
+    > Starting with API level ECLAIR, WebView supports DOM, CSS, and meta tag features to help you (as a web developer) target screens with different screen densities.
+
+    _Summary_
+    _Constants_
+        "geo:0,0?q="
+        "mailto:"
+        "tel:"
+    _Public Constructors_
+    _Public Methods_

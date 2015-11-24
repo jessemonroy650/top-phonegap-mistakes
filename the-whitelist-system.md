@@ -56,9 +56,9 @@ or [style](http://matthewjamestaylor.com/blog/adding-css-to-html-with-link-embed
 - **DANGEROUS, BUT WORKING**
 ```
     <meta http-equiv="Content-Security-Policy" 
-              content="default-src *; 
-                       style-src 'self' 'unsafe-inline' 'unsafe-eval'; 
-                       script-src 'self' 'unsafe-inline' 'unsafe-eval';">
+             content="default-src *; 
+                      style-src 'self' 'unsafe-inline' 'unsafe-eval'; 
+                      script-src 'self' 'unsafe-inline' 'unsafe-eval';">
 ```
 
 - To disable Apple's `ATS` for iOS9, add to the `Info.plist`.
@@ -100,7 +100,7 @@ Examples for each part. If you have any you'd like to lend, please email me or c
 
 [whitelist-examples.md](whitelist-examples.md) &ndash; NOT FINISHED, in raw state. About 10% done.
 
-[`<access Examples>`](whitelist-access-examples.md) &ndash; NOT STARTED.
+[`<access Examples>`](whitelist-access-examples.md) &ndash; NOT FINISHED, in raw state. About 5% done.
 
 [whitelist-csp-examples.md](whitelist-csp-examples.md) &ndash; NOT FINISHED, in rough state. About 60% done.
 

@@ -16,6 +16,17 @@ Last Update: 2015-11-09
     </dict>
 ```
 
+NOT TESTED - **FOR Phonegap Build* only** - NOT TESTED.
+```
+<gap:config-file target="*-Info.plist" parent="CFBundleURLTypes" platform="ios" >
+    <key>NSAppTransportSecurity</key>
+          <dict>
+              <key>NSAllowsArbitraryLoads</key>
+              <true/>
+          </dict>
+</gap:config-file>
+```
+
 **[Exclude local servers](http://stackoverflow.com/a/32764234/3255670)**
 ```
 <key>NSAppTransportSecurity</key>

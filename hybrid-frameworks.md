@@ -31,6 +31,7 @@ Many of these frameworks cross-over directly into Cordova and Phonegap. The larg
 5. [Appcelerator Titanium](http://www.appcelerator.com/titanium/)
 6. [IntelliJ IDEA 14](http://blog.jetbrains.com/idea/2014/09/developer-tools-for-phonegap-cordova-and-ionic-in-intellij-idea-14/)
 7. [MobileFirst](https://developer.ibm.com/mobilefirstplatform/documentation/getting-started-6-3/adding-native-functionality/apache-cordova-overview/) IBM
+8. [Corona SDK](https://coronalabs.com/)
 
 * WebStorm
 

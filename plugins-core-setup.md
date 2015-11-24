@@ -1,10 +1,17 @@
 # Core Plugins Setup#
+Date: 2015-11-18<br>
+Last Update: 2015-11-24
 
-*This page is only for* ***Phonegap Build***
+**NOTE:** A [recent update to Phonegap Build](http://phonegap.com/blog/2015/11/19/config_xml_changes_part_two) required a change, which makes this more universal. Meaning it's good for CLI.
 
 **Phonegap Build**
+
 - http://docs.build.phonegap.com/en_US/configuring_plugins.md.html#Plugins
 - http://docs.build.phonegap.com/en_US/configuring_plugins.md.html#plugin-params
+
+**Cordova/Phonegap**
+
+- [Cordova/PhoneGap Version Confusion](http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/) dated but useful
 
 **Where to get the names and version**
 
@@ -17,54 +24,54 @@ Usually all the latest plugins, as released by Cordova, are usable. You can alwa
 
 **Versions set**
 ```
-<gap:plugin name="cordova-plugin-battery-status" source="npm" version="1.1.0" />
-<gap:plugin name="cordova-plugin-camera"         source="npm" version="1.2.0" />
-<gap:plugin name="cordova-plugin-console"        source="npm" version="1.0.1" />
-<gap:plugin name="cordova-plugin-contacts"       source="npm" version="1.1.0" />
-<gap:plugin name="cordova-plugin-device"         source="npm" version="1.0.1" />
-<gap:plugin name="cordova-plugin-device-motion"  source="npm" version="1.1.1" />
-<gap:plugin name="cordova-plugin-device-orientation" source="npm" version="1.0.1" />
-<gap:plugin name="cordova-plugin-dialogs"        source="npm" version="1.1.1" />
-<gap:plugin name="cordova-plugin-file"           source="npm" version="2.1.0" />
-<gap:plugin name="cordova-plugin-file-transfer" source="npm" version="1.2.0" />
-<gap:plugin name="cordova-plugin-geolocation"    source="npm" version="1.0.1" />
-<gap:plugin name="cordova-plugin-globalization"  source="npm" version="1.0.1" />
-<gap:plugin name="cordova-plugin-inappbrowser"   source="npm" version="1.0.1" />
-<gap:plugin name="cordova-plugin-legacy-whitelist" source="npm" version="1.1.0" />
-<gap:plugin name="cordova-plugin-media"          source="npm" version="1.0.1" />
-<gap:plugin name="cordova-plugin-media-capture"  source="npm" version="1.0.1" />
-<gap:plugin name="cordova-plugin-network-information" source="npm" version="1.0.1" />
-<gap:plugin name="cordova-plugin-splashscreen"   source="npm" version="2.1.0" />
-<gap:plugin name="cordova-plugin-statusbar"      source="npm" version="1.0.0" />
-<gap:plugin name="cordova-plugin-test-framework" source="npm" version="1.0.1" />
-<gap:plugin name="cordova-plugin-vibration"      source="npm" version="1.2.0" />
-<gap:plugin name="cordova-plugin-whitelist"      source="npm" version="1.1.0" />
+<plugin name="cordova-plugin-battery-status" source="npm" spec="1.1.0" />
+<plugin name="cordova-plugin-camera"         source="npm" spec="1.2.0" />
+<plugin name="cordova-plugin-console"        source="npm" spec="1.0.1" />
+<plugin name="cordova-plugin-contacts"       source="npm" spec="1.1.0" />
+<plugin name="cordova-plugin-device"         source="npm" spec="1.0.1" />
+<plugin name="cordova-plugin-device-motion"  source="npm" spec="1.1.1" />
+<plugin name="cordova-plugin-device-orientation" source="npm" spec="1.0.1" />
+<plugin name="cordova-plugin-dialogs"        source="npm" spec="1.1.1" />
+<plugin name="cordova-plugin-file"           source="npm" spec="2.1.0" />
+<plugin name="cordova-plugin-file-transfer" source="npm" spec="1.2.0" />
+<plugin name="cordova-plugin-geolocation"    source="npm" spec="1.0.1" />
+<plugin name="cordova-plugin-globalization"  source="npm" spec="1.0.1" />
+<plugin name="cordova-plugin-inappbrowser"   source="npm" spec="1.0.1" />
+<plugin name="cordova-plugin-legacy-whitelist" source="npm" spec="1.1.0" />
+<plugin name="cordova-plugin-media"          source="npm" spec="1.0.1" />
+<plugin name="cordova-plugin-media-capture"  source="npm" spec="1.0.1" />
+<plugin name="cordova-plugin-network-information" source="npm" spec="1.0.1" />
+<plugin name="cordova-plugin-splashscreen"   source="npm" spec="2.1.0" />
+<plugin name="cordova-plugin-statusbar"      source="npm" spec="1.0.0" />
+<plugin name="cordova-plugin-test-framework" source="npm" spec="1.0.1" />
+<plugin name="cordova-plugin-vibration"      source="npm" spec="1.2.0" />
+<plugin name="cordova-plugin-whitelist"      source="npm" spec="1.1.0" />
 ```
 
 **NO Versions set**
 ```
-<gap:plugin name="cordova-plugin-battery-status" source="npm" />
-<gap:plugin name="cordova-plugin-camera"         source="npm" />
-<gap:plugin name="cordova-plugin-console"        source="npm" />
-<gap:plugin name="cordova-plugin-contacts"       source="npm" />
-<gap:plugin name="cordova-plugin-device"         source="npm" />
-<gap:plugin name="cordova-plugin-device-motion"  source="npm" />
-<gap:plugin name="cordova-plugin-device-orientation" source="npm" />
-<gap:plugin name="cordova-plugin-dialogs"        source="npm" />
-<gap:plugin name="cordova-plugin-file"           source="npm" />
-<gap:plugin name="cordova-plugin-file-transfer" source="npm" />
-<gap:plugin name="cordova-plugin-geolocation"    source="npm" />
-<gap:plugin name="cordova-plugin-globalization"  source="npm" />
-<gap:plugin name="cordova-plugin-inappbrowser"   source="npm" />
-<gap:plugin name="cordova-plugin-legacy-whitelist" source="npm" /> <!-- NEW -->
-<gap:plugin name="cordova-plugin-media"          source="npm" />
-<gap:plugin name="cordova-plugin-media-capture"  source="npm" />
-<gap:plugin name="cordova-plugin-network-information" source="npm" />
-<gap:plugin name="cordova-plugin-splashscreen"   source="npm" />
-<gap:plugin name="cordova-plugin-statusbar"      source="npm" /> <!-- NEW -->
-<gap:plugin name="cordova-plugin-test-framework" source="npm" /> <!-- NEW -->
-<gap:plugin name="cordova-plugin-vibration"      source="npm" />
-<gap:plugin name="cordova-plugin-whitelist"      source="npm" /> <!-- NEW -->
+<plugin name="cordova-plugin-battery-status" source="npm" />
+<plugin name="cordova-plugin-camera"         source="npm" />
+<plugin name="cordova-plugin-console"        source="npm" />
+<plugin name="cordova-plugin-contacts"       source="npm" />
+<plugin name="cordova-plugin-device"         source="npm" />
+<plugin name="cordova-plugin-device-motion"  source="npm" />
+<plugin name="cordova-plugin-device-orientation" source="npm" />
+<plugin name="cordova-plugin-dialogs"        source="npm" />
+<plugin name="cordova-plugin-file"           source="npm" />
+<plugin name="cordova-plugin-file-transfer" source="npm" />
+<plugin name="cordova-plugin-geolocation"    source="npm" />
+<plugin name="cordova-plugin-globalization"  source="npm" />
+<plugin name="cordova-plugin-inappbrowser"   source="npm" />
+<plugin name="cordova-plugin-legacy-whitelist" source="npm" /> <!-- NEW -->
+<plugin name="cordova-plugin-media"          source="npm" />
+<plugin name="cordova-plugin-media-capture"  source="npm" />
+<plugin name="cordova-plugin-network-information" source="npm" />
+<plugin name="cordova-plugin-splashscreen"   source="npm" />
+<plugin name="cordova-plugin-statusbar"      source="npm" /> <!-- NEW -->
+<plugin name="cordova-plugin-test-framework" source="npm" /> <!-- NEW -->
+<plugin name="cordova-plugin-vibration"      source="npm" />
+<plugin name="cordova-plugin-whitelist"      source="npm" /> <!-- NEW -->
 ```
 
 Source: https://cordova.apache.org/news/2015/06/22/plugins-release.html<br>
@@ -72,7 +79,7 @@ Source: https://cordova.apache.org/news/2015/06/22/plugins-release.html<br>
 ### Related Articles ###
 
 - [Checking for platform and plugin updates in your Cordova project](http://www.raymondcamden.com/2015/11/04/checking-for-platform-and-plugin-updates-in-your-cordova-project) - November 4, 2015
-- [PhoneGap Developer?s Guide to the iOS Status Bar](http://devgirl.org/2014/07/31/phonegap-developers-guid/) - July 31, 2014
+- [PhoneGap Developer's Guide to the iOS Status Bar](http://devgirl.org/2014/07/31/phonegap-developers-guid/) - July 31, 2014
 
 
 
