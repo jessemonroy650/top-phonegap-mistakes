@@ -1,8 +1,10 @@
 # Core Plugins Setup#
 Date: 2015-11-18<br>
-Last Update: 2015-11-24
+Last Update: 2015-11-25
 
-**NOTE:** A [recent update to Phonegap Build](http://phonegap.com/blog/2015/11/19/config_xml_changes_part_two) required a change, which makes this more universal. Meaning it's good for CLI.
+**NOTE:** - 2015-11-24 - A [recent update to Phonegap Build](http://phonegap.com/blog/2015/11/19/config_xml_changes_part_two) required a change, which makes this more universal. Meaning it's good for CLI.
+
+ADDED: 2015-11-24 - [still more changes coming](http://community.phonegap.com/nitobi/topics/correct-syntax-for-pulling-plugin-from-github-via-npm#reply_16351151)
 
 **Phonegap Build**
 
