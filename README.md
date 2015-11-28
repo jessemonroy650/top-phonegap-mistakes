@@ -5,6 +5,10 @@ Last update: 2015-11-18
 * [HOW TO apply the Cordova/Phonegap the whitelist system](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/the-whitelist-system.md)
 * [Whitelist Notes for iOS](whitelist-ios-notes.md) - the Cordova `whitelist` plugin does not apply to iOS.
 * [Current Tripping Points for Cordova/Phonegap Development](current-tripping-points.md)
+* [Android 6.0 &amp; Doze](android-doze.md)
+
+** Tips, Security, Bugs, etc. **
+
 * [Performance Tips](get-performance.md)
 * [Cordova Blog Highlights](cordova-blog-highlights.md)
 * [Cordova Browser Platform](browser-platform.md)
