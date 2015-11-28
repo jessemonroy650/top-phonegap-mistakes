@@ -12,8 +12,11 @@ New as of Android 6.0 (Marshmallow).
 ### Official Blogs ###
 
 - [How Google Cloud Messaging handles Doze in Android 6.0 Marshmallow](http://android-developers.blogspot.com/2015/10/how-google-cloud-messaging-handles-doze.html) - 01 October 2015
+
     > GCM has two priority types for messages, called high priority and normal priority. When using high priority, GCM attempts to deliver messages immediately, waking a device in Doze, as needed. (...) However, when using normal priority (the default priority), there are a number of different behaviors when the device is in Doze (...). 1. most important change is that messages will be batched (...) 2. We **discard** messages whose time_to_live expires while the device is in Doze (including TTL=0).
+
 - [Android M Developer Preview & Tools](http://android-developers.blogspot.com/2015/05/android-m-developer-preview-tools.html) - 28 May 2015
+
     > *Battery* - We?re making Android devices smarter about managing power through a new feature called **Doze**. With M, Android uses significant motion detection to learn if a device has been left unattended for a while. In this state, Android will exponentially back off background activity, trading off a little bit of app freshness for longer battery life. Consider how this may affect your app; for instance, if you?re building a chat app, you may want to make use of high priority messages to wake your app when the device is dozing.
 
 
