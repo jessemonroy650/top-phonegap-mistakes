@@ -19,7 +19,10 @@ NOTE - 2015-11-26 - [`<plugin />` defaults to npm and `<gap:plugin />` (not reco
 
 **Where to get the names and version**
 
-Usually all the latest plugins, as released by Cordova, are usable. You can always find the latest plugins list on the [Cordova Blog](https://cordova.apache.org/blog/) and look for *Plugins Release*.
+- If you are using *Cordova/Phonegap CLI or SDK*, the latest plugins, as released by Cordova, are usable. 
+- If you are using *Cordova/Phonegap Build*, you may have to use one version before the latest version. (There is a rule for this.)
+
+You can always find the latest plugins list on the [Cordova Blog](https://cordova.apache.org/blog/) and look for *Plugins Release*.
 
 **To version or not to version.**
 
