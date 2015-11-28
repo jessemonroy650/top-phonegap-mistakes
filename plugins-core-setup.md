@@ -4,9 +4,9 @@ Last Update: 2015-11-25
 
 **NOTE:** - 2015-11-24 - A [recent update to Phonegap Build](http://phonegap.com/blog/2015/11/19/config_xml_changes_part_two) required a change, which makes this more universal. Meaning it's good for CLI.
 
-ADDED: 2015-11-24 - [still more changes coming](http://community.phonegap.com/nitobi/topics/correct-syntax-for-pulling-plugin-from-github-via-npm#reply_16351151)
-
-NOTE - 2015-11-26 - [`<plugin />` defaults to npm and `<gap:plugin />` (not recommended) defaults to pgb](http://community.phonegap.com/nitobi/topics/failed-to-build-android#reply_16369060)
+ADDED: 2015-11-24 - [still more changes coming](http://community.phonegap.com/nitobi/topics/correct-syntax-for-pulling-plugin-from-github-via-npm#reply_16351151)<br>
+NOTE - 2015-11-26 - [`<plugin />` defaults to npm and `<gap:plugin />` (not recommended) defaults to pgb](http://community.phonegap.com/nitobi/topics/failed-to-build-android#reply_16369060)<br>
+NOTE - 2015-11-28 - [The Latest plugin version are not applied, even though the were release on](https://cordova.apache.org/news/2015/11/24/plugins-release.html) Nov 24, 2015<br>
 
 **Phonegap Build**
 
