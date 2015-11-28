@@ -3,6 +3,16 @@ Date: 2015-11-02
 
 This page include misc that are (at least) related to Phonegap  Whitelist
 
+If however, your version is before 4.0.0, let use say 3.5.0 or 3.7.0, then you will *not* have to add the *white-list* requirement.
+
+  To be clear, the "whitelist" has been around for a bit, but the plugin and requirement is very new. As you would expect, when the "whitelist" was added, the defacto *open-access* feature was deprecated. Or said another way, the defacto *open-access* feature was planned and scheduled to be eliminated. This change marks a step in removal of the *open-access* feature.
+
+  In addition, the Content Security Policy (CSP) has caught numerous developers - because it was soooo poorly publicized. <b>Depending on your use and the version of Phonegap you are using, the CSP needs to go in every single HTML page you used, just like you have to wait for 'deviceready'. However, there are cases where it is not needed at all. The documentation is confusing for some, please read it carefully.</b> The documentation is buried in the bottom of many of the latest documentation pages.
+
+  Lastly, Raymond Camden in his blog points to a [LARGE change in policy starting with Cordova 5](http://www.raymondcamden.com/2015/05/25/important-information-about-cordova-5)
+
+
+
 
 *Windows 8.1 allows only https URIs, not http URIs*<br>
 https://msdn.microsoft.com/en-us/library/windows/desktop/dn457654%28v=vs.85%29.aspx

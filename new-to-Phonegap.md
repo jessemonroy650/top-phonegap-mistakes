@@ -52,7 +52,7 @@ LAST UPDATE: 2015-11-14
 
 ###<a name=003>3.</a> Does not follow the blogs.###
 
-  All three platforms have blogs and twitter accounts. Ignore at your peril.
+  All three platforms have blogs and twitter accounts. **Ignore at your peril.**
   * Official Apache [Cordova Blog](http://cordova.apache.org/blog/) - https://twitter.com/apachecordova
   * Official Adobe [Phonegap Blog](http://phonegap.com/blog/) - https://twitter.com/phonegap
   * Official Adobe [Phonegap Build Blog](http://phonegap.com/blog/phonegap-build/) - https://twitter.com/phonegapbuild
@@ -96,14 +96,14 @@ LAST UPDATE: 2015-11-14
 
   With the CLI version, if you do not assign a version for your platform _OR_ in ''Phonegap Build'' if you do not set the ```phonegap-version``` in config.xml, YOU WILL GET THE LATEST VERSION. If you are lucky, your program just works as expected. If you are not lucky, you'll get a set of cascading error. 
 
-  Luckily for all of us, Holly Schinsky has written a nice blog post to explain it all: **(NOTE: Holly has not had time to update the article since the move to NPM, use the NPM names, not the names she is using.)**
+  Luckily for all of us, Holly Schinsky has written a nice blog post to explain it all: *(NOTE: Holly has not had time to update the article since the move to NPM, use the NPM names, not the names she is using.)*
 
   *Cordova/PhoneGap Version Confusion*<br />
   http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/
 
 ###<a name=007>7.</a> Not setting "version" for you plugins###
 
-  I've been guilty of this mistake. Even worst, I gave people code examples making this mistake. I hope those people will read this one day and make the appropriate correction.
+  I've been guilty of this mistake. Even worst, I gave people code examples making this mistake. I hope those people will read this one day and make the appropriate correction. To be clear on this, it now consider *"best practice"* to always use a version number with your plugin.
 
   In the last ''Top Mistake'' (#6), Holly Schinsky disucussed this in her blog post. But just to get the point across, here is a Post from the Nitobi Forum,
 
@@ -119,25 +119,29 @@ LAST UPDATE: 2015-11-14
 
   I confess to doing this. I also confess to giving people the wrong version. Sometimes, I have gave them Phonegap Build, when I should have given them Phonegap CLI.
 
-  This also happens on the forum, repeatedly, not with disaterous results, but when it happens, it is frustrating. Use caution.
+  *This is happening more and more with disaterous results and frustrating.*\
+
+  To be clear, if you create an App with the command line tools, that App will NOT work with *Phonegap Build*; the structure is different. If you need a place to start, use this boilerplate [Phonegap--Generic-Boilerplate7](https://github.com/jessemonroy650/Phonegap--Generic-Boilerplate7). Note, this is an example. You still need to optimize this example, if you are going to use it.
 
 ###<a name=010>10.</a> Not adding the new "white-list", "white-list plugin" parameters in config.xml AND "Content Security Policy"###
 
   This is sooo new and obnoxious, one can only have pitty on returning developers. In addition, this was buried in both the *Phonegap blog* and the *Cordova blog*.
 
-  This relatively * NEW * requirement means &ndash; to access ANY website or resources on the web, you MUST use the whitelist and the whitelist plugin. This requirement goes into affect, if you are using cordova-android@4.0.0 or better; including cli-5.1.1 &amp; cli-5.2.0. If however, your version is before 4.0.0, let use say 3.5.0 or 3.7.0, then you will *not* have to add the *white-list* requirement.
+  This relatively * NEW * requirement means &ndash; to access ANY website or resources on the web, you MUST use the whitelist and the whitelist plugin. This requirement goes into affect, if you are using cordova-android@4.0.0 or better; including cli-5.1.1 &amp; cli-5.2.0. 
 
-  To be clear, the "whitelist" has been around for a bit, but the plugin and requirement is very new. As you would expect, when the "whitelist" was added, the defacto *open-access* feature was deprecated. Or said another way, the defacto *open-access* feature was planned and scheduled to be eliminated. This change marks a step in removal of the *open-access* feature.
+**CHANGE 2015-11-27T22:52:06**
 
-  In addition, the Content Security Policy (CSP) has caught numerous developers - because it was soooo poorly publicized. <b>Depending on your use and the version of Phonegap you are using, the CSP needs to go in every single HTML page you used, just like you have to wait for 'deviceready'. However, there are cases where it is not needed at all. The documentation is confusing for some, please read it carefully.</b> The documentation is buried in the bottom of many of the latest documentation pages.
+  Today I move more of the stuff here to misc. (see below)
 
-  Lastly, Raymond Camden in his blog points to a [LARGE change in policy starting with Cordova 5](http://www.raymondcamden.com/2015/05/25/important-information-about-cordova-5)
-
-  **CHANGE 2015-11-14T02:17:49**
+**CHANGE 2015-11-14T02:17:49**
 
   Today I decided to point to a much cleaner version of this with a better way to deal with the `whitelist` system.  Stuff that was previously here is now in [whitelist-misc.md](whitelist-misc.md#previous_stuff) (This stuff will eventually be merged or moved to other sections; copy if you need it.)
 
   [HOW TO apply the Cordova/Phonegap the whitelist system](the-whitelist-system.md)
+
+  **Added on 2015-11-27**
+
+  If you are looking for additional guideance you the `whitelist` system, read the [`whitelist` matrix](whitelist-matrix.md)
 
 ### <a name=011>11.</a> You need to get your plugins from NPM now.###
 
@@ -146,13 +150,20 @@ LAST UPDATE: 2015-11-14
   2015-10-09 - Without announcment, tweet, or blog, the repository change a full week before it was scheduled. I can do nothing, but complain.... This is damm annoying.
 
   * [Cordova npm search page](http://cordova.apache.org/plugins/)
-  * [Cordova CORE plugins](http://cordova.apache.org/docs/en/5.1.1/cordova/plugins/pluginapis.html)
-  * [Latest version of plugins](http://cordova.apache.org/news/2015/06/22/plugins-release.html) June 22, 2015
+  * [Cordova CORE plugins](http://cordova.apache.org/docs/en/5.4.0/cordova/plugins/pluginapis.html)
+  * [**Latest** Plugins Release](http://cordova.apache.org/news/2015/11/24/plugins-release.html) - 24 Nov 2015 - If you are using the CLI or the SDK, you can use these versions.
+  * [Plugins Release](http://cordova.apache.org/news/2015/06/22/plugins-release.html) June 22, 2015 - If you are using *Phonegap Build*, you want to use these versions.
+
   
   *Blog Posts Related to #11*
+
+  * Cordova [Plugins Release](cordova.apache.org/news/2015/11/24/plugins-release.html) - 2015/11/24
+  * Cordova [Tools Release: November 6th, 2015](http://cordova.apache.org/news/2015/11/06/tools-release.html) - 2015/11/06
+
+    > Cordova will now auto convert old-style plugin IDs to new style plugin IDs when doing a cordova plugin add. This only happens if the old-style plugin ID exists in the registry-mapper, it will be auto converted to the new ID and fetched from npm instead.
+
   * Cordova [Cordova Plugins Registry becomes immutable](http://cordova.apache.org/news/2015/09/08/CPR-readonly.html) 2015/09/08
   * Cordova [Plugins Release and Moving plugins to npm](http://cordova.apache.org/announcements/2015/04/21/plugins-release-and-move-to-npm.html) 2015/04/21
-  * Cordova [List of the Latest \*Core* Plugins and their versions](http://cordova.apache.org/news/2015/06/22/plugins-release.html) June 22, 2015
 
 ###<a name=012>12</a>. For *Phonegap Build* ONLY `<feature>` is deprecated ###
 

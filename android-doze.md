@@ -22,9 +22,9 @@ New as of Android 6.0 (Marshmallow).
 
 ### Blogs Related ###
 
-- Boxcar.io: [Take your Android app to the next Push level](http://developer.boxcar.io/blog/2015-09-23-take-your-app-to-the-next-push-level/) - Sept 23, 2015
 - plotprojects.com: [Dangerous permissions on Android Marshmallow](http://www.plotprojects.com/dangerous-permissions-on-android-marshmallow/) - September 30, 2015
 - radius Networks: [Is Your Beacon App Ready for Android 6.0?](http://developer.radiusnetworks.com/2015/09/29/is-your-beacon-app-ready-for-android-6.html) - 29 Sep 2015
+- Boxcar.io: [Take your Android app to the next Push level](http://developer.boxcar.io/blog/2015-09-23-take-your-app-to-the-next-push-level/) - Sept 23, 2015
 
 ### Articles Related ###
 
