@@ -1,6 +1,6 @@
 # Core Plugins Setup#
 Date: 2015-11-18<br>
-Last Update: 2015-11-25
+Last Update: 2015-11-28
 
 **NOTE:** - 2015-11-24 - A [recent update to Phonegap Build](http://phonegap.com/blog/2015/11/19/config_xml_changes_part_two) required a change, which makes this more universal. Meaning it's good for CLI.
 
