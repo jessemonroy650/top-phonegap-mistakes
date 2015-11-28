@@ -17,7 +17,7 @@ New as of Android 6.0 (Marshmallow).
 
 - [Android M Developer Preview & Tools](http://android-developers.blogspot.com/2015/05/android-m-developer-preview-tools.html) - 28 May 2015
 
-    > *Battery* - We?re making Android devices smarter about managing power through a new feature called **Doze**. With M, Android uses significant motion detection to learn if a device has been left unattended for a while. In this state, Android will exponentially back off background activity, trading off a little bit of app freshness for longer battery life. Consider how this may affect your app; for instance, if you?re building a chat app, you may want to make use of high priority messages to wake your app when the device is dozing.
+    > *Battery* - We're making Android devices smarter about managing power through a new feature called **Doze**. With M, Android uses significant motion detection to learn if a device has been left unattended for a while. In this state, Android will exponentially back off background activity, trading off a little bit of app freshness for longer battery life. Consider how this may affect your app; for instance, if you're building a chat app, you may want to make use of high priority messages to wake your app when the device is dozing.
 
 
 ### Blogs Related ###
