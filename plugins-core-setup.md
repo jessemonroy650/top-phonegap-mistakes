@@ -6,6 +6,8 @@ Last Update: 2015-11-25
 
 ADDED: 2015-11-24 - [still more changes coming](http://community.phonegap.com/nitobi/topics/correct-syntax-for-pulling-plugin-from-github-via-npm#reply_16351151)
 
+NOTE - 2015-11-26 - [`<plugin />` defaults to npm and `<gap:plugin />` (not recommended) defaults to pgb](http://community.phonegap.com/nitobi/topics/failed-to-build-android#reply_16369060)
+
 **Phonegap Build**
 
 - http://docs.build.phonegap.com/en_US/configuring_plugins.md.html#Plugins
