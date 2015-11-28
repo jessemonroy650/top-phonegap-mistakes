@@ -82,6 +82,7 @@ You can always find the latest plugins list on the [Cordova Blog](https://cordov
 ```
 
 Source: https://cordova.apache.org/news/2015/06/22/plugins-release.html<br>
+NOT APPLIED YET: https://cordova.apache.org/news/2015/11/24/plugins-release.html<br>
 
 ### Related Articles ###
 
