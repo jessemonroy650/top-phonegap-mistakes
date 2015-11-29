@@ -1,6 +1,6 @@
 ## Android Doze ###
 Date: 2015-11-27<br>
-Last Upate: 2015-11-27
+Last Upate: 2015-11-29
 
 New as of Android 6.0 (Marshmallow).
 
@@ -8,6 +8,8 @@ New as of Android 6.0 (Marshmallow).
 
 - PR:phonegap-plugin-push
  [Android required permissions](https://github.com/phonegap/phonegap-plugin-push/issues/258)
+
+- [Detail in short](https://groups.google.com/forum/#!topic/phonegap/iwUAgUdg3TU) as posted to Google Groups. Posted Nov 27, 2015
 
 ### Official Blogs ###
 
