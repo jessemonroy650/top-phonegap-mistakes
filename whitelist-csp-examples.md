@@ -1,6 +1,6 @@
 ## Whitelist CSP Examples ##
 Date: 2015-10-28<br>
-Last Update: 2015-11-09
+Last Update: 2015-11-28
 
 [`The Whitelist System`](the-whitelist-system.md) -> `Whitelist CSP Examples`
 
@@ -50,7 +50,7 @@ Last Update: 2015-11-09
 | plugin-types | restricts plugins via MIME type | - |
 | report-uri<sup>¥</sup>  | -  | - |
 | sandbox<sup>¥</sup>     | -  | - |
-| source-src | used, if it contains value, otherwise 'default-src' | 'unsafe-inline' and 'unsafe-eval' are required to over-ride the default setting, regardless of 'default-src' |
+| script-src | used, if it contains value, otherwise 'default-src' | 'unsafe-inline' and 'unsafe-eval' are required to over-ride the default setting, regardless of 'default-src' |
 | style-src  | used, if it contains value, otherwise 'default-src' | 'unsafe-inline' and 'unsafe-eval' are required to over-ride the default setting, regardless of 'default-src' |
 
 - ¥ = W3 [CSP 3.3. HTML meta Element ](http://www.w3.org/TR/CSP2/#delivery-html-meta-element) says,<br>*5. Remove all occurrences of report-uri, frame-ancestors, and sandbox directives from directive-set.*
@@ -66,4 +66,6 @@ Last Update: 2015-11-09
 
 - [Using Content Security Policy to Make Apps More Secure](https://60devs.com/using-content-security-policy.html)
 
+####HISTORY####
 
+- 2015-11-28 - fixed typo, was *source-src* should have been *script-src*

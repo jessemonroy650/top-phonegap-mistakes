@@ -32,3 +32,7 @@ New as of Android 6.0 (Marshmallow).
 - indianexpress.com [Android M aka Marshmallow: Doze to app permissions, five features that matter](http://indianexpress.com/article/technology/tech-news-technology/android-6-0-marshmallow-update-5-features-you-need-to-know/) - October 6, 2015
 - techtub.in [Android M: 5 hidden features you should know about](http://techtub.in/android-m-5-hidden-features-you-should-know-about/) - June 3, 2015
 - infoQ [Breaking Changes in Android MBreaking Changes in Android M](http://www.infoq.com/news/2015/05/android-m) - May 29, 2015
+
+### SO Post that alerted me to this ###
+
+- [Cordova + Android 6 doze](http://stackoverflow.com/questions/33958242/cordova-android-6-doze)
