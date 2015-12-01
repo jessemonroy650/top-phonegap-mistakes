@@ -53,12 +53,13 @@ To walk throught the various different systems would be tedious. As such, there 
 
 - To disable the `CSP` system, add this to every webpages that needs internet or network access, inline code ([Javascript](http://www.quirksmode.org/js/events_early.html) 
 or [style](http://matthewjamestaylor.com/blog/adding-css-to-html-with-link-embed-inline-and-import)), or `eval()`.
+- Prior to today 2015-12-01, `style-src` and `script-src`, did *not* have the * (star). This was a mistake. It should have it.
 - **DANGEROUS, BUT WORKING**
 ```
     <meta http-equiv="Content-Security-Policy" 
              content="default-src *; 
-                      style-src 'self' 'unsafe-inline' 'unsafe-eval'; 
-                      script-src 'self' 'unsafe-inline' 'unsafe-eval';">
+                      style-src * 'self' 'unsafe-inline' 'unsafe-eval'; 
+                      script-src * 'self' 'unsafe-inline' 'unsafe-eval';">
 ```
 
 - To disable Apple's `ATS` for iOS9, add to the `Info.plist`.

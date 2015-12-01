@@ -109,7 +109,7 @@ LAST UPDATE: 2015-11-14
 
   *[ Notes for upgrading to cli-5.1.1 on PGB](http://community.phonegap.com/nitobi/topics/notes-for-upgrading-to-cli-5-1-1-on-pgb) (Phonegap Build)*
 
-###<a name=008>8.</a> Forgot to add the plugin to config.xml.###
+###<a name=008>8.</a> Forgot to add the plugin to `config.xml`, or `cordova.js` to `index.html`.###
 
   Oops. Every developer has done this at one time or another. I've done it, and them spent 8 hours debugging this mistake. OUCH!
 
