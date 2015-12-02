@@ -2,7 +2,7 @@
 Date: 2015-11-18<br>
 Last Update: 2015-11-28
 
-If you don't know the difference between *Phonegap Build* and *Phonegap CLI*, [READ THIS](new-to-Phonegap.md).
+If you don't know the difference between *Phonegap Build* and *Phonegap CLI*, [READ #1](new-to-Phonegap.md).
 
 **NOTE:** - 2015-11-24 - A [recent update to Phonegap Build](http://phonegap.com/blog/2015/11/19/config_xml_changes_part_two) required a change, which makes this more universal. Meaning it's good for CLI.
 
