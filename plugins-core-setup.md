@@ -31,7 +31,7 @@ You can always find the latest plugins list on the [Cordova Blog](https://cordov
 - **Set** the version, your code will always work. Then, make the changes at your pace, not those of the Cordova "core" team.
 - **Do not set** the version, get the latest and greatest. However, as versions change so does the chance for you code to break.
 
-**Versions set** Good for *Phonegap Build*
+**Versions set** - good for *Phonegap Build*
 ```
 <plugin name="cordova-plugin-battery-status" source="npm" spec="1.1.0" />
 <plugin name="cordova-plugin-camera"         source="npm" spec="1.2.0" />
