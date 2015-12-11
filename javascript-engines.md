@@ -11,11 +11,11 @@ Last Update: 2015-11-14
 
 ## Available Javascript Engines<sup>1</sup> ##
 
-- Rhino - The most popular JavaScript Engine developed in Java, originally by Netscape, but now maintained by Mozilla. Unfortunately, its development is not very active, documentation at some points is inadequate and outdated, and the API is not very elegant.
-- Nashorn - Another JavaScript engine developed in Java by Oracle. It was released along with Java 8 a few days ago. Oracle has open-sourced the project, but unfortunately, it cannot run on Android?s Dalvik VM.
-- V8 - The JavaScript engine developed in C++ by Google, which powers the Chrome and Chromium web-browsers, and other projects like node.js. Open-source project.
-- SpiderMonkey - The first-ever JavaScript engine developed in C/C++, originally by Netscape, and now maintained by Mozilla. It powers the Firefox web-browser. Open-source project.
-- JavaScriptCore (the JavaScript engine, not the iOS framework) - The JavaScript engine developed in C/C++ by Apple, Adobe and others, which powers the Safari web-browser (among others). It?s part of the WebKit framework. Open-source project.
+- **Rhino** - The most popular JavaScript Engine developed in Java, originally by Netscape, but now maintained by Mozilla. Unfortunately, its development is not very active, documentation at some points is inadequate and outdated, and the API is not very elegant.
+- **Nashorn** - Another JavaScript engine developed in Java by Oracle. It was released along with Java 8 a few days ago. Oracle has open-sourced the project, but unfortunately, it cannot run on Android's Dalvik VM.
+- **V8** - The JavaScript engine developed in C++ by Google, which powers the Chrome and Chromium web-browsers, and other projects like node.js. Open-source project.
+- **SpiderMonkey** - The first-ever JavaScript engine developed in C/C++, originally by Netscape, and now maintained by Mozilla. It powers the Firefox web-browser. Open-source project.
+- **JavaScriptCore** (the JavaScript engine, not the iOS framework) - The JavaScript engine developed in C/C++ by Apple, Adobe and others, which powers the Safari web-browser (among others). It's part of the WebKit framework. Open-source project.
 
 
 ### Articles ###
