@@ -25,6 +25,13 @@ Google: [webview alternative](https://www.google.com/search?q=webview+alternativ
 2. [WKWebView](https://github.com/Telerik-Verified-Plugins/WKWebView) an alternative for **iOS**
 3. [cordova-plugin-safariviewcontroller](https://github.com/EddyVerbruggen/cordova-plugin-safariviewcontroller)  another alternative for **iOS**. One developer described it as such, *I have not tryed it yet. Looking into the open issues, I think only one of them makes sense, it doesn't have events (loadstart, loadstop) like inAppBrowser*
 
+
+As of this moment, there are 13 [webview alternatives](http://cordova.apache.org/plugins/?q=webview) available on NPM; many are clones of one or two base sources. 
+
+### Webview Alternatives NOT NPM ###
+
+1. [cl.kunder.webview](https://github.com/cvuser0/cl.kunder.webview) - This webview is totally independent from the main webview, but allows you tu access plugins and other Cordova resources. (sic)
+
 ### Work in Progress ###
 
 1. [WinRT XAML Toolkit](http://winrtxamltoolkit.codeplex.com/) - work in progress (last update may 2014) for **Windows** Runtime using XAML supports Windows 8+

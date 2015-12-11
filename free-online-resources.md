@@ -45,3 +45,8 @@ http://pgicons.abiro.com/
 * http://simeydotme.github.io/jQuery-ui-Slider-Pips/#styling-flat
 * https://github.com/simeydotme/jQuery-ui-Slider-Pips
 * License: MIT 
+
+### Phonegap Debugging ###
+
+https://www.genuitec.com/products/gapdebug/
+For windows and Mac

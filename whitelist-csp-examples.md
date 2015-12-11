@@ -6,6 +6,8 @@ Last Update: 2015-11-28
 
 **THERE ARE MORE EXAMPLES COMING. DESCRIPTIONS WILL BE ADDED.**
 
+THE `CSP` SHOULD BE ON EVERY HTML PAGE, WITH FEW EXCEPTIONS.
+
 ```
 <!-- Good default declaration:
     * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
