@@ -1,7 +1,15 @@
 ## Tips and Tricks ##
-Last Update: 2015-10-10
+Date: 2015-10-10<br>
+Last Update: 2015-12-10
 
 * http://phonegap-tips.com/
+
+### WebView Tips & Tricks for Android ###
+
+[WebView Tips & Tricks](https://developer.chrome.com/multidevice/webview/tipsandtricks) - these tips are specifically for Chrome (SDK 19+)
+
+- Flicker of colors when the application loads
+- Touch Feedback
 
 ### Use a Specific Keyboard Type ###
 
