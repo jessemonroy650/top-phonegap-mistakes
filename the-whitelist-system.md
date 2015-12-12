@@ -12,7 +12,7 @@ This blog post is one page. It has three (3) parts.
 
 As such, I want to thank *Rob Willett* for his invaluable assitance and advice. If you find errors, they are mine. If you have praise, send some luv to Rob.
 
-*Note:* From here forward I will use **Cordova** to mean *Cordova CLI*, *Phonegap CLI*, and *Phonegap Build*. If there is a difference, I will try to make it abundantly clear. If you did not know there is a difference, [read this](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/new-to-Phonegap.md)
+*Note:* From here forward I will use **Cordova** to mean *Cordova CLI*, *Cordova SDK*, *Phonegap CLI*, *Phonegap SDK*, and *Phonegap Build*. If there is a difference, I will try to make it abundantly clear. If you did not know there is a difference, [read this](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/new-to-Phonegap.md#001).
 
 ##The breakdown.##
 

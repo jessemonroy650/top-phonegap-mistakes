@@ -10,6 +10,10 @@ Last Update: 2015-12-10
 - Last Comment: May 28, 2013 - *I can confirm that chrome 28.0.1500.21 (currently beta) fixed it for me. Hallelujah! Took you long enough google*.
 
 ###iOS###
+
+- [[WKWebView][iOS8] wkwebview / local webserver plugin orientation issue](https://issues.apache.org/jira/browse/CB-8047)
+
+
 ###Blackberry 10###
 ###Windows 10###
 ###Firefox OS###

@@ -1,6 +1,6 @@
 ## Top Mistakes by Developers new to Cordova/Phonegap ##
 DATE: 2015-10-18<br>
-LAST UPDATE: 2015-11-14
+LAST UPDATE: 2015-11-17
 
 <a href=#001>1</a>
 <a href=#002>2</a>
@@ -34,13 +34,14 @@ LAST UPDATE: 2015-11-14
   In addition, this leads to reading the wrong docs for the wrong platform. A common mistake for *Phonegap Build* is to use the [*Cordova* construct](http://cordova.apache.org/docs/en/5.1.1/config_ref/index.html) of <s>`<platform>`</s> and `<feature>`. As of today (2015-11-17), `<platform>` is supported by *Phonegap Build* [SEE](http://phonegap.com/blog/2015/11/17/config_xml_update)
 
   **The Official Websites**
+
   * [Cordova](http://cordova.apache.org/)
   * [Phonegap](http://phonegap.com/)
   * [Phonegap Build](https://build.phonegap.com/plans)
 
   *Blog Posts Related to #1*
-  * [Cordova vs. PhoneGap: An update](http://blog.devgeeks.org/post/73789983750/cordova-vs-phonegap-an-update) - Jan 19, 2014
-  * [PhoneGap, Cordova, and what's in a name?](http://phonegap.com/2012/03/19/phonegap-cordova-and-what%E2%80%99s-in-a-name/) - 2012/03/19
+  * [Cordova vs. PhoneGap: An update](http://blog.devgeeks.org/post/73789983750/cordova-vs-phonegap-an-update) - Jan 19, 2014 - devgeeks.org
+  * [PhoneGap, Cordova, and what's in a name?](http://phonegap.com/2012/03/19/phonegap-cordova-and-what%E2%80%99s-in-a-name/) - 2012/03/19 - phonegap.com
 
 ###<a name=002>2.</a> Does not read the docs. ###
   There are three (3) sets of docs. One for *Cordova CLI* (Command Line Interface), another for *Phonegap CLI*, and one for *Phonegap Build*. They are similar, but NOT the same. Also, to add to the confusion, sometimes the Cordova documentation is the only set of docs available; this happens for some plugins. This also happens with Phonegap &ndash; the Phonegap Developer's Guide for example. (aka Beginners Guide)
