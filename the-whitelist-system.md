@@ -16,7 +16,7 @@ As such, I want to thank *Rob Willett* for his invaluable assitance and advice. 
 
 ##The breakdown.##
 
-For the whitelist system used with *Cordova*, there four (4) unrelated systems (plus one (1) legacy system) that work together, and overlap in places.
+For the *Cordova `whitelist` system*, there four (4) unrelated systems (plus one (1) legacy system) that work together, and overlap in places.
 
 1. [legacy-whitelist plugin](https://www.npmjs.com/package/cordova-plugin-legacy-whitelist) (avoid) was the previous `whitelist` system. ***It is provided for backwards compatibilty only.***
 2. [whitelist plugin](https://www.npmjs.com/package/cordova-plugin-whitelist) (Cordova's) is the new `whitelist` system. It is required as of *[Cordova Tools 5.0.0](http://cordova.apache.org/news/2015/04/21/tools-release.html) (April 21, 2015)*. It has three (3) parts. This plugin does NOT apply to iOS.
