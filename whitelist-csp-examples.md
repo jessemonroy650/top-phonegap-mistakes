@@ -58,16 +58,34 @@ THE `CSP` SHOULD BE ON EVERY HTML PAGE, WITH FEW EXCEPTIONS.
 
 - ¥ = W3 [CSP 3.3. HTML meta Element ](http://www.w3.org/TR/CSP2/#delivery-html-meta-element) says,<br>*5. Remove all occurrences of report-uri, frame-ancestors, and sandbox directives from directive-set.*
 
+####<a name=saferinline>Safer Inline</a>####
+
+Safer inline Javascript and CSS 
+
+- nonce - cryptographically randomly generated value used to sign inline items
+- hash - cryptographically generated hash value used to sign inline items
+
 ####<a name=references>References</a>####
 
 - [W3.org CSP2](http://www.w3.org/TR/CSP2/)
 - [Mozilla CSP Policy Directives](https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives)
+- [Google Chrome Content Security Policy (CSP)](https://developer.chrome.com/extensions/contentSecurityPolicy)
 - [http://content-security-policy.com/](http://content-security-policy.com/)
+- [CSP Playground](http://www.cspplayground.com/home)
 - [CanIUse](http://caniuse.com/#search=csp)
+- [Crosswalk Content security policy](https://crosswalk-project.org/documentation/manifest/content_security_policy.html)
+
 
 ####<a name=usefularticles>Useful Articles</a>####
 
-- [Using Content Security Policy to Make Apps More Secure](https://60devs.com/using-content-security-policy.html)
+- [An Introduction to Content Security Policy](http://www.html5rocks.com/en/tutorials/security/content-security-policy/) - Updated: May 8th, 2015
+- [Using Content Security Policy to Make Apps More Secure](https://60devs.com/using-content-security-policy.html) - Oct 13, 2015 
+
+####<a name=usefulblogposts>Useful Blog Posts</a>####
+
+- [[CSP] On Reporting and Filtering](https://blogs.dropbox.com/tech/2015/09/on-csp-reporting-and-filtering/) - September 21, 2015
+- [[CSP] Unsafe-inline and nonce deployment](https://blogs.dropbox.com/tech/2015/09/unsafe-inline-and-nonce-deployment/) -  September 22, 2015
+
 
 ####HISTORY####
 

@@ -223,7 +223,7 @@ There are four (4) documents worth reading on this subject.
 
 - [Content Security Policy Reference](http://content-security-policy.com/) Website
 - [CSP Policy Directives](https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives#Keywords) - Mozilla
-- [Using Content Security Policy to Make Apps More Secure]() - #60devs
+- [Using Content Security Policy to Make Apps More Secure](https://60devs.com/using-content-security-policy.html) - #60devs
 - [CanIUse](http://caniuse.com/#search=csp)
 
 ## Apple's ATS##

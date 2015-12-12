@@ -56,8 +56,8 @@ There are currently two (2) plugins available form Cordova for implementing the 
   - `<preference name="phonegap-version" value="3.7.0" />`
   - For *Cordova/Phonegap CLI* see [Cordova/PhoneGap Version Confusion](http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/) - Outdated, but useful
 
-2. [plugin](https://www.npmjs.com/package/cordova-plugin-whitelist)
-  - The one you want is `cordova-plugin-whitelist`
+2. plugin
+  - The one you want is [`cordova-plugin-whitelist`](https://www.npmjs.com/package/cordova-plugin-whitelist)
   - While some advise using not using version numbers so you get the "latest and greatest", the side effect is that in future upgrades your code will break in unexpectecd ways.
   - The developer is advised to make an "objective" decision
   - *Phonegap CLI* `cordova add plugin cordova-plugin-whitelist`
@@ -96,16 +96,16 @@ There are currently two (2) plugins available form Cordova for implementing the 
     > The `gap:` is used as a protocol like `http:` for the iOS side to communicate from JS to native. Basically when Cordova iOS sees `gap:` it intercepts the request and uses it to do the bridging of the two layers. At least that is my understanding of it but it's been awhile since I dove into that area.
 
   - **DANGEROUS, BUT WORKING**
-  - `<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">`
+  - `<meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'self' 'unsafe-inline'; script-src * 'self' 'unsafe-inline' 'unsafe-eval'">`
   - Additional keywords and what they mean [CSP from Mozilla](https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives#Keywords) 
   - Wait KIDS! There is a whole [website that support CSP](http://content-security-policy.com/)
 
 ### What you should watch for ###
 
-1. web view
+1. Webview
   - each platform has it's own library, as should be expected
   - each has it's own bugs, we need to be proactive
-  - we draw clear barrier between web view and the internet 
+  - we draw clear barrier between Webview and the internet 
 2. inappbrowser
   - does NOT have access to the hardware on the mobile device
   - The InAppBrowser is not subject to the whitelist, nor is opening links in the system browser.

@@ -53,7 +53,7 @@ To walk throught the various different systems would be tedious. As such, there 
 ```
 
 - To disable the `CSP` part of the `whitelist` system, add this to every webpages that needs internet (or network access), inline code ([Javascript](http://www.quirksmode.org/js/events_early.html) 
-or [style](http://matthewjamestaylor.com/blog/adding-css-to-html-with-link-embed-inline-and-import)), or `eval()`.
+or [style](http://matthewjamestaylor.com/blog/adding-css-to-html-with-link-embed-inline-and-import)), or `eval()`. [Wikipedia Details on CSP](https://en.wikipedia.org/wiki/Content_Security_Policy#Mode_of_operation)
 - Prior to today 2015-12-01, `style-src` and `script-src`, did *not* have the `*` (star). This was a mistake. It should have it.
 - **CAUTION:** Your app maybe rejected, unless you have a good reason for using this.
 ```
@@ -64,6 +64,7 @@ or [style](http://matthewjamestaylor.com/blog/adding-css-to-html-with-link-embed
 ```
 
 - To disable Apple's `ATS` for iOS9, add to the `Info.plist`.
+- Or add the plugin: [cordova-plugin-disable-nsapptransportsecurity](whitelist-ats-examples.md#usefularticles)
 - **CAUTION:** Your app maybe rejected, unless you have a good reason for using this, [SEE](whitelist-ats-examples.md#appRejected). Alternatives [available](whitelist-ats-examples.md).
 ```
     <key>NSAppTransportSecurity</key>
