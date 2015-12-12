@@ -1,5 +1,6 @@
 ## Phonegap Whitelist Examples ##
-Date: 2015-10-28
+Date: 2015-10-28<br>
+Last Update: 2015-12-12
 
 **THERE ARE MORE EXAMPLES COMING. DESCRIPTIONS WILL BE ADDED**
 
@@ -35,9 +36,9 @@ Here only access tags used. They are required by the whitelist plugin. This goes
 This goes in the <head> section of your **index.html**. Notice that for each access-origin tag in the config.xml file there is at least one entry in the CSP tag.
 ```
     <meta http-equiv="Content-Security-Policy"
-          content="default-src 'self' 'unsafe-eval' gap:  https://s3-eu-west-1.amazonaws.com;
-                   connect-src 'self' http://cdn.example.domain https://cloud.example.domain:9000 https://capturegps.example.domain:9500;
-                   style-src 'self' 'unsafe-inline';">
+             content="default-src 'self' 'unsafe-eval' gap:  https://s3-eu-west-1.amazonaws.com;
+                      connect-src 'self' http://cdn.example.domain https://cloud.example.domain:9000 https://capturegps.example.domain:9500;
+                       style-src 'self' 'unsafe-inline';">
 ```
 
 The gap: flag is needed for when you have the CSP on iOS. The 'unsafe-inline' flags are due to using a JavaScript library that changes the DOM model.

@@ -13,7 +13,6 @@ If however, your version is before 4.0.0, let use say 3.5.0 or 3.7.0, then you w
 
 
 
-
 *Windows 8.1 allows only https URIs, not http URIs*<br>
 https://msdn.microsoft.com/en-us/library/windows/desktop/dn457654%28v=vs.85%29.aspx
 > While apps built for Windows 8 can include http and https URIs in their application content URIs, apps built for Windows 8.1 may include only https URIs. 
@@ -45,3 +44,5 @@ https://msdn.microsoft.com/en-us/library/windows/apps/br211416.aspx
   * [Networking with NSURLSession - WWDC 2015 - Videos - Apple Developer](https://developer.apple.com/videos/play/wwdc2015-711/) - 40 minutes
   * [WWDC 2015 session 703, ?Privacy and Your App?, 30:18](https://developer.apple.com/videos/wwdc/2015/?id=703)
   * [How to Disable App Transport Security ? Five Minute WatchKit ? Medium](https://medium.com/five-minute-watchkit/how-to-disable-app-transport-security-2c8d5d298160) - Oct 13, 2015
+
+* [cordova-plugin-whitelist bugs](https://issues.apache.org/jira/issues/?jql=project%20%3D%20CB%20AND%20status%20in%20%28Open%2C%20%22In%20Progress%22%2C%20Reopened%29%20AND%20resolution%20%3D%20Unresolved%20AND%20component%20%3D%20%22Plugin%20Whitelist%22%20ORDER%20BY%20priority%20DESC%2C%20summary%20ASC%2C%20updatedDate%20DESC)

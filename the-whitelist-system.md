@@ -1,6 +1,6 @@
 # HOW TO apply the Cordova/Phonegap the whitelist system #
 Date: 2015-10-28<br>
-Last Update: 2015-11-16
+Last Update: 2015-12-12
 
 ***If you have any questions, I am usually in the [Google Group for Phonegap](https://groups.google.com/forum/#!forum/phonegap)***
 
@@ -45,17 +45,17 @@ To walk throught the various different systems would be tedious. As such, there 
 -  For *Cordova/Phonegap SDK* see the [Cordova documentation](http://cordova.apache.org/docs/en/latest/guide/overview/) -> [The config.xml File](http://cordova.apache.org/docs/en/5.4.0/config_ref/index.html) -> The *feature* Element
 -  For *iOS* only, the `whitelist` plugin is *not* used. However, the `<access (...)>` tag is used for iOS9.
 - Then to disable the `whitelist` system, add to `config.xml`
-- **DANGEROUS, BUT WORKING**
+- **CAUTION:** Your app maybe rejected, unless you have a good reason for using this.
 ```
     <allow-navigation href="*" />
     <allow-intent href="*" />
     <access origin="*" /> <!-- Required for iOS9 -->
 ```
 
-- To disable the `CSP` system, add this to every webpages that needs internet or network access, inline code ([Javascript](http://www.quirksmode.org/js/events_early.html) 
+- To disable the `CSP` part of the `whitelist` system, add this to every webpages that needs internet (or network access), inline code ([Javascript](http://www.quirksmode.org/js/events_early.html) 
 or [style](http://matthewjamestaylor.com/blog/adding-css-to-html-with-link-embed-inline-and-import)), or `eval()`.
-- Prior to today 2015-12-01, `style-src` and `script-src`, did *not* have the * (star). This was a mistake. It should have it.
-- **DANGEROUS, BUT WORKING**
+- Prior to today 2015-12-01, `style-src` and `script-src`, did *not* have the `*` (star). This was a mistake. It should have it.
+- **CAUTION:** Your app maybe rejected, unless you have a good reason for using this.
 ```
     <meta http-equiv="Content-Security-Policy" 
              content="default-src *; 
@@ -74,7 +74,8 @@ or [style](http://matthewjamestaylor.com/blog/adding-css-to-html-with-link-embed
 ```
 ###You should now have full access, and be completely insecure.###
 
-- [`<access Examples>`](whitelist-access-examples.md) - NOT STARTED.
+- [whitelist-examples.md](whitelist-examples.md) - 10% done.
+- [`<access Examples />`](whitelist-access-examples.md) - 90% done.
 - [CSP Examples](whitelist-csp-examples.md) - 60% done.
 - [ATS Examples](whitelist-ats-examples.md) - 90% done.
 
@@ -102,7 +103,7 @@ Examples for each part. If you have any you'd like to lend, please email me or c
 
 [whitelist-examples.md](whitelist-examples.md) &ndash; NOT FINISHED, in raw state. About 10% done.
 
-[`<access Examples>`](whitelist-access-examples.md) &ndash; NOT FINISHED, in raw state. About 5% done.
+[`<access Examples>`](whitelist-access-examples.md) &ndash; NOT FINISHED, in rough state. About 90% done.
 
 [whitelist-csp-examples.md](whitelist-csp-examples.md) &ndash; NOT FINISHED, in rough state. About 60% done.
 
