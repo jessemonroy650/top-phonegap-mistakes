@@ -8,7 +8,7 @@ Can you spell disaster?
 
 - **FOREWARNED.** *This document is NOT all inclusive, nor does  it cover every exception. This blog entry is a road map to understanding. It is intended for professionals. If you are new to programming and mobile in particular, you will find this confusing and frustrating.* **FOREWARNED.**
 
-[Multiple security bugs](security-issues.md) have perhaps influenced this `white-list`. It is a result of this, or because of this, that the `white-list` system was not completely documented. Add to that the back to back *unannounced changes* to the Cordova system, and I feel like I am catching a falling knife &ndash; without a handle!!
+[Multiple security bugs](security-issues.md) have perhaps influenced the *Cordova `white-list` system*. It is a result of this, or because of this, that the `white-list` system was not well documented. In addition, constant changes in the system add to the frustration. Lastly, the back to back *unannounced changes* to the *Cordova `whitelist` system*, fells like catching a falling knife &ndash; without a handle!!
 
 **What Reading is Below**
 
@@ -28,7 +28,7 @@ Poor coding and standards have led to numerous security bugs (see below) being i
 
 The uses of whitelists and the Content Security Policy (CSP) tag are meant as a way of bringing security back to browsers and web applications. 
 
-*The principle behind* the use of whitelists and CSP is simple. The programmer defines what resources they wish to use and connect to in advance. For each request that goes out, the client browser or application checks to see that the request for a resource such as a JSON file, a css file, an image or whatever is allowed. It also checks that the request that comes back is from the right server. The whitelist forces (in a nice way) a programmer to consider which resources they need to use and to define this in advance. Cordova V4.0 and later forces you to use whitelists. 
+***The principle behind***  the whitelists and CSP is simple. The programmer defines what resources they wish to use and connect to in advance. For each request that goes out, the client browser or application checks to see that the request for a resource such as a JSON file, a css file, an image or whatever is allowed. It also checks that the request that comes back is from the right server. The whitelist forces (in a nice way) a programmer to consider which resources they need to use and to define this in advance. Cordova V4.0 and later forces you to use whitelists. 
 
 The Cordova whitelist plugin and CSP are complementary; whilst the plugin is clearly aimed at the Cordova/PhoneGap community, CSP appears to be aimed more at web browsers. The section below on CSP covers the various permutations of having and not having the whitelist plugin and the CSP tag.
 

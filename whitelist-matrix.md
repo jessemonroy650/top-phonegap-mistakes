@@ -85,7 +85,7 @@ Controls which URLs the \*WebView\* itself can be navigated to. Applies to top-l
 
 By default, navigations only to `file://` URLs are allowed. To allow other URLs, you must add `<allow-navigation>` tags to your `config.xml`.
 
-*Quirks:* On Android, it also applies to iframes for non-http(s) schemes.
+*Quirks:* On Android, it also applies to iframes for non-http(s) schemes. This includes, but is not limited to: `data:`.
 
 **DANGEROUS-SETTING:** `<allow-navigation href="*" />`
 
@@ -105,7 +105,7 @@ Controls which \*network\* requests (images, XHRs, etc) are allowed to be made (
 
 Without any `<access>` tags, only requests to `file://` URLs are allowed. However, the default Cordova application includes `<access origin="*">` by default.
 
-*Quirk:* Android also allows requests to `https://ssl.gstatic.com/accessibility/javascript/android/` by default, since this is required for TalkBack to function properly.
+*Quirk:* Even without this, Android also allows requests to `https://ssl.gstatic.com/accessibility/javascript/android/` by default, since this is required for TalkBack to function properly.
 
 **DANGEROUS-SETTING:** `<access origin="*" />`
 
@@ -128,11 +128,11 @@ This is one point where the documentation conflicts with it's self. If you do a 
 | Which XML element  |  Controls  |  Quirks  |
 |--------------------|------------|----------|
 | `allow-navigation` | [WebView](webview.md)<sup>¿</sup> | *Android* applies this to iframes (non-http(s))
-| `allow-intent`     | URL request to system `window.open()`<sup>¿</sup> | 1. *Android* equivalent to BROWSEABLE<br>2. <b>does not apply to plugins</b>
-| `access origin`    | Controls network requests (images, XHRs, etc) via Cordova Hooks | *Android* makes allowance for [Talkback](http://www.androidcentral.com/what-google-talk-back) <sup>µ</sup><br>th default Cordova application includes `<access origin="*">`
+| `allow-intent`     | URI or URL request to the system `window.open()`<sup>¿</sup> | 1. *Android* equivalent to BROWSEABLE<br>2. <b>does not apply to plugins</b>
+| `access origin`    | Controls network requests (images, XHRs, etc) via Cordova Hooks | *Android* makes allowance for [Talkback](http://www.androidcentral.com/what-google-talk-back) <sup>µ</sup><br>the default Cordova application includes `<access origin="*">`
 
 - ¿ = It unclear from the documentation how this interacts with `inappbrowser`.
-- µ = The documentation alludes that Android has this built-in.
+- µ = The documentation alludes that Android has this built-in, or hard-coded.
 
 - See [access by default](whitelist-examples.md#bydefault)
 
@@ -148,9 +148,9 @@ This is one point where the documentation conflicts with it's self. If you do a 
 **Opinion**
 > CSP has to be the most *heinous* part of the `whitelist` system. It has sixteen (16) directives and they have overlapping logic. Note, some developer have implemented this in a morning. *You are forewarned.*
 
-The CSP is configured per web page using HTTP headers (or HTML equivalent). Whenever the browser loads an HTML document, the response headers of the HTTP  (or HTML equivalent) request that the delivered document use the *content security policy* for all content that originates from this HTML document.
+The CSP is configured per web page using HTTP headers (or HTML meta equivalent). Whenever the browser loads an HTML document, the response headers of the HTTP  (or HTML meta equivalent) request that the delivered document use the *content security policy* for all content that originates from this HTML document.
 
-The CSP is configured via a single header (Content-Security-Policy or X-Content-Security-Policy). The value of this header is a string that effectively sets directives separated by a semicolon. The directives define a list of sources that are safe to communicate with. There is a directive available for each of the resource types such as images, xhr, styles, scripts.
+The CSP is configured via a single header (`Content-Security-Policy` or `X-Content-Security-Policy`). The value of this header is a string that effectively sets directives separated by a semicolon. The directives define a list of sources that are safe to communicate with. There is a directive available for each of the resource types such as images, xhr, styles, scripts.
 
 Several websites were culled for information to give this specificaiton clarity.
 
@@ -162,7 +162,7 @@ Several websites were culled for information to give this specificaiton clarity.
 **Directives**
 
 Each of the directives listed can define one or more sources that are safe to consume. 
-You can combine sources, which can include 'CSP Keywords', 'CSP Data(words)', and 'Host (regular) Expressions'. 
+You can combine sources, which can include 'CSP Keywords', 'CSP Data(words)', and 'Host (regular) Expressions'. Note, per the specification, not all directives apply. See [Whitelist CSP Examples](whitelist-csp-examples.md) -> [Access By Default](whitelist-csp-examples.md#bydefault) for details on this.
 
 | CSP Directives | W3 Section | Governs
 |----------------|------------|--------
@@ -172,13 +172,13 @@ You can combine sources, which can include 'CSP Keywords', 'CSP Data(words)', an
 | default-src | 7.4  | sets a default source list for a number of directives
 | font-src    | 7.5  | fonts loading
 | form-action | 7.6  | form submissions
-| frame-ancestors | 7.7  | embedding of iframes, objects, applets etc
+| frame-ancestors | 7.7  | **Not Available** embedding of iframes, objects, applets etc
 | frame-src   | 7.8  | *is deprecated*
 | img-src     | 7.9  | loading of images
 | media-src   | 7.10 | video and audio sources
 | plugin-types | 1.12 | (these are MIME-type plugins, not Cordova)
-| report-uri  | 7.13 | a URL to which the user agent sends reports about policy violation
-| sandbox     | 7.14 | specifies an HTML sandbox policy that the user agent applies to the protected resource
+| report-uri  | 7.13 | **Not Available** a URL to which the user agent sends reports about policy violation
+| sandbox     | 7.14 | **Not Available** specifies an HTML sandbox policy that the user agent applies to the protected resource
 | object-src  | 7.11 | objects (flash, audio, etc.)
 | script-src  | 7.15 | scripts execution
 | style-src   | 7.16 | CSS sources

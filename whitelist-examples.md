@@ -41,7 +41,7 @@ This goes in the <head> section of your **index.html**. Notice that for each acc
                        style-src 'self' 'unsafe-inline';">
 ```
 
-The gap: flag is needed for when you have the CSP on iOS. The 'unsafe-inline' flags are due to using a JavaScript library that changes the DOM model.
+The `gap:` flag is needed for when you have the `CSP` on iOS. The 'unsafe-inline' flags are due to using a JavaScript library that changes the DOM model.
 
 ###EXAMPLE 02###
 
@@ -57,7 +57,7 @@ The gap: flag is needed for when you have the CSP on iOS. The 'unsafe-inline' fl
 | allow-intent     | `window.open()`  |  No     |    No      |   No   |  inappbrowser |
 | access origin    | network (cordova)|  Yes    |    No<sup>¥</sup>      |   No   |     Yes       |
 
-- ¥ = Cordova (CLI/SDK) Applications, by default, have this turn on. **NOT CONFIRMED**
+- ¥ = Cordova (CLI/SDK) Applications, by default, have this turned on in the `config.xml`.
 
 ####<a name=references>References</a>####
 
