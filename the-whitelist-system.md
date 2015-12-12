@@ -22,7 +22,7 @@ For the whitelist system used with *Cordova*, there is actually five (5) unrelat
 2. [whitelist plugin](https://www.npmjs.com/package/cordova-plugin-whitelist) (Cordova's) is the new `whitelist` system. It is required as of *[Cordova Tools 5.0.0](http://cordova.apache.org/news/2015/04/21/tools-release.html) (April 21, 2015)*. It has three (3) parts. This plugin does NOT apply to iOS.
 3. [W3's `access`](http://www.w3.org/TR/widgets-access/) (Widget Access Request Policy) is usually lumped in with Cordova's `whitelist` plugin documentation, but it is seperate and overlaps with the other systems.
 4. [W3's CSP](http://www.w3.org/TR/CSP2/) (Content Security Policy Level 2) is a whitelist system that is implemented webpage by webpage. It is required as of *[Cordova Tools 5.0.0](http://cordova.apache.org/news/2015/04/21/tools-release.html) (April 21, 2015)*. It has sixteen (16) parts. 
-5. [Apple's ATS](https://web.archive.org/web/20150905111538/https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/) (App Transport Security)  is a whitelist system exclusive to iOS. It required as of *iOS9*. It is implemented in the `Info.plist`. The blog indicates updates to the whitelist system to cross-compile the XML elements with ATS. See [*Apache Cordova iOS 3.9.2*](https://cordova.apache.org/announcements/2015/11/02/cordova-ios-3.9.2.html) 02 Nov 2015 and [*Cordova iOS 4.0.0*](https://cordova.apache.org/announcements/2015/12/08/cordova-ios-4.0.0.html) 08 Dec 2015.
+5. [Apple's ATS](https://web.archive.org/web/20150905111538/https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/) (App Transport Security)  is a whitelist system exclusive to iOS. It required as of *iOS9*. It is implemented in the `Info.plist`. The blog indicates parts of the whitelist system are now cross-compile to ATS elements. See [*Apache Cordova iOS 3.9.2*](https://cordova.apache.org/announcements/2015/11/02/cordova-ios-3.9.2.html) 02 Nov 2015 and [*Cordova iOS 4.0.0*](https://cordova.apache.org/announcements/2015/12/08/cordova-ios-4.0.0.html) 08 Dec 2015.
 
 To walk throught the various different systems would be tedious. As such, there are at least five (5) documents that directly support this blog. However, let's cut to the chase.
 
@@ -34,15 +34,16 @@ To walk throught the various different systems would be tedious. As such, there 
 - **Recommended: For development only.**
 - The easiest way to *turn it all off* is to develop with a version before 4.0.0.
 - For *Phonegap Build* ONLY use: `<preference name="phonegap-version" value="3.7.0" />` 
-- For *Cordova/Phonegap CLI* See the outdated, but useful: [Cordova/PhoneGap  Version Confusion](http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/) 
+- For *Cordova/Phonegap CLI/SDK*, see the outdated, but useful: [Cordova/PhoneGap  Version Confusion](http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/) 
 - **After following these directions, you should now have full access and be completely insecure.**
 
 **after 4.0.0**
 - **Recommended: For production applications.**
 - Start by adding the [`whitelist`](https://www.npmjs.com/package/cordova-plugin-whitelist) plugin. **required all platforms, except iOS**
--  - *Phonegap Build* Only `<gap:plugin name=cordova-plugin-whitelist source=npm>`
--  - *Phonegap CLI* `cordova add plugin cordova-plugin-whitelist`
--  - *iOS* the `whitelist` plugin is *not* used. However, the `<access (...)>` tag is used for iOS9.
+-  For *Phonegap Build* Only `<gap:plugin name=cordova-plugin-whitelist source=npm>`
+-  For *Cordova/Phonegap CLI* `cordova add plugin cordova-plugin-whitelist`
+-  For *Cordova/Phonegap SDK* see the [Cordova documentation](http://cordova.apache.org/docs/en/latest/guide/overview/) -> [The config.xml File](http://cordova.apache.org/docs/en/5.4.0/config_ref/index.html) -> The *feature* Element
+-  For *iOS* only, the `whitelist` plugin is *not* used. However, the `<access (...)>` tag is used for iOS9.
 - Then to disable the `whitelist` system, add to `config.xml`
 - **DANGEROUS, BUT WORKING**
 ```
