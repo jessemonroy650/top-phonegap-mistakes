@@ -172,13 +172,13 @@ You can combine sources, which can include 'CSP Keywords', 'CSP Data(words)', an
 | default-src | 7.4  | sets a default source list for a number of directives
 | font-src    | 7.5  | fonts loading
 | form-action | 7.6  | form submissions
-| frame-ancestors | 7.7  | **Not Available** embedding of iframes, objects, applets etc
+| frame-ancestors | 7.7  | **Not Available** ~~embedding of iframes, objects, applets etc~~
 | frame-src   | 7.8  | *is deprecated*
 | img-src     | 7.9  | loading of images
 | media-src   | 7.10 | video and audio sources
 | plugin-types | 1.12 | (these are MIME-type plugins, not Cordova)
-| report-uri  | 7.13 | **Not Available** a URL to which the user agent sends reports about policy violation
-| sandbox     | 7.14 | **Not Available** specifies an HTML sandbox policy that the user agent applies to the protected resource
+| report-uri  | 7.13 | **Not Available** ~~a URL to which the user agent sends reports about policy violation~~
+| sandbox     | 7.14 | **Not Available** ~~specifies an HTML sandbox policy that the user agent applies to the protected resource~~
 | object-src  | 7.11 | objects (flash, audio, etc.)
 | script-src  | 7.15 | scripts execution
 | style-src   | 7.16 | CSS sources
