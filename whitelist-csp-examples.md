@@ -21,17 +21,18 @@ THE `CSP` SHOULD BE ON EVERY HTML PAGE, WITH FEW EXCEPTIONS.
                style-src 'self' 'unsafe-inline'; 
                media-src *">
 
-<!-- Enable all requests, inline styles, and eval() -->
+<!-- Enable all requests, inline styles, inline javascript and eval() -->
 <meta http-equiv="Content-Security-Policy" 
       content="default-src *; 
                style-src 'self' 'unsafe-inline'; 
                script-src 'self' 'unsafe-inline' 'unsafe-eval'">
 
 <!-- My Extension, if any different -->
-<meta http-equiv="Content-Security-Policy" 
+<!-- Same as above, except accept from any source -->
+<meta http-equiv="Content-Security-Policy"
       content="default-src *; 
-               style-src 'self' 'unsafe-inline' 'unsafe-eval'; 
-               script-src 'self' 'unsafe-inline' 'unsafe-eval';">
+               style-src * 'self' 'unsafe-inline' 'unsafe-eval'; 
+               script-src * 'self' 'unsafe-inline' 'unsafe-eval';">
 ```
 
 ####<a name=bydefault>Access By Default</a>####
