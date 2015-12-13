@@ -4,7 +4,7 @@ Last Update: 2015-11-09
 
 [`The Whitelist System`](the-whitelist-system.md) -> `Whitelist Worksheet (Matrix)`
 
-By this point you should know there are [three (3) platforms](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/new-to-Phonegap.md) and [three (3) security systems](the-whitelist-system.md).
+By this point you should know there are [three (3) platforms](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/new-to-Phonegap.md#001) and [four (4) security systems](the-whitelist-system.md).
 
 If you have never heard of a [decision table](https://en.wikipedia.org/wiki/Decision_table), today you'll learn of the value of them. This easy enough. Start at the top (1.) and continue till to the bottom (9.). If you drop out anywhere along the way. You are done.  
 
