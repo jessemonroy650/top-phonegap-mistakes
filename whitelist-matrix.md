@@ -1,6 +1,6 @@
 ## Whitelist Worksheet (Matrix) ##
 Date: 2015-10-26<br>
-Last Update: 2015-11-09
+Last Update: 2015-12-12
 
 [`The Whitelist System`](the-whitelist-system.md) -> `Whitelist Worksheet (Matrix)`
 
@@ -42,14 +42,14 @@ It is recommend that you move to *Cordova Tools* V4.x as a minimum. Older versio
 
 - ¢ = Cordova and Phonegap versions do NOT align, but are close. This version is not the \*pinned* version either. If you do not know the difference, [learn](http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/) &mdash; [official release policy](https://github.com/apache/cordova-coho/blob/master/docs/versioning-and-release-strategy.md).
 - ¥ = This include cli-5.1.0 and cli.5.2.0
-- £ = As of 2015-10-29, iOS9 is officially **not** supported. ([SEE](http://community.phonegap.com/nitobi/topics/phonegap-build-ios-9-support-status)).
+- £ = As of 2015-11-04, iOS9 is officially supported by Cordova ([SEE](https://cordova.apache.org/announcements/2015/11/02/cordova-ios-3.9.2.html)) ; *Phonegap Build* is still waiting
 - § = ATS requires &ndash; if you are using Apple's SSL, then the server you connect to [run TLSv1.2](http://ste.vn/2015/06/10/configuring-app-transport-security-ios-9-osx-10-11/)
 
 ###2. <a name=guide>Which guide</a>###
 
 For all intensive purpose, there are three (3) whitelist guides. They all have mistakes, lack current information, and suffer from neglect. However, there are important pointers for each platform. So, if you are working on *Windows, Blackberry, Tizen*, or one of the other platform, do read the appropriate guide.
 
-However, the best and most accurate information seems to come from from the documentation for the `whitelist` plugin. It is at the bottom of this list.
+However, the best and most accurate information seems to come from from the documentation for the [`cordova-plugin-whitelist](https://www.npmjs.com/package/cordova-plugin-whitelist) plugin. It is at the bottom of this list.
 
 1. [Cordova Whitelist Guide](http://cordova.apache.org/docs/en/5.1.1/guide/appdev/whitelist/index.html) - Cordova CLI and SDK
 2. [Phonegap Whitelist Guide](http://docs.phonegap.com/en/edge/guide_appdev_whitelist_index.md.html#Whitelist%20Guide) - Phonegap CLI and SDK
@@ -61,13 +61,13 @@ However, the best and most accurate information seems to come from from the docu
 
 If you are not aware of it, we have move to an [NPM system](https://cordova.apache.org/announcements/2015/04/21/plugins-release-and-move-to-npm.html)
 
-> This plugin implements a whitelist policy for navigating the application webview on Cordova 4.0
+> This plugin implements a whitelist policy for navigating the application webview on *Cordova Tools 4.0* (or higher).
 
-[`whitelist`](https://www.npmjs.com/package/cordova-plugin-whitelist)
+[`cordova-plugin-whitelist`](https://www.npmjs.com/package/cordova-plugin-whitelist)
 
 If you have not implemented the `whitelist` system yet, then you want to start here. This plugin has more parameters and has better granularity that the legacy plugin.
 
-[`legacy-whitelist`](https://www.npmjs.com/package/cordova-plugin-legacy-whitelist)
+[`cordova-plugin-legacy-whitelist`](https://www.npmjs.com/package/cordova-plugin-legacy-whitelist)
 
 > This plugin implements the Cordova 3.6 Whitelist policy for Cordova 4.0. 
 
