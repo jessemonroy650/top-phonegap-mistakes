@@ -15,6 +15,8 @@ Last update: 2015-11-18
 * [Security Issues](security-issues.md) - Last Update: 2015-10-15
 * [Security Issues for iOS](security-issues-ios.md) - Last Update: 2015-11-01
 * [Repositories &amp; Known Bug](bugs.md)
+* [Setup for Cordova "core" plugins](plugins-core-setup.md)
+* [Bugs for Cordova "core" plugins](plugins-core-bugs.md)
 
 ### Resources ###
 
