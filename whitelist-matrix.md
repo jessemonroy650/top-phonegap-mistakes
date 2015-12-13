@@ -69,9 +69,9 @@ If you have not implemented the `whitelist` system yet, then you want to start h
 
 [`cordova-plugin-legacy-whitelist`](https://www.npmjs.com/package/cordova-plugin-legacy-whitelist)
 
-> This plugin implements the Cordova 3.6 Whitelist policy for Cordova 4.0. 
+> This plugin implements the *Cordova Tools 3.6* Whitelist policy for *Cordova Tools 4.0*. 
 
-If you implemented the whitelist system for Android before `15 Apr 2015`, then you can still use this system. As of that date, the new `whitelist` plugin is available and it runs with a different set of rules. While the `legacy-whitelist` is currently supported, you are \*strongly\* encouraged to move to the `whitelist` plugin.
+If you implemented the whitelist system for Android before `15 Apr 2015`, then you can still use the legacy system. As of that date, the new `whitelist` plugin is available and it runs with a different set of rules. While the `legacy-whitelist` is currently supported, you are \*strongly\* encouraged to move to the `whitelist` plugin.
 
 ##The Cordova `whitelist`##
 
