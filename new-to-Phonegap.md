@@ -60,13 +60,15 @@ LAST UPDATE: 2015-12-11
 
 ####<a name=004>4.</a> In the code, did not listen for the 'deviceready' event. ###
 
-  This is listed MULTIPLE times in the documentation, and is include in every example where it is appropriate. It is still missed. [Brian Ford](http://briantford.com/blog/angular-phonegap) - an Angular developer, points to the [section of documentation](http://docs.phonegap.com/en/2.3.0/cordova_events_events.md.html#deviceready) we need. 
+  This is listed MULTIPLE times in the documentation, and is include in every example where it is appropriate. It is still missed. Here is the appropriate point in the [section of documentation](http://cordova.apache.org/docs/en/latest/cordova/events/events.deviceready.html) we need. 
 
-  > This is a very important event that every Cordova application should use.
-  >
-  > Cordova consists of two code bases: native and JavaScript. While the native code is loading, a custom loading image is displayed. However, JavaScript is only loaded once the DOM loads. This means your web application could, potentially, call a Cordova JavaScript function before it is loaded.
-  >
-  > The Cordova <u>deviceready</u> event fires once Cordova has fully loaded. After the device has fired, you can safely make calls to Cordova function.
+  > This event is essential to any application. It signals that Cordova's device APIs have loaded and are ready to access.
+
+  > Cordova consists of two code bases: native and JavaScript. While the native code loads, a custom loading image displays. However, JavaScript only loads once the DOM loads. This means the web app may potentially call a Cordova JavaScript function before the corresponding native code becomes available.
+
+  > The `deviceready` event fires once Cordova has fully loaded. Once the event fires, you can safely make calls to Cordova APIs. Applications typically attach an event listener with `document.addEventListener` once the HTML document's DOM has loaded.
+
+  > The `deviceready` event behaves somewhat differently from others. Any event handler registered after the `deviceready` event fires has its callback function called immediately.
 
   <p />And in case you think this is minor, even veterans like Raymond Camden [have forgotten this](http://www.raymondcamden.com/2015/07/15/fyi-cordova-events-must-be-run-after-deviceready).
 
