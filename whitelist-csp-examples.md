@@ -65,6 +65,8 @@ Safer inline Javascript and CSS
 - nonce - cryptographically randomly generated value used to sign inline items
 - hash - cryptographically generated hash value used to sign inline items
 
+*Need add examples.*
+
 ####<a name=references>References</a>####
 
 - [W3.org CSP2](http://www.w3.org/TR/CSP2/)
