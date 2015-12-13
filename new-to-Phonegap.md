@@ -1,6 +1,6 @@
 ## Top Mistakes by Developers new to Cordova/Phonegap ##
 DATE: 2015-10-18<br>
-LAST UPDATE: 2015-12-11
+LAST UPDATE: 2015-12-12
 
 <a href=#001>1</a>
 <a href=#002>2</a>
@@ -67,8 +67,6 @@ LAST UPDATE: 2015-12-11
   > Cordova consists of two code bases: native and JavaScript. While the native code loads, a custom loading image displays. However, JavaScript only loads once the DOM loads. This means the web app may potentially call a Cordova JavaScript function before the corresponding native code becomes available.
 
   > The `deviceready` event fires once Cordova has fully loaded. Once the event fires, you can safely make calls to Cordova APIs. Applications typically attach an event listener with `document.addEventListener` once the HTML document's DOM has loaded.
-
-  > The `deviceready` event behaves somewhat differently from others. Any event handler registered after the `deviceready` event fires has its callback function called immediately.
 
   <p />And in case you think this is minor, even veterans like Raymond Camden [have forgotten this](http://www.raymondcamden.com/2015/07/15/fyi-cordova-events-must-be-run-after-deviceready).
 
