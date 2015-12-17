@@ -72,7 +72,7 @@ LAST UPDATE: 2015-12-12
 
 ###<a name=005>5.</a> When designing the app, thinks phonegap works like a website or webbrowser. ###
 
-  Cordova/Phonegap is a framework that happens to use a library, called [webview](webview.md) on Android (and similar libraries on other platforms), that happens to use HTML5 to render the UI (User Interface). The framework is NOT a webserver. The framework is also NOT a webbrowser. This also mean many of the BOM compenents do not exist, such as location bar, bookmarks, cookies, cache, etc.
+  Cordova/Phonegap is a framework that happens to use a library, called [webview](webview.md) on Android (and similar libraries on other platforms), that happens to use HTML5 to render the UI (User Interface). The framework is NOT a webserver. The framework is also NOT a webbrowser. This also mean many of the BOM compenents do not exist, such as location bar, bookmarks, cookies, cache, CORS, etc.
 
   *Quote* ***[Phonegap FAQ](http://phonegap.com/about/faq/)***
   > Q: Can you use PHP/ASP/JSF/Java/.NET with PhoneGap?
