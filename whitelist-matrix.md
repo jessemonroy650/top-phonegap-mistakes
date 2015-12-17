@@ -275,6 +275,15 @@ Note, there are known issues with some sites using `https:` *and* Apple's ATS. I
 </dict>
 ```
 
+
+
+###11. <a name=notworking>Still not working</a>###
+
+
+- You can search through all ["core" plugin bugs](plugins-core-bugs.md)
+- You can check all the [Whitelist bugs](https://issues.apache.org/jira/browse/CB-9133?jql=project%20%3D%20CB%20AND%20issuetype%20%3D%20Bug%20AND%20status%20%3D%20Open%20AND%20resolution%20%3D%20Unresolved%20AND%20component%20in%20%28%22Plugin%20TestFramework%22%2C%20%22Plugin%20Whitelist%22%29%20ORDER%20BY%20priority%20DESC%2C%20summary%20ASC%2C%20updatedDate%20DESC)
+
+
 ----
 
 #### Unapplied Notes ####

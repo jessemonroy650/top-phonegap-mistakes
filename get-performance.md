@@ -30,11 +30,11 @@ Generally, the tips come in two varities.
 
 * [BazaarJS: our criticisms of Angular](http://www.leanpanda.com/blog/2015/09/20/our-criticisms-of-angularjs/) - Stefano Verna &ndash; September 20, 2015
 
- Problem #1: Scope inheritance and dynamic scoping
- Problem #2: Dirty checking
- Problem #3: Dependency injection
- Problem #4: Pointless complexity
- Problem #5: Server-side rendering
+- Problem #1: Scope inheritance and dynamic scoping
+- Problem #2: Dirty checking
+- Problem #3: Dependency injection
+- Problem #4: Pointless complexity
+- Problem #5: Server-side rendering
 
 
 ## Other DO THIS Articles ##
@@ -51,7 +51,7 @@ Generally, the tips come in two varities.
 ## My notes from the documentation ##
 
 ### Tip #1 ###
-With the Android [Webview](http://developer.android.com/reference/android/webkit/WebView.html) you can reduce screen flicker \*when changing orientation*, but reading below.
+With the Android [Webview](http://developer.android.com/reference/android/webkit/WebView.html) you can reduce screen flicker \*when changing orientation*, by reading below.
 
 _Cookie and Window Management_
 

@@ -7,12 +7,12 @@ Last update: 2015-11-18
 * [Current Tripping Points for Cordova/Phonegap Development](current-tripping-points.md)
 * [Android 6.0 &amp; Doze](android-doze.md)
 
-** Tips, Security, Bugs, etc. **
+### Tips, Security, Bugs, etc. ###
 
 * [Performance Tips](get-performance.md)
 * [Cordova Blog Highlights](cordova-blog-highlights.md)
 * [Cordova Browser Platform](browser-platform.md)
-* [Security Issues](security-issues.md) - Last Update: 2015-10-15
+* [Security Issues](security-issues.md) - Last Update: 2015-11-16
 * [Security Issues for iOS](security-issues-ios.md) - Last Update: 2015-11-01
 * [Repositories &amp; Known Bug](bugs.md)
 * [Setup for Cordova "core" plugins](plugins-core-setup.md)

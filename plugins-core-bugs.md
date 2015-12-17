@@ -56,4 +56,17 @@ Last Update: 2015-12-12
 21 | [Windows](https://issues.apache.org/jira/browse/CB-10024?jql=project%20%3D%20CB%20AND%20issuetype%20%3D%20Bug%20AND%20status%20%3D%20Open%20AND%20resolution%20%3D%20Unresolved%20AND%20component%20%3D%20Windows%20ORDER%20BY%20priority%20DESC%2C%20summary%20ASC%2C%20updatedDate%20DESC)
 
 
+## by Terms ##
+
+\# of bugs | platform name
+-----------|------------
+65 | [webview](https://issues.apache.org/jira/browse/CB-9914?jql=project%20%3D%20CB%20AND%20issuetype%20%3D%20Bug%20AND%20status%20%3D%20Open%20AND%20text%20~%20webview%20ORDER%20BY%20priority%20DESC)
+21 | [webview android](https://issues.apache.org/jira/browse/CB-9615?jql=project%20%3D%20CB%20AND%20issuetype%20%3D%20Bug%20AND%20status%20%3D%20Open%20AND%20text%20~%20%22webview%20android%22%20ORDER%20BY%20priority%20DESC)
+16 | [webview ios](https://issues.apache.org/jira/browse/CB-7958?jql=project%20%3D%20CB%20AND%20issuetype%20%3D%20Bug%20AND%20status%20%3D%20Open%20AND%20text%20~%20%22webview%20ios%22%20ORDER%20BY%20priority%20DESC)
+7  | [webview event](https://issues.apache.org/jira/browse/CB-7958?jql=project%20%3D%20CB%20AND%20issuetype%20%3D%20Bug%20AND%20status%20%3D%20Open%20AND%20text%20~%20%22webview%20event%22%20ORDER%20BY%20priority%20DESC)
+
+
+
+
+
 
