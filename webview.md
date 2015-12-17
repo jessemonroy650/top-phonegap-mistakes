@@ -4,13 +4,14 @@ Last Update: 2015-12-10
 
 These are notes on the webviews that are used with Cordova/Phonegap.
 
-NOTE: Some of these libraries are based on [WebKit](https://www.webkit.org/). However, WebKit allows customization. This means not all features apply to all browsers that use WebKit as there base. For a more detailed explaination, read this blog post by Paul Irish - [Webkit for Developers](http://www.paulirish.com/2013/webkit-for-developers/)
-
 - A description of webview and some [alternative libraries](webview-alternatives.md).
+- [What is a WebView?](http://developer.telerik.com/featured/what-is-a-webview/)
+- See also: [Webkit for Developers](http://www.paulirish.com/2013/webkit-for-developers/) by Paul Irish.
 - Some details for these libraries are in [webview-details](webview-details.md)
 - [webview-bugs](webview-bugs.md)
 
-- [What is a WebView?](http://developer.telerik.com/featured/what-is-a-webview/)
+NOTE: Some of these libraries are based on [WebKit](https://www.webkit.org/). However, WebKit allows customization. This means not all features apply to all browsers that use WebKit. For a more detailed explaination, read this blog post by Paul Irish - [Webkit for Developers](http://www.paulirish.com/2013/webkit-for-developers/)
+
 
 ###Android###
 
