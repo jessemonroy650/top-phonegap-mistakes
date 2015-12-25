@@ -6,7 +6,7 @@ Last Update: 2015-12-24
 - [Repositories &amp; Bugs](bugs.md)
 - [List of "core" plugins](http://cordova.apache.org/docs/en/5.4.0/cordova/plugins/pluginapis.html)
 
-## Summary by Platforms ##
+## Summary by Terms ##
 
 \# of bugs | platform name
 -----------|------------
@@ -38,19 +38,21 @@ Last Update: 2015-12-24
 
 ### Android Webview Major Bugs ###
 
-- [CB-10167](https://issues.apache.org/jira/browse/CB-10167) - not select multiple image from gallary using cordova
-- [CB-9998](https://issues.apache.org/jira/browse/CB-9998) - CLONE - Data URIs do not work on Android
-- [CB-9751](https://issues.apache.org/jira/browse/CB-9751) - Outdated documentation on embedding Android WebViews
-- [CB-9503](https://issues.apache.org/jira/browse/CB-9503) - Adding a plugin with a caret version fails to resolve
-- [CB-9393](https://issues.apache.org/jira/browse/CB-9393) - Embedded use case is undocumented for Cordova-Android 4.0.x
-- [CB-9182](https://issues.apache.org/jira/browse/CB-9182) - WebResourceResponse is being deprecated, and needs to be updated
-- [CB-8976](https://issues.apache.org/jira/browse/CB-8976) - platforms/android/build.gradle modifies android versionCode
-- [CB-8736](https://issues.apache.org/jira/browse/CB-8736) - Android WebGL feature check returns incorrect result on some devices
-- [CB-8080](https://issues.apache.org/jira/browse/CB-8080) - After migrating to 3.6.3 from 3.4.0, Appium (Android) tests fail because of open dialog
-- [CB-6838](https://issues.apache.org/jira/browse/CB-6838) - Battery Plugin needs to be deprecated or fixed
-- [CB-6665](https://issues.apache.org/jira/browse/CB-6665) - Can't access cookies in response/request headers for Android WebView
-- [CB-5705](https://issues.apache.org/jira/browse/CB-5705) - Add after-install hook for plugman
-- [CB-1847](https://issues.apache.org/jira/browse/CB-1847) - weinre: client c-2: weinre: invocation exception on WeinreClientEventsImpl.connectionCreated(): TypeError: Cannot call method 'indexOf' of undefined
+Bug  | Assigned | Description
+-----|----------|------------
+[CB-10167](https://issues.apache.org/jira/browse/CB-10167) | Y | not select multiple image from gallary using cordova
+[CB-9998](https://issues.apache.org/jira/browse/CB-9998) | Y | CLONE - Data URIs do not work on Android
+[CB-9751](https://issues.apache.org/jira/browse/CB-9751) | N | Outdated documentation on embedding Android WebViews
+[CB-9503](https://issues.apache.org/jira/browse/CB-9503) | N | Adding a plugin with a caret version fails to resolve
+[CB-9393](https://issues.apache.org/jira/browse/CB-9393) | Y | Embedded use case is undocumented for Cordova-Android 4.0.x
+[CB-9182](https://issues.apache.org/jira/browse/CB-9182) | N | WebResourceResponse is being deprecated, and needs to be updated
+[CB-8976](https://issues.apache.org/jira/browse/CB-8976) | N | platforms/android/build.gradle modifies android versionCode
+[CB-8736](https://issues.apache.org/jira/browse/CB-8736) | Y | Android WebGL feature check returns incorrect result on some devices
+[CB-8080](https://issues.apache.org/jira/browse/CB-8080) | N | After migrating to 3.6.3 from 3.4.0, Appium (Android) tests fail because of open dialog
+[CB-6838](https://issues.apache.org/jira/browse/CB-6838) | N | Battery Plugin needs to be deprecated or fixed
+[CB-6665](https://issues.apache.org/jira/browse/CB-6665) | N | Can't access cookies in response/request headers for Android WebView
+[CB-5705](https://issues.apache.org/jira/browse/CB-5705) | N | Add after-install hook for plugman
+[CB-1847](https://issues.apache.org/jira/browse/CB-1847) | Y | weinre: client c-2: weinre: invocation exception on WeinreClientEventsImpl.connectionCreated(): TypeError: Cannot call method 'indexOf' of undefined
 
 
 
