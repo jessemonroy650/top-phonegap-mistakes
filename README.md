@@ -17,6 +17,7 @@ Last update: 2015-11-18
 * [Repositories &amp; Known Bug](bugs.md)
 * [Setup for Cordova "core" plugins](plugins-core-setup.md)
 * [Bugs for Cordova "core" plugins](plugins-core-bugs.md)
+* [Bugs for Cordova "core" webview](plugins-core-bugs-webview.md)
 
 ### Resources ###
 
