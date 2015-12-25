@@ -24,7 +24,7 @@ Last Update: 2015-12-24
 0  | [webview priority:Trivial](https://issues.apache.org/jira/issues/?jql=project%20%3D%20CB%20AND%20issuetype%20%3D%20Bug%20AND%20status%20%3D%20Open%20AND%20priority%20%3D%20Trivial%20AND%20text%20~%20%22webview%22%20ORDER%20BY%20priority%20DESC)
 
 \# of bugs | Last Created | Earliest Created | platform, by priority - **Sorted by Created**
------------|---------|------------
+-----------|--------------|------------------|----------------------------------------------
 0  | - | - | [webview android priority:Blocker](https://issues.apache.org/jira/issues/?jql=project%20%3D%20CB%20AND%20issuetype%20%3D%20Bug%20AND%20status%20%3D%20Open%20AND%20priority%20%3D%20Blocker%20AND%20text%20~%20%22webview%20android%22%20ORDER%20BY%20created%20DESC%2C%20priority%20DESC)
 1  | 04/Sep/15 | 04/Sep/15 | [webview android priority:Critical](https://issues.apache.org/jira/browse/CB-9615?jql=project%20%3D%20CB%20AND%20issuetype%20%3D%20Bug%20AND%20status%20%3D%20Open%20AND%20priority%20%3D%20Critical%20AND%20text%20~%20%22webview%20android%22%20ORDER%20BY%20created%20DESC%2C%20priority%20DESC)
 13 | 09/Dec/15 | 14/Nov/12 | [webview android priority:Major](https://issues.apache.org/jira/browse/CB-8736?jql=project%20%3D%20CB%20AND%20issuetype%20%3D%20Bug%20AND%20status%20%3D%20Open%20AND%20priority%20%3D%20Major%20AND%20text%20~%20%22webview%20android%22%20ORDER%20BY%20created%20DESC%2C%20priority%20DESC)
