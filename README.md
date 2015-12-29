@@ -27,8 +27,7 @@ Last update: 2015-11-18
 * [Alternatives to Jquery and Jquery Mobile](alternatives-to-jquery-mobile.md)
 * [Alternatives to the stock *webview*](webview-alternatives.md)
 * [Tip and Tricks](tips-and-tricks.md)
-
-* [bad-video-tutorials.md](Bad Video Tutorials) - Multiple people have reported video that give them bad information. I will soon make a list of good videos.
+* [Bad Video Tutorials](bad-video-tutorials.md) - Multiple people have reported video that give them bad information. I will soon make a list of good videos.
 
 ### Annoyances ###
 
