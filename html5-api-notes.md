@@ -47,3 +47,9 @@ Last Update: 2015-11-22
 - [A 5 Minute Overview of All New JavaScript APIs in HTML5](http://www.htmlgoodies.com/html5/javascript/a-5-minute-overview-of-all-new-javascript-apis-in-html5.html#fbid=UZJyfkvftFq) - sometime before July 30, 2013
 - [10 HTML5 APIs Worth Looking Into](http://www.sitepoint.com/10-html5-apis-worth-looking/) - February 19, 2014
 - [HTML <meta/> Meta Tag List](http://www.html-5.com/metatags/)
+
+**Unreferenced**
+
+- [HTML5 Landscape Overview](http://dret.typepad.com/dretblog/html5-api-overview.html)
+- [Device APIs](http://www.w3.org/2009/dap/) Working Group
+
