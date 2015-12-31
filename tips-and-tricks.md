@@ -32,3 +32,12 @@ This is good too: *Phonegap Tips* [Force Hardware Acceleration with translate3d.
 
 * Using extended srcset and the picture element to tailor your image to every device and layout
 * http://blogs.windows.com/msedgedev/2015/10/07/using-extended-srcset-and-the-picture-element-to-tailor-your-image-to-every-device-and-layout/
+
+
+### Responsive HTML5 Touch Interfaces ###
+
+* Stephen Woods: "Creating Responsive HTML5 Touch Interfaces"
+* http://yuiblog.com/blog/2012/02/23/video-stephen-woods-html5-touch/
+* includes: swipe, snap back/forward, bounce, native scrolling, pinch to zoom + pro-tips.
+
+

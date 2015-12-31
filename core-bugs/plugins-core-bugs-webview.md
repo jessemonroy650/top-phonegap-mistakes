@@ -2,8 +2,8 @@
 Date: 2015-12-24<br>
 Last Update: 2015-12-24
 
-- [Setup for Cordova "core" plugins](plugins-core-setup.md)
-- [Repositories &amp; Bugs](bugs.md)
+- [Setup for Cordova "core" plugins](../plugins-core-setup.md)
+- [Repositories &amp; Bugs](../bugs.md)
 - [List of "core" plugins](http://cordova.apache.org/docs/en/5.4.0/cordova/plugins/pluginapis.html)
 
 ## Summary by Terms ##

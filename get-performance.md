@@ -58,3 +58,11 @@ _Cookie and Window Management_
 The standard behavior for an Activity is to be destroyed and recreated, when the device orientation or any other configuration changes. This will cause the WebView to reload the current page. **If you don't want that, you can set your Activity to handle the orientation and keyboardHidden changes**, and then just leave the WebView alone. It'll automatically re-orient itself as appropriate. Read Handling Runtime Changes for more information about how to handle configuration changes during runtime.
 
 
+
+## Videos ##
+
+### Responsive HTML5 Touch Interfaces ###
+
+* Stephen Woods: "Creating Responsive HTML5 Touch Interfaces"
+* http://yuiblog.com/blog/2012/02/23/video-stephen-woods-html5-touch/
+* includes: swipe, snap back/forward, bounce, native scrolling, pinch to zoom + pro-tips.
