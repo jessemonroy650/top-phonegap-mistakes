@@ -29,8 +29,8 @@ Last update: 2015-11-18
 * [Alternatives to the stock *webview*](webview-alternatives.md)
 * [Tip and Tricks](tips-and-tricks.md)
 * [Bad Video Tutorials](video-tutorials-bad.md) - Multiple people have reported video that give them bad information. I will soon make a list of good videos.
-* [Good Video Tutorials](video-tutorials-good.md) - These are the good ones.
-
+* *Phonegap Build* [Good Video Tutorials](video-tutorials-good-build.md) - These are the good ones.
+* *Phonegap CLI* [Good Video Tutorials](video-tutorials-good-cli.md) - These are the good ones.
 
 
 ### Annoyances ###

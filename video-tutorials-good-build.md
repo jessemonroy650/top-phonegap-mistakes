@@ -19,11 +19,6 @@ Link to Phonegap Build Forum: http://bit.ly/1MFBtoq
 
 * Title: Intro to Phonegap app creation Part 3 
 * URL: https://www.youtube.com/watch?v=Xwc-bhDRQaY
-* Comment:
+* Comment: Okay.
 
 
-I jessemonroy650 one of the volunteers on the Phonegap Build forum. 
-http://bit.ly/1MFBtoq
-DO NOT USE THIS TUTORIAL. 
-IT IS WRONG. 
-We are starting a new list for good videos. Go to the forum.
