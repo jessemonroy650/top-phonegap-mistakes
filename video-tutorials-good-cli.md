@@ -1,8 +1,8 @@
-## Good Video Tutorials ##
+## Good Video Tutorials for *Cordova/Phonegap CLI* ##
 Date: 2015-12-31<br>
 Last Update: 2015-12-31
 
-Link to Phonegap Build Forum: http://bit.ly/1MFBtoq
+Link to *Google Group Cordova/Phonegap forum*: http://bit.ly/1TsYzUP
 
 ----
 
@@ -19,6 +19,3 @@ Link to Phonegap Build Forum: http://bit.ly/1MFBtoq
 * Comment: 
 
 
-I jessemonroy650 one of the volunteers on the Google Group Cordova/Phonegap forum. 
-http://bit.ly/1TsYzUP
-This is a GOOD TUTORIAL for Phonegap CLI.
