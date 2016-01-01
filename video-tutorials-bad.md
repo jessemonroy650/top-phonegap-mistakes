@@ -9,7 +9,7 @@ Link to Phonegap Build Forum: http://bit.ly/1MFBtoq
 * Publisher: Ripley Tutorials
 * Platform Used: Windows
 * ISSUE: Never installs and demonstrates the App on a device.
-* Comment: I am one of the volunteer support people for Phonegap. DO NOT USE THIS TUTORIAL. IT IS WRONG. You should NOT build an app as this video shows. IT WILL NOT WORK. Notice at the end of the video there is NO demonstration of a working app. DO NOT USE THIS TUTORIAL. IT IS WRONG. IT WILL NOT WORK TO CREATE APPS WITH "Phonegap Build" DO NOT USE. My handle on the forum is jessemonroy650.?
+* Comment: I am one of the volunteer support people for Phonegap. DO NOT USE THIS TUTORIAL. IT IS WRONG. You should NOT build an app as this video shows. IT WILL NOT WORK. Notice at the end of the video there is NO demonstration of a working app. DO NOT USE THIS TUTORIAL. IT IS WRONG. IT WILL NOT WORK TO CREATE APPS WITH "Phonegap Build" DO NOT USE. My handle on the forum is jessemonroy650.
 
 ----
 
