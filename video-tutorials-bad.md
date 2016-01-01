@@ -2,7 +2,7 @@
 Date: 2015-12-29<br>
 Last Update: 2015-12-29
 
-http://bit.ly/1MFBtoq
+Link to Phonegap Build Forum: http://bit.ly/1MFBtoq
 
 * Title: Creating Mobile app HTML, CSS, JavaScript - PhoneGap part I
 * URL: https://www.youtube.com/watch?v=Smz_IN6PKPQ
@@ -18,5 +18,21 @@ http://bit.ly/1MFBtoq
 * Publisher: If Else Creators
 * Platform Use: Windows
 * Tools: Eclipse
-* ISSUE: Only runs App in Emulator. Missing key steps for emulator.
+* ISSUE: Only runs App in Emulator. Missing key steps to make emulator work.
 * Comment: I jessemonroy650 one of the volunteers on the Phonegap Build forum. http://bit.ly/1MFBtoq DO NOT USE THIS TUTORIAL. IT IS WRONG. We are starting a new list for good videos. Got to the forum.
+
+----
+
+* Title: 
+* URL: 
+* Publisher: 
+* Platform 
+* Tools: 
+* ISSUE: 
+* Comment: 
+
+I jessemonroy650 one of the volunteers on the Phonegap Build forum. 
+http://bit.ly/1MFBtoq
+DO NOT USE THIS TUTORIAL. 
+IT IS WRONG. 
+We are starting a new list for good videos. Go to the forum.
