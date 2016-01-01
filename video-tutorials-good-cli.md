@@ -6,7 +6,7 @@ Link to *Google Group Cordova/Phonegap forum*: http://bit.ly/1TsYzUP
 
 ----
 
-* Title: PhoneGap App Development Tutorial: Part 1
+**Title: PhoneGap App Development Tutorial: Part 1 (11:36)**
 * URL: https://www.youtube.com/watch?v=ydQeT5aM7aA
 * Publisher: LearnToProgram: You Can Code.
 * Platform Used: OSX
@@ -14,7 +14,7 @@ Link to *Google Group Cordova/Phonegap forum*: http://bit.ly/1TsYzUP
 * ISSUE: 
 * Comment: Uses Jquery Mobile, which can be troublesome.
 
-* Title: PhoneGap App Development Tutorial: Part 2
+**Title: PhoneGap App Development Tutorial: Part 2 (12:11)*
 * URL: https://www.youtube.com/watch?v=4nSOMuxCGR0
 * Comment: 
 
