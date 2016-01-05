@@ -1,0 +1,81 @@
+## Cordova Releases ##
+Date: 2016-01-04<br>
+Last Update: 2016-01-04
+
+
+- [Cordova iOS 4.0.1](https://cordova.apache.org/announcements/2015/12/18/cordova-ios-4.0.1.html)
+- [Plugins Release](https://cordova.apache.org/news/2015/12/14/plugins-release.html)
+- [Plugins Release](https://cordova.apache.org/news/2015/12/08/wkwebview-engine-plugin-release.html)
+- [Cordova iOS 4.0.0](https://cordova.apache.org/announcements/2015/12/08/cordova-ios-4.0.0.html)
+- [Tools Release](https://cordova.apache.org/news/2015/11/24/tools-release.html) - 5.4.1
+- [Plugins Release](https://cordova.apache.org/news/2015/11/24/plugins-release.html)
+- [Apache Cordova Windows 4.2.0](https://cordova.apache.org/announcements/2015/11/11/cordova-windows-4.2.0.html)
+- [Cordova Android 5.0.0](https://cordova.apache.org/announcements/2015/11/09/cordova-android-5.0.0.html) - support for Android Marshmallow 
+- [Tools Release: November 6th, 2015](https://cordova.apache.org/news/2015/11/06/tools-release.html) - 5.4.0
+- [Apache Cordova iOS 3.9.2](https://cordova.apache.org/announcements/2015/11/02/cordova-ios-3.9.2.html)
+- [Tools Release 5.3.3](https://cordova.apache.org/blog/) - Support Node 4
+- [Tools Release: September 9th, 2015](https://cordova.apache.org/news/2015/09/09/tools-release.html) - 5.3.1
+- [Apache Cordova BlackBerry 3.8.0](https://cordova.apache.org/announcements/2015/09/05/cordova-blackberry-3.8.0.html)
+- [Apache Cordova Windows 4.1.0](https://cordova.apache.org/announcements/2015/08/18/cordova-windows-4.1.0.html)
+- [Tools Release: August 13th, 2015](https://cordova.apache.org/news/2015/08/13/tools-release.html)
+- [Apache Cordova iOS 3.9.0](https://cordova.apache.org/announcements/2015/08/04/cordova-ios-3.9.0.html)
+- [Apache Cordova Android 4.1.0](https://cordova.apache.org/announcements/2015/07/21/cordova-android-4.1.0.html)
+- [Plugins Release: June 22, 2015](https://cordova.apache.org/news/2015/06/22/plugins-release.html)
+- [Tools Release: June 10, 2015](https://cordova.apache.org/news/2015/06/10/tools-release.html) - 5.1.1
+- [Tools Release 4.3.1](https://cordova.apache.org/news/2015/06/04/tools-release.html)
+- [Apache Cordova Windows 4.0.0 release](https://cordova.apache.org/announcements/2015/06/03/windows-release.html)
+- [Apache Cordova Android 4.0.2 and 3.7.2 released](https://cordova.apache.org/announcements/2015/05/26/android-402.html)
+- [Tools Release: April 21, 2015](https://cordova.apache.org/news/2015/04/21/tools-release.html) - 5.0.0
+- **START OF CORDOVA 5.0.0** 
+- [Plugins Release and Moving plugins to npm: April 21, 2015](https://cordova.apache.org/announcements/2015/04/21/plugins-release-and-move-to-npm.html)
+- [Apache Cordova Android 4.0.0](https://cordova.apache.org/announcements/2015/04/15/cordova-android-4.0.0.html)
+- [Tools Release: March 02, 2015](https://cordova.apache.org/news/2015/03/02/tools-release.html) - 4.3.0
+- [Apache Cordova Windows 3.8.0](https://cordova.apache.org/announcements/2015/02/27/cordova-windows-3.8.0.html)
+- [Apache Cordova iOS 3.8.0](https://cordova.apache.org/announcements/2015/02/25/cordova-ios-3.8.0.html)
+- [Plugins Release: February 10, 2015](https://cordova.apache.org/news/2015/02/10/plugins-release.html)
+- [Apache Cordova Android 3.7.1](https://cordova.apache.org/announcements/2015/02/06/cordova-android-3.7.1.html)
+- [Tools Release: January 09, 2015](https://cordova.apache.org/news/2015/01/09/tools-release.html)
+- [Plugins Release: December 9, 2014](https://cordova.apache.org/news/2014/12/09/plugins-release.html)
+- [iOS 64-bit apps in Cordova](https://cordova.apache.org/announcements/2014/11/25/ios-64bit.html)
+- [Tools Release: November 13, 2014](https://cordova.apache.org/news/2014/11/13/tools-release.html)
+- [Critical Update: Windows 3.7.1. Release](https://cordova.apache.org/news/2014/11/11/windows-cert.html) - \*\*HOT FIX\*\*
+- [Apache Cordova Windows & Windows Phone 3.7.0](https://cordova.apache.org/announcements/2014/11/06/cordova-wp-windows-3.7.0.html)
+- [Apache Cordova iOS 3.7.0](https://cordova.apache.org/announcements/2014/11/06/cordova-ios-3.7.0.html)
+- [Plugins Release: October 17, 2014](https://cordova.apache.org/news/2014/10/17/plugins-release.html)
+- [Apache Cordova CLI 4.0 Release](https://cordova.apache.org/announcements/2014/10/16/cordova-4.html) - \*\*[NEW RELEASE POLICY](https://github.com/apache/cordova-coho/blob/master/docs/versioning-and-release-strategy.md)\*\*
+- **START OF CORDOVA 4.0** and new release policy
+- [Plugins Release: September 22, 2014](https://cordova.apache.org/news/2014/09/22/plugins-release.html)
+- [Apache Cordova 3.6](https://cordova.apache.org/announcements/2014/09/08/cordova-361.html) - Technical gaff makes this 3.6.3
+- [Tools Release: August 13, 2014](https://cordova.apache.org/news/2014/08/13/tools-update.html)
+- [Plugins Release: August 11, 2014](https://cordova.apache.org/news/2014/08/11/plugins-release.html)
+- [Apache Cordova Android 3.5.1](https://cordova.apache.org/announcements/2014/08/04/android-351.html) - \*\*HOT FIX\*\*
+- [Tools Release: July 10, 2014](https://cordova.apache.org/news/2014/07/10/tools-release.html)
+- [Plugins Release: July 8, 2014](https://cordova.apache.org/news/2014/07/08/plugins-release.html)
+- [Plugins Release: June 12, 2014](https://cordova.apache.org/news/2014/06/12/plugins-release.html)
+- [Apache Cordova 3.5.0](https://cordova.apache.org/announcements/2014/05/23/cordova-350.html)
+- [Plugins Release: April 23, 2014](https://cordova.apache.org/news/2014/04/23/plugins.release.html)
+- [Tools Release: April 9, 2014](https://cordova.apache.org/news/2014/04/09/tools-ios-release.html)
+- [Tools Release: March 5, 2014](https://cordova.apache.org/news/2014/03/05/tools-release.html)
+- [Plugins Release: March 3, 2014](https://cordova.apache.org/news/2014/03/03/plugins-release.html)
+- [Apache Cordova 3.4.0](https://cordova.apache.org/announcements/2014/02/20/cordova-340.html)
+- [Plugins Release: Feb 10, 2014](https://cordova.apache.org/news/2014/02/10/plugins-release.html)
+- [Tools Release: Jan 31, 2014](https://cordova.apache.org/news/2014/01/31/tools-release.html)
+- [Plugins Release: Jan 2, 2014](https://cordova.apache.org/news/2014/01/02/plugins-release.html)
+- [Apache Cordova 3.3.0](https://cordova.apache.org/announcements/2013/12/16/cordova-330.html)
+- [Plugins Release: Dec 4, 2013](https://cordova.apache.org/news/2013/12/04/plugins-release.html)
+- [Apache Cordova 3.2.0](https://cordova.apache.org/announcements/2013/11/22/cordova-320.html)
+- [Apache Cordova 2.9.1](https://cordova.apache.org/blog/releases/2013/11/06/cordova-291.html) - backported fixes
+- [CLI, Plugman & Plugins Release: Oct 28, 2013](https://cordova.apache.org/news/2013/10/28/plugins-release.html)
+- [Plugins Release: October 10th, 2013](https://cordova.apache.org/news/2013/10/10/plugins-release.html)
+- [Apache Cordova 3.1](https://cordova.apache.org/blog/releases/2013/10/02/cordova-31.html)
+- [Plugins Release: October 1st, 2013](https://cordova.apache.org/news/2013/10/01/plugins-release.html)
+- [Apache Cordova 3.0](https://cordova.apache.org/blog/releases/2013/07/23/cordova-3.html)
+- **START OF CORDOVA 3.0** and new version system
+- [Apache Cordova Gets an Official Blog](https://cordova.apache.org/blog/2013/07/11/cordova-has-a-blog.html)
+
+### Noted Posts ###
+
+- [CVE annoucements for Cordova-Android](https://cordova.apache.org/announcements/2015/11/20/security.html) -  Quote: *We are no longer supporting Cordova-Android 3.x (...)*
+- [cordova-plugin-file-transfer release: September 21, 2015](https://cordova.apache.org/news/2015/09/21/file-transfer-release.html) - \*\*HOT FIX\*\*
+- [Cordova Plugins Registry becomes immutable](https://cordova.apache.org/news/2015/09/08/cpr-readonly.html)
+- [Cordova's Plugin Registry](https://cordova.apache.org/news/2013/10/21/cordova-registry.html)

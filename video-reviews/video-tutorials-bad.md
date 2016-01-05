@@ -92,7 +92,7 @@ IT WAS WRITTEN FOR Phonegap 1.3. The current version is 5.2.0. DO NOT USE.?
 * Comment2: Sadly, do not used. Tedious. Did not find out until 33:30 that this was Phonegap 1.3!
 * Reviewed On: 2016-01-02
 
-**hone Gap Tutorials - Session 1 ( Part 2 ) (1:40:06)**
+**Phone Gap Tutorials - Session 1 ( Part 2 ) (1:40:06)**
 * URL: https://www.youtube.com/watch?v=t95KG_SFppU
 
 
