@@ -28,12 +28,18 @@ Last update: 2015-11-18
 * [Alternatives to Jquery and Jquery Mobile](alternatives-to-jquery-mobile.md)
 * [Alternatives to the stock *webview*](webview-alternatives.md)
 * [Tip and Tricks](tips-and-tricks.md)
-* [Bad Video Tutorials](video-tutorials-bad.md) - Multiple people have reported video that give them bad information. I will soon make a list of good videos.
-* *Phonegap Build* [Good Video Tutorials](video-tutorials-good-build.md) - These are the good ones.
-* *Phonegap CLI* [Good Video Tutorials](video-tutorials-good-cli.md) - These are the good ones.
 
+### Video Tutorials ####
+
+* [Bad Video Tutorials](video-reviews/video-tutorials-bad.md) - Multiple people have reported video that give them bad information. I will soon make a list of good videos.
+* *Phonegap Build* [Good Video Tutorials](video-reviews/video-tutorials-good-build.md) - These are the good ones.
+* *Phonegap CLI* [Good Video Tutorials](video-reviews/video-tutorials-good-cli.md) - These are the good ones.
+
+### Release History ###
+
+* [Cordova](history/cordova.md)
+* [Phonegap](history/phonegap.md)
 
 ### Annoyances ###
 
 * [Samsung Soft Menu Button Annoyance](annoyances/SamsungMenuButton.md)
-

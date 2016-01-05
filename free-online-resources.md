@@ -55,3 +55,10 @@ For windows and Mac
 
 - http://jsonviewer.stack.hu
 - http://codebeautify.org/jsonviewer
+
+## HTML, CSS, Javascript testers ##
+
+- http://codepen.io/
+- http://www.sitepoint.com/7-code-playgrounds/
+- http://alternativeto.net/software/codepen/
+

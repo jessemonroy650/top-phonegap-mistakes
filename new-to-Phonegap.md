@@ -72,7 +72,7 @@ LAST UPDATE: 2015-12-12
 
 ###<a name=005>5.</a> When designing the app, thinks phonegap works like a website or webbrowser. ###
 
-  Cordova/Phonegap is a framework that happens to use a library, called [webview](webview.md) on Android (and similar libraries on other platforms), that happens to use HTML5 to render the UI (User Interface). The framework is NOT a webserver. The framework is also NOT a webbrowser. This also means many of the BOM (Browser Object Model) compenents do not exist; such as "location bar", bookmarks, cookies, cache, CORS, etc.
+  Cordova/Phonegap is a framework that happens to use a library, called [webview](webview.md) on Android (and similar libraries on other platforms), that happens to use HTML5 to render the UI (User Interface). The framework is NOT a webserver. The framework is also NOT a webbrowser. This also means many of the BOM (Browser Object Model) compenents do not exist; such as "location bar", bookmarks, cookies, [cache](http://www.raymondcamden.com/2015/02/26/reminder-you-dont-need-appcache-for-phonegapcordova), CORS, etc.
 
   *Quote* ***[Phonegap FAQ](http://phonegap.com/about/faq/)***
   > Q: Can you use PHP/ASP/JSF/Java/.NET with PhoneGap?
@@ -112,7 +112,7 @@ LAST UPDATE: 2015-12-12
 
 ###<a name=008>8.</a> Forgot to add the plugin to `config.xml`, or `cordova.js` to `index.html`.###
 
-  Oops. Every developer has done this at one time or another. I've done it, and them spent 8 hours debugging this mistake. OUCH!
+  Oops. Every developer has done this at one time or another. I've done it, and them spent 8 hours debugging this mistake. [Raymond Camden](http://www.raymondcamden.com/2013/11/02/Seeing-two-geolocation-prompts-in-a-PhoneGapCordova-application) has also. OUCH! 
 
   Luckily on *Cordova/Phonegap CLI* this is dealt with, but on [Cordova/Phonegap SDK](http://docs.phonegap.com/en/4.0.0/config_ref_index.md.html#The%20config.xml%20File_the_feature_element) and [Phonegap Build](http://docs.build.phonegap.com/en_US/configuring_plugins.md.html#Plugins) **you** have to do this. It is referenced differently by both. The vocabulary is different for both. Read the docs.
 

@@ -43,10 +43,11 @@ Generally, the tips come in two varities.
 
 ## Other Useful articles ##
 
-- [HTML5 vs Native: The Mobile App Debate](http://www.html5rocks.com/en/mobile/nativedebate/) - June 3rd, 2011 by Michael Mahemoff
-- [ogv.js: An Ogg Theora and Vorbis Video Decoder in JavaScript](http://badassjs.com/post/71980473022/ogvjs-an-ogg-theora-and-vorbis-video-decoder-in) - January 2nd 2014
-- [The Complete Guide to Building HTML5 Games with Canvas & SVG](http://www.htmlgoodies.com/html5/client/the-complete-guide-to-building-html5-games-with-canvas-svg.html) - undated, appears 2013
 - [Apache Cordova: after 10 months, I won't be using it anymore](http://geekcoder.org/apache-cordova-after-10-months-i-wont-using-it-anymore/) - July 06, 2015
+- [ogv.js: An Ogg Theora and Vorbis Video Decoder in JavaScript](http://badassjs.com/post/71980473022/ogvjs-an-ogg-theora-and-vorbis-video-decoder-in) - January 2nd 2014
+- [Top 10 Performance Techniques for PhoneGap and Hybrid Apps ? Slides Available](http://coenraets.org/blog/2013/10/top-10-performance-techniques-for-phonegap-and-hybrid-apps-slides-available/?utm_source=rss%26utm_medium=rss%26utm_campaign=top-10-performance-techniques-for-phonegap-and-hybrid-apps-slides-available) - October 30, 2013 by Christophe Coenraets
+- [The Complete Guide to Building HTML5 Games with Canvas & SVG](http://www.htmlgoodies.com/html5/client/the-complete-guide-to-building-html5-games-with-canvas-svg.html) - undated, appears 2013
+- [HTML5 vs Native: The Mobile App Debate](http://www.html5rocks.com/en/mobile/nativedebate/) - June 3rd, 2011 by Michael Mahemoff
 
 ## My notes from the documentation ##
 
