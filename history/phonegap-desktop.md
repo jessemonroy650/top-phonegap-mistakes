@@ -22,15 +22,16 @@ Last Update: 2016-01-04
 
 ## Phonegap Developer App##
 
-- [PhoneGap Developer App 1.5.12](http://phonegap.com/blog/2015/12/16/1.5.12-Release) - 2015/12/16
+- [PhoneGap Developer App 1.5.12](http://phonegap.com/blog/2015/12/16/1.5.12-Release) - 2015/12/16 - Plugin Update
 - [PhoneGap Developer App 1.5.5](http://phonegap.com/blog/2015/09/02/pg_dev_app_1.5.5_release) - 2015/09/02
 - [PhoneGap Developer App 1.5.4](http://phonegap.com/blog/2015/06/23/pg-developer-app-1-5-4) - 2015/06/23
 - [PhoneGap Developer App 1.5.3](http://phonegap.com/blog/2015/06/17/phonegap-developer-app-1-5-3) - 2015/06/17
 - [PhoneGap Developer App 1.5.2 Release](http://phonegap.com/blog/2015/05/20/pg_dev_app_1_5_2_release) - 2015/05/20
 - [Warning about Ionic Live Reload and the PhoneGap Developer App](http://www.raymondcamden.com/2015/03/08/warning-about-ionic-live-reload-and-the-phonegap-developer-app) - 2015/03/08
-- [PhoneGap Developer App 1.4.0 Release](http://phonegap.com/blog/2014/11/26/phonegap-developer-app-1-4-0) - 2014/11/26
+- [PhoneGap Developer App 1.4.0 Release](http://phonegap.com/blog/2014/11/26/phonegap-developer-app-1-4-0) - 2014/11/26 - Plugin Update
 - [PhoneGap Developer App 1.3.0](http://phonegap.com/blog/2014/09/02/phonegap-developer-app-1-3-0) - 2014/09/02
 - [PhoneGap Developer App 1.2.0 Release](http://phonegap.com/blog/2014/08/08/pg-dev-app-1-2-0-release) - 2014/08/08
 - [PhoneGap Developer App 1.1.0 Release](http://phonegap.com/blog/2014/07/21/pg-dev-app-1-1-0-release) - 2014/07/21
 - [PhoneGap Developer App](http://phonegap.com/blog/2014/04/23/phonegap-developer-app) - 2014/04/23
-- [PhoneGap Developer App](http://www.raymondcamden.com/index.cfm/2014/4/21/PhoneGap-Developer-App) - 2014/4/21
+- [PhoneGap Developer App](http://www.raymondcamden.com/index.cfm/2014/4/21/PhoneGap-Developer-App) - 2014/04/21
+
