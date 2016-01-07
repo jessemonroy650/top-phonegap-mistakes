@@ -16,7 +16,7 @@ Other bugs for other Cordova/Phonegap open source products can be found by walki
 * https://github.com/apache/cordova-plugin-{name} - gets cordova-plugin-'name' (official bugs on Jira, see pull requests here)
 * http://git.apache.org/ - has links to "distribution source", and "git" and "official" repository
 
-* [Android](https://code.google.com/p/android/issues/list)
+* [Android](https://code.google.com/p/android/issues/list) "Official"
 
 ### Security Issues ####
 

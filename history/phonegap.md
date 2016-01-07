@@ -2,8 +2,6 @@
 Date: 2016-01-04<br>
 Last Update: 2016-01-04
 
-http://phonegap.com/blog/page36/
-
 - [ PhoneGap 5.2.0 Now Available on Build](http://phonegap.com/blog/2015/09/23/phonegap_520_now_on_build)
 - [Cordova 5.1.1 Now on PhoneGap Build](http://phonegap.com/blog/2015/06/16/phonegap-updated-on-build)
 - [PhoneGap CLI 5.0.0 Released!](http://phonegap.com/blog/2015/04/28/phonegap-cli-5.0.0-0.27.0)

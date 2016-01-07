@@ -39,6 +39,7 @@ Last update: 2015-11-18
 
 * [Cordova](history/cordova.md)
 * [Phonegap](history/phonegap.md)
+* [Phonegap Desktop App](history/phonegap-desktop.md)
 
 ### Annoyances ###
 
