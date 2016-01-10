@@ -1,4 +1,5 @@
 ## Alternatives to Jquery and Jquery Mobile  ##
+Last Update: 2016-01-10
 
 Jquery is one of the most useful tools for mobile development. However, over the years it has become a bloated library and shows no signs of changing. The library will work for phonegap development, but it's development remains central to webbrowsers NOT phonegap. This means Jquery is main intended for webbrowsers, it's error reporting comes mostly from webbrowsers, and worst of all it's fixes are intended for webbrowsers.
 
@@ -21,6 +22,8 @@ http://tutorialzine.com/2012/04/5-lightweight-jquery-alternatives/
 *Popular Alternatives to JQuery* (undated)<br />
 http://www.jscripters.com/popular-jquery-alternatives/
 
+*Lodash, the JavaScript Library You're Already Using*<br>
+http://www.infoq.com/news/2015/03/lodash-utility-library
 
 *5 Things You Should Stop Doing With jQuery*<br />
 http://modernweb.com/2013/05/06/5-things-you-should-stop-doing-with-jquery/

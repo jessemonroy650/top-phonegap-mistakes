@@ -1,5 +1,14 @@
 ## Get Better Performance from your App ##
-Last Update: 2015-10-11
+Date: 2015-10-11<br>
+Last Update: 2016-01-10
+
+This will be cleaned up - soon. (2016-01-10)
+
+
+*Lodash, the JavaScript Library You're Already Using*<br>
+http://www.infoq.com/news/2015/03/lodash-utility-library
+
+> Though lodash is popular with node.js developers, it is also used by browser-based projects. Web developers can use the experimental build tool to cherry-pick which methods their project needs rather than downloading the entire library. For node.js projects, individual methods can be included when the whole package isn't needed.
 
 Generally, the tips come in two varities.
 
