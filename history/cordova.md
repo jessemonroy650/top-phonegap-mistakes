@@ -28,13 +28,14 @@ Last Update: 2016-01-04
 - [Tools Release: April 21, 2015](https://cordova.apache.org/news/2015/04/21/tools-release.html) - 5.0.0
 - **START OF CORDOVA 5.0.0** 
 - [Plugins Release and Moving plugins to npm: April 21, 2015](https://cordova.apache.org/announcements/2015/04/21/plugins-release-and-move-to-npm.html)
-- [Apache Cordova Android 4.0.0](https://cordova.apache.org/announcements/2015/04/15/cordova-android-4.0.0.html)
+- [Apache Cordova Android 4.0.0](https://cordova.apache.org/announcements/f2015/04/15/cordova-android-4.0.0.html)
 - [Tools Release: March 02, 2015](https://cordova.apache.org/news/2015/03/02/tools-release.html) - 4.3.0
 - [Apache Cordova Windows 3.8.0](https://cordova.apache.org/announcements/2015/02/27/cordova-windows-3.8.0.html)
 - [Apache Cordova iOS 3.8.0](https://cordova.apache.org/announcements/2015/02/25/cordova-ios-3.8.0.html)
 - [Plugins Release: February 10, 2015](https://cordova.apache.org/news/2015/02/10/plugins-release.html)
 - [Apache Cordova Android 3.7.1](https://cordova.apache.org/announcements/2015/02/06/cordova-android-3.7.1.html)
 - [Tools Release: January 09, 2015](https://cordova.apache.org/news/2015/01/09/tools-release.html)
+- *2015*
 - [Plugins Release: December 9, 2014](https://cordova.apache.org/news/2014/12/09/plugins-release.html)
 - [iOS 64-bit apps in Cordova](https://cordova.apache.org/announcements/2014/11/25/ios-64bit.html)
 - [Tools Release: November 13, 2014](https://cordova.apache.org/news/2014/11/13/tools-release.html)

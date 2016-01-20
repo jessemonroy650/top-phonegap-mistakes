@@ -5,11 +5,6 @@ Last Update: 2016-01-10
 This will be cleaned up - soon. (2016-01-10)
 
 
-*Lodash, the JavaScript Library You're Already Using*<br>
-http://www.infoq.com/news/2015/03/lodash-utility-library
-
-> Though lodash is popular with node.js developers, it is also used by browser-based projects. Web developers can use the experimental build tool to cherry-pick which methods their project needs rather than downloading the entire library. For node.js projects, individual methods can be included when the whole package isn't needed.
-
 Generally, the tips come in two varities.
 
 1. Do this.
@@ -76,3 +71,24 @@ The standard behavior for an Activity is to be destroyed and recreated, when the
 * Stephen Woods: "Creating Responsive HTML5 Touch Interfaces"
 * http://yuiblog.com/blog/2012/02/23/video-stephen-woods-html5-touch/
 * includes: swipe, snap back/forward, bounce, native scrolling, pinch to zoom + pro-tips.
+
+
+## Unapplied/Unsorted ##
+
+*Lodash, the JavaScript Library You're Already Using*<br>
+http://www.infoq.com/news/2015/03/lodash-utility-library
+
+> Though lodash is popular with node.js developers, it is also used by browser-based projects. Web developers can use the experimental build tool to cherry-pick which methods their project needs rather than downloading the entire library. For node.js projects, individual methods can be included when the whole package isn't needed.
+
+*Comparing JavaScript Templating Engines: Jade, Mustache, Dust and More* - November 11, 2014<br>
+https://strongloop.com/strongblog/compare-javascript-templates-jade-mustache-dust/
+
+> Lets talk templates, specifically JavaScript powered templates. Even more specifically ? template engines that work as well on the server side as they do on the client side. 
+
+*Templating Engines* (undated)<br>
+http://jster.net/category/templating-engines
+
+> These JavaScript templating engines allow you to perform string interpolation and then some using some specific templating syntax. Examples: mustache.js and Jade. 
+
+
+

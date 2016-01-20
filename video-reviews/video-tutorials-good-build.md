@@ -52,13 +52,9 @@ Homepage: http://pointdeveloper.com/phonegap-build-beginner-course/
 * URL: https://www.youtube.com/watch?v=_0bKiLSb9Yo
 * Comment: Good. 
 
-**Title: PhoneGap Build Beginner : Tutorial 6 - Phonegap Build Taking A Tour (4:35)**
-* URL: https://www.youtube.com/watch?v=zwMh3lWUO9o
-* ISSUE: Show wrong repository. 
-* Comment: Instead use:
-
-    - "core" plugins - http://cordova.apache.org/docs/en/5.4.0/cordova/plugins/pluginapis.html
-    - 3rd party plugins - http://cordova.apache.org/plugins/
+**Title: PhoneGap Build Beginner : Tutorial 6 - Phonegap Build Taking A Tour (5:55)**
+* URL: https://www.youtube.com/watch?v=LRY-3Rx2iIw
+* Comment: Good.
 
 **Title: PhoneGap Build Beginner : Tutorial 7 - Sample App Intro (5:11)**
 * URL: https://www.youtube.com/watch?v=zr2X-S8qPc4
