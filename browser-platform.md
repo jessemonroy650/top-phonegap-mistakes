@@ -42,7 +42,7 @@ There are only two (2) release for *Browser platform*, 4.0.0 and 3.6.0.
  - Device Orientation (Compass)
  - Network Information
 
-#### Mention of browser Blog by Blog ####
+### Mention of *browser platform* Blog by Blog ###
 other than pinned 
 
 - [Plugins Release](https://cordova.apache.org/news/2015/11/24/plugins-release.html) - 24 Nov 2015
