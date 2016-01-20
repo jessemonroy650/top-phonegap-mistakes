@@ -1,5 +1,5 @@
 ## Phonegap Developers' Notes ##
-Last update: 2015-11-18
+Last update: 2016-01-20
 
 * [Top Mistakes by Developers new to Cordova/Phonegap](new-to-Phonegap.md)
 * [HOW TO apply the Cordova/Phonegap the whitelist system](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/the-whitelist-system.md)
@@ -9,7 +9,9 @@ Last update: 2015-11-18
 
 ### Tips, Security, Bugs, etc. ###
 
+* [Using `this` correctly with Javascript](using-this-correctly.md)
 * [Performance Tips](get-performance.md)
+* [Compatibility Links &amp; Tips](get-compatible.md)
 * [Cordova Blog Highlights](cordova-blog-highlights.md)
 * [Cordova Browser Platform](browser-platform.md)
 * [Security Issues](security-issues.md) - Last Update: 2015-11-16
@@ -22,18 +24,26 @@ Last update: 2015-11-18
 
 ### Resources ###
 
+* [Icons and Splashscreens](icons-splashscreens.md) Sizes and densities
 * [Free Online Resources for Phonegap Build](free-online-resources.md)
 * [Free Online Color Palette Helpers](extended/color-palette-helpers.md)
 * [Cordova and Phonegap Forums](cordova-phonegap-forums.md) - across the Internet
 * [Alternatives to Jquery and Jquery Mobile](alternatives-to-jquery-mobile.md)
-* [Alternatives to the stock *webview*](webview-alternatives.md)
 * [Tip and Tricks](tips-and-tricks.md)
+
+### Webview ###
+
+* [Webview](webview.md)
+* [Webview Bugs](webview-bugs.md)
+* [Webview Details](webview-details.md)
+* [Alternatives to the stock *webview*](webview-alternatives.md)
+* [Webview and Viewport](webview-viewport.md)
 
 ### Video Tutorials ####
 
-* [Bad Video Tutorials](video-reviews/video-tutorials-bad.md) - Multiple people have reported video that give them bad information. I will soon make a list of good videos.
 * *Phonegap Build* [Good Video Tutorials](video-reviews/video-tutorials-good-build.md) - These are the good ones.
 * *Phonegap CLI* [Good Video Tutorials](video-reviews/video-tutorials-good-cli.md) - These are the good ones.
+* [Bad Video Tutorials](video-reviews/video-tutorials-bad.md) - Multiple people have reported video that give them bad information. I will soon make a list of good videos.
 
 ### Release History ###
 

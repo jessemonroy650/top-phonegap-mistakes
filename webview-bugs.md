@@ -1,7 +1,8 @@
 ## Webview Bugs ##
 Date: 2015-12-10<br>
-Last Update: 2015-12-11
+Last Update: 2016-01-20
 
+See also: [Bugs for Cordova "core" webview](core-bugs/plugins-core-bugs-webview.md)
 
 ###Android###
 
