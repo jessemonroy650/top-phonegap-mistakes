@@ -12,6 +12,8 @@ In theory, you can develop with your favorite browser with this setting, and fin
 
 ### <a name=plugins>Plugins</a> ###
 
+The state of third-party plugins with `browser platform` is unknown, as of the *last update*. However, some improvements are noted in *cordova-lib* for their availability.
+
  plugin             | supported | date supported     |  issues reported
 --------------------|-----------|--------------------|-----------------
 battery             |    yes    | August 13th, 2015  |
@@ -70,7 +72,7 @@ There are only two (2) release for *Browser platform*, 4.0.0 and 3.6.0.
 
 ### <a name=articles>Articles</a> ###
 
-* *Quick tip for Cordova and the Browser platform ? Setting a custom port* -  October 22, 2015
+* *Quick tip for Cordova and the Browser platform &ndash; Setting a custom port* -  October 22, 2015
 * http://www.raymondcamden.com/2015/10/22/quick-tip-for-cordova-and-the-browser-platform
 
 * *Browser as a platform for your PhoneGap/Cordova apps* - September 24, 2014
