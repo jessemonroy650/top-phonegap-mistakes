@@ -1,7 +1,41 @@
 ## Cordova Browser Platform ##
-Last Update: 2015-10-10
+Date: 2015-10-10<br>
+Last Update: 2016-01-19
 
-In theory you can develop on your browser with this, and fine tune on your mobile device. However, in practice this is one of the worst documented elements of the Cordova system. This is evidence by by it's omittance from the *[Cordova Platform Guide](http://cordova.apache.org/docs/en/latest/guide/platforms/index.html)*, and the lack of any pertinent information in the [github README.md](https://github.com/apache/cordova-browser).
+In theory, you can develop with your favorite browser with this setting, and fine tune on your mobile device. However, in practice this is one of the worst documented elements of the Cordova system. This is evidence by by it's omittance from the *[Cordova Platform Guide](http://cordova.apache.org/docs/en/latest/guide/platforms/index.html)*, and the lack of any pertinent information in the [github README.md](https://github.com/apache/cordova-browser).
+
+- <a href=#plugins>Plugins</a>
+- <a href=#releases>Releases</a>
+- <a href=#articles>Articles</a>
+- <a href=#references>References</a>
+
+
+### Plugins ###
+
+ plugin             | supported | date supported     |  issues reported
+--------------------|-----------|--------------------|-----------------
+battery             |    yes    | August 13th, 2015  |
+camera              |    yes    | September 24, 2014 |
+console             |    yes    | always available   |
+contacts            |    -      |  -                 |
+device              |    yes    | September 22, 2014 |
+device motion       |    yes    | September 22, 2014 |
+device orientation  |    yes    | September 22, 2014 |
+dialogs             |    yes    | February 10, 2015  |
+filesystem          |    yes    | April 21, 2015     |
+file transfer       |    yes    | April 21, 2015     |
+geolocation         |    -      |  -                 |
+globalization       |    yes    | April 21, 2015     |
+inappbrowser        |    yes    | April 21, 2015     |
+media               |    yes    | April 21, 2015     |
+media capture       |    yes    | April 21, 2015     |
+network information |    yes    | September 22, 2014 |
+splashscreen        |    yes    | April 21, 2015     |
+vibration           |    yes    | November 24, 2015  |
+statusbar           |    yes    | November 24, 2015  |
+whitelist           |
+legacy whitelist    |
+
 
 ### Releases ###
 
@@ -49,7 +83,9 @@ There are only two (2) release for *Browser platform*, 4.0.0 and 3.6.0.
  - Device Orientation (Compass)
  - Network Information
 
-### Mention of *browser platform* Blog by Blog ###
+### References ###
+
+#### Mention of *browser platform* Blog by Blog ####
 other than pinned 
 
 - [Plugins Release](https://cordova.apache.org/news/2015/11/24/plugins-release.html) - 24 Nov 2015
@@ -109,7 +145,7 @@ other than pinned
     - browserify: updated require to use symbollist (cordova-lib)
 
 - [Plugins Release: December 9, 2014](https://cordova.apache.org/news/2014/12/09/plugins-release.html)
-    - Browser Changing device.platform to always report the platform as "browser". (device - no issue number)
+    - Browser Changing device.platform to always report the platform as "browser". (plugin:device - no issue number)
 
 - [Apache Cordova CLI 4.0 Release](https://cordova.apache.org/announcements/2014/10/16/cordova-4.html)
     - computeCommitId for browserify workflow fixed to handle cli and non cli workflows (cordova-lib)
@@ -117,9 +153,9 @@ other than pinned
     - Added tests for browser platform (cordova-lib)
 
 - [Plugins Release: September 22, 2014](https://cordova.apache.org/news/2014/09/22/plugins-release.html)
-    - Added plugin support for the browser (device)
-    - Added support for the browser (device-motion)
-    - Updated doc for browser (device-motion)
-    - Add support for the browser (device-orientation)
-    - Updated docs for browser (device-orientation)
-    - Added support for the browser (network-information)
+    - Added plugin support for the browser (plugin:device)
+    - Added support for the browser (plugin:device motion)
+    - Updated doc for browser (plugin:device motion)
+    - Add support for the browser (plugin:device orientation)
+    - Updated docs for browser (plugin:device orientation)
+    - Added support for the browser (plugin:network information)
