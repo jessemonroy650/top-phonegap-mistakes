@@ -14,19 +14,19 @@ In theory, you can develop with your favorite browser with this setting, and fin
 
 The state of third-party plugins with `browser platform` is unknown, as of the *last update*. However, some improvements are noted in *cordova-lib* for their availability.
 
- plugin             | supported | date supported     |  issues reported
+ plugin             | supported | date supported     |  [issues reported](https://issues.apache.org/jira/browse/CB-8012?jql=project%20%3D%20CB%20AND%20issuetype%20%3D%20Bug%20AND%20status%20%3D%20Open%20AND%20resolution%20%3D%20Unresolved%20AND%20component%20%3D%20Browser%20ORDER%20BY%20priority%20DESC%2C%20summary%20ASC%2C%20updatedDate%20DESC)
 --------------------|-----------|--------------------|-----------------
 battery             |    yes    | August 13th, 2015  |
-camera              |    yes    | September 24, 2014 |
+camera              |    yes    | September 24, 2014 |  [CB-10139](https://issues.apache.org/jira/browse/CB-10139) [CB-9780](https://issues.apache.org/jira/browse/CB-9780)
 console             |    yes    | always available   |
-contacts            |    -      |  -                 |
+contacts            |    no     |  -                 |
 device              |    yes    | September 22, 2014 |
 device motion       |    yes    | September 22, 2014 |
 device orientation  |    yes    | September 22, 2014 |
 dialogs             |    yes    | February 10, 2015  |
-filesystem          |    yes    | April 21, 2015     |
+filesystem          |    yes    | April 21, 2015     | [CB-9832](https://issues.apache.org/jira/browse/CB-9832)
 file transfer       |    yes    | April 21, 2015     |
-geolocation         |    -      |  -                 |
+geolocation         |    no     |  -                 |
 globalization       |    yes    | April 21, 2015     |
 inappbrowser        |    yes    | April 21, 2015     |
 media               |    yes    | April 21, 2015     |
@@ -35,8 +35,8 @@ network information |    yes    | September 22, 2014 |
 splashscreen        |    yes    | April 21, 2015     |
 statusbar           |    yes    | November 24, 2015  |
 vibration           |    yes    | November 24, 2015  |
-whitelist           |    -      |  -                 |
-legacy whitelist    |    -      |  -                 |
+whitelist           |    no     |  -                 |
+legacy whitelist    |    no     |  -                 |
 
 
 ### <a name=releases>Releases</a> ###
