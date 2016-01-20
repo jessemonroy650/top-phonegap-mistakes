@@ -4,7 +4,7 @@ Last Update: 2016-01-19
 
 This blog post is to colate what little information is available for the badly name `browser platform`. The intent of this platform is to allow testing on a webbrowser with the plugins, and in theory make minimumal changes when deployed to an actual mobile device.
 
-In theory, you can develop with your favorite browser with this setting, and fine tune on your mobile device. However, in practice this is one of the worst documented elements of the Cordova system. This is evidence by by it's omittance from the *[Cordova Platform Guide](http://cordova.apache.org/docs/en/latest/guide/platforms/index.html)*, and the lack of any pertinent information in the [github README.md](https://github.com/apache/cordova-browser).
+In theory, you can develop with your favorite browser with this setting, and fine tune on your mobile device. However, in practice this is one of the worst documented elements of the Cordova system. This is evidence by by it's omittance from the *[Cordova Platform Guide](http://cordova.apache.org/docs/en/latest/guide/platforms/index.html)*, and the lack of any pertinent information in the [github README.md](https://github.com/apache/cordova-browser). There is scatter information in the plugins, but tonight this is all i have energy for.
 
 - <a href=#plugins>Plugins</a>
 - <a href=#releases>Releases</a>
