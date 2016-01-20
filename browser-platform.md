@@ -10,7 +10,7 @@ In theory, you can develop with your favorite browser with this setting, and fin
 - <a href=#references>References</a>
 
 
-### Plugins ###
+### <a name=plugins>Plugins</a> ###
 
  plugin             | supported | date supported     |  issues reported
 --------------------|-----------|--------------------|-----------------
@@ -31,13 +31,13 @@ media               |    yes    | April 21, 2015     |
 media capture       |    yes    | April 21, 2015     |
 network information |    yes    | September 22, 2014 |
 splashscreen        |    yes    | April 21, 2015     |
-vibration           |    yes    | November 24, 2015  |
 statusbar           |    yes    | November 24, 2015  |
-whitelist           |
-legacy whitelist    |
+vibration           |    yes    | November 24, 2015  |
+whitelist           |    -      |  -                 |
+legacy whitelist    |    -      |  -                 |
 
 
-### Releases ###
+### <a name=releases>Releases</a> ###
 
 There are only two (2) release for *Browser platform*, 4.0.0 and 3.6.0.
 
@@ -68,7 +68,7 @@ There are only two (2) release for *Browser platform*, 4.0.0 and 3.6.0.
 >    - added create.bat for Windows support
 
 
-### Articles ###
+### <a name=articles>Articles</a> ###
 
 * *Quick tip for Cordova and the Browser platform ? Setting a custom port* -  October 22, 2015
 * http://www.raymondcamden.com/2015/10/22/quick-tip-for-cordova-and-the-browser-platform
@@ -83,7 +83,7 @@ There are only two (2) release for *Browser platform*, 4.0.0 and 3.6.0.
  - Device Orientation (Compass)
  - Network Information
 
-### References ###
+### <a name=reference>References</a> ###
 
 #### Mention of *browser platform* Blog by Blog ####
 other than pinned 
