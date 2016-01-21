@@ -31,7 +31,7 @@ date       | link | version | notes
 2013/12/16 | [Apache Cordova](https://cordova.apache.org/announcements/2013/12/16/cordova-330.html) | 3.3.0 |
 2013/11/22 | [Apache Cordova](https://cordova.apache.org/announcements/2013/11/22/cordova-320.html) | 3.2.0 |
 2013/11/06 | [Apache Cordova](https://cordova.apache.org/blog/releases/2013/11/06/cordova-291.html) | 2.9.1 | backported fixes
-2013/10/28 | [CLI, Plugman & Plugins Release: Oct 28, 2013](https://cordova.apache.org/news/2013/10/28/plugins-release.html)
+2013/10/28 | [CLI, Plugman & Plugins Release](https://cordova.apache.org/news/2013/10/28/plugins-release.html)
 2013/10/02 | [Apache Cordova](https://cordova.apache.org/blog/releases/2013/10/02/cordova-31.html)  | 3.1.0 |
 2013/07/23 | [Apache Cordova](https://cordova.apache.org/blog/releases/2013/07/23/cordova-3.html)   | 3.0.0 |
 -          | **START OF CORDOVA 3.0** and new version system  | - | -
