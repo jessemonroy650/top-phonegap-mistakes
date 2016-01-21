@@ -2,10 +2,36 @@
 Date: 2016-01-21<br>
 Last Update: 2016-01-21
 
+plugin              | current version | tools 5.4.1 | tools 5.2.0 | with PGB 3.7.1
+--------------------|-----------------|-------------|-------------|----------------
+battery-status      |  1.1.1          |  1.1.1      |  1.1.0      | -
+camera              |  2.1.0          |  2.0.0      |  1.2.0      | -
+console             |  1.0.2          |  1.0.2      |  1.0.1      | -
+contacts            |  2.0.1          |  2.0.0      |  1.1.0      | -
+device              |  1.1.1          |  1.1.0      |  1.0.1      | -
+device-motion       |  1.2.0          |  1.2.0      |  1.1.1      | -
+device-orientation  |  1.0.2          |  1.0.2      |  1.0.1      | -
+dialogs             |  1.2.0          |  1.2.0      |  1.1.1      | -
+file                |  4.1.0          |  4.0.0      |  2.1.0      | -
+file-transfer       |  1.5.0          |  1.4.0      |  1.2.0      | -
+geolocation         |  2.1.0          |  2.0.0      |  1.0.1      | -
+globalization       |  1.0.2          |  1.0.2      |  1.0.1      | -
+inappbrowser        |  1.2.0          |  1.1.0      |  1.0.1      | -
+legacy-whitelist    |  1.1.1          |  1.1.1      |  1.1.0      | -
+media               |  2.1.0          |  2.0.0      |  1.0.1      | -
+media-capture       |  1.2.0          |  1.1.0      |  1.0.1      | -
+network-information |  1.2.0          |  1.1.0      |  1.0.1      | -
+splashscreen        |  3.1.0          |  3.0.0      |  2.1.0      | -
+statusbar           |  2.1.0          |  2.0.0      |  1.0.0      | -
+test-framework      |  -              |  1.1.0      |  1.0.1      | -
+vibration           |  2.1.0          |  2.0.0      |  1.2.0      | -
+whitelist           |  1.2.1          |  1.2.0      |  1.1.0      | -
 
-plugin          | battery-status | camera | console | contacts | device | device-motion | device-orientation | dialogs | file  | file-transfer | geolocation | globalization | inappbrowser | legacy-whitelist | media | media-capture | network-information | splashscreen | statusbar | test-framework | vibration | whitelist 
-----------------|----------------|--------|---------|----------|--------|---------------|--------------------|---------|-------|---------------|-------------|---------------|--------------|------------------|-------|---------------|---------------------|--------------|-----------|----------------|-----------|----------
-current version | 1.1.1          | 2.1.0  | 1.0.2   | 2.0.1    | 1.1.1  | 1.2.0         | 1.0.2              | 1.2.0   | 4.1.0 | 1.5.0         | 2.1.0       | 1.0.2         | 1.2.0        | 1.1.1            | 2.1.0 | 1.2.0         | 1.2.0               | 3.1.0        | 2.1.0     |  -             | 2.1.0     | 1.2.1
+plugin            | battery-status | camera | console | contacts | device | device-motion | device-orientation | dialogs | file  | file-transfer | geolocation | globalization | inappbrowser | legacy-whitelist | media | media-capture | network-information | splashscreen | statusbar | test-framework | vibration | whitelist 
+------------------|----------------|--------|---------|----------|--------|---------------|--------------------|---------|-------|---------------|-------------|---------------|--------------|------------------|-------|---------------|---------------------|--------------|-----------|----------------|-----------|----------
+current version   | 1.1.1          | 2.1.0  | 1.0.2   | 2.0.1    | 1.1.1  | 1.2.0         | 1.0.2              | 1.2.0   | 4.1.0 | 1.5.0         | 2.1.0       | 1.0.2         | 1.2.0        | 1.1.1            | 2.1.0 | 1.2.0         | 1.2.0               | 3.1.0        | 2.1.0     |  -             | 2.1.0     | 1.2.1
+with tools 5.4.1  | 1.1.1          | 2.0.0  | 1.0.2   | 2.0.0    | 1.1.0  | 1.2.0         | 1.0.2              | 1.2.0   | 4.0.0 | 1.4.0         | 2.0.0       | 1.0.2         | 1.1.0        | 1.1.1            | 2.0.0 | 1.1.0         | 1.1.0               | 3.0.0        | 2.0.0     |  1.1.0         | 2.0.0     | 1.2.0
+with tools 5.2.0  | 1.1.0          | 1.2.0  | 1.0.1   | 1.1.0    | 1.0.1  | 1.1.1         | 1.0.1              | 1.1.1   | 2.1.0 | 1.2.0         | 1.0.1       | 1.0.1         | 1.0.1        | 1.1.0            | 1.0.1 | 1.0.1         | 1.0.1               | 2.1.0        | 1.0.0     |  1.0.1         | 1.2.0     | 1.1.0
 
 
 ### Reference ###
