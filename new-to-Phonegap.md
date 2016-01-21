@@ -193,11 +193,32 @@ LAST UPDATE: 2015-12-12
 
 ### Frustrating Issues for the Volunteers ###
 
+Virtually none of the people who read and help out on the list are paid to do so, or indeed have any formal connection to the Cordova project. We help because we want to, because other people helped us, because having a thriving Cordova community is good for everyone.
+
+However it is a constant frustration when people make the same mistakes in writing a post to the group and asking for help. 
+
+Many of the posts repeat the same mistake time and time again. The volunteers respond time and time again with the same response, sometime the responses are very curt and very direct. 
+
+The problems are:
+
+1. Nowhere near enough information, too much information, inappropriate information or assumed information.
+2. No description of the environment the user has, e.g. CLI, IDE or Phonegap Build.
+3. Plugins not working.
+4. Asking for high level help. 
+5. Asking the same questions time after time. 
+6. Not reading the docs (which can be a mess).
+7. Not reading the start page
+8. Others...
+
+So lets dig into the sort of mistakes people make and how not to make them again,
+
 1. **Not getting enough information from a posting**<p />We know that Phonegap entices new developer because of the promise of mobile development, so we try to be patient.<p /> Please post the following information:
-  1. What you are trying to do. Be specific, not general.
-  2. What have you tried.
+  1. What you are trying to do. Be specific, not general. It takes time to write a succint and easy to read request for help. As already stated none of us are paid to help, we are taking time out of doing our day (and night) job to help you. You need to make it easy for us to help you, if you write too much and it rambles people will lose interest and ignore you. If its too short, then people will ignore you as asking for more information that might or might not arrive is too much trouble. It takes time to write a decent email request for help, to summarise the information appropriately so its clear and easy to understand, it might easily take a ferw hours or a whole day to assemble the informaition.
+  2. Do not forget that we have no idea who you are, we have no idea what your app does or what your level of experience is. You cannot assume anything whatsoever so you need to ensure you put enough information in but not too much. Nobody is going to read pages of explanation and code. Put yourselves in our position and read what you have put, does it make sense to somebody who has zero knowledge of what you are trying to do? Read it again and again and check what you have put, simplify things down to make it easy. 
+  2. What have you tried to do to make it work. Time and time again, people post requests for help and state nothing beyond "X doesn't work", but give no indication of what they have tried to do to make it work. an example of a good request is you can't make a connection to a website on IOS 9 but you could on IOS 8, you checked the whitelist plugin and Content Security Policy meta tag in the index.html file (post the CSP tag and URL) and it still doesn't worked, here's the error in Xcode. Thats a useful post that immediately demonstrates you've tried to fix it, you've provided a bit more useful information on the environment you're using and an error code.
   3. What did not work as expected.
   4. What level of experience you have with mobile development. THIS HELPS ALOT.<p />
+  
 2. **Not knowing if the person posting the question is using a CLI, an IDE, or Phonegap Build.**<p />In theory, phonegap works with a varitey of IDEs, but it also supports a CLI (Command Line Interface). This creates multiple issues. The largest question becomes, is the environment setup correctly. This happens most often with MS Windows, but it also happens with Linux. Not so much on iOS (any more).
 3. **Plugins don't work.**<p />There is not much we can do expect help you understand the configuration as defined by the author of the plugin. Too often a plugin becomes neglectware and we are both stuck. In this case, choose another plugin.
 4. **Getting confused by the different versions of documentation.**<p />It is easy to get confused when looking at the ''Phonegap'' documentation and NOT REALIZE that there is documentation for ''Phonegap Build''
