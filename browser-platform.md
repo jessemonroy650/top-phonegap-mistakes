@@ -4,7 +4,7 @@ Last Update: 2016-01-20
 
 This blog post is to collate what little information is available for the badly name `browser platform`. The intent of this platform is to allow testing on a webbrowser with the plugins, and in theory make minimumal changes when deployed to an actual mobile device.
 
-In theory, you can develop with your favorite browser with this setting, and fine tune on your mobile device. However, in practice this is one of the worst documented elements of the Cordova system. This is evidence by by it's omittance from the *[Cordova Platform Guide](http://cordova.apache.org/docs/en/latest/guide/platforms/index.html)*, and the lack of any pertinent information in the [github README.md](https://github.com/apache/cordova-browser). There is scatter information in the plugins, but tonight this is all i have energy for.
+In theory, you can develop with your favorite browser, and fine tune on your mobile device. However, in practice, this is one of the worst documented elements of the Cordova system. This is evidence by by it's omittance from the *[Cordova Platform Guide](http://cordova.apache.org/docs/en/latest/guide/platforms/index.html)*, and the lack of any pertinent information in the github [README.md](https://github.com/apache/cordova-browser) file. There is scatter information in the plugins, but tonight this is all i have energy for.
 
 - <a href=#plugins>Plugins</a>
 - <a href=#releases>Releases</a>
@@ -14,7 +14,7 @@ In theory, you can develop with your favorite browser with this setting, and fin
 
 ### <a name=plugins>Plugins</a> ###
 
-The state of third-party plugins with `browser platform` is unknown, as of the *last update*. However, some improvements are noted in *cordova-lib* for their availability.
+The state of third-party plugins with `browser platform` is unknown &ndash; as of the *last update*. However, some improvements are noted in *cordova-lib* for their availability.
 
  plugin             | supported | date supported     |  [issues reported](https://issues.apache.org/jira/browse/CB-8012?jql=project%20%3D%20CB%20AND%20issuetype%20%3D%20Bug%20AND%20status%20%3D%20Open%20AND%20resolution%20%3D%20Unresolved%20AND%20component%20%3D%20Browser%20ORDER%20BY%20priority%20DESC%2C%20summary%20ASC%2C%20updatedDate%20DESC)
 --------------------|-----------|--------------------|-----------------
@@ -43,7 +43,7 @@ legacy whitelist    |    no     |  -                 |
 
 ### <a name=releases>Releases</a> ###
 
-There are only two (2) release for *Browser platform*, 4.0.0 and 3.6.0.
+There are only two (2) release for *browser platform*, 4.0.0 and 3.6.0.
 
 #### 4.0.0 ####
 
