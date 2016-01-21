@@ -1,8 +1,11 @@
 ## Cordova Releases ##
 Date: 2016-01-04<br>
-Last Update: 2016-01-04
+Last Update: 2016-01-20
 
-
+- [Plugins Release](https://cordova.apache.org/news/2016/01/19/plugins-release.html)
+- [Apache Cordova Windows 4.3.0](https://cordova.apache.org/announcements/2016/01/18/cordova-windows-4.3.0.html)
+- [Cordova Ubuntu 4.3.2](https://cordova.apache.org/announcements/2016/01/08/cordova-ubuntu-4.3.2.html)
+- **Start Year 2016**
 - [Cordova iOS 4.0.1](https://cordova.apache.org/announcements/2015/12/18/cordova-ios-4.0.1.html)
 - [Plugins Release](https://cordova.apache.org/news/2015/12/14/plugins-release.html)
 - [Plugins Release](https://cordova.apache.org/news/2015/12/08/wkwebview-engine-plugin-release.html)
@@ -35,7 +38,7 @@ Last Update: 2016-01-04
 - [Plugins Release: February 10, 2015](https://cordova.apache.org/news/2015/02/10/plugins-release.html)
 - [Apache Cordova Android 3.7.1](https://cordova.apache.org/announcements/2015/02/06/cordova-android-3.7.1.html)
 - [Tools Release: January 09, 2015](https://cordova.apache.org/news/2015/01/09/tools-release.html)
-- *2015*
+- **Start Year 2015**
 - [Plugins Release: December 9, 2014](https://cordova.apache.org/news/2014/12/09/plugins-release.html)
 - [iOS 64-bit apps in Cordova](https://cordova.apache.org/announcements/2014/11/25/ios-64bit.html)
 - [Tools Release: November 13, 2014](https://cordova.apache.org/news/2014/11/13/tools-release.html)
@@ -62,6 +65,7 @@ Last Update: 2016-01-04
 - [Plugins Release: Feb 10, 2014](https://cordova.apache.org/news/2014/02/10/plugins-release.html)
 - [Tools Release: Jan 31, 2014](https://cordova.apache.org/news/2014/01/31/tools-release.html)
 - [Plugins Release: Jan 2, 2014](https://cordova.apache.org/news/2014/01/02/plugins-release.html)
+- **Start Year 2014**
 - [Apache Cordova 3.3.0](https://cordova.apache.org/announcements/2013/12/16/cordova-330.html)
 - [Plugins Release: Dec 4, 2013](https://cordova.apache.org/news/2013/12/04/plugins-release.html)
 - [Apache Cordova 3.2.0](https://cordova.apache.org/announcements/2013/11/22/cordova-320.html)
@@ -73,6 +77,7 @@ Last Update: 2016-01-04
 - [Apache Cordova 3.0](https://cordova.apache.org/blog/releases/2013/07/23/cordova-3.html)
 - **START OF CORDOVA 3.0** and new version system
 - [Apache Cordova Gets an Official Blog](https://cordova.apache.org/blog/2013/07/11/cordova-has-a-blog.html)
+- **Start Year 2013**
 
 ### Noted Posts ###
 
