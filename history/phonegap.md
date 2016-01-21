@@ -1,12 +1,33 @@
 ## Phonegap Releases ##
 Date: 2016-01-04<br>
-Last Update: 2016-01-04
+Last Update: 2016-01-20
 
-- [ PhoneGap 5.2.0 Now Available on Build](http://phonegap.com/blog/2015/09/23/phonegap_520_now_on_build)
+- [PhoneGap Developer App 1.5.13](http://phonegap.com/blog/2016/01/18/1.5.13-Release)
+- [A Faster Hybrid App for the New Year](http://devgirl.org/2016/01/11/a-faster-hybrid-app-for-the-new-year/)
+- [Speaking with Cordova ? Text To Speech and Voice Recognition using the Ionic Framework](http://devgirl.org/2016/01/08/speaking-with-cordova/)
+- **Start Year 2016**
+- [PhoneGap Desktop App 0.2.1](http://phonegap.com/blog/2015/12/22/phonegap-app-desktop-0-2-1)
+- [PhoneGap Developer App 1.5.12](http://phonegap.com/blog/2015/12/16/1.5.12-Release)
+- [What's new for PhoneGap Day US 2016](http://phonegap.com/blog/2015/12/01/whats-new-for-phonegap-day-us-2016)
+- [Intro to Framework7](http://phonegap.com/blog/2015/11/30/framework7)
+- [PhoneGap Desktop App 0.2.0](http://phonegap.com/blog/2015/11/23/phonegap-app-desktop-0-2-0)
+- [config.xml gets an update - part 2 !!!!!!](http://phonegap.com/blog/2015/11/19/config_xml_changes_part_two) - likely a duplicate of the lower, with minor corrections
+- [config.xml gets an update: Part 2 !!!!!!](http://phonegap.com/blog/2015/11/17/config_xml_changes_part_2)
+- [config.xml gets an update](http://phonegap.com/blog/2015/11/17/config_xml_update) &mdash; **THIS IS AN IMPORTANT UPDATE**
+- [Crazy good speaker lineup for PhoneGap Day US 2016](http://phonegap.com/blog/2015/11/09/phonegap-day-us-2016-speakers)
+- [PhoneGap-Plugin-Push Version 1.4.0 Has Been Released](http://simonmacdonald.blogspot.com/2015/10/phonegap-plugin-push-version-140-has.html)
+- [Automated Testing of PhoneGap & Cordova Apps](http://phonegap.com/blog/2015/10/27/testmunk-guest-post)
+- [Participate in this year's National Developer Trends Survey and win some cool prizes!](http://phonegap.com/blog/2015/10/22/national-developer-trends-survey)
+- [PhoneGap App Highlight: 0h n0](PhoneGap App Highlight: 0h n0)
+- [PhoneGap Desktop App 0.1.11](http://phonegap.com/blog/2015/09/29/phonegap-app-desktop-0-1-11)
+- [Android Builds Now Using Gradle By Default](http://phonegap.com/blog/2015/09/28/android-using-gradle)
+- [PhoneGap 5.2.0 Now Available on Build](http://phonegap.com/blog/2015/09/23/phonegap_520_now_on_build)
 - [Cordova 5.1.1 Now on PhoneGap Build](http://phonegap.com/blog/2015/06/16/phonegap-updated-on-build)
 - [PhoneGap CLI 5.0.0 Released!](http://phonegap.com/blog/2015/04/28/phonegap-cli-5.0.0-0.27.0)
+- **START OF Phonegap CLI 5.0.0**
 - [PhoneGap 3.7.0 Now Available on PhoneGap Build](http://phonegap.com/blog/2015/02/17/phonegap-3_7_0-now-on-build)
 - [PhoneGap CLI 4.2.0](http://phonegap.com/blog/2015/01/14/phonegap-cli-4-2-0)
+- **Start Year 2015**
 - **START OF Phonegap 4.0.0** - what happen to 4.0.0 & 4.10 ?
 - [PhoneGap CLI 3.6.3](http://phonegap.com/blog/2014/11/13/phonegap-cli-3-6-3)
 - [Phonegap 3.6.3 is Now Available on Phonegap Build](http://phonegap.com/blog/2014/09/30/phonegap-3_6_3-now-on-build) - NOTE: Technical gaff with [Cordova version](cordova.md) - see same version number
@@ -18,6 +39,7 @@ Last Update: 2016-01-04
 - [PhoneGap 3.4.0 Released](http://phonegap.com/blog/2014/03/04/phonegap-3-4-release)
 - [Cordova 3.4.0 Released](http://www.raymondcamden.com/index.cfm/2014/2/21/Cordova-340-Released)
 - [Cordova 3.3.0 Now on PhoneGap Build](http://phonegap.com/blog/2014/01/28/cordova-3_3-now-on-build)
+- **Start Year 2014**
 - [PhoneGap 3.3.0 Released](http://phonegap.com/blog/2013/12/13/phonegap-release)
 - [PhoneGap 3.2.0 Released](http://phonegap.com/blog/2013/11/28/phonegap-320-released)
 - [PhoneGap 3.1.0 Command Line Tools Now Available](http://phonegap.com/blog/2013/10/17/phonegap-310-release)
@@ -37,6 +59,7 @@ Last Update: 2016-01-04
 - [PhoneGap 2.5.0 Released!](http://phonegap.com/blog/2013/02/28/pg-250-released)
 - [PhoneGap 2.4.0 Released](http://phonegap.com/blog/2013/02/07/phonegap-240)
 - [PhoneGap 2.3.0 Released](http://phonegap.com/blog/2013/01/07/phonegap-230)
+- **Start Year 2013**
 - [PhoneGap 2.2.0 Released](http://phonegap.com/blog/2012/11/01/phonegap-220)
 - [PhoneGap 2.1.0 Released](http://phonegap.com/blog/2012/09/21/phonegap-210)
 - [Adobe PhoneGap 2.0 Released](http://phonegap.com/2012/07/20/adobe-phonegap-2-0-released.md/)
@@ -49,16 +72,19 @@ Last Update: 2016-01-04
 - [PhoneGap 1.6 Released!](http://phonegap.com/2012/04/11/phonegap-1-6-released/)
 - [PhoneGap 1.5 Released!](http://phonegap.com/2012/03/06/phonegap-1-5-released/)
 - [PhoneGap 1.4 Released](http://phonegap.com/2012/01/31/phonegap-1-4-released/)
+- **Start Year 2012**
 - [PhoneGap 1.3 Released](http://phonegap.com/2011/12/19/phonegap-1-3-released/)
 - [Nitobi enters into Acquisition Agreement with Adobe](http://phonegap.com/2011/10/03/nitobi-enters-into-acquisition-agreement-with-adobe/)
 - [PhoneGap 1.0 Released Today at PhoneGap Day in Portland](http://phonegap.com/2011/07/29/phonegap-1-0-released-today-at-phonegap-day-in-portland-4/)
 - **START OF Phonegap 1.0.0**
 - [PhoneGap 0.9.5 Released!](http://phonegap.com/2011/04/28/phonegap-0-9-5-released/)
+- **Start Year 2011**
 
 ## Phonegap Noted Blogs ##
 
 Randomly important blogs post, noting the first blog post on a technology, and other important events.
 
+- **Start Year 2016**
 - [PhoneGap Desktop App 0.2.1](http://phonegap.com/blog/2015/12/22/phonegap-app-desktop-0-2-1)
 - [PhoneGap Developer App 1.5.12](http://phonegap.com/blog/2015/12/16/1.5.12-Release)
 - [PhoneGap Desktop App 0.2.0](http://phonegap.com/blog/2015/11/23/phonegap-app-desktop-0-2-0)
@@ -84,6 +110,7 @@ Randomly important blogs post, noting the first blog post on a technology, and o
 - [PhoneGap Desktop App 0.1.2](http://phonegap.com/blog/2015/03/02/phonegap-app-desktop-0-1-2)
 - [Reminder ? You don?t need AppCache for PhoneGap/Cordova](http://www.raymondcamden.com/2015/02/26/reminder-you-dont-need-appcache-for-phonegapcordova)
 - [iOS 64-bit Support Now Available on PhoneGap Build](http://phonegap.com/blog/2015/01/20/ios-64bit-support)
+- **Start Year 2015**
 - [PhoneGap Desktop App 0.1.1 Beta](http://phonegap.com/blog/2014/12/11/phonegap-desktop-app-beta)
 - [New PhoneGap Build Features: new app size limits, support for external plugins, and more!](http://phonegap.com/blog/2014/12/09/phonegap-build-new-features)
 - [PhoneGap Developer App 1.4.0 Release](http://phonegap.com/blog/2014/11/26/phonegap-developer-app-1-4-0)
@@ -104,25 +131,31 @@ Randomly important blogs post, noting the first blog post on a technology, and o
 - [Anna Has Been Pulled From the Play Store ](http://simonmacdonald.blogspot.com/2014/02/anna-has-been-pulled-from-play-store.html) - February 6, 2014
 - [Customizing your Android Manifest and iOS Property List on PhoneGap Build](http://phonegap.com/blog/2014/01/30/customizing-your-android-manifest-and-ios-property-list-on-phonegap-build)
 - [Apache Cordova 3.3 and Remote Debugging for Android](http://www.raymondcamden.com/index.cfm/2014/1/2/Apache-Cordova-33-and-Remote-Debugging-for-Android)
+- **Start Year 2014**
 - [Bigger Apps have Arrived](http://phonegap.com/blog/2013/11/14/bigger-apps-have-arrived) - Max size of free Apps has jumpt to 40MB from 15M.
 - [Top 10 Performance Techniques for PhoneGap and Hybrid Apps ? Slides Available](http://coenraets.org/blog/2013/10/top-10-performance-techniques-for-phonegap-and-hybrid-apps-slides-available/?utm_source=rss%26utm_medium=rss%26utm_campaign=top-10-performance-techniques-for-phonegap-and-hybrid-apps-slides-available) - October 30, 2013 by Christophe Coenraets
 - [Cordova 3.1.0 Now on PhoneGap Build](http://phonegap.com/blog/2013/10/24/cordova-3_1-now-on-build)
 - [PhoneGap 3.1.0 Command Line Tools Now Available](http://phonegap.com/blog/2013/10/17/phonegap-310-release)
 - [PhoneGap Build API for Node.js](http://phonegap.com/blog/build/phonegap-build-api-for-node/)
 - [Introducing the PhoneGap Developer Directory](http://phonegap.com/blog/2013/01/03/introducing-the-phonegap-developer-directory)
+- **Start Year 2013**
 - [PhoneGap Build is Launched!](http://phonegap.com/blog/2012/09/24/phonegap-build-is-launched)
 - [Introducing Hydration](http://phonegap.com/blog/build/introducing-hydration/)
 - [PhoneGap Beliefs, Goals, and Philosophy](http://phonegap.com/2012/05/09/phonegap-beliefs-goals-and-philosophy/)
 - [Rolling Releases: How Apache Cordova becomes PhoneGap and Why](http://phonegap.com/2012/04/12/rolling-releases-how-apache-cordova-becomes-phonegap-and-why/)
 - [Introducing Cordova-JS](http://phonegap.com/2012/03/21/introducing-cordova-js/)
 - [PhoneGap, Cordova, and what's in a name?](http://phonegap.com/2012/03/19/phonegap-cordova-and-what%e2%80%99s-in-a-name/)
-- [ChildBrowser Plugin](http://phonegap.com/blog/build/childbrowser-plugin/)
+- **Start Year 2012**
+- [ChildBrowser Plugin](http://phonegap.com/blog/build/childbrowser-plugin/) - 21 Feb 2012 
 - [FeedHenry leverages PhoneGap to Simplify App Development for Enterprise Clients](http://phonegap.com/2011/10/18/feedhenry-leverages-phonegap-to-simplify-app-development-for-enterprise-clients/)
 - [iOS PhoneGap / Cordova &ndash; Splash screen control](http://shazronatadobe.wordpress.com/2011/09/15/ios-phonegap-splash-screen-control/) - first mention of Cordova
 - [Support Subscriptions Now Available!](http://phonegap.com/2011/02/25/support-subscriptions-now-available/)
 - [Announcing the PhoneGap Build Beta](http://phonegap.com/2010/11/09/announcing-the-phonegap-build-beta/)
 - [PhoneGap Native Bridge](https://web.archive.org/web/20110907013010/http://nullisnotanobject.com/phonegap-native-bridge)
 - [PhoneGap Desktop](http://web.archive.org/web/20110806015108/http://nullisnotanobject.com/53780973)
+- **Start Year 2011**
+- **Start Year 2010**
 - [JSConf 2009 PhoneGap slides](http://phonegap.com/2009/04/25/jsconf-2009-phonegap-slides/)
+- **Start Year 2009**
 - [Unofficial announcement of PhoneGap](http://phonegap.com/2008/08/07/unofficial-announcement-of-phonegap/)
-
+- **Start Year 2008**
