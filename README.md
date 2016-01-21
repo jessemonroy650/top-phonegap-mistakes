@@ -48,6 +48,9 @@ Last update: 2016-01-20
 ### Release History ###
 
 * [Cordova](history/cordova.md)
+* [Cordova Tools](history/cordova-tools.md)
+* [Cordova Plugins](history/cordova-plugins.md)
+* **--------**
 * [Phonegap](history/phonegap.md)
 * [Phonegap Desktop App](history/phonegap-desktop.md)
 
