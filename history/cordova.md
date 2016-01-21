@@ -16,7 +16,7 @@ Last Update: 2016-01-20
 - [Cordova Android 5.0.0](https://cordova.apache.org/announcements/2015/11/09/cordova-android-5.0.0.html) - support for Android Marshmallow 
 - [Tools Release: November 6th, 2015](https://cordova.apache.org/news/2015/11/06/tools-release.html) - 5.4.0
 - [Apache Cordova iOS 3.9.2](https://cordova.apache.org/announcements/2015/11/02/cordova-ios-3.9.2.html)
-- [Tools Release 5.3.3](https://cordova.apache.org/blog/) - Support Node 4
+- [Tools Release 5.3.3](http://cordova.apache.org/news/2015/09/22/tools-release.html) - Support Node 4
 - [Tools Release: September 9th, 2015](https://cordova.apache.org/news/2015/09/09/tools-release.html) - 5.3.1
 - [Apache Cordova BlackBerry 3.8.0](https://cordova.apache.org/announcements/2015/09/05/cordova-blackberry-3.8.0.html)
 - [Apache Cordova Windows 4.1.0](https://cordova.apache.org/announcements/2015/08/18/cordova-windows-4.1.0.html)
