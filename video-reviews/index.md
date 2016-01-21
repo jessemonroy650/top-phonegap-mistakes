@@ -6,5 +6,6 @@ This blogs post is to describe four (4) lists of video tutorials.
 
 - Good [Phonegap Build](video-tutorials-good-build.md) - Tutorials for *Phonegap Build*, a cloud-based build tool.
 - Good [Cordova/Phonegap CLI](video-tutorials-good-cli.md) - Tutorials as they apply to CLI (Command Line Interface)
+- Good [Cordova/Phonegap SDK]() - Tutorials as they apply to SDK (System Development Kits) that use IDEs (like Eclipse, Android Studio, Visual Studio, etc.)
 - Hold [Cordova/Phonegap](video-tutorials-good-onhold.md) - The authors have been contacted and asked to make updates or changes for their videos.
 - Bad [Cordova/Phonegap](video-tutorials-bad.md) - Outdated or just plain wrong.
