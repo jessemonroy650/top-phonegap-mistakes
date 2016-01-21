@@ -2,7 +2,7 @@
 Date: 2016-01-21<br>
 Last Update: 2016-01-21
 
-plugin              | current version | tools 5.4.1 | tools 5.2.0 | with PGB 3.7.1
+plugin              | latest version  | tools 5.4.1 | tools 5.2.0 | with PGB 3.7.1
 --------------------|-----------------|-------------|-------------|----------------
 battery-status      |  1.1.1          |  1.1.1      |  1.1.0      | -
 camera              |  2.1.0          |  2.0.0      |  1.2.0      | -
