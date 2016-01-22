@@ -62,7 +62,7 @@ Last Update: 2016-01-20
 - **Start Year 2013**
 - [PhoneGap 2.2.0 Released](http://phonegap.com/blog/2012/11/01/phonegap-220)
 - [PhoneGap 2.1.0 Released](http://phonegap.com/blog/2012/09/21/phonegap-210)
-- [Adobe PhoneGap 2.0 Released](http://phonegap.com/2012/07/20/adobe-phonegap-2-0-released.md/)
+- [Adobe PhoneGap 2.0 Released](http://phonegap.com/2012/07/20/adobe-phonegap-2-0-released.md)
 - **START OF Phonegap 2.0.0** 
 - [PhoneGap 1.9.0 Released!](http://phonegap.com/2012/06/30/phonegap-1-9-0-released/)
 - [PhoneGap 1.8.1 Released!](http://phonegap.com/2012/06/13/phonegap-1-8-1-released/)
