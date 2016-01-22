@@ -25,7 +25,7 @@ date       | link | version | notes
 2012/09/24 | [PhoneGap Build is Launched!](http://phonegap.com/blog/2012/09/24/phonegap-build-is-launched) | - | Quote: *Quickly and easily get back app-store ready apps for multiple platforms, including: Apple iOS, Google Android, Palm, Symbian, BlackBerry and more.*
 2012       | **Start Year 2012** | - | -
 2011       | **Start Year 2011** | - | -
-2010/11/09 | [Announcing the PhoneGap Build Beta](http://phonegap.com/2010/11/09/announcing-the-phonegap-build-beta/) | - | -
+2010/11/09 | [Announcing the PhoneGap Build Beta](http://phonegap.com/2010/11/09/announcing-the-phonegap-build-beta/) | - | Quote: *PhoneGap Build is an extension of PhoneGap.com. Since winning the Web 2.0 Expo LaunchPad competition in 2009, PhoneGap has been widely recognized as a game-changer for mobile app development.*
 2010       | **Start Year 2010** | - | -
 
 date       | link | version | notes
