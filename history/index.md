@@ -11,6 +11,6 @@ All histories derived from blog posts and related public documents.
 
 ### Cordova ###
 - [Phonegap](phonegap.md)
-- [Phonegap Desktop](phonegap-desktop.md)
-- [Phonegap CLI]()
-- [Phonegap Build]()
+- [Phonegap Desktop App](phonegap-desktop.md) &amp; Phonegap Developer App - For explanation of, See [also](phonegap-desktop-app.md)
+- [Phonegap CLI](phonegap-cli.md)
+- [Phonegap Build](phonegap-build.md)
