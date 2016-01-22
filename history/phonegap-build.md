@@ -18,11 +18,11 @@ date       | link | version | notes
 2014       | **Start Year 2014** | - | -
 2013/10/24 | [Cordova 3.1.0 Now on PhoneGap Build](http://phonegap.com/blog/2013/10/24/cordova-3_1-now-on-build) | 3.1.0 | -
 2013/10/01 | [PhoneGap 3.0 Now Supported in PhoneGap Build](http://phonegap.com/blog/2013/10/01/phonegap-30-now-supported) | 3.0.0 | -
-27 Jun 2013 | [PhoneGap 2.9.0 Now on Build](http://phonegap.com/blog/build/phonegap-2-9-now-on-build/) | - | -
-21 May 2013 | [PhoneGap 2.7.0 now on Build](http://phonegap.com/blog/build/phonegap-2-7-0-now-on-build/) | -  | -
-09 Apr 2013 | [PhoneGap Build now supports PhoneGap 2.5](http://phonegap.com/blog/build/phonegap-2-5-support/) | - | -
+27 Jun 2013 | [PhoneGap 2.9.0 Now on Build](http://phonegap.com/blog/build/phonegap-2-9-now-on-build/) | 2.9.0 | -
+21 May 2013 | [PhoneGap 2.7.0 now on Build](http://phonegap.com/blog/build/phonegap-2-7-0-now-on-build/) | 2.7.0  | -
+09 Apr 2013 | [PhoneGap Build now supports PhoneGap 2.5](http://phonegap.com/blog/build/phonegap-2-5-support/) | 2.5.0 | -
 2013       | **Start Year 2013** | - | -
-2012/09/24 | [PhoneGap Build is Launched!](http://phonegap.com/blog/2012/09/24/phonegap-build-is-launched) | - | -
+2012/09/24 | [PhoneGap Build is Launched!](http://phonegap.com/blog/2012/09/24/phonegap-build-is-launched) | - | Quote: *Quickly and easily get back app-store ready apps for multiple platforms, including: Apple iOS, Google Android, Palm, Symbian, BlackBerry and more.*
 2012       | **Start Year 2012** | - | -
 2011       | **Start Year 2011** | - | -
 2010/11/09 | [Announcing the PhoneGap Build Beta](http://phonegap.com/2010/11/09/announcing-the-phonegap-build-beta/) | - | -
@@ -61,6 +61,7 @@ date       | link | version | notes
 15 Jan 2013 | [PhoneGap Build API for Node.js](http://phonegap.com/blog/build/phonegap-build-api-for-node/) | - | -
 2013       | **Start Year 2013** | - | -
 23 Aug 2012 | [Introducing Hydration](http://phonegap.com/blog/build/introducing-hydration/) | - | -
+15 Aug 2012 | [Inside the redesign](http://phonegap.com/blog/build/redesign/) | - | -
 2012/09/24 | [PhoneGap Build is Launched!](http://phonegap.com/blog/2012/09/24/phonegap-build-is-launched) | - | -
 2012/07/20 | [link](http://phonegap.com/2012/07/20/adobe-phonegap-2-0-released.md) | - | **START OF Phonegap 2.0.0**
 21 Feb 2012 | [ChildBrowser Plugin](http://phonegap.com/blog/build/childbrowser-plugin/) | - | -
