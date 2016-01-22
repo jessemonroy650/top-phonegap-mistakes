@@ -5,14 +5,14 @@ Last Update: 2016-01-20
 date       | link | version | notes
 -----------|------|---------|-------
 2016       | **Start Year 2016** | - | -
-2015/11/24 | [Tools Release](https://cordova.apache.org/news/2015/11/24/tools-release.html) | 5.4.1 |
+2015/11/24 | [Tools Release](https://cordova.apache.org/news/2015/11/24/tools-release.html) | 5.4.1 | Minor fixes
 2015/11/06 | [Tools Release](https://cordova.apache.org/news/2015/11/06/tools-release.html) | 5.4.0 | Auto-convert plugin ID; new module `cordova-common`
 2015/09/22 | [Tools Release](https://cordova.apache.org/news/2015/09/22/tools-release.html) | 5.3.3 | Support Node 4
 2015/09/09 | [Tools Release](https://cordova.apache.org/news/2015/09/09/tools-release.html) | 5.3.1 | Node 4 available for iOS
-2015/08/13 | [Tools Release](https://cordova.apache.org/news/2015/08/13/tools-release.html) | 5.2.0 | Part of `plugman` removed
-2015/06/10 | [Tools Release](https://cordova.apache.org/news/2015/06/10/tools-release.html) | 5.1.1 |
-2015/06/04 | [Tools Release](https://cordova.apache.org/news/2015/06/04/tools-release.html) | 4.3.1 |
-2015/04/21 | [Tools Release](https://cordova.apache.org/news/2015/04/21/tools-release.html) | 5.0.0 |
+2015/08/13 | [Tools Release](https://cordova.apache.org/news/2015/08/13/tools-release.html) | 5.2.0 | `plugman` command reduced
+2015/06/10 | [Tools Release](https://cordova.apache.org/news/2015/06/10/tools-release.html) | 5.1.1 | *pinned platforms will include platform patch updates without requiring a new tools release*
+2015/06/04 | [Tools Release](https://cordova.apache.org/news/2015/06/04/tools-release.html) | 4.3.1 | [security update](https://cordova.apache.org/announcements/2015/05/26/android-402.html)
+2015/04/21 | [Tools Release](https://cordova.apache.org/news/2015/04/21/tools-release.html) | 5.0.0 | 1. support to fetch *npm plugins* 2. `<plugin>` replaces `<feature>` 3. `--save` flag avaliable
 -          | **START OF CORDOVA 5.0.0** | - | - 
 2015/03/02 | [Tools Release](https://cordova.apache.org/news/2015/03/02/tools-release.html) | 4.3.0 |
 2015/01/09 | [Tools Release](https://cordova.apache.org/news/2015/01/09/tools-release.html) | 4.2.0 |
