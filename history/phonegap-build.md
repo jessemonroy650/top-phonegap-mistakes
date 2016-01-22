@@ -2,6 +2,7 @@
 Date: 2016-01-04<br>
 Last Update: 2016-01-20
 
+## Summary ##
 
 date       | link | version | notes
 -----------|------|---------|-------
@@ -27,6 +28,8 @@ date       | link | version | notes
 2011       | **Start Year 2011** | - | -
 2010/11/09 | [Announcing the PhoneGap Build Beta](http://phonegap.com/2010/11/09/announcing-the-phonegap-build-beta/) | - | Quote: *PhoneGap Build is an extension of PhoneGap.com. Since winning the Web 2.0 Expo LaunchPad competition in 2009, PhoneGap has been widely recognized as a game-changer for mobile app development.*
 2010       | **Start Year 2010** | - | -
+
+## Detailed Listing (All blog entries.) ##
 
 date       | link | version | notes
 -----------|------|---------|-------
@@ -58,15 +61,35 @@ date       | link | version | notes
 21 May 2013 | [PhoneGap 2.7.0 now on Build](http://phonegap.com/blog/build/phonegap-2-7-0-now-on-build/) | -  | -
 30 Apr 2013 | [Ending Support for PhoneGap 1.9 and Below on PG Build](http://phonegap.com/blog/build/ending-support-for-phonegap-1-9/) | - | -
 09 Apr 2013 | [PhoneGap Build now supports PhoneGap 2.5](http://phonegap.com/blog/build/phonegap-2-5-support/) | - | -
+18 Feb 2013 | [Getting Started with PhoneGap and PhoneGap Build](http://phonegap.com/blog/build/getting-started-with-phonegap-and-phonegap-build/) | - | -
+15 Feb 2013 | [Status Update: Feb 5 - Feb 12, 2013](http://phonegap.com/blog/build/status-update-feb-5---feb-12-2013/) | - | -
+07 Feb 2013 | [Status Update: Jan 20 - Feb 4, 2013](http://phonegap.com/blog/build/status-update-jan-27---feb-4-2013/) | - | -
+29 Jan 2013 | [Adobe PhoneGap Build plugin for Facebook Connect](http://phonegap.com/blog/build/adobe-phonegap-build-plugin-for-facebook-connect/) | - | -
+29 Jan 2013 | [Status Update: Jan 20 - Jan 26, 2013](http://phonegap.com/blog/build/status-update-jan-20---jan-26-2013/) | - | -
+24 Jan 2013 | [Introducing GenericPush Plugin](http://phonegap.com/blog/build/introducing-genericpush-plugin/) | - | -
+21 Jan 2013 | [Status Update Jan 13 - Jan 19 2013](http://phonegap.com/blog/build/status-update-jan-13---jan-19-2013/) | - | -
+18 Jan 2013 | [My First Mobile Game in HTML with PhoneGap Build](http://phonegap.com/blog/build/my-first-mobile-game-in-html-with-phonegap-build/) | - | -
 15 Jan 2013 | [PhoneGap Build API for Node.js](http://phonegap.com/blog/build/phonegap-build-api-for-node/) | - | -
 2013       | **Start Year 2013** | - | -
+07 Nov 2012 | [Upcoming Security Changes](http://phonegap.com/blog/build/upcoming-security-changes/) | - | Change in policy and procedure for *Phonegap Build API* <p> <b>Note that unlocking a key does not verify the password of a key</b>. <i>We do not verify your signing key passwords before build times</i>, and we only try to access your certificate data at build times.
+31 Oct 2012 | [Adobe® PhoneGap? Build? plugin for Google Analytics](http://phonegap.com/blog/build/analytics-plugin/) | - | -
+24 Oct 2012 | [BarcodeScanner Plugin](http://phonegap.com/blog/build/barcodescanner-plugin/) | - | -
+01 Oct 2012 | [Retiring git.phonegap.com](http://phonegap.com/blog/build/retiring-git-phonegap-com/) | - | -
+21 Sep 2012 | [Building from your Private Github Repositories](http://phonegap.com/blog/build/building-from-your-private-github-repositories/) | - | -
 23 Aug 2012 | [Introducing Hydration](http://phonegap.com/blog/build/introducing-hydration/) | - | -
 15 Aug 2012 | [Inside the redesign](http://phonegap.com/blog/build/redesign/) | - | -
 2012/09/24 | [PhoneGap Build is Launched!](http://phonegap.com/blog/2012/09/24/phonegap-build-is-launched) | - | -
 2012/07/20 | [link](http://phonegap.com/2012/07/20/adobe-phonegap-2-0-released.md) | - | **START OF Phonegap 2.0.0**
+14 May 2012 | [Register and sign in with AdobeID and Github](http://phonegap.com/blog/build/adobeid-and-github-integration/) | - | -
+30 Apr 2012 | [Enhanced Icon and Splash Support](http://phonegap.com/blog/build/enhanced-icon-and-splash-support/) | - | -
+19 Apr 2012 | [Introducing Windows Phone 7 Builds](http://phonegap.com/blog/build/introducing-windows-phone-7-builds/) | - | -
+20 Mar 2012 | [Access Tags](http://phonegap.com/blog/build/introducing-windows-phone-7-builds/) | - | -
+24 Feb 2012 | [Install iOS Apps Directly](http://phonegap.com/blog/build/install-ios-apps-directly/) | - | -
 21 Feb 2012 | [ChildBrowser Plugin](http://phonegap.com/blog/build/childbrowser-plugin/) | - | -
 2012       | **Start Year 2012** | - | -
+25 Oct 2011 | [Public Pages](http://phonegap.com/blog/build/public-pages/) | - | -
 2011/07/29 | [link](http://phonegap.com/2011/07/29/phonegap-1-0-released-today-at-phonegap-day-in-portland-4/) | - | **START OF Phonegap 1.0.0**
+14 Jul 2011 | [Hot Multi-User Action!](http://phonegap.com/blog/build/multi-user-action/) | - | -
 2011       | **Start Year 2011** | - | -
 2010/11/09 | [Announcing the PhoneGap Build Beta](http://phonegap.com/2010/11/09/announcing-the-phonegap-build-beta/) | - | -
 2010       | **Start Year 2010** | - | -
