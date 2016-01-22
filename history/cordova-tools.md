@@ -12,13 +12,13 @@ date       | link | version | notes
 2015/08/13 | [Tools Release](https://cordova.apache.org/news/2015/08/13/tools-release.html) | 5.2.0 | `plugman` command reduced
 2015/06/10 | [Tools Release](https://cordova.apache.org/news/2015/06/10/tools-release.html) | 5.1.1 | *pinned platforms will include platform patch updates without requiring a new tools release*
 2015/06/04 | [Tools Release](https://cordova.apache.org/news/2015/06/04/tools-release.html) | 4.3.1 | [security update](https://cordova.apache.org/announcements/2015/05/26/android-402.html)
-2015/04/21 | [Tools Release](https://cordova.apache.org/news/2015/04/21/tools-release.html) | 5.0.0 | 1. support to fetch *npm plugins* 2. `<plugin>` replaces `<feature>` 3. `--save` flag avaliable
+2015/04/21 | [Tools Release](https://cordova.apache.org/news/2015/04/21/tools-release.html) | 5.0.0 | 1. support plugins fetch from *npm*<br>2. `<plugin>` replaces `<feature>`<br>3. `--save` flag avaliable
 -          | **START OF CORDOVA 5.0.0** | - | - 
-2015/03/02 | [Tools Release](https://cordova.apache.org/news/2015/03/02/tools-release.html) | 4.3.0 |
+2015/03/02 | [Tools Release](https://cordova.apache.org/news/2015/03/02/tools-release.html) | 4.3.0 | 
 2015/01/09 | [Tools Release](https://cordova.apache.org/news/2015/01/09/tools-release.html) | 4.2.0 |
 -          | **Start Year 2015* | - | -
 2014/11/13 | [Tools Release](https://cordova.apache.org/news/2014/11/13/tools-release.html) | 4.1.2 |
-2014/10/16 | [Apache Cordova CLI 4.0 Release](https://cordova.apache.org/announcements/2014/10/16/cordova-4.html) | 4.0.0 | \*\*[NEW RELEASE POLICY](https://github.com/apache/cordova-coho/blob/master/docs/versioning-and-release-strategy.md)\*\*
+2014/10/16 | [Apache Cordova CLI 4.0 Release](https://cordova.apache.org/announcements/2014/10/16/cordova-4.html) | 4.0.0 | **[NEW RELEASE POLICY](https://github.com/apache/cordova-coho/blob/master/docs/versioning-and-release-strategy.md)**<br>Initial support for Cordova `Browser platform`.
 -          | **START OF CORDOVA 4.0** and new release policy | - | -
 2014/09/08 | [Apache Cordova](https://cordova.apache.org/announcements/2014/09/08/cordova-361.html) | 3.6 | Technical gaff makes this 3.6.3
 2014/08/13 | [Tools Release](https://cordova.apache.org/news/2014/08/13/tools-update.html)  | 3.5.0-0.2.7 | Update
