@@ -140,7 +140,7 @@ Randomly important blogs post, noting the first blog post on a technology, and o
 - [Introducing the PhoneGap Developer Directory](http://phonegap.com/blog/2013/01/03/introducing-the-phonegap-developer-directory)
 - **Start Year 2013**
 - [PhoneGap Build is Launched!](http://phonegap.com/blog/2012/09/24/phonegap-build-is-launched)
-- [Introducing Hydration](http://phonegap.com/blog/build/introducing-hydration/)
+- [Introducing Hydration](http://phonegap.com/blog/build/introducing-hydration/) - 23 Aug 2012 
 - [PhoneGap Beliefs, Goals, and Philosophy](http://phonegap.com/2012/05/09/phonegap-beliefs-goals-and-philosophy/)
 - [Rolling Releases: How Apache Cordova becomes PhoneGap and Why](http://phonegap.com/2012/04/12/rolling-releases-how-apache-cordova-becomes-phonegap-and-why/)
 - [Introducing Cordova-JS](http://phonegap.com/2012/03/21/introducing-cordova-js/)

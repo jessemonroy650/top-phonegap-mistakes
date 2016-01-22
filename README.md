@@ -52,6 +52,7 @@ Last update: 2016-01-20
 * [Cordova Plugins](history/cordova-plugins.md)
 * **--------**
 * [Phonegap](history/phonegap.md)
+* [Phonegap Build](history/phonegap-build.md)
 * [Phonegap Desktop App](history/phonegap-desktop.md)
 
 ### Annoyances ###
