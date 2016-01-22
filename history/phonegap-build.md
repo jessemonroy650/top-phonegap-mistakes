@@ -1,4 +1,4 @@
-## Phonegap Releases ##
+## Phonegap Build Releases ##
 Date: 2016-01-04<br>
 Last Update: 2016-01-20
 
@@ -54,13 +54,30 @@ date       | link | version | notes
 2014/01/30 | [Customizing your Android Manifest and iOS Property List on PhoneGap Build](http://phonegap.com/blog/2014/01/30/customizing-your-android-manifest-and-ios-property-list-on-phonegap-build) | - | -
 2014/01/28 | [Cordova 3.3.0 Now on PhoneGap Build](http://phonegap.com/blog/2014/01/28/cordova-3_3-now-on-build) | 3.3.0 | -
 2014       | **Start Year 2014** | - | -
+-          | *Stopped indexing here on 2016-01-22* | - | -
+2013/11/14 | [Bigger Apps have Arrived](http://phonegap.com/blog/2013/11/14/bigger-apps-have-arrived) | - | -
+2013/11/04 | [Plugin Submission Guidelines](http://phonegap.com/blog/2013/11/04/plugin-submission-guidelines) | - | -
+2013/10/28 | [October Build Update](http://phonegap.com/blog/2013/10/28/october-build-update) | - | -
 2013/10/24 | [Cordova 3.1.0 Now on PhoneGap Build](http://phonegap.com/blog/2013/10/24/cordova-3_1-now-on-build) | 3.1.0 | -
+2013/10/18 | [PhoneGap Build beta support for Windows Phone 8](http://phonegap.com/blog/2013/10/18/2013-10-18-phonegap-build-support-for-windows-phone-8) | - | -
 2013/10/01 | [PhoneGap 3.0 Now Supported in PhoneGap Build](http://phonegap.com/blog/2013/10/01/phonegap-30-now-supported) | 3.0.0 | -
+2013/09/20 | [PhoneGap and Tripcase: Be Brilliant on Every Trip](http://phonegap.com/blog/2013/09/20/phonegap-and-tripcase) | - | -
+2013/09/18 | [Upcoming Deprecation of Cordova 2.3.0 and Below on Build](http://phonegap.com/blog/2013/09/18/deprecation-of-2-3-0-and-below) | - | -
+2013/08/12 | [August Build Update](http://phonegap.com/blog/2013/08/12/build-august-update) | - | -
 2013/07/19 | [link](http://phonegap.com/blog/2013/07/19/adobe-phonegap-3.0-released) | - | **START OF Phonegap 3.0.0**
+2013/07/16 | [PhoneGap Build now supports User Submitted Plugins!](http://phonegap.com/blog/2013/07/16/user-submitted-plugins-announcement-post) | - | Users can submit plugins
+2013/07/15 | [Using Plugins with PhoneGap Build](http://phonegap.com/blog/2013/07/15/using-plugins-with-phonegapbuild) | - | -
+2013/07/03 | [Build June Summary](http://phonegap.com/blog/2013/07/03/build-june-summary-post) | - | -
+-          | *Below here, earlier blog posted do not get index well.*
 27 Jun 2013 | [PhoneGap 2.9.0 Now on Build](http://phonegap.com/blog/build/phonegap-2-9-now-on-build/) | - | -
+31 May 2013 | [Congrats to our PhoneGap Build Champions](http://phonegap.com/blog/build/congrats-to-our-phonegap-build-champions/) | - | -
+31 May 2013 | [Improving Build One Step at a Time](http://phonegap.com/blog/build/improving-build-one-step-at-a-time/) | - | -
 21 May 2013 | [PhoneGap 2.7.0 now on Build](http://phonegap.com/blog/build/phonegap-2-7-0-now-on-build/) | -  | -
+09 May 2013 | [Important Update to Google Analytics Plugin](http://phonegap.com/blog/build/important-update-to-Google-Analytics-Plugin/) | - | -
 30 Apr 2013 | [Ending Support for PhoneGap 1.9 and Below on PG Build](http://phonegap.com/blog/build/ending-support-for-phonegap-1-9/) | - | -
+26 Apr 2013 | [New Apple App Store Submittal Rules](http://phonegap.com/blog/build/new-apple-app-store-submittal-rules/) | - | -
 09 Apr 2013 | [PhoneGap Build now supports PhoneGap 2.5](http://phonegap.com/blog/build/phonegap-2-5-support/) | - | -
+19 Mar 2013 | [Status Update: March 4 - March 18, 2013](http://phonegap.com/blog/build/tatus-update-mar-04---mar-18-2013/) | - | **End weekly status report**
 18 Feb 2013 | [Getting Started with PhoneGap and PhoneGap Build](http://phonegap.com/blog/build/getting-started-with-phonegap-and-phonegap-build/) | - | -
 15 Feb 2013 | [Status Update: Feb 5 - Feb 12, 2013](http://phonegap.com/blog/build/status-update-feb-5---feb-12-2013/) | - | -
 07 Feb 2013 | [Status Update: Jan 20 - Feb 4, 2013](http://phonegap.com/blog/build/status-update-jan-27---feb-4-2013/) | - | -
