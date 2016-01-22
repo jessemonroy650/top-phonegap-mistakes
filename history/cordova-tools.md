@@ -28,14 +28,14 @@ date       | link | version | notes
 2014/03/05 | [Tools Release](https://cordova.apache.org/news/2014/03/05/tools-release.html)         | 3.4.0-0.1.3 | improvement to `plugman`
 2014/01/31 | [Tools Release](https://cordova.apache.org/news/2014/01/31/tools-release.html)         | 3.3.1-0.3.1 | - `config.xml` now lives at the project root by default (instead of within `www/`)<br> `hooks`` now live in root directory<br>specify `www/` via CLI<br> new flag `--searchpath`
 -          | **Start Year 2014** | - | -
-2013/12/16 | [Apache Cordova](https://cordova.apache.org/announcements/2013/12/16/cordova-330.html) | 3.3.0 |
-2013/11/22 | [Apache Cordova](https://cordova.apache.org/announcements/2013/11/22/cordova-320.html) | 3.2.0 |
+2013/12/16 | [Apache Cordova](https://cordova.apache.org/announcements/2013/12/16/cordova-330.html) | 3.3.0 | Initial support for *Ubuntu Touch* as well as *Amazon Fire OS*
+2013/11/22 | [Apache Cordova](https://cordova.apache.org/announcements/2013/11/22/cordova-320.html) | 3.2.0 | fixes and enhancements
 2013/11/06 | [Apache Cordova](https://cordova.apache.org/blog/releases/2013/11/06/cordova-291.html) | 2.9.1 | backported fixes
-2013/10/28 | [CLI, Plugman & Plugins Release](https://cordova.apache.org/news/2013/10/28/plugins-release.html)
-2013/10/02 | [Apache Cordova](https://cordova.apache.org/blog/releases/2013/10/02/cordova-31.html)  | 3.1.0 |
-2013/07/23 | [Apache Cordova](https://cordova.apache.org/blog/releases/2013/07/23/cordova-3.html)   | 3.0.0 |
+2013/10/28 | [CLI, Plugman & Plugins Release](https://cordova.apache.org/news/2013/10/28/plugins-release.html) | 3.1.0-0.2.0 | fixes and enhancements
+2013/10/02 | [Apache Cordova](https://cordova.apache.org/blog/releases/2013/10/02/cordova-31.html)  | 3.1.0 | - Initial (alpha) support for Firefox OS.<br> - Windows 8 support for CLI project.<br> - Unified whitelist syntax on iOS and Android<br> - Documentation translated into several languages (fr zh de it ja ko ru es)
+2013/07/23 | [Apache Cordova](https://cordova.apache.org/blog/releases/2013/07/23/cordova-3.html)   | 3.0.0 | -
 -          | **START OF CORDOVA 3.0** and new version system  | - | -
-2013/07/11 | [Apache Cordova Gets an Official Blog](https://cordova.apache.org/blog/2013/07/11/cordova-has-a-blog.html)
--          | Prior to this blog were posted on the [Phonegap Blog](phongap.md) | They will be added here later.
+2013/07/11 | [Apache Cordova Gets an Official Blog](https://cordova.apache.org/blog/2013/07/11/cordova-has-a-blog.html)   | - | -
+-          | Prior to this blog were posted on the [Phonegap Blog](phongap.md) | They will be added here later. | - 
 -          | **Start Year 2013**  | - | -
 
