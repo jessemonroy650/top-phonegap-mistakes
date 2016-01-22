@@ -22,11 +22,11 @@ date       | link | version | notes
 -          | **START OF CORDOVA 4.0** and new release policy | - | -
 2014/09/08 | [Apache Cordova](https://cordova.apache.org/announcements/2014/09/08/cordova-361.html) | 3.6 | Technical gaff makes this 3.6.3
 2014/08/13 | [Tools Release](https://cordova.apache.org/news/2014/08/13/tools-update.html)  | 3.5.0-0.2.7 | Update
-2014/07/10 | [Tools Release](https://cordova.apache.org/news/2014/07/10/tools-release.html) | 3.5.0-0.2.6 | - support splashscreens<br> - drop **wp7**<br> - [--experimental](http://www.gorkem-ercan.com/2014/06/sharing-cordova-projects-becomes-easier.html) flag<br>experimenting with `--browserify`
-2014/05/23 | [Apache Cordova](https://cordova.apache.org/announcements/2014/05/23/cordova-350.html) |  3.5.0 |
-2014/04/09 | [Tools Release](https://cordova.apache.org/news/2014/04/09/tools-ios-release.html)     | 3.4.1-0.1.0 |
-2014/03/05 | [Tools Release](https://cordova.apache.org/news/2014/03/05/tools-release.html)         | 3.4.0-0.1.3 |
-2014/01/31 | [Tools Release](https://cordova.apache.org/news/2014/01/31/tools-release.html)
+2014/07/10 | [Tools Release](https://cordova.apache.org/news/2014/07/10/tools-release.html) | 3.5.0-0.2.6 | - support splashscreens<br> - drop **wp7**<br> - new flag [--experimental](http://www.gorkem-ercan.com/2014/06/sharing-cordova-projects-becomes-easier.html)<br> - experimenting with `--browserify`
+2014/05/23 | [Apache Cordova](https://cordova.apache.org/announcements/2014/05/23/cordova-350.html) |  3.5.0 | - refactor creates `cordova-lib`<br>Drop **iOS 5.0** support, and add support `arm64`
+2014/04/09 | [Tools Release](https://cordova.apache.org/news/2014/04/09/tools-ios-release.html)     | 3.4.1-0.1.0 | update
+2014/03/05 | [Tools Release](https://cordova.apache.org/news/2014/03/05/tools-release.html)         | 3.4.0-0.1.3 | improvement to `plugman`
+2014/01/31 | [Tools Release](https://cordova.apache.org/news/2014/01/31/tools-release.html)         | - `config.xml` now lives at the project root by default (instead of within `www/`)<br> `hooks`` now live in root directory<br>specify `www/` via CLI<br> new flag `--searchpath`
 -          | **Start Year 2014** | - | -
 2013/12/16 | [Apache Cordova](https://cordova.apache.org/announcements/2013/12/16/cordova-330.html) | 3.3.0 |
 2013/11/22 | [Apache Cordova](https://cordova.apache.org/announcements/2013/11/22/cordova-320.html) | 3.2.0 |
