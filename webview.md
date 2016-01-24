@@ -2,7 +2,7 @@
 Date: 2015-10-15<br>
 Last Update: 2015-12-10
 
-These are notes on the webviews that are used with Cordova/Phonegap.
+These are notes on the webview libraries that are used with Cordova/Phonegap.
 
 - A description of webview and some [alternative libraries](webview-alternatives.md).
 - [What is a WebView?](http://developer.telerik.com/featured/what-is-a-webview/)
