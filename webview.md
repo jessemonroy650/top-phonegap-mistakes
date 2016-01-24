@@ -1,6 +1,6 @@
 ## Webview ##
 Date: 2015-10-15<br>
-Last Update: 2015-12-10
+Last Update: 2016-01-24
 
 These are notes on the webview libraries that are used with Cordova/Phonegap.
 
