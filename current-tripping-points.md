@@ -8,15 +8,12 @@ Last Update: 2016-01-10
 
 The largest issue is [Step 5: Going Further](http://docs.phonegap.com/getting-started/5-going-further/). In this step, and afterwards, they do NOT inform people that using the framework work created with *Phonegap CLI* will NOT work with *Phonegap Build*.
 
-## 2. *Phonegap Build* now supports the &lt;platform&gt; element ##
+## 2. When designing the app, thinks phonegap works like a website or webbrowser.
 
-What's New
+Namely, there has been a rush to make website wrappers. This may be because of some poorly written article. Doing so may get the app rejected.
 
-   * &lt;Platform&gt; tag - The platform tag, note the missing xml optional namespace, is now obeyed on Build.
-   * Platform Specific Preferences - like version and orientation
-   *  Splashscreens and Icons -Splashscreen and icons can now be used without the gap namespace as well. 
-
-    http://phonegap.com/blog/2015/11/17/config_xml_update
+  *Quote* ***[Apple iTunes Guidelines](https://developer.apple.com/app-store/review/guidelines/) - 2.12***
+  > Apps that are not very useful, unique, are simply web sites bundled as Apps, or do not provide any lasting entertainment value may be rejected
 
 ## 3. Using `this` incorrectly, in the wrong context.
 
