@@ -11,3 +11,7 @@ The major steps are:
 3. Pairs with local device
 4. Edit and see changes on device.
 
+
+- [source](https://github.com/phonegap/phonegap-app-desktop)
+- [issues](https://github.com/phonegap/phonegap-app-desktop/issues)
+- [wiki](https://github.com/phonegap/phonegap-app-desktop/wiki/PhoneGap-Desktop-Overview)

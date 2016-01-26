@@ -120,9 +120,9 @@ LAST UPDATE: 2015-12-12
 
   I confess to doing this. I also confess to giving people the wrong version. Sometimes, I have gave them Phonegap Build, when I should have given them Phonegap CLI.
 
-  *This is happening more and more with disaterous results and frustrating.*\
+  *This is happening more and more with disaterous results and frustrating.*
 
-  To be clear, if you create an App with the command line tools, that App will NOT work with *Phonegap Build*; the structure is different. If you need a place to start, use this boilerplate [Phonegap--Generic-Boilerplate7](https://github.com/jessemonroy650/Phonegap--Generic-Boilerplate7). Note, this is an example. You still need to optimize this example, if you are going to use it.
+  To be clear, if you create an App with the command line tools, that App will NOT work with *Phonegap Build*; the structure is different. If you need a place to start, use this boilerplate [Phonegap--Generic-Boilerplate8](https://github.com/jessemonroy650/Phonegap--Generic-Boilerplate8). Note, this is an example. You still need to optimize this example, if you are going to use it.
 
 ###<a name=010>10.</a> Not adding the new "white-list", "white-list plugin" parameters in config.xml AND "Content Security Policy"###
 
