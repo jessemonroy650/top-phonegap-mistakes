@@ -94,16 +94,16 @@ The groups reside in five areas.
 
 ### Firefox ###
 
-At the moment I cannot find any firefox forums
+[Mozilla Will Stop Developing And Selling Firefox OS Smartphones](http://techcrunch.com/2015/12/08/mozilla-will-stop-developing-and-selling-firefox-os-smartphones/) - Dec 8, 2015
 
-* [Firefox OS phone guide](https://developer.mozilla.org/en-US/Firefox_OS/Phone_guide)
+<s>At the moment I cannot find any firefox forums.</s>
+
+* <s>[Firefox OS phone guide](https://developer.mozilla.org/en-US/Firefox_OS/Phone_guide)</s>
 
 ## Related Platforms ##
 
 * http://forum.ionicframework.com/
 * https://www.sencha.com/forum/
-
-
-
+* https://software.intel.com/en-us/forums/intel-xdk
 
 
