@@ -58,7 +58,7 @@ LAST UPDATE: 2015-12-12
   * Official Adobe [Phonegap Blog](http://phonegap.com/blog/) - https://twitter.com/phonegap
   * Official Adobe [Phonegap Build Blog](http://phonegap.com/blog/phonegap-build/) - https://twitter.com/phonegapbuild
 
-####<a name=004>4.</a> In the code, did not listen for the 'deviceready' event. ###
+###<a name=004>4.</a> In the code, did not listen for the 'deviceready' event. ###
 
   This is listed MULTIPLE times in the documentation, and is include in every example where it is appropriate. It is still missed. Here is the appropriate point in the [section of documentation](http://cordova.apache.org/docs/en/latest/cordova/events/events.deviceready.html) we need. 
 
