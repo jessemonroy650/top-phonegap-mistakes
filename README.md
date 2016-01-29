@@ -58,3 +58,5 @@ Last update: 2016-01-20
 ### Annoyances ###
 
 * [Samsung Soft Menu Button Annoyance](annoyances/SamsungMenuButton.md)
+* [Why you can't get that device UUID/UDID](apple-udid.md)
+
