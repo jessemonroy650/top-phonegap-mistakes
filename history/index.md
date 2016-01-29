@@ -19,3 +19,4 @@ All histories derived from blog posts and related public documents.
 ### TODO ###
 
 - Release history of supported platforms
+- Release history of *Cordova Tools* and *Phongap Build*, side by side
