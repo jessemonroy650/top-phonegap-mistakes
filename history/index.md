@@ -9,7 +9,7 @@ All histories derived from blog posts and related public documents.
 - [Tools Release](cordova-tools.md) - Cordova Tools since started.
 - [Plugins Release](cordova-plugins.md) - Cordova Plugins reference table and Release history.
 
-### Cordova ###
+### Phonegap ###
 - [Phonegap](phonegap.md)
 - [Phonegap Desktop App](phonegap-desktop.md) &amp; Phonegap Developer App - For explanation of, see [also](../phonegap-desktop-app.md)
 - [Phonegap CLI](phonegap-cli.md) - nothing yet.

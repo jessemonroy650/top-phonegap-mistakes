@@ -15,3 +15,7 @@ The major steps are:
 - [source](https://github.com/phonegap/phonegap-app-desktop)
 - [issues](https://github.com/phonegap/phonegap-app-desktop/issues)
 - [wiki](https://github.com/phonegap/phonegap-app-desktop/wiki/PhoneGap-Desktop-Overview)
+
+
+- Plugins are available via the Developer App.
+- [List of Plugins](http://phonegap.com/blog/2015/12/16/1.5.12-Release/)
