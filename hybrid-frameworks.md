@@ -47,6 +47,7 @@ Many of these frameworks cross-over directly into Cordova and Phonegap. The larg
 
 1. [gapdebug](https://www.genuitec.com/products/gapdebug/)
 2. [BuilDozer](https://buildozer.io/)
+3. [app-framework](https://github.com/hyperweb2/app-framework)
 
 ### Articles ###
 1. [15 Visual Studio Project Templates To Jump Start Your Code](https://visualstudiomagazine.com/articles/2015/08/01/15-visual-studio-project-templates.aspx)
