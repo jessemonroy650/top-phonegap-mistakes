@@ -1,5 +1,6 @@
 ## Hybrid Frameworks ##
-Last Update: 2015-10-11
+Date: 2015-10-11<br>
+Last Update: 2016-02-03
 
 Many of these frameworks cross-over directly into Cordova and Phonegap. The largest differentiator is they have UIs &ndash; Cordova and Phonegap do not. You build your own, or borrow the UI frameworks from "Web Apps"
 
@@ -47,7 +48,7 @@ Many of these frameworks cross-over directly into Cordova and Phonegap. The larg
 
 1. [gapdebug](https://www.genuitec.com/products/gapdebug/)
 2. [BuilDozer](https://buildozer.io/)
-3. [app-framework](https://github.com/hyperweb2/app-framework)
+3. [app-framework](https://github.com/hyperweb2/app-framework) - See: [nitobi thread](http://community.phonegap.com/nitobi/topics/how-to-access-local-assets-from-external-web-app-opened-in-webview)
 
 ### Articles ###
 1. [15 Visual Studio Project Templates To Jump Start Your Code](https://visualstudiomagazine.com/articles/2015/08/01/15-visual-studio-project-templates.aspx)
