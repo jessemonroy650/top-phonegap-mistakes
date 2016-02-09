@@ -1,6 +1,6 @@
 ### Current Tripping Points to Cordova/Phonegap ###
 Date: 2015-10-18<br>
-Last Update: 2016-01-10
+Last Update: 2016-02-09
 
 ## 1. *Phonegap Desktop App* causes problems for new comers. ##
 
@@ -33,7 +33,17 @@ These videos should help. ? Best of Luck.
 - [Context in JavaScript - 4/4 - Mastering "This:" Additional Techniques & Future Support](https://www.youtube.com/watch?v=QQ4__W9nELc)
 
 
+## 4. Google rejects apps because of security issues.
 
+**Typical message* from Google
+
+> Security alert
+
+> Your app is using a version of Apache Cordova containing one or more security vulnerabilities. Please see this Google Help Center article for details, including the deadline for fixing the app.
+
+*Google's FAQ on this, as found by Petra V. on nitobi
+
+https://support.google.com/faqs/answer/6325474
 
 
 
