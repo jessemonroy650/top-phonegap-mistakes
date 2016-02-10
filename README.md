@@ -61,9 +61,16 @@ Last update: 2016-02-09
 * [Cordova](history/cordova.md)
 * [Cordova Tools](history/cordova-tools.md)
 * [Cordova Plugins](history/cordova-plugins.md)
+* *By Platform*
+* [Cordova Android](history/cordova-android.md)
+* [Cordova iOS](history/cordova-ios.md)
+* [Cordova Windows](history/cordova-windows.md)
+* [Cordova Ubuntu](history/cordova-ubuntu.md)
+* [Cordova Blackberry](history/cordova-blackberry.md)
 * **--------**
 * [Phonegap](history/phonegap.md)
 * [Phonegap Build](history/phonegap-build.md)
+* [Phonegap CLI](phonegap-cli.md) - nothing yet.
 * [Phonegap Desktop App](history/phonegap-desktop.md)
 
 ### Annoyances ###

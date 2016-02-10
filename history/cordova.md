@@ -2,6 +2,10 @@
 Date: 2016-01-04<br>
 Last Update: 2016-01-20
 
+- [cordova-plugin-inappbrowser Plugin Release](https://cordova.apache.org/news/2016/02/04/plugins-release.html) -  \*\*HOT FIX\*\*
+- [Cordova 6.0.0 Released!](https://cordova.apache.org/news/2016/01/28/tools-release.html)
+- **START OF CORDOVA 6.0.0**
+- [Cordova Android 5.1.0](https://cordova.apache.org/announcements/2016/01/24/cordova-android-5.1.0.html)
 - [Plugins Release](https://cordova.apache.org/news/2016/01/19/plugins-release.html)
 - [Apache Cordova Windows 4.3.0](https://cordova.apache.org/announcements/2016/01/18/cordova-windows-4.3.0.html)
 - [Cordova Ubuntu 4.3.2](https://cordova.apache.org/announcements/2016/01/08/cordova-ubuntu-4.3.2.html)
@@ -29,7 +33,7 @@ Last Update: 2016-01-20
 - [Apache Cordova Windows 4.0.0 release](https://cordova.apache.org/announcements/2015/06/03/windows-release.html)
 - [Apache Cordova Android 4.0.2 and 3.7.2 released](https://cordova.apache.org/announcements/2015/05/26/android-402.html)
 - [Tools Release: April 21, 2015](https://cordova.apache.org/news/2015/04/21/tools-release.html) - 5.0.0
-- **START OF CORDOVA 5.0.0** 
+- **START OF CORDOVA 5.0.0**
 - [Plugins Release and Moving plugins to npm: April 21, 2015](https://cordova.apache.org/announcements/2015/04/21/plugins-release-and-move-to-npm.html)
 - [Apache Cordova Android 4.0.0](https://cordova.apache.org/announcements/f2015/04/15/cordova-android-4.0.0.html)
 - [Tools Release: March 02, 2015](https://cordova.apache.org/news/2015/03/02/tools-release.html) - 4.3.0

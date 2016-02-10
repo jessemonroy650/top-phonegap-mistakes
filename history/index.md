@@ -5,11 +5,21 @@ Last Update: 2016-01-21
 All histories derived from blog posts and related public documents.
 
 ### Cordova ###
-- [Cordova](cordova.md) - all major releases since [the start](https://cordova.apache.org/blog/2013/07/11/cordova-has-a-blog.html) of the official Cordova blog.
-- [Tools Release](cordova-tools.md) - Cordova Tools since started.
-- [Plugins Release](cordova-plugins.md) - Cordova Plugins reference table and Release history.
+
+* [Cordova Blog Highlights](cordova-blog-highlights.md)
+* **--------**
+* [Cordova](history/cordova.md)
+* [Cordova Tools](history/cordova-tools.md)
+* [Cordova Plugins](history/cordova-plugins.md)
+* *By Platform*
+* [Cordova Android](history/cordova-android.md)
+* [Cordova iOS](history/cordova-ios.md)
+* [Cordova Windows](history/cordova-windows.md)
+* [Cordova Ubuntu](history/cordova-ubuntu.md)
+* [Cordova Blackberry](history/cordova-blackberry.md)
 
 ### Phonegap ###
+
 - [Phonegap](phonegap.md)
 - [Phonegap Desktop App](phonegap-desktop.md) &amp; Phonegap Developer App - For explanation of, see [also](../phonegap-desktop-app.md)
 - [Phonegap CLI](phonegap-cli.md) - nothing yet.
@@ -18,5 +28,5 @@ All histories derived from blog posts and related public documents.
 
 ### TODO ###
 
-- Release history of supported platforms
+- <s>Release history of supported platforms</s> - under way
 - Release history of *Cordova Tools* and *Phongap Build*, side by side
