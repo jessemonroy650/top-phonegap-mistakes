@@ -4,6 +4,8 @@ Last Update: 2016-01-21
 
 All histories derived from blog posts and related public documents.
 
+- [Cordova Road Map](https://github.com/phonegap/phonegap-roadmap/) - thanks to jcesarmobile
+
 ### Cordova ###
 
 * [Cordova Blog Highlights](cordova-blog-highlights.md)

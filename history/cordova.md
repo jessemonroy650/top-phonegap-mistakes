@@ -1,6 +1,10 @@
 ## Cordova Releases ##
 Date: 2016-01-04<br>
-Last Update: 2016-01-20
+Last Update: 2016-02-10
+
+- [Cordova Road Map](https://github.com/phonegap/phonegap-roadmap/) - thanks to jcesarmobile
+
+### Cordova History ###
 
 - [cordova-plugin-inappbrowser Plugin Release](https://cordova.apache.org/news/2016/02/04/plugins-release.html) -  \*\*HOT FIX\*\*
 - [Cordova 6.0.0 Released!](https://cordova.apache.org/news/2016/01/28/tools-release.html)
