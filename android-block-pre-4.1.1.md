@@ -1,11 +1,10 @@
-# android-block-4.1.1 #
+# android-block-pre-4.1.1 #
 Date: 2016-02-09 <br>
 Last Update: 2016-02-09
 
 Google recently sent out an alert stating, in short:
 
 > ***Beginning May 9, 2016***, *Google Play will block publishing of any new apps or updates that use pre-4.1.1 versions of Apache Cordova.*
-
 
 Google's Alert: [How to fix apps with Apache Cordova vulnerabilities](https://support.google.com/faqs/answer/6325474)
 
