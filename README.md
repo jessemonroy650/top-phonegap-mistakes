@@ -1,26 +1,29 @@
 ## Phonegap Developers' Notes ##
-Last update: 2016-01-20
+Last update: 2016-02-09
 
 * [Top Mistakes by Developers new to Cordova/Phonegap](new-to-Phonegap.md)
 * [HOW TO apply the Cordova/Phonegap the whitelist system](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/the-whitelist-system.md)
 * [Whitelist Notes for iOS](whitelist-ios-notes.md) - the Cordova `whitelist` plugin does not apply to iOS.
 * [Current Tripping Points for Cordova/Phonegap Development](current-tripping-points.md)
+* [Android block 4.1.1](android-block-4.1.1.md) - Lastupdate: 2016-02-09
 * [Android 6.0 &amp; Doze](android-doze.md)
 
-### Tips, Security, Bugs, etc. ###
+### Tips, Bugs, etc. ###
 
 * [Using `this` correctly with Javascript](using-this-correctly.md)
 * [Performance Tips](get-performance.md)
-* [Compatibility Links &amp; Tips](get-compatible.md)
-* [Cordova Blog Highlights](cordova-blog-highlights.md)
+* Links about [Compatibility &amp; Tips](get-compatible.md)
 * [Cordova Browser Platform](browser-platform.md)
-* [Security Issues](security-issues.md) - Last Update: 2015-11-16
-* [Security Issues for iOS](security-issues-ios.md) - Last Update: 2015-11-01
-* [Repositories &amp; Known Bug](bugs.md)
 * [Setup for Cordova "core" plugins](plugins-core-setup.md)
+* [Repositories &amp; Known Bug](bugs.md)
 * [Bugs for Cordova "core" plugins](plugins-core-bugs.md)
 * [Bugs for Cordova "core" webview](core-bugs/plugins-core-bugs-webview.md)
 * [Bugs for Cordova "core" File Api](core-bugs/plugins-core-bugs-file.md)
+
+### Security ###
+
+* [Security Issues](security-issues.md) - Last Update: 2015-11-16
+* [Security Issues for iOS](security-issues-ios.md) - Last Update: 2015-11-01
 
 ### Resources ###
 
@@ -53,6 +56,8 @@ Last update: 2016-01-20
 
 ### Release History ###
 
+* [Cordova Blog Highlights](cordova-blog-highlights.md)
+* **--------**
 * [Cordova](history/cordova.md)
 * [Cordova Tools](history/cordova-tools.md)
 * [Cordova Plugins](history/cordova-plugins.md)
@@ -65,4 +70,3 @@ Last update: 2016-01-20
 
 * [Samsung Soft Menu Button Annoyance](annoyances/SamsungMenuButton.md)
 * [Why you can't get that device UUID/UDID](apple-udid.md)
-
