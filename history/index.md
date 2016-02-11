@@ -10,15 +10,15 @@ All histories derived from blog posts and related public documents.
 
 * [Cordova Blog Highlights](cordova-blog-highlights.md)
 * **--------**
-* [Cordova](history/cordova.md)
-* [Cordova Tools](history/cordova-tools.md)
-* [Cordova Plugins](history/cordova-plugins.md)
+* [Cordova](cordova.md)
+* [Cordova Tools](cordova-tools.md)
+* [Cordova Plugins](cordova-plugins.md)
 * *By Platform*
-* [Cordova Android](history/cordova-android.md)
-* [Cordova iOS](history/cordova-ios.md)
-* [Cordova Windows](history/cordova-windows.md)
-* [Cordova Ubuntu](history/cordova-ubuntu.md)
-* [Cordova Blackberry](history/cordova-blackberry.md)
+* [Cordova Android](cordova-android.md)
+* [Cordova iOS](cordova-ios.md)
+* [Cordova Windows](cordova-windows.md)
+* [Cordova Ubuntu](cordova-ubuntu.md)
+* [Cordova Blackberry](cordova-blackberry.md)
 
 ### Phonegap ###
 
