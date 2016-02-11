@@ -309,3 +309,8 @@ http://cordova.apache.org/announcements/2015/04/15/cordova-android-4.0.0.html
 What's New in iOS
 https://developer.apple.com/library/prerelease/ios/releasenotes/General/WhatsNewIniOS/Articles/iOS9.html
 
+Differences between test and production release for Android - A network puzzler
+https://groups.google.com/d/msg/phonegap/ALL8SsuFCiQ/4m_WN6NcAwAJ
+> The problem was caused by an intermediate certificate not being installed correctly on a CDN server. The main wildcard certificate installed on the CDN server was correct and that (...) The fact that the CDN server said everything was OK and IOS was very happy only lulled us into a false sense of security. 
+> (Another developer remarks) *In short: certs are painful and capable of causing concussions and large dents in desks.*
+
