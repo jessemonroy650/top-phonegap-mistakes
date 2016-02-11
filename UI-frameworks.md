@@ -12,12 +12,12 @@ Last Update: 2015-10-11
 * 'Ionic' from Drifty
 * 'AppFramework' from Intel
 
-[ ] bootstrap
-[ ] angular
-[ ] JQ Touch - zepto plugin
-[ ] famo.us
-[ ] TITANIUM APPCELERATOR
-[ ] appgyver steroids
+- [ ] bootstrap
+- [ ] angular
+- [ ] JQ Touch - zepto plugin
+- [ ] famo.us
+- [ ] TITANIUM APPCELERATOR
+- [ ] appgyver steroids
 
 * [PhoneJS](http://phonejs.devexpress.com/)
 * [EnyoJS](http://enyojs.com/)
