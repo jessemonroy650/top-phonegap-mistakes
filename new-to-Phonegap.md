@@ -7,6 +7,7 @@ LAST UPDATE: 2015-12-12
 <a href=#003>3</a>
 <a href=#004>4</a>
 <a href=#005>5</a>
+<a href=#005a>5a</a>
 <a href=#006>6</a>
 <a href=#007>7</a>
 <a href=#008>8</a>
@@ -88,7 +89,7 @@ LAST UPDATE: 2015-12-12
   change it to this:<br>
   `<script src="jquery-1.11.3.min.js"></script>`
 
-  In addition, Google and Apple frowns on using apps as wrappers for websites.
+  <a name=005a>In addition, Google and Apple frowns on using apps as wrappers for websites.</a>
 
   *Quote* ***[Google Developer Program Policies](https://play.google.com/about/developer-content-policy.html) - Spam and Placement in the Store***
   > Do not post an app where the primary functionality is to:

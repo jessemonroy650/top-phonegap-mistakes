@@ -62,3 +62,6 @@ For windows and Mac
 - http://www.sitepoint.com/7-code-playgrounds/
 - http://alternativeto.net/software/codepen/
 
+## HTML entity encoder/decoder ##
+
+- https://mothereff.in/html-entities
