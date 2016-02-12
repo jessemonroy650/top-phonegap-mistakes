@@ -90,7 +90,7 @@ LAST UPDATE: 2015-12-12
 
   In addition, Google and Apple frowns on using apps as wrappers for websites.
 
-  *Quote* ***[Quote Google Developer Program Policies](https://play.google.com/about/developer-content-policy.html) - Spam and Placement in the Store***
+  *Quote* ***[Google Developer Program Policies](https://play.google.com/about/developer-content-policy.html) - Spam and Placement in the Store***
   > Do not post an app where the primary functionality is to:
   >    - Drive affiliate traffic to a website or
   >    - Provide a webview of a website not owned or administered by you (unless you have permission from the website owner/administrator to do so)
