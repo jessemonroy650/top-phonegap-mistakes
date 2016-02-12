@@ -92,8 +92,8 @@ LAST UPDATE: 2015-12-12
 
   *Quote* ***[Quote Google Developer Program Policies](https://play.google.com/about/developer-content-policy.html) - Spam and Placement in the Store***
   > Do not post an app where the primary functionality is to:
-  >    - Drive affiliate traffic to a website or
-  >    - Provide a webview of a website not owned or administered by you (unless you have permission from the website owner/administrator to do so)
+  >    Drive affiliate traffic to a website or
+  >    Provide a webview of a website not owned or administered by you (unless you have permission from the website owner/administrator to do so)
 
   *Quote* ***[Apple iTunes Guidelines](https://developer.apple.com/app-store/review/guidelines/) - 2.12***
   > Apps that are not very useful, unique, are simply web sites bundled as Apps, or do not provide any lasting entertainment value may be rejected
