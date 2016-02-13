@@ -44,6 +44,7 @@ It is recommend that you move to *Cordova Tools* V4.x as a minimum. Older versio
 - ¥ = This include cli-5.1.0 and cli.5.2.0
 - £ = As of 2015-11-04, iOS9 is officially supported by Cordova ([SEE](https://cordova.apache.org/announcements/2015/11/02/cordova-ios-3.9.2.html)) ; *Phonegap Build* is still waiting
 - § = ATS requires &ndash; if you are using Apple's SSL, then the server you connect to must [run TLSv1.2](http://ste.vn/2015/06/10/configuring-app-transport-security-ios-9-osx-10-11/)
+- \*\* = [Beginning May 9, 2016](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/android-block-pre-4.1.1.md), Google Play will block publishing of any new apps or updates that use pre-4.1.1 versions of Apache Cordova.
 
 ###2. <a name=guide>Which guide</a>###
 

@@ -21,6 +21,7 @@ Many of these frameworks cross-over directly into Cordova and Phonegap. The larg
 12. [Kendo UI](http://www.telerik.com/kendo-ui)
 13. [AppGyver's Steroids](http://www.appgyver.com/steroids)
 14. [trigger.io](https://trigger.io/)
+15. [Cordova evothings](http://evothings.com/)
 
 
 ### IDE and SDK-based Development Systems ###
