@@ -4,8 +4,8 @@ Late Update: 2016-02-10
 
 Date             | dow   | debate/forum| Party       | Network   | Time    | State
 -----------------|-------|-------------|-------------|-----------|---------|------
-~~Feb. 11, 2016    | thurs |   debate    | Democratic  | PBS       | 8pm CST | Wisconsin
-~~Feb. 13, 2016    | sat   |   debate    | Republican  | CBS       | 9pm EST | South Carolina
+<s>Feb. 11, 2016</s>    | thurs |   debate    | Democratic  | PBS       | 8pm CST | Wisconsin
+<s>Feb. 13, 2016</s>    | sat   |   debate    | Republican  | CBS       | 9pm EST | South Carolina
 Feb. 17-18, 2016 | w/th  |   forum     | Republican  | CNN       | 8pm EST | South Carolina
 Feb. 18, 2016    | thurs |   forum     | Democratic  | MSNBC     | TBA     | Nevada
 Feb. 25, 2016    | thurs |   debate    | Republican  | CNN       | -       | Texas
