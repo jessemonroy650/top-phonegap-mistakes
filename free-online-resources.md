@@ -65,3 +65,10 @@ For windows and Mac
 ## HTML entity encoder/decoder ##
 
 - https://mothereff.in/html-entities
+
+## Github and Phonegap ##
+
+- [Using Private Bitbucket Repositories With PhoneGap Build](https://www.monkehworks.com/using-private-bitbucket-repositories-with-phonegap-build/)
+
+
+
