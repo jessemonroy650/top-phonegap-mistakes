@@ -13,6 +13,7 @@ Last update: 2016-02-09
 * [Using `this` correctly with Javascript](using-this-correctly.md)
 * [Performance Tips](get-performance.md)
 * Links about [Compatibility &amp; Tips](get-compatible.md)
+* Links about [Local Notification widgets](local-notification-javascript.md) using HTML, CSS, and Javascript
 * [Cordova Browser Platform](browser-platform.md)
 * [Setup for Cordova "core" plugins](plugins-core-setup.md)
 * [Repositories &amp; Known Bug](bugs.md)
@@ -77,3 +78,6 @@ Last update: 2016-02-09
 
 * [Samsung Soft Menu Button Annoyance](annoyances/SamsungMenuButton.md)
 * [Why you can't get that device UUID/UDID](apple-udid.md)
+* [Apple's Error 53 Debacle](annoyances/apple-error-53.md)
+
+

@@ -13,18 +13,19 @@ App Features:
 ### Javascript Libraries ###
 Besides the usual
 
-* http://www.phoneformat.com/
+- [Phoneformat](http://www.phoneformat.com/) - Phone number validator
+- [atom-minify](https://atom.io/packages/atom-minify) - Minifies JS and CSS files, optionally on save; now supporting inline-parameters and minifier options.
 
 ### CSS Buttons ###
 CSS Buttons by Alex Wolfe and Rob Levin<br />
 https://github.com/alexwolfe/Buttons
 
 ### CSS Animation ###
-CSS loader generator fully customizable
+CSS loader generator fully customizable<br>
 http://www.wifeo.com/free-css-loader-generator.php
 
 ### CSS Related ###
-Design essentials
+Design essentials<br>
 https://github.com/showcases/design-essentials
 
 stylelint
@@ -59,6 +60,7 @@ For windows and Mac
 ## HTML, CSS, Javascript testers ##
 
 - http://codepen.io/
+- http://jsfiddle.net/
 - http://www.sitepoint.com/7-code-playgrounds/
 - http://alternativeto.net/software/codepen/
 

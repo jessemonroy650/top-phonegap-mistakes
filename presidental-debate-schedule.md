@@ -7,7 +7,7 @@ Date                 | dow   | debate/forum| Party       | Network      | Time  
 ~~Feb. 13, 2016~~    | sat   |   debate    | Republican  | CBS          | 9pm EST | South Carolina
 ~~Feb. 17-18, 2016~~ | w/th  |   forum     | Republican  | CNN          | 8pm EST | South Carolina
 ~~Feb. 18, 2016~~    | thurs |   forum     | Democratic  | MSNBC        | TBA     | Nevada
-Feb. 23, 2016        | tues  |   -         | -           | (MSNBC/CNN)? | -       | -
+Feb. 23, 2016        | tues  |   -         | -           | CNN          | -       | South Carolina?
 Feb. 25, 2016        | thurs |   debate    | Republican  | CNN          | -       | Texas
 Mar. 3, 2016         | thurs |   debate    | Republican  | Fox          | 9pm EST | Michigan 
 Mar. 6, 2016         | sun   |   debate    | Democratic  | CNN          | -       | Missouri
@@ -21,3 +21,18 @@ May, 2016            |  -    |   debate    | Democratic  | -            | -     
 
 
 <a href=#debates>1st headline</a>
+
+
+## Democrat Vs. Republican ##
+
+Date               | dow       | P/VP | location 
+-------------------|-----------|------|--------------
+September 26, 2016 | Monday    | P    | Dayton, OH
+October 4, 2016    | Tuesday   | VP   | Farmville, VA
+October 9, 2016    | Sunday    | P    | St. Louis, MO
+October 19, 2016   | Wednesday | P    | Las Vegas, NV
+
+- Source: [Commisson on Presidental Debates](http://www.debates.org/index.php?page=2016debates)
+
+
+
