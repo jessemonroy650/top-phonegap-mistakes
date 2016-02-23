@@ -39,18 +39,23 @@ These are all very similar.
 
  Article  | Comments
 ----------|----------
-[Simple JavaScript Notifications with *toastr*](http://johnpapa.net/toastr100beta/) - [github source](https://github.com/CodeSeven/toastr) | toastr is a simple JavaScript toast notification library that is small, easy to use, and extendable.
+[Simple JavaScript Notifications with *toastr*](http://johnpapa.net/toastr100beta/) | toastr is a simple JavaScript toast notification library that is small, easy to use, and extendable.
 
 ## Pinned Notifications ##
-- [Facebook Style Notification Popup using CSS and Jquery.](http://www.9lessons.info/2014/09/facebook-style-notification-popup-using.html) - A Facebook style notifications popup using Jquery, HTML and CSS
-- [Menu Notification Badges Using HTML5 Data-Attributes](http://webdesign.tutsplus.com/articles/menu-notification-badges-using-html5-data-attributes--webdesign-6273)
-- [css arrow please!](http://www.cssarrowplease.com/) This is a cool tool to generate the CSS for your Notificaton
+
+ Article  | Comments
+----------|----------
+[Facebook Style Notification Popup using CSS and Jquery.](http://www.9lessons.info/2014/09/facebook-style-notification-popup-using.html) | A Facebook style notifications popup using Jquery, HTML and CSS
+[Menu Notification Badges Using HTML5 Data-Attributes](http://webdesign.tutsplus.com/articles/menu-notification-badges-using-html5-data-attributes--webdesign-6273) | -
+[css arrow please!](http://www.cssarrowplease.com/) | **This is a cool tool to generate the CSS for your Notificaton**
 
 ## Growl Like ##
-- [Pop From Top Notification](https://css-tricks.com/pop-from-top-notification/) by Chris Coyier
-    - A design pattern where a notification pops down from the top of the browser window, then slides away.
-- [How to Make a Pure CSS Alert Bar](http://joshnh.com/weblog/how-to-make-an-alert-bar/)
-- [Auto Hide Notification Box in Blogger](http://www.stramaxon.com/2013/02/auto-hide-notification-box.html)
+
+ Article  | Comments
+----------|----------
+[Pop From Top Notification](https://css-tricks.com/pop-from-top-notification/) by Chris Coyier            | A design pattern where a notification pops down from the top of the browser window, then slides away.
+[How to Make a Pure CSS Alert Bar](http://joshnh.com/weblog/how-to-make-an-alert-bar/)                    | -
+[Auto Hide Notification Box in Blogger](http://www.stramaxon.com/2013/02/auto-hide-notification-box.html) | -
 
 ## JQuery Plugins ##
 - [Notify.js](https://notifyjs.com/)
