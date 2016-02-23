@@ -2,24 +2,15 @@
 Date: 2016-02-21 <br>
 Last Update: 2016-02-21
 
-Google searches made:
-- [notifications only html css javascript](https://www.google.com/search?q=notifications+only+html+css+javascript)
-- [html css notification box](https://www.google.com/search?q=html+css+notification+box)
-- not yet [html css notification badge](https://www.google.com/search?q=html+css+notification+badge)
-- not yet [css notification popup](https://www.google.com/search?q=css+notification+popup)
-- not yet [css notification bubble](https://www.google.com/search?q=css+notification+bubble)
-- not yet [notification popup jquery](https://www.google.com/search?q=notification+popup+jquery)
-- **Growl like**
-- not yet [css notification bar](https://www.google.com/search?q=css+notification+bar)
-- not yet [css growl notifications](https://www.google.com/search?q=css+growl+notifications)
-- not yet [growl notifications javascript](https://www.google.com/search?q=growl+notifications+javascript)
-- not yet [jquery growl notifications](https://www.google.com/search?q=jquery+growl+notifications)
+All the following "local notifications" include code and demos, if not a visual to demonstrate what is being produced. In addition, if code has an "outdated" notice with it, it was not included.
 
 ## Alert() Like ##
 - [Building CSS3 Notification Boxes With Fade Animations](http://designshack.net/articles/css/build-css3-notifications-with-fade-animations/)
     - CSS3 notification boxes which appear at the top of the page body. Users may then click on the notifications to have them fade away and eventually remove them from the DOM
 
 ## Notification Box Like ##
+![notification box](images/notification-box.png)
+
 These are all very similar.
 
  Article  | Website/Author
@@ -36,18 +27,31 @@ These are all very similar.
 [CSS Message Notification Bars](http://timtrott.co.uk/css-message-notification-bars/)                                           | timtrott.co.uk
 
 ## Toast Like ##
+There are few stand-alone "toast" libraries, likely because they are so easy to make. I'll try to find some tutorials.
 
  Article  | Comments
 ----------|----------
 [Simple JavaScript Notifications with *toastr*](http://johnpapa.net/toastr100beta/) | toastr is a simple JavaScript toast notification library that is small, easy to use, and extendable.
 
-## Pinned Notifications ##
+## Badges/Pinned Notifications ##
 
- Article  | Comments
-----------|----------
-[Facebook Style Notification Popup using CSS and Jquery.](http://www.9lessons.info/2014/09/facebook-style-notification-popup-using.html) | A Facebook style notifications popup using Jquery, HTML and CSS
-[Menu Notification Badges Using HTML5 Data-Attributes](http://webdesign.tutsplus.com/articles/menu-notification-badges-using-html5-data-attributes--webdesign-6273) | -
-[css arrow please!](http://www.cssarrowplease.com/) | **This is a cool tool to generate the CSS for your Notificaton**
+![pinned bubble](images/pinned-bubble.png)
+
+Badges are generally "pinned bubbles". They all look very similar.
+
+- [Facebook Style Notification Popup using CSS and Jquery.](http://www.9lessons.info/2014/09/facebook-style-notification-popup-using.html)
+- [Menu Notification Badges Using HTML5 Data-Attributes](http://webdesign.tutsplus.com/articles/menu-notification-badges-using-html5-data-attributes--webdesign-6273)
+- [css arrow please!](http://www.cssarrowplease.com/) | **This is a cool tool to generate the CSS for your Notificaton**
+- [iPhone Notification Badge in CSS](https://web.archive.org/web/20150913050106/http://blog.thinkingstiff.com/2012/01/21/iphone-notification-badge-in-css/) | This is from archive.org. On this date (2016-02-22), the domain had expired.
+- [Create a CSS Notification Badge](http://www.cssportal.com/blog/create-css-notification-badge/)
+- [Adding a badge style count indicator](http://rimblas.com/blog/2014/05/adding-a-badge-style-count-indicator/)
+- [CSS snippets tagged ?Badge? ](http://www.cssflow.com/snippets/tag/badge) - 5 examples
+- [iOSBadge - iOS style notification badges for modern browsers](http://kristerkari.github.io/iOSBadge/) - Lots of options, but maybe too complex
+- [Hop Over Notification Badge](http://codepen.io/plfstr/pen/cgsGH?editors=1100) - Very cool effect (codepen.io)
+- [iOS-Style Notification Badge](http://codepen.io/rnarian/pen/hszeo?editors=1100) - (codepen.io)
+- [Menu Notification Badges (PSD)](http://www.premiumpixels.com/freebies/menu-notification-badges-psd/)
+- [Notification Badge Css Class](http://www.tuto4free.com/2014/10/badge-class.html)
+- [Navigation Menu With Notifications Using CSS](http://www.bloggermint.com/2012/09/navigation-menu-with-notifications-using-css/)
 
 ## Growl Like ##
 
@@ -101,3 +105,20 @@ The *Web Notifications API* is defined as "an API for end-user notifications. A 
 ## Backend Services ##
 - [Pusher](https://pusher.com/tutorials/realtime-notifications) - How To Create Realtime Notifications For HTML5 Apps
 - [Pubnub](https://www.pubnub.com/blog/2014-10-28-how-to-broadcast-desktop-chrome-push-notifications-in-the-browser/) - How to Broadcast Desktop Chrome Push Notifications in the Browser
+
+----
+
+Google searches made:
+- [notifications only html css javascript](https://www.google.com/search?q=notifications+only+html+css+javascript)
+- [html css notification box](https://www.google.com/search?q=html+css+notification+box)
+- [html css notification badge](https://www.google.com/search?q=html+css+notification+badge)
+- not yet [css notification popup](https://www.google.com/search?q=css+notification+popup)
+- not yet [css notification bubble](https://www.google.com/search?q=css+notification+bubble)
+- not yet [notification popup jquery](https://www.google.com/search?q=notification+popup+jquery)
+- **Growl like**
+- not yet [css notification bar](https://www.google.com/search?q=css+notification+bar)
+- not yet [css growl notifications](https://www.google.com/search?q=css+growl+notifications)
+- not yet [growl notifications javascript](https://www.google.com/search?q=growl+notifications+javascript)
+- not yet [jquery growl notifications](https://www.google.com/search?q=jquery+growl+notifications)
+- **Alert like**
+- not yet [alert html css javascript](https://www.google.com/search?q=notifications+only+html+css+javascript)
