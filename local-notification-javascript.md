@@ -22,16 +22,18 @@ Google searches made:
 ## Notification Box Like ##
 These are all very similar.
 
-- [Notification Box &ndash; Alert Boxes using CSS](http://w3lessons.info/2013/01/11/notification-box-alert-boxes-using-css/) - w3lessons.info
-- [CSS Message Boxes for different message types](http://www.jankoatwarpspeed.com/css-message-boxes-for-different-message-types/) - jankoatwarpspeed.com
-- [CSS Notification Boxes](http://www.cssportal.com/blog/css-notification-boxes/) - cssportal.com
-- [Giveaway 10 CSS Notification Boxes For Free](http://www.paulund.co.uk/giveaway-10-css-notification-boxes-for-free)
-- [Error, Success, Warning, and Info Messages with CSS](http://isabelcastillo.com/error-info-messages-css)
-- [Create CSS3 Notification Boxes in Blogger using "Shortcodes" ](http://www.mybloggertricks.com/2015/04/message-box-shortcodes-for-blogger.html)
-- [Simple CSS notification boxes without using any icon](http://aviaryan.in/blog/css-notification-bubble-box.html)
-- [Cool Notification Messages with HTML CSS](http://www.anirbanadak.com/cool-notification-messages-html-css)
-- [Pure CSS Notification Bars](http://webdesignerhut.com/pure-css-notification-bars/)
-- [CSS Message Notification Bars](http://timtrott.co.uk/css-message-notification-bars/)
+ Article  | Website/Author
+----------|----------------
+[Notification Box &ndash; Alert Boxes using CSS](http://w3lessons.info/2013/01/11/notification-box-alert-boxes-using-css/)      | w3lessons.info
+[CSS Message Boxes for different message types](http://www.jankoatwarpspeed.com/css-message-boxes-for-different-message-types/) | jankoatwarpspeed.com
+[CSS Notification Boxes](http://www.cssportal.com/blog/css-notification-boxes/)                                                 | cssportal.com
+[Giveaway 10 CSS Notification Boxes For Free](http://www.paulund.co.uk/giveaway-10-css-notification-boxes-for-free)             | paulund.co.uk
+[Error, Success, Warning, and Info Messages with CSS](http://isabelcastillo.com/error-info-messages-css)                        | isabelcastillo.com
+[Create CSS3 Notification Boxes in Blogger using "Shortcodes" ](http://www.mybloggertricks.com/2015/04/message-box-shortcodes-for-blogger.html) | mybloggertricks.com
+[Simple CSS notification boxes without using any icon](http://aviaryan.in/blog/css-notification-bubble-box.html)                | aviaryan.in
+[Cool Notification Messages with HTML CSS](http://www.anirbanadak.com/cool-notification-messages-html-css)                      | anirbanadak.com
+[Pure CSS Notification Bars](http://webdesignerhut.com/pure-css-notification-bars/)                                             | webdesignerhut.com
+[CSS Message Notification Bars](http://timtrott.co.uk/css-message-notification-bars/)                                           | timtrott.co.uk
 
 ## Toast Like ##
 - [Simple JavaScript Notifications with *toastr*](http://johnpapa.net/toastr100beta/) [github source](https://github.com/CodeSeven/toastr)
