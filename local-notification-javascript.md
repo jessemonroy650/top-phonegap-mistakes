@@ -38,7 +38,7 @@ These are all very similar.
 ## Toast Like ##
 
  Article  | Comments
-----------||----------
+----------|----------
 [Simple JavaScript Notifications with *toastr*](http://johnpapa.net/toastr100beta/) - [github source](https://github.com/CodeSeven/toastr) | toastr is a simple JavaScript toast notification library that is small, easy to use, and extendable.
 
 ## Pinned Notifications ##
