@@ -1,17 +1,20 @@
 # local-notification-javascript-only #
 Date: 2016-02-21 <br>
-Last Update: 2016-02-21
+Last Update: 2016-02-22
 
 All the following "local notifications" include code and demos, if not a visual to demonstrate what is being produced. In addition, if code has an "outdated" notice with it, it was not included.
 
 ## Alert() Like ##
+
+Example: ![alert box](images/alert-box.png)
+
 - [Building CSS3 Notification Boxes With Fade Animations](http://designshack.net/articles/css/build-css3-notifications-with-fade-animations/)
     - CSS3 notification boxes which appear at the top of the page body. Users may then click on the notifications to have them fade away and eventually remove them from the DOM
 
 ## Notification Box Like ##
-![notification box](images/notification-box.png)
-
 These are all very similar.
+
+Example: ![notification box](images/notification-box.png)
 
  Article  | Website/Author
 ----------|----------------
@@ -27,17 +30,18 @@ These are all very similar.
 [CSS Message Notification Bars](http://timtrott.co.uk/css-message-notification-bars/)                                           | timtrott.co.uk
 
 ## Toast Like ##
-There are few stand-alone "toast" libraries, likely because they are so easy to make. I'll try to find some tutorials.
+There are few stand-alone "toast" libraries, likely because they are so easy to make and it appears 'toast' can appear like 'notification box'. I'll try to find some tutorials.
+
+Example: ![toast](images/toast.png)
 
  Article  | Comments
 ----------|----------
 [Simple JavaScript Notifications with *toastr*](http://johnpapa.net/toastr100beta/) | toastr is a simple JavaScript toast notification library that is small, easy to use, and extendable.
 
 ## Badges/Pinned Notifications ##
-
-![pinned bubble](images/pinned-bubble.png)
-
 Badges are generally "pinned bubbles". They all look very similar.
+
+Example: ![pinned bubble](images/pinned-bubble.png)
 
 - [Facebook Style Notification Popup using CSS and Jquery.](http://www.9lessons.info/2014/09/facebook-style-notification-popup-using.html)
 - [Menu Notification Badges Using HTML5 Data-Attributes](http://webdesign.tutsplus.com/articles/menu-notification-badges-using-html5-data-attributes--webdesign-6273)
