@@ -59,11 +59,25 @@ Example: ![pinned bubble](images/pinned-bubble.png)
 
 ## Growl Like ##
 
+Growl notifications look a look like a standard 'notification box', except that it "rolls" out from the edge of the window - usually the top.
+
  Article  | Comments
 ----------|----------
 [Pop From Top Notification](https://css-tricks.com/pop-from-top-notification/) by Chris Coyier            | A design pattern where a notification pops down from the top of the browser window, then slides away.
 [How to Make a Pure CSS Alert Bar](http://joshnh.com/weblog/how-to-make-an-alert-bar/)                    | -
 [Auto Hide Notification Box in Blogger](http://www.stramaxon.com/2013/02/auto-hide-notification-box.html) | -
+
+## Web Notifications API/WebKit ##
+
+The *Web Notifications API* is defined as "an API for end-user notifications. A notification allows alerting the user outside the context of a web page of an occurrence, such as the delivery of email." These look a like toast.
+
+*NOTE:* As of this writing, permission is required from the end-user to use these notifications.
+
+- Mozilla [Notification](https://developer.mozilla.org/en-US/docs/Web/API/notification)
+- [An Introduction to the Web Notifications API](http://www.sitepoint.com/introduction-web-notifications-api/)
+- [Web Notifications](http://www.thecssninja.com/html5/web-notifications)
+- [Why (and How) you Should Probably Use Web Notifications](http://www.inserthtml.com/2013/10/notification-api/)
+- [HTML5 Web Notifications](http://www.girliemac.com/html5-notifications-webOS-style/) [source](https://github.com/girliemac/html5-notifications-webOS-style)
 
 ## JQuery Plugins ##
 
@@ -73,19 +87,6 @@ Example: ![pinned bubble](images/pinned-bubble.png)
 [Noty](http://ned.im/noty/#/about)           | create alert - success - error - warning - information - confirmation messages as an alternative the standard alert dialog.
 [Lobibox](http://lobianijs.com/site/lobibox) | Free responsive jQuery messagebox and notification plugin available for commercial and non-commercial usages.
 [FreeNBar](http://www.jqueryscript.net/other/Create-A-Responsive-Top-Notification-Bar-with-jQuery-CSS3-Freenbar-js.html) | Create A Responsive Top Notification Bar with jQuery and CSS3 - Freenbar.js
-    - 
-
-## Web Notifications API/WebKit ##
-
-The *Web Notifications API* is defined as "an API for end-user notifications. A notification allows alerting the user outside the context of a web page of an occurrence, such as the delivery of email."
-
-*NOTE:* As of this writing, permission is required from the end-user to use these notifications.
-
-- Mozilla [Notification](https://developer.mozilla.org/en-US/docs/Web/API/notification)
-- [An Introduction to the Web Notifications API](http://www.sitepoint.com/introduction-web-notifications-api/)
-- [Web Notifications](http://www.thecssninja.com/html5/web-notifications)
-- [Why (and How) you Should Probably Use Web Notifications](http://www.inserthtml.com/2013/10/notification-api/)
-- [HTML5 Web Notifications](http://www.girliemac.com/html5-notifications-webOS-style/) [source](https://github.com/girliemac/html5-notifications-webOS-style)
 
 ## StackOverflow Answers ##
 
