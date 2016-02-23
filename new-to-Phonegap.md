@@ -56,8 +56,11 @@ LAST UPDATE: 2015-12-12
 
   All three platforms have blogs and twitter accounts. **Ignore at your peril.**
   * Official Apache [Cordova Blog](http://cordova.apache.org/blog/) - https://twitter.com/apachecordova
-  * Official Adobe [Phonegap Blog](http://phonegap.com/blog/) - https://twitter.com/phonegap
-  * Official Adobe [Phonegap Build Blog](http://phonegap.com/blog/phonegap-build/) - https://twitter.com/phonegapbuild
+  * <s>Official Adobe [Phonegap Blog](http://phonegap.com/blog/)</s> - https://twitter.com/phonegap
+  * <s>Official Adobe [Phonegap Build Blog](http://phonegap.com/blog/phonegap-build/)</s> - https://twitter.com/phonegapbuild
+  * THEY ARE MOVING THE BLOG TODAY (2016-02-22).
+  * [Phonegap Blog](http://phonegap.com/blog/)
+  * [Phonegap Build Blog](http://phonegap.com/blog/tag/phonegap-build/)
 
 ###<a name=004>4.</a> In the code, did not listen for the 'deviceready' event. ###
 
