@@ -58,18 +58,18 @@ These are all very similar.
 [Auto Hide Notification Box in Blogger](http://www.stramaxon.com/2013/02/auto-hide-notification-box.html) | -
 
 ## JQuery Plugins ##
-- [Notify.js](https://notifyjs.com/)
-    - Toast like
-- [Noty](http://ned.im/noty/#/about)
-    - create alert - success - error - warning - information - confirmation messages as an alternative the standard alert dialog.
-- [Lobibox](http://lobianijs.com/site/lobibox)
-    - Free responsive jQuery messagebox and notification plugin available for commercial and non-commercial usages.
-- [FreeNBar](Create A Responsive Top Notification Bar with jQuery and CSS3 - Freenbar.js)
+
+ Article  | Comments
+----------|----------
+[Notify.js](https://notifyjs.com/)           | Toast like
+[Noty](http://ned.im/noty/#/about)           | create alert - success - error - warning - information - confirmation messages as an alternative the standard alert dialog.
+[Lobibox](http://lobianijs.com/site/lobibox) | Free responsive jQuery messagebox and notification plugin available for commercial and non-commercial usages.
+[FreeNBar](http://www.jqueryscript.net/other/Create-A-Responsive-Top-Notification-Bar-with-jQuery-CSS3-Freenbar-js.html) | Create A Responsive Top Notification Bar with jQuery and CSS3 - Freenbar.js
     - 
 
 ## Web Notifications API/WebKit ##
 
-The Web Notifications API is defined as "an API for end-user notifications. A notification allows alerting the user outside the context of a web page of an occurrence, such as the delivery of email."
+The *Web Notifications API* is defined as "an API for end-user notifications. A notification allows alerting the user outside the context of a web page of an occurrence, such as the delivery of email."
 
 *NOTE:* As of this writing, permission is required from the end-user to use these notifications.
 
@@ -80,6 +80,7 @@ The Web Notifications API is defined as "an API for end-user notifications. A no
 - [HTML5 Web Notifications](http://www.girliemac.com/html5-notifications-webOS-style/) [source](https://github.com/girliemac/html5-notifications-webOS-style)
 
 ## StackOverflow Answers ##
+
 - [Show an Android style toast notification using HTML/CSS/JavaScript](http://stackoverflow.com/questions/17723164/show-an-android-style-toast-notification-using-html-css-javascript)
 - [Easiest css for Facebook style ?red? notifications](http://stackoverflow.com/a/5748155/3255670) - This is a pinned bubble.
     
