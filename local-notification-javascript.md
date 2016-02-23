@@ -37,9 +37,9 @@ These are all very similar.
 
 ## Toast Like ##
 
- Article  | Source | Website/Author | Comments
-----------|--------|----------------|----------
-[Simple JavaScript Notifications with *toastr*](http://johnpapa.net/toastr100beta/) | [github source](https://github.com/CodeSeven/toastr) | johnpapa.net | toastr is a simple JavaScript toast notification library that is small, easy to use, and extendable.
+ Article  | Comments
+----------||----------
+[Simple JavaScript Notifications with *toastr*](http://johnpapa.net/toastr100beta/) - [github source](https://github.com/CodeSeven/toastr) | toastr is a simple JavaScript toast notification library that is small, easy to use, and extendable.
 
 ## Pinned Notifications ##
 - [Facebook Style Notification Popup using CSS and Jquery.](http://www.9lessons.info/2014/09/facebook-style-notification-popup-using.html) - A Facebook style notifications popup using Jquery, HTML and CSS
