@@ -22,9 +22,9 @@ Google searches made:
 ## Notification Box Like ##
 These are all very similar.
 
-- [Notification Box ? Alert Boxes using CSS](http://w3lessons.info/2013/01/11/notification-box-alert-boxes-using-css/)
-- [CSS Message Boxes for different message types](http://www.jankoatwarpspeed.com/css-message-boxes-for-different-message-types/)
-- [CSS Notification Boxes](http://www.cssportal.com/blog/css-notification-boxes/)
+- [Notification Box &ndash; Alert Boxes using CSS](http://w3lessons.info/2013/01/11/notification-box-alert-boxes-using-css/) - w3lessons.info
+- [CSS Message Boxes for different message types](http://www.jankoatwarpspeed.com/css-message-boxes-for-different-message-types/) - jankoatwarpspeed.com
+- [CSS Notification Boxes](http://www.cssportal.com/blog/css-notification-boxes/) - cssportal.com
 - [Giveaway 10 CSS Notification Boxes For Free](http://www.paulund.co.uk/giveaway-10-css-notification-boxes-for-free)
 - [Error, Success, Warning, and Info Messages with CSS](http://isabelcastillo.com/error-info-messages-css)
 - [Create CSS3 Notification Boxes in Blogger using "Shortcodes" ](http://www.mybloggertricks.com/2015/04/message-box-shortcodes-for-blogger.html)
