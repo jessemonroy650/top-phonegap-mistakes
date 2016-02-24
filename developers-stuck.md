@@ -1,10 +1,8 @@
 # developers-stuck #
 Date: 2016-02-16 <br>
-Last Update: 2016-02-17
+Last Update: 2016-02-23
 
-## Cant login with adobe id ##
-- http://community.phonegap.com/nitobi/topics/cant-login-with-adobe-id
-- http://community.phonegap.com/nitobi/topics/cant-login-to-phonegap
 
-## Private Plugin Submission - "We're sorry, but something went wrong." ##
-- http://community.phonegap.com/nitobi/topics/private-plugin-submission-were-sorry-but-something-went-wrong
+- http://community.phonegap.com/nitobi/topics/multiple-issues-with-cli-6-0-0-and-windows
+- http://community.phonegap.com/nitobi/topics/cannot-link-github-account-30pl0iaahaiel
+- http://community.phonegap.com/nitobi/topics/that-email-address-is-already-linked-to-a-phonegap-build-account-bhygbmirmboyn

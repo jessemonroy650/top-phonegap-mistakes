@@ -65,6 +65,7 @@ For windows and Mac
 
 - http://codepen.io/
 - http://jsfiddle.net/
+- http://jsbin.com/
 - http://www.sitepoint.com/7-code-playgrounds/
 - http://alternativeto.net/software/codepen/
 
