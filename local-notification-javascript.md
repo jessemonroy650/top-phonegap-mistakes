@@ -23,7 +23,6 @@ Example: ![notification box](images/notification-box.png)
 [CSS Notification Boxes](http://www.cssportal.com/blog/css-notification-boxes/)                                                 | cssportal.com
 [Giveaway 10 CSS Notification Boxes For Free](http://www.paulund.co.uk/giveaway-10-css-notification-boxes-for-free)             | paulund.co.uk
 [Error, Success, Warning, and Info Messages with CSS](http://isabelcastillo.com/error-info-messages-css)                        | isabelcastillo.com
-[Create CSS3 Notification Boxes in Blogger using "Shortcodes" ](http://www.mybloggertricks.com/2015/04/message-box-shortcodes-for-blogger.html) | mybloggertricks.com
 [Simple CSS notification boxes without using any icon](http://aviaryan.in/blog/css-notification-bubble-box.html)                | aviaryan.in
 [Cool Notification Messages with HTML CSS](http://www.anirbanadak.com/cool-notification-messages-html-css)                      | anirbanadak.com
 [Pure CSS Notification Bars](http://webdesignerhut.com/pure-css-notification-bars/)                                             | webdesignerhut.com
