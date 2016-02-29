@@ -12,7 +12,7 @@ In short, the ''Cordvoa/Phonegap Plugin'' is
 
 ## The System Calls ##
 
-The system calls can be any software of service on the device, such as:
+The system calls can be any software or service on the device, such as:
 
 - displaying a text messge in a window (like Toast)
 - accessing the hardware (like the GPS)
@@ -30,7 +30,7 @@ The system calls can be any software of service on the device, such as:
 
 ## The Javascript bridge ##
 
-In short, each platform (Android, iOS, Windows, etc) has code in the webview that can be call with Javascript. The code is then sent to the native "middle-man" which then calls the system with your request. The code is now filtered, but you should take reasonable precautions - like understanding the [whitelist system](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/the-whitelist-system.md)
+In short, each platform (Android, iOS, Windows, etc) has code in the webview (the library to display HTML) that can be call with Javascript. The code is then sent to the native "middle-man" which then calls the system with your request. The bridge is now filtered, but you should take reasonable precautions - like understanding the [whitelist system](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/the-whitelist-system.md)
 
 ## The repositories ##
 
