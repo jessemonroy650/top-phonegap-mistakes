@@ -30,8 +30,10 @@ The system calls can be any software of service on the device, such as:
 
 ## The Javascript bridge ##
 
+In short, each platform (Android, iOS, Windows, etc) has code in the webview that can be call with Javascript. The code is then sent to the native "middle-man" which then calls the system with your request. The code is now filtered, but you should take reasonable precautions - like understanding [whitelist system](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/the-whitelist-system.md)
 
 ## The repositories ##
+
 There are two sets of libraries to platform.
 
 One set is refered to as the "core" plugins. These are written and maintained by the Cordova team. The other set is know as 3rd-party plugins. These are written by other people. The 3rd-party plugins are maintained and fixed by the authors - which also handle any questions regarding their plugins.
@@ -45,3 +47,11 @@ For *Cordova/Phonegap CLI and SDK (including IDEs)*, these are the links to the 
 
 - ["Core" plugins](http://cordova.apache.org/docs/en/6.x/cordova/plugins/pluginapis.html)
 - [3rd-party plugins](http://cordova.apache.org/plugins/)
+
+## Documentation ##
+
+- [PGB Documentation](http://docs.build.phonegap.com/en_US/configuring_plugins.md.html#Plugins)
+- [Cordova Documentation](http://cordova.apache.org/docs/en/6.x/plugin_ref/plugman.html)
+
+
+
