@@ -30,7 +30,7 @@ The system calls can be any software of service on the device, such as:
 
 ## The Javascript bridge ##
 
-In short, each platform (Android, iOS, Windows, etc) has code in the webview that can be call with Javascript. The code is then sent to the native "middle-man" which then calls the system with your request. The code is now filtered, but you should take reasonable precautions - like understanding [whitelist system](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/the-whitelist-system.md)
+In short, each platform (Android, iOS, Windows, etc) has code in the webview that can be call with Javascript. The code is then sent to the native "middle-man" which then calls the system with your request. The code is now filtered, but you should take reasonable precautions - like understanding the [whitelist system](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/the-whitelist-system.md)
 
 ## The repositories ##
 
@@ -52,6 +52,3 @@ For *Cordova/Phonegap CLI and SDK (including IDEs)*, these are the links to the 
 
 - [PGB Documentation](http://docs.build.phonegap.com/en_US/configuring_plugins.md.html#Plugins)
 - [Cordova Documentation](http://cordova.apache.org/docs/en/6.x/plugin_ref/plugman.html)
-
-
-
