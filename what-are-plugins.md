@@ -41,7 +41,7 @@ One set is refered to as the "core" plugins. These are written and maintained by
 For *Phonegap Build*, a cloud-based build service by Adobe/Phonegap, these are the links to the respositories.
 
 - ["Core" plugins](https://build.phonegap.com/plugins/core/)
-- [3rd-party plugins](https://build.phonegap.com/plugins/)
+- [3rd-party plugins](http://cordova.apache.org/plugins/)
 
 For *Cordova/Phonegap CLI and SDK (including IDEs)*, these are the links to the respositories.
 
