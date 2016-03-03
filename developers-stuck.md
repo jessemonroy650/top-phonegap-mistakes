@@ -5,4 +5,5 @@ Last Update: 2016-02-29
 
 - http://community.phonegap.com/nitobi/topics/windows-build-fail-when-add-cordova-plugin-camera-cordova-plugin-contacts
 - http://community.phonegap.com/nitobi/topics/multiple-issues-with-cli-6-0-0-and-windows 
+- http://community.phonegap.com/nitobi/topics/cannot-link-github-account-30pl0iaahaiel
 

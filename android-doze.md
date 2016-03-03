@@ -1,6 +1,6 @@
 ## Android Doze ###
 Date: 2015-11-27<br>
-Last Upate: 2015-11-29
+Last Upate: 2016-03-01
 
 New as of Android 6.0 (Marshmallow).
 
@@ -20,6 +20,10 @@ New as of Android 6.0 (Marshmallow).
 - [Android M Developer Preview & Tools](http://android-developers.blogspot.com/2015/05/android-m-developer-preview-tools.html) - 28 May 2015
 
     > *Battery* - We're making Android devices smarter about managing power through a new feature called **Doze**. With M, Android uses significant motion detection to learn if a device has been left unattended for a while. In this state, Android will exponentially back off background activity, trading off a little bit of app freshness for longer battery life. Consider how this may affect your app; for instance, if you're building a chat app, you may want to make use of high priority messages to wake your app when the device is dozing.
+
+- [Google Policy on Device Network Abuse](https://play.google.com/about/privacy-and-security.html#device-and-network-abuse)
+
+    > Apps that attempt to bypass [system power management](https://developer.android.com/intl/en/training/monitoring-device-state/doze-standby.html) that are not [eligible for whitelisting](https://developer.android.com/intl/en/training/monitoring-device-state/doze-standby.html#whitelisting-cases).
 
 
 ### Blogs Related ###
