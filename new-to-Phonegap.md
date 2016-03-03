@@ -1,6 +1,6 @@
 ## Top Mistakes by Developers new to Cordova/Phonegap ##
 DATE: 2015-10-18<br>
-LAST UPDATE: 2015-12-12
+LAST UPDATE: 2016-03-02
 
 <a href=#001>1</a>
 <a href=#002>2</a>
