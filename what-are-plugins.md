@@ -1,6 +1,6 @@
 # What is a *Cordova/Phonegap Plugin*? #
 Date: 2016-02-29<br>
-Last Update: 2016-02-29
+Last Update: 2016-03-04
 
 If you have worked in software development for a while, you are familiar the concept of "plugins". However, what exactly is in a plugin varies from software platform to platform.
 
@@ -27,6 +27,7 @@ The system calls can be any software or service on the device, such as:
 - Objective C (iOS)
 - C# (Windows)
 - C/C++ (others)
+- NOTE: There are instances where the plugin can be all Javascript simply a wrapper for the native version of the library.
 
 ## The Javascript bridge ##
 
@@ -52,3 +53,8 @@ For *Cordova/Phonegap CLI and SDK (including IDEs)*, these are the links to the 
 
 - [PGB Documentation](http://docs.build.phonegap.com/en_US/configuring_plugins.md.html#Plugins)
 - [Cordova Documentation](http://cordova.apache.org/docs/en/6.x/plugin_ref/plugman.html)
+
+
+### History ###
+
+- jcesarmobile pointed out that some plugins are actually wrappers.
