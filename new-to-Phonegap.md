@@ -62,7 +62,7 @@ LAST UPDATE: 2016-03-02
   * [Phonegap Blog](http://phonegap.com/blog/)
   * [Phonegap Build Blog](http://phonegap.com/blog/tag/phonegap-build/)
 
-  The forums for ''Phonegap CLI'' and ''Phonegap Build'' are moving very soon. Today is 2016-03-02 Here are the new forums:
+  The forums for *Phonegap CLI* and *Phonegap Build* are moving very soon. Today is 2016-03-02 Here are the new forums:
   * [Phonegap CLI](https://forums.adobe.com/community/phonegap)
   * [Phonegap Build](https://forums.adobe.com/community/phonegap/build)
 
