@@ -10,9 +10,11 @@ Date                 | dow   | debate/forum| Party       | Network      | Time  
 ~~Feb. 23, 2016~~    | tues  |   -         | -           | CNN          | -       | South Carolina?
 ~~Feb. 25, 2016~~    | thurs |   debate    | Republican  | CNN          | -       | Texas
 ~~Mar. 3, 2016~~     | thurs |   debate    | Republican  | Fox          | 9pm EST | Michigan 
-Mar. 6, 2016         | sun   |   debate    | Democratic  | CNN          | -       | Missouri
-Mar. 9, 2016         | weds  |   debate    | Democratic  | Univision    | -       | Florida
-Mar. 10, 2016        | thurs |   debate    | Republican  | CNN          | -       | Florida
+Mar. 6, 2016         | sun   |   debate    | Democratic  | CNN          | 8pm EST | Michigan
+Mar. 7, 2016         | mon   |   forum     | Democratic  | Fox          | 6pm EST | Michigan
+Mar. 9, 2016         | weds  |   debate    | Democratic  | Univision    | 9pm EST | Florida
+Mar. 10, 2016        | thurs |   debate    | Republican  | CNN          | 9pm EST | Florida
+Mar. 21, 2016        | mon   |   debate    | Republican  | CNN          | -       | Utah
 April, 2016          |  -    |   debate    | Democratic  | -            | -       | -
 May, 2016            |  -    |   debate    | Democratic  | -            | -       | -
 
