@@ -1,6 +1,6 @@
 # android-block-pre-4.1.1 #
 Date: 2016-02-09 <br>
-Last Update: 2016-02-09
+Last Update: 2016-03-05
 
 Google recently sent out an alert stating, in short:
 
@@ -8,8 +8,10 @@ Google recently sent out an alert stating, in short:
 
 Google's Alert: [How to fix apps with Apache Cordova vulnerabilities](https://support.google.com/faqs/answer/6325474)
 
+- **Recommended solution:** Upgrade to 4.3.1 because of [security issue](https://cordova.apache.org/news/2015/06/04/tools-release.html)
 - **Stated solution:** Upgrade to 4.1.1
 - **Solutions:** vary base on vulnerablity
+
 
 ## At Issue ##
 
