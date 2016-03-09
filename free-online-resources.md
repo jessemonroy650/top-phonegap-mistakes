@@ -68,6 +68,7 @@ For windows and Mac
 - http://jsbin.com/
 - http://www.sitepoint.com/7-code-playgrounds/
 - http://alternativeto.net/software/codepen/
+- http://jspref.com/
 
 ## HTML entity encoder/decoder ##
 
