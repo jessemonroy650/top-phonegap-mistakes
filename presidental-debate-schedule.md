@@ -1,12 +1,14 @@
+# <a name=toc>TOC</a>
+- <a href=#debates>Presidental Debate Schedule</a>
+- <a href=#dvr>Demo vs. Repub</a>
+- <a href=#prime>Primaries</a>
+
 ## <a name=debates>Presidental Debate Schedule</a> ##
 Late Update: 2016-03-04
 
 Date                 | dow   | debate/forum| Party       | Network      | Time    | State
 ---------------------|-------|-------------|-------------|--------------|---------|----------------
-~~Mar. 3, 2016~~     | thurs |   debate    | Republican  | Fox          | 9pm EST | Michigan 
-Mar. 6, 2016         | sun   |   debate    | Democratic  | CNN          | 8pm EST | Michigan
-Mar. 7, 2016         | mon   |   forum     | Democratic  | Fox          | 6pm EST | Michigan
-Mar. 9, 2016         | weds  |   debate    | Democratic  | Univision    | 9pm EST | Florida
+~~Mar. 9, 2016~~     | weds  |   debate    | Democratic  | Univision    | 9pm EST | Florida
 Mar. 10, 2016        | thurs |   debate    | Republican  | CNN          | 9pm EST | Florida
 Mar. 21, 2016        | mon   |   debate    | Republican  | CNN          | -       | Utah
 April, 2016          |  -    |   debate    | Democratic  | -            | -       | -
@@ -15,11 +17,7 @@ May, 2016            |  -    |   debate    | Democratic  | -            | -     
 - Source: Wikipedia [Democratic Party presidential debates, 2016](https://en.wikipedia.org/wiki/Democratic_Party_presidential_debates,_2016)
 - Source: Wikipedia [Republican Party presidential debates, 2016](https://en.wikipedia.org/wiki/Republican_Party_presidential_debates,_2016)
 
-
-<a href=#debates>1st headline</a>
-
-
-## Democrat Vs. Republican ##
+## <a name=dvr>Democrat Vs. Republican</a> ##
 
 Date               | dow       | P/VP | location 
 -------------------|-----------|------|--------------
@@ -30,7 +28,7 @@ October 19, 2016   | Wednesday | P    | Las Vegas, NV
 
 - Source: [Commisson on Presidental Debates](http://www.debates.org/index.php?page=2016debates)
 
-## Primary Dates ##
+## <a name=prime>Primary Dates</a> ##
 
 Date      | Party | State
 ----------|-------|-------------------------------------------
@@ -64,9 +62,4 @@ June 14   | D     | District of Columbia
 
 
 - Source: [New York Times](http://www.nytimes.com/interactive/2016/us/elections/primary-calendar-and-results.html?_r=0)
-
-
-NOTICE           |
------------------|
-DATE: 2016-03-09 |
-This is a test   |
+- <a href=#toc>TOC</a>
