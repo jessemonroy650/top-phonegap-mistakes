@@ -40,6 +40,9 @@ CSS arrow please!<br>
 http://www.cssarrowplease.com/<br>
 This is a cool tool to generate the CSS for your Notificaton
 
+Android Cheatsheet for Graphic Designers -- excellent collection**<br>
+http://petrnohejl.github.io/Android-Cheatsheet-For-Graphic-Designers/
+
 ### Icons and Splash Screen Generators ###
 
 PhoneGap/Cordova App Icon and Splash Screen Generator<br />

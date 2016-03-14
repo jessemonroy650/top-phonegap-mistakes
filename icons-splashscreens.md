@@ -27,4 +27,4 @@ extra-extra-extra-high | xxxhdpi | 192px | ~640dpi
 
 source: [icons HxW](http://developer.android.com/guide/practices/screens_support.html#DesigningResources)
 source: the six (6) [name and dpi](http://developer.android.com/guide/practices/screens_support.html#range)
-
+source: [Android Cheatsheet for Graphic Designers](http://petrnohejl.github.io/Android-Cheatsheet-For-Graphic-Designers/)

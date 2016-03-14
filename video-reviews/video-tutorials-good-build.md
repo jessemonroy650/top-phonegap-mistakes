@@ -62,4 +62,11 @@ Homepage: http://pointdeveloper.com/phonegap-build-beginner-course/
 
 ----
 
+**PhoneGap and PhoneGap Build in 5 Minutes** 
+* URL: https://www.youtube.com/watch?v=UOjoNEUFeVE
+* Comment: Fair. Has issues.
+* ISSUE: `<features>` no longer used. *PhoneGap Build* now only supports 3 platforms.
+* Reviewed On: 2016-03-13
+
+----
 

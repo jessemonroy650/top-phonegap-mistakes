@@ -2,7 +2,7 @@
 Date: 2015-12-29<br>
 Last Update: 2016-01-02
 
-These are videos with issues. Issues that would imped you development. They are not recommended.
+These are videos with issues. Issues that would imped your development. They are not recommended.
 
 ----
 

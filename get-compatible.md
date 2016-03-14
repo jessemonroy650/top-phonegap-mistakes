@@ -11,3 +11,9 @@
 ### Javascript/ECMAScript 5 ###
 
 - http://kangax.github.io/compat-table/es5/
+
+
+### Others ###
+
+Android Cheatsheet for Graphic Designers<br>
+http://petrnohejl.github.io/Android-Cheatsheet-For-Graphic-Designers/
