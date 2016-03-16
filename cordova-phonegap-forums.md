@@ -5,8 +5,9 @@ The groups reside in five areas.
 1. Stackoverflow
 2. Google Groups
 3. Nitobi (the Official Adobe Phonegap forum)
-4. Cordova's [Slack Channel](http://slack.cordova.io/)
-5. Forums dedicted to Windows, Ubuntu and Firefox phones.
+4. Adobe Communities (soon to be the new "official" forums)
+5. Cordova's [Slack Channel](http://slack.cordova.io/)
+6. Forums dedicted to Windows, Ubuntu and Firefox phones.
 
 ##1. Stackoverflow##
 
@@ -74,11 +75,16 @@ The groups reside in five areas.
 3. [Plugins](http://community.phonegap.com/nitobi/products/nitobi_plugins)
 4. [Programming (Others)](http://community.phonegap.com/nitobi/products/nitobi_programming_others)
 
-##4. Cordova##
+##4. Adobe Communities##
+
+* [Phonegap](https://forums.adobe.com/community/phonegap)
+* [*Phonegap Build*](https://forums.adobe.com/community/phonegap/build)
+
+##5. Cordova##
 
 1. Cordova's [Slack Channel](http://slack.cordova.io/)
 
-##5. Other forums are particular to their makers##
+##6. Other forums are particular to their makers##
 
 ### Windows ###
 
