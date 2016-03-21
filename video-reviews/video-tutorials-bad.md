@@ -95,10 +95,19 @@ IT WAS WRITTEN FOR Phonegap 1.3. The current version is 5.2.0. DO NOT USE.?
 **Phone Gap Tutorials - Session 1 ( Part 2 ) (1:40:06)**
 * URL: https://www.youtube.com/watch?v=t95KG_SFppU
 
-
+----
 
 * URL: https://www.youtube.com/watch?v=-qnDKiZ3Ojw
 * URL: https://www.youtube.com/watch?v=RxCZCwPSzzg
 
+----
 
+**Title: How to build a native IOS app with phonegap and ruby on rails.**
+* URL: https://www.youtube.com/watch?v=LjIKElAP6_A
+* Publisher: Rails Tutorial
+* Platform Used: MacOS
+* Tools: CLI, XCode, NPM, emulator
+* ISSUE: Misleading *[Google and Apple frown on apps](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/new-to-Phonegap.md#005a) that are website wrappers*
+* Comment: In addition, it is never shown on an actual device.
+* Reviewed On: 2016-03-20
 
