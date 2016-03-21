@@ -90,5 +90,9 @@ http://jster.net/category/templating-engines
 
 > These JavaScript templating engines allow you to perform string interpolation and then some using some specific templating syntax. Examples: mustache.js and Jade. 
 
+*5 Ways to Make Your Site Smaller and Faster* - February 8, 2015<br>
+https://davidwalsh.name/site-speed
+
+> To be a great everyday developer, we're almost destined to feel as though our work isn't good enough -- what a negative way to live our lives! <p> The good news is that there are a few methods for incredible easy gains in the performance and load time departments.  Here are five gains you can complete in minutes to make your site faster for all users!
 
 
