@@ -10,3 +10,9 @@ I had others in the last 48 hours, but lost the threads.
 - http://community.phonegap.com/nitobi/topics/i-cant-access-apps-settings-why
 - http://community.phonegap.com/nitobi/topics/project-locked
 
+Maybe
+
+- http://community.phonegap.com/nitobi/topics/zip-file-will-not-upload-without-config-xml-even-though-it-is-inside
+- http://community.phonegap.com/nitobi/topics/i-have-uploaded-zip-file-uploaded-successfully-but-it-is-not-showing-any-source-to-convert-into-apk-or-windows
+
+
