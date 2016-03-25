@@ -9,6 +9,7 @@ I had others in the last 48 hours, but lost the threads.
 - http://community.phonegap.com/nitobi/topics/cannot-delete-edit-my-app
 - http://community.phonegap.com/nitobi/topics/i-cant-access-apps-settings-why
 - http://community.phonegap.com/nitobi/topics/project-locked
+- http://community.phonegap.com/nitobi/topics/cannot-delete-the-app
 
 Maybe
 
