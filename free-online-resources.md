@@ -72,6 +72,8 @@ For windows and Mac
 - http://www.sitepoint.com/7-code-playgrounds/
 - http://alternativeto.net/software/codepen/
 - http://jspref.com/
+- http://pastebin.com/
+- http://pastie.org/
 
 ## HTML entity encoder/decoder ##
 

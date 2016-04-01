@@ -22,4 +22,13 @@ Maybe
 2. http://community.phonegap.com/nitobi/topics/i-have-uploaded-zip-file-uploaded-successfully-but-it-is-not-showing-any-source-to-convert-into-apk-or-windows
 3. http://community.phonegap.com/nitobi/topics/unable-to-build-my-private-app
 
+After March 29
+
+1. http://community.phonegap.com/nitobi/topics/no-settings
+
+
+NEW April 1
+
+1. http://community.phonegap.com/nitobi/topics/that-email-address-is-already-linked-to-a-phonegap-build-account-cant-signin
+
 

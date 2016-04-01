@@ -5,6 +5,10 @@ Last Update: 2015-11-01
 *I have more security issues, but they are in bookmarks right now. I'll update them over the next few days. This page also needs organization.*
 
 
+*Last Week Tonight with John Oliver: Encryption (HBO)* Published on Mar 13, 2016
+https://www.youtube.com/watch?v=zsjZ2r9Ygzw
+> 18:00 minutes
+
 *Can an iPhone's fingerprint sensor really be hacked using PLAY-DOH? Researchers claim toy can (sometimes) bypass Apple's security*<br>
 http://www.dailymail.co.uk/sciencetech/article-3471718/Can-iPhone-s-fingerprint-sensor-hacked-using-PLAY-DOH-Researchers-claim-toy-bypass-Apple-s-security.html
 > The company's president reveals in a video shared by NewsFix that getting past common fingerprint scanners is just a step above child's play, testing out the simple hack on reporters at MWC.

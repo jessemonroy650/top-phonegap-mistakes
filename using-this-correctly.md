@@ -1,6 +1,6 @@
 # using-this-correctly #
 Date: 2016-01-10 <br>
-Last Update: 2016-01-20
+Last Update: 2016-04-01
 
 ## Using `this` correctly, requires knowing the context. ##
 
@@ -14,6 +14,7 @@ OHH, and any `setTimeout()` answer that anyone has given you does not know they 
 
 These videos should help. ? Best of Luck.
 
+**Videos by Douglas Crockford**
 - [Context in JavaScript - 1/4 - Purpose and Problems with JavaScript's "This"](https://www.youtube.com/watch?v=su-SdgebJCE)
 - [Context in JavaScript - 2/4 - How JavaScript Decides What "This" Actually Is](https://www.youtube.com/watch?v=hJ_YD4Ljbqc)
 - [Context in JavaScript - 3/4 - "This" May Not Be What You Expected & How to Fix It](https://www.youtube.com/watch?v=PNqoehDEZ3E)
