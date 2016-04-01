@@ -6,16 +6,15 @@ Last Update: 2016-04-01
 
 Often people use the `this` incorrectly. This is a common mistake. The Javascript `this` does NOT work like the Java `this`, nor like most computer languages.    
 
-The reason it does not work is because the `this` gets resolved at **run-time**, not assemble-time (or compile-time). When the event fires, `this` resolves to the the global `this` because your app object is now out of scope. The event fires \*outside* of your `app` object.
+The reason it does not work is because the `this` gets resolved at **run-time**, not assemble-time (or compile-time). When an event fires, `this` resolves to the global `this` because the function is now out of scope.
 
-A quick fix would be to do `app.onDeviceReady` instead of <s>`this.onDeviceReady`</s> You can test this by making your `onDeviceReady()` a global function and leaving the `this` in place.
+These videos should help.
 
-OHH, and any `setTimeout()` answer that anyone has given you does not know they need to wait for the `deviceready` event. Bad code and bad advice abound in the Javascript world. 
+**Videos by Adam Breindel**
+- [Context in JavaScript - 1/4 - Purpose and Problems with JavaScript's "This"](https://www.youtube.com/watch?v=su-SdgebJCE) 10 minutes
+- [Context in JavaScript - 2/4 - How JavaScript Decides What "This" Actually Is](https://www.youtube.com/watch?v=hJ_YD4Ljbqc) 4 minutes
+- [Context in JavaScript - 3/4 - "This" May Not Be What You Expected & How to Fix It](https://www.youtube.com/watch?v=PNqoehDEZ3E) 7 minutes
+- [Context in JavaScript - 4/4 - Mastering "This:" Additional Techniques & Future Support](https://www.youtube.com/watch?v=QQ4__W9nELc) 6 minutes
 
-These videos should help. ? Best of Luck.
-
-**Videos by Douglas Crockford**
-- [Context in JavaScript - 1/4 - Purpose and Problems with JavaScript's "This"](https://www.youtube.com/watch?v=su-SdgebJCE)
-- [Context in JavaScript - 2/4 - How JavaScript Decides What "This" Actually Is](https://www.youtube.com/watch?v=hJ_YD4Ljbqc)
-- [Context in JavaScript - 3/4 - "This" May Not Be What You Expected & How to Fix It](https://www.youtube.com/watch?v=PNqoehDEZ3E)
-- [Context in JavaScript - 4/4 - Mastering "This:" Additional Techniques & Future Support](https://www.youtube.com/watch?v=QQ4__W9nELc)
+- [Scope and this in JavaScript](http://javascriptplayground.com/blog/2012/04/javascript-variable-scope-this)
+- [Understanding Scope and Context in JavaScript](http://ryanmorr.com/understanding-scope-and-context-in-javascript/)
