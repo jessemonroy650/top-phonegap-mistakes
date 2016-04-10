@@ -1,8 +1,11 @@
 ## Security Issues ##
 Date: 2015-10-18<br>
-Last Update: 2015-11-16
+Last Update: 2016-04-08
 
 *I have more security issues, but they are in bookmarks right now. I'll update them over the next few days. This page also needs organization.*
+
+* Google fixes 39 Android flaws, 15 of them critical
+* http://www.computerworld.com/article/3052176/security/google-fixes-39-android-flaws-15-of-them-critical.html
 
 * New Android exploit can hack any handset in one shot
 * http://www.engadget.com/2015/11/12/new-android-exploit-can-hack-any-handset-in-one-shot/

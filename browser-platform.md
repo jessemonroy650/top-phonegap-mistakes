@@ -43,7 +43,19 @@ legacy whitelist    |    no     |  -                 |
 
 ### <a name=releases>Releases</a> ###
 
-There are only two (2) release for *browser platform*, 4.0.0 and 3.6.0.
+There are only three (3) release for *browser platform*, 4.1.0, 4.0.0, and 3.6.0.
+
+#### 4.1.0 ####
+
+- [Cordova Browser 4.1.0](http://cordova.apache.org/announcements/2016/03/04/cordova-browser-4.1.0.html)
+
+    - [CB-10755](https://issues.apache.org/jira/browse/CB-10788) Updated checked in node_modules
+    - [CB-10650](https://issues.apache.org/jira/browse/CB-10650) Non-index content.src causes Splashscreen to be not displayed on browser
+    - [CB-9836](https://issues.apache.org/jira/browse/CB-9836) Add .gitattributes to prevent CRLF line endings in repos
+    - [CB-9669](https://issues.apache.org/jira/browse/CB-9669) Browser exec should have more failsafes
+    - Update to use new 'express' implementation of cordova-serve.
+    - [CB-9658](https://issues.apache.org/jira/browse/CB-9658) Improve 'cordova run browser' when browser not installed.
+    - [CB-9654](https://issues.apache.org/jira/browse/CB-9654) 'cordova run browser' -> duplicate 'CTRL + C' messages.
 
 #### 4.0.0 ####
 
@@ -73,6 +85,9 @@ There are only two (2) release for *browser platform*, 4.0.0 and 3.6.0.
 
 
 ### <a name=articles>Articles</a> ###
+
+* *The Cordova Browser Platform* - 2016-03-22
+* http://www.raymondcamden.com/2016/03/22/the-cordova-browser-platform/
 
 * *Quick tip for Cordova and the Browser platform &ndash; Setting a custom port* -  October 22, 2015
 * http://www.raymondcamden.com/2015/10/22/quick-tip-for-cordova-and-the-browser-platform
