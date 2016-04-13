@@ -8,10 +8,7 @@ Late Update: 2016-03-04
 
 Date                 | dow   | debate/forum| Party       | Network      | Time    | State
 ---------------------|-------|-------------|-------------|--------------|---------|----------------
-~~Mar. 9, 2016~~     | weds  |   debate    | Democratic  | Univision    | 9pm EST | Florida
-Mar. 10, 2016        | thurs |   debate    | Republican  | CNN          | 9pm EST | Florida
-Mar. 21, 2016        | mon   |   debate    | Republican  | CNN          | -       | Utah
-April, 2016          |  -    |   debate    | Democratic  | -            | -       | -
+April 14, 2016       | thurs |   debate    | Democratic  | CNN          | 9pm EST | New York
 May, 2016            |  -    |   debate    | Democratic  | -            | -       | -
 
 - Source: Wikipedia [Democratic Party presidential debates, 2016](https://en.wikipedia.org/wiki/Democratic_Party_presidential_debates,_2016)
@@ -32,16 +29,6 @@ October 19, 2016   | Wednesday | P    | Las Vegas, NV
 
 Date      | Party | State
 ----------|-------|-------------------------------------------
-March 5   | both  | Louisiana, Kansas (Caucus),  Kentucky (R Caucus),  Maine (R Caucus),  Nebraska (D Caucus)
-March 6   | both  | Maine (D Caucus),  Puerto Rico (R)
-March 8   | both  | Michigan, Mississippi, Hawaii (R Caucus), Idaho (R Caucus)
-March 12  | both  | District of Columbia (R), Northern Mariana Islands (D)
-March 15  | both  | Illinois, Missouri, North Carolina, Florida (GWTA), Ohio (GWTA), Northern Mariana Islands (R Caucus, GWTA)
-March 19  | R     | Virgin Islands (R Caucus)
-March 22  | both  | Utah, Arizona (GWTA), Idaho (D Caucus)
-March 26  | D     | Alaska (D Caucus), Hawaii (D Caucus), Washington (D Caucus)
-April 5   | both  | Wisconsin
-April 9   | both  | Wyoming*
 April 19  | both  | New York
 April 26  | both  | Connecticut, Maryland, Pennsylvania, Rhode Island, Delaware (GWTA)
 May 3     | both  | Indiana
