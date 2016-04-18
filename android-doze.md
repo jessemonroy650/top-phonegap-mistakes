@@ -42,3 +42,10 @@ New as of Android 6.0 (Marshmallow).
 ### SO Post that alerted me to this ###
 
 - [Cordova + Android 6 doze](http://stackoverflow.com/questions/33958242/cordova-android-6-doze)
+
+### Known Devices with Related Issues ###
+
+
+- [Background location that works?](http://community.phonegap.com/nitobi/topics/background-location-that-works)
+> The issue was with an [Xperia Z3](http://community.phonegap.com/nitobi/topics/background-location-that-works#reply_16808003) running [Android 5.1.1](http://community.phonegap.com/nitobi/topics/background-location-that-works#reply_16786544)
+
