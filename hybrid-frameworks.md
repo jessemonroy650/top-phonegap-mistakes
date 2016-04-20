@@ -68,7 +68,7 @@ Many of these frameworks cross-over directly into Cordova and Phonegap. The larg
 - [The Top 7 Hybrid Mobile App Frameworks](http://www.sitepoint.com/top-7-hybrid-mobile-app-frameworks/) - November 07, 2014
 - [5 Best Mobile Web App Frameworks](http://moduscreate.com/5-best-mobile-web-app-frameworks-sencha-touch/) - March 3, 2014
 
-
+----
 
 1. <a href=#cli>CLI and Cloud-based Development Systems</a>
 2. <a href=#ide>IDE and SDK-based Development Systems</a>
