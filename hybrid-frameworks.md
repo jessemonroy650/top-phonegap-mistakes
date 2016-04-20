@@ -66,12 +66,12 @@ Many of these frameworks cross-over directly into Cordova and Phonegap. The larg
 
 
 
-1. <a href=cli>CLI and Cloud-based Development Systems</a>
-2. <a href=ide>IDE and SDK-based Development Systems</a>
-3. <a href=issues>Have Issues</a>
-4. <a href=tools>Tools</a>
-5. <a href=articles>Articles</a>
-6. <a href=references>References</a>
+1. <a href=#cli>CLI and Cloud-based Development Systems</a>
+2. <a href=#ide>IDE and SDK-based Development Systems</a>
+3. <a href=#issues>Have Issues</a>
+4. <a href=#tools>Tools</a>
+5. <a href=#articles>Articles</a>
+6. <a href=#references>References</a>
 
 
 
