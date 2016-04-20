@@ -7,6 +7,7 @@ Many of these frameworks cross-over directly into Cordova and Phonegap. The larg
 <a name=cli>
 ### CLI and Cloud-based Development Systems ###
 </a>
+
 1. [Phonegap](http://phonegap.com/)
 2. [Ionic](http://ionicframework.com/)
 3. [Monaca](https://monaca.io/)
@@ -26,6 +27,7 @@ Many of these frameworks cross-over directly into Cordova and Phonegap. The larg
 <a name=ide>
 ### IDE and SDK-based Development Systems ###
 </a>
+
 1. [Eclipse/THyM](https://www.eclipse.org/thym/)
 2. [Visual Studio](http://aka.ms/cordova)
 3. [App Builder](http://www.getappbuilder.com/)
@@ -40,6 +42,7 @@ Many of these frameworks cross-over directly into Cordova and Phonegap. The larg
 <a name=issues>
 ### Have Issues ###
 </a>
+
 1. [JQuery Mobile](https://jquerymobile.com/) - Not really intended for Hybrid applications, better for mobile web.
 2. Facebook [React](http://facebook.github.io/react/) - better for web
 3. Twitter [Bootstrap](http://getbootstrap.com/) - better for web
@@ -48,6 +51,7 @@ Many of these frameworks cross-over directly into Cordova and Phonegap. The larg
 <a name=tools>
 ### Tools ###
 </a>
+
 1. [gapdebug](https://www.genuitec.com/products/gapdebug/)
 2. [BuilDozer](https://buildozer.io/)
 3. [app-framework](https://github.com/hyperweb2/app-framework) - See: [nitobi thread](http://community.phonegap.com/nitobi/topics/how-to-access-local-assets-from-external-web-app-opened-in-webview)
