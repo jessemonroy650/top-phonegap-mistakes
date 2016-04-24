@@ -1,9 +1,10 @@
 ## Cordova Releases ##
 Date: 2016-01-20<br>
-Last Update: 2016-01-20
+Last Update: 2016-04-23
 
 This record is incomplete.
 
+- [Cordova Android 5.1.1](https://cordova.apache.org/announcements/2016/03/02/cordova-android-5.1.1.html)
 - [Cordova Android 5.1.0](https://cordova.apache.org/announcements/2016/01/24/cordova-android-5.1.0.html)
 - **Start Year 2016**
 - [CVE annoucements for Cordova-Android](https://cordova.apache.org/announcements/2015/11/20/security.html) -  Quote: *We are no longer supporting Cordova-Android 3.x (...)*

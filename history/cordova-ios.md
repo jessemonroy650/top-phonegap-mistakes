@@ -1,9 +1,11 @@
 ## *Cordova iOS* Releases ##
 Date: 2016-01-20<br>
-Last Update: 2016-01-20
+Last Update: 2016-04-23
 
 This record is incomplete.
 
+- [Cordova iOS 4.1.1](https://cordova.apache.org/announcements/2016/04/04/ios-4.1.1.html)
+- [Cordova iOS 4.1.0](https://cordova.apache.org/announcements/2016/03/02/ios-4.1.0.html)
 - **Start Year 2016**
 - [Cordova iOS 4.0.1](https://cordova.apache.org/announcements/2015/12/18/cordova-ios-4.0.1.html)
 - [Cordova iOS 4.0.0](https://cordova.apache.org/announcements/2015/12/08/cordova-ios-4.0.0.html)

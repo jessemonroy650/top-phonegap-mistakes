@@ -1,12 +1,26 @@
 ## Cordova Releases ##
 Date: 2016-01-04<br>
-Last Update: 2016-02-10
+Last Update: 2016-04-23
 
 - [Cordova Road Map](https://github.com/phonegap/phonegap-roadmap/) - thanks to jcesarmobile
 
 ### Cordova History ###
 
+- [Plugins Release](https://cordova.apache.org/news/2016/04/20/plugins-release.html)
+- [Apache Cordova Windows 4.3.2](https://cordova.apache.org/announcements/2016/04/05/cordova-windows-4.3.2.html)
+- [Tools Release](https://cordova.apache.org/news/2016/04/04/tools-release.html)
+- [Cordova iOS 4.1.1](https://cordova.apache.org/announcements/2016/04/04/ios-4.1.1.html)
+- [Cordova 6.1.0 Released!](https://cordova.apache.org/news/2016/03/23/tools-release.html)
+- [Upcoming Changes to Plugin Fetching](https://cordova.apache.org/announcements/2016/03/22/new-plugin-fetching.html)
+- [Plugins Release](https://cordova.apache.org/news/2016/03/12/plugin-release.html)
+- [Cordova Browser 4.1.0](https://cordova.apache.org/announcements/2016/03/04/cordova-browser-4.1.0.html)
+- [Significant Documentation Updates](https://cordova.apache.org/announcements/2016/03/03/docs-improvement.html)
+- [Cordova iOS 4.1.0](https://cordova.apache.org/announcements/2016/03/02/ios-4.1.0.html)
+- [Cordova Android 5.1.1](https://cordova.apache.org/announcements/2016/03/02/cordova-android-5.1.1.html)
+- [Cordova OSX 4.0.0](https://cordova.apache.org/announcements/2016/02/16/osx-4.0.0.html)
+- [Plugins Release](https://cordova.apache.org/news/2016/02/09/plugins-release.html)
 - [cordova-plugin-inappbrowser Plugin Release](https://cordova.apache.org/news/2016/02/04/plugins-release.html) -  \*\*HOT FIX\*\*
+- [Apache Cordova Windows 4.3.1](https://cordova.apache.org/announcements/2016/02/04/cordova-windows-4.3.1.html)
 - [Cordova 6.0.0 Released!](https://cordova.apache.org/news/2016/01/28/tools-release.html)
 - **START OF CORDOVA 6.0.0**
 - [Cordova Android 5.1.0](https://cordova.apache.org/announcements/2016/01/24/cordova-android-5.1.0.html)

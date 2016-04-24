@@ -1,9 +1,10 @@
 ## *Cordova Windows* Releases ##
 Date: 2016-01-20<br>
-Last Update: 2016-01-20
+Last Update: 2016-04-23
 
 This record is incomplete.
 
+- [Apache Cordova Windows 4.3.2](https://cordova.apache.org/announcements/2016/04/05/cordova-windows-4.3.2.html)
 - [Apache Cordova Windows 4.3.1](https://cordova.apache.org/announcements/2016/02/04/cordova-windows-4.3.1.html)
 - [Apache Cordova Windows 4.3.0](https://cordova.apache.org/announcements/2016/01/18/cordova-windows-4.3.0.html)
 - **Start Year 2016**
