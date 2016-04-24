@@ -1,6 +1,6 @@
 ## Index to History folder for Cordova ##
 Date: 2016-01-21<br>
-Last Update: 2016-01-21
+Last Update: 2016-04-23
 
 All histories derived from blog posts and related public documents.
 
