@@ -8,21 +8,23 @@ Many of these frameworks cross-over directly into Cordova and Phonegap. The larg
 ### CLI and Cloud-based Development Systems ###
 </a>
 
-1. [Phonegap](http://phonegap.com/)
-2. [Ionic](http://ionicframework.com/)
-3. [Monaca](https://monaca.io/)
-4. [Onsen UI](http://onsen.io/)
-5. [Taco](http://taco.tools/)
-6. [Telerik](http://www.telerik.com/)
-7. [Cocoon](http://cocoon.io/)
-8. [Framework7](http://www.idangero.us/framework7/)
-9. [Aerogear Platforms](https://aerogear.org/cordova/) - limited intended for "enterprise mobile"
-10. [Mobile Angular UI](http://mobileangularui.com/)
-11. [Sencha Touch](http://www.sencha.com/products/touch/)
-12. [Kendo UI](http://www.telerik.com/kendo-ui)
-13. [AppGyver's Steroids](http://www.appgyver.com/steroids)
-14. [trigger.io](https://trigger.io/)
-15. [Cordova evothings](http://evothings.com/)
+Framework | Camera access
+------------ | -------------
+1. [Phonegap](http://phonegap.com/) | ?
+2. [Ionic](http://ionicframework.com/) | ?
+3. [Monaca](https://monaca.io/) | ?
+4. [Onsen UI](http://onsen.io/) | ?
+5. [Taco](http://taco.tools/) | ?
+6. [Telerik](http://www.telerik.com/) | ?
+7. [Cocoon](http://cocoon.io/) | ?
+8. [Framework7](http://www.idangero.us/framework7/) | ?
+9. [Aerogear Platforms](https://aerogear.org/cordova/) | ?
+10. [Mobile Angular UI](http://mobileangularui.com/) | ?
+11. [Sencha Touch](http://www.sencha.com/products/touch/) | ?
+12. [Kendo UI](http://www.telerik.com/kendo-ui) | ?
+13. [AppGyver's Steroids](http://www.appgyver.com/steroids) | ?
+14. [trigger.io](https://trigger.io/) | ?
+15. [Cordova evothings](http://evothings.com/) | ?
 
 <a name=ide>
 ### IDE and SDK-based Development Systems ###
