@@ -41,7 +41,7 @@ To walk throught the various different systems would be tedious. As such, there 
 - **Recommended: For production applications.**
 - Start by adding the [`whitelist`](https://www.npmjs.com/package/cordova-plugin-whitelist) plugin. **required all platforms, except iOS**
 -  For *Phonegap Build* Only `<gap:plugin name=cordova-plugin-whitelist source=npm>`
--  For *Cordova/Phonegap CLI* `cordova add plugin cordova-plugin-whitelist`
+-  For *Cordova/Phonegap CLI* `cordova plugin add cordova-plugin-whitelist`
 -  For *Cordova/Phonegap SDK* see the [Cordova documentation](http://cordova.apache.org/docs/en/latest/guide/overview/) -> [The config.xml File](http://cordova.apache.org/docs/en/5.4.0/config_ref/index.html) -> The *feature* Element
 -  For *iOS* only, the `whitelist` plugin is *not* used. However, the `<access (...)>` tag is used for iOS9.
 - Then to disable the `whitelist` system, add to `config.xml`
