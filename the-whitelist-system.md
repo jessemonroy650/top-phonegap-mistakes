@@ -14,7 +14,7 @@ As such, I want to thank *Rob Willett* for his invaluable assitance and advice. 
 
 *Note:* From here forward I will use **Cordova** to mean *Cordova CLI*, *Cordova SDK*, *Phonegap CLI*, *Phonegap SDK*, and *Phonegap Build*. If there is a difference, I will try to make it abundantly clear. If you did not know there is a difference, [read this](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/new-to-Phonegap.md#001).
 
-##The breakdown.##
+## The breakdown ##
 
 For the *Cordova `whitelist` system*, there four (4) unrelated systems (plus one (1) legacy system) that work together, and overlap in places.
 
@@ -28,7 +28,7 @@ To walk throught the various different systems would be tedious. As such, there 
 
 <p>As such,*the code that follows* ***turns off ALL whitelist systems***. *This means your app is not secured against attacks. It is up to <u>you</u> to secure your App.* Below that, you can ***turn on and apply ALL the whitelist system***, complete with detailed *explanations, directions, examples, and tips*.
 
-##Turning It All Off##
+## Turning It All Off ##
 
 **before 4.0.0**
 - **Recommended: For development only.**
