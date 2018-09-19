@@ -59,7 +59,7 @@ THE `CSP` SHOULD BE ON EVERY HTML PAGE, WITH FEW EXCEPTIONS.
 
 - ¥ = W3 [CSP 3.3. HTML meta Element ](http://www.w3.org/TR/CSP2/#delivery-html-meta-element) says,<br>*5. Remove all occurrences of report-uri, frame-ancestors, and sandbox directives from directive-set.*
 
-####<a name=saferinline>Safer Inline</a>####
+#### <a name=saferinline>Safer Inline</a> ####
 
 Safer inline Javascript and CSS 
 
