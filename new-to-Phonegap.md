@@ -17,7 +17,7 @@ LAST UPDATE: 2016-03-02
 <a href=#012>12</a>
 <a href=#013>13</a>
 
-###<a name=001>1.</a> Thinking Phonegap is just one system ###
+### <a name=001>1.</a> Thinking Phonegap is just one system ###
 
   There are three similar platforms, Cordova (CLI), Phonegap (CLI), and Phonegap Build and five system (counting Cordova/Phonegap SDK<sup>[1](#footnotes)</sup>). People often confuse the three very similar platforms and get tangled in the minor variations that differentiate them.
 
