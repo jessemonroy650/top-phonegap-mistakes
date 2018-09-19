@@ -1,6 +1,7 @@
 # HOW TO apply the Cordova/Phonegap the whitelist system #
 Date: 2015-10-28<br>
 Last Update: 2015-12-12
+Cosmetic Update: 2018-09-18
 
 ***If you have any questions, I am usually in the [Google Group for Phonegap](https://groups.google.com/forum/#!forum/phonegap)***
 
@@ -26,11 +27,7 @@ For the *Cordova `whitelist` system*, there four (4) unrelated systems (plus one
 
 To walk throught the various different systems would be tedious. As such, there are at least five (5) documents that directly support this blog. However, let's cut to the chase.
 
-<p>As such,*the code that follows*
-    ***turns off ALL whitelist systems***. 
-    *This means your app is not secured against attacks. It is up to <u>you</u> to secure your App.*
-    Below that, you can ***turn on and apply ALL the whitelist system***, complete with detailed
-    *explanations, directions, examples, and tips*.
+As such,*the code that follows* ***turns off ALL whitelist systems***. *This means your app is not secured against attacks. It is up to <u>you</u> to secure your App.*    Below that, you can ***turn on and apply ALL the whitelist system***, complete with detailed *explanations, directions, examples, and tips*.
 
 ## Turning It All Off ##
 
