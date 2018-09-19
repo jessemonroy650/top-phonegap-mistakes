@@ -1,9 +1,9 @@
 # HOW TO apply the Cordova/Phonegap the whitelist system #
 Date: 2015-10-28<br>
-Last Update: 2015-12-12
+Last Update: 2015-12-12<br>
 Cosmetic Update: 2018-09-18
 
-***If you have any questions, I am usually in the [Google Group for Phonegap](https://groups.google.com/forum/#!forum/phonegap)***
+***If you have any questions, I am usually in the [Adobe Forum for Phonegap Build](https://forums.adobe.com/community/phonegap/build#)***
 
 This blog post is one page. It has three (3) parts.
 
