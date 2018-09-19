@@ -44,7 +44,7 @@ LAST UPDATE: 2016-03-02
   * [Cordova vs. PhoneGap: An update](http://blog.devgeeks.org/post/73789983750/cordova-vs-phonegap-an-update) - Jan 19, 2014 - devgeeks.org
   * [PhoneGap, Cordova, and what's in a name?](http://phonegap.com/2012/03/19/phonegap-cordova-and-what%E2%80%99s-in-a-name/) - 2012/03/19 - phonegap.com
 
-###<a name=002>2.</a> Does not read the docs. ###
+### <a name=002>2.</a> Does not read the docs. ###
   There are three (3) sets of docs. One for *Cordova CLI* (Command Line Interface), another for *Phonegap CLI*, and one for *Phonegap Build*. They are similar, but NOT the same. Also, to add to the confusion, sometimes the Cordova documentation is the only set of docs available; this happens for some plugins. This also happens with Phonegap &ndash; the Phonegap Developer's Guide for example. (aka Beginners Guide)
 
   **The Official Documentation**
@@ -52,7 +52,7 @@ LAST UPDATE: 2016-03-02
   * [Phonegap Beginner's Guide](http://docs.phonegap.com/) & [Phonegap 3.0.0](http://docs.phonegap.com/en/3.0.0/) (older,but sometimes better)
   * [Phonegap Build](http://docs.build.phonegap.com/en_US/#googtrans%28en%29)
 
-###<a name=003>3.</a> Does not follow the blogs.###
+### <a name=003>3.</a> Does not follow the blogs.###
 
   All three platforms have blogs and twitter accounts. **Ignore at your peril.**
   * Official Apache [Cordova Blog](http://cordova.apache.org/blog/) - https://twitter.com/apachecordova
@@ -66,7 +66,7 @@ LAST UPDATE: 2016-03-02
   * [Phonegap CLI](https://forums.adobe.com/community/phonegap)
   * [Phonegap Build](https://forums.adobe.com/community/phonegap/build)
 
-###<a name=004>4.</a> In the code, did not listen for the 'deviceready' event. ###
+### <a name=004>4.</a> In the code, did not listen for the 'deviceready' event. ###
 
   This is listed MULTIPLE times in the documentation, and is include in every example where it is appropriate. It is still missed. Here is the appropriate point in the [section of documentation](http://cordova.apache.org/docs/en/latest/cordova/events/events.deviceready.html) we need. 
 
@@ -78,7 +78,7 @@ LAST UPDATE: 2016-03-02
 
   <p />And in case you think this is minor, even veterans like Raymond Camden [have forgotten this](http://www.raymondcamden.com/2015/07/15/fyi-cordova-events-must-be-run-after-deviceready).
 
-###<a name=005>5.</a> When designing the app, thinks phonegap works like a website or webbrowser. ###
+### <a name=005>5.</a> When designing the app, thinks phonegap works like a website or webbrowser. ###
 
   Cordova/Phonegap is a framework that happens to use a library, called [webview](webview.md) on Android (and similar libraries on other platforms), that happens to use HTML5 to render the UI (User Interface). The framework is NOT a webserver. The framework is also NOT a webbrowser. This also means many of the BOM (Browser Object Model) compenents do not exist; such as "location bar", bookmarks, cookies, [cache](http://www.raymondcamden.com/2015/02/26/reminder-you-dont-need-appcache-for-phonegapcordova), CORS, etc.
 
@@ -106,7 +106,7 @@ LAST UPDATE: 2016-03-02
   *Quote* ***[Apple iTunes Guidelines](https://developer.apple.com/app-store/review/guidelines/) - 2.12***
   > Apps that are not very useful, unique, are simply web sites bundled as Apps, or do not provide any lasting entertainment value may be rejected
 
-###<a name=006>6.</a> Not setting the "phonegap version" for your compiler###
+### <a name=006>6.</a> Not setting the "phonegap version" for your compiler ###
 
   With the CLI version, if you do not assign a version for your platform _OR_ in ''Phonegap Build'' if you do not set the ```phonegap-version``` in config.xml, YOU WILL GET THE LATEST VERSION. If you are lucky, your program just works as expected. If you are not lucky, you'll get a set of cascading error. 
 
@@ -115,7 +115,7 @@ LAST UPDATE: 2016-03-02
   *Cordova/PhoneGap Version Confusion*<br />
   http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/
 
-###<a name=007>7.</a> Not setting "version" for your plugins###
+### <a name=007>7.</a> Not setting "version" for your plugins ###
 
   I've been guilty of this mistake. Even worst, I gave people code examples making this mistake. I hope those people will read this one day and make the appropriate correction. To be clear on this, it now consider *"best practice"* to always use a version number with your plugin.
 
@@ -123,13 +123,13 @@ LAST UPDATE: 2016-03-02
 
   *[ Notes for upgrading to cli-5.1.1 on PGB](http://community.phonegap.com/nitobi/topics/notes-for-upgrading-to-cli-5-1-1-on-pgb) (Phonegap Build)*
 
-###<a name=008>8.</a> Forgot to add the plugin to `config.xml`, or `cordova.js` to `index.html`.###
+### <a name=008>8.</a> Forgot to add the plugin to `config.xml`, or `cordova.js` to `index.html`. ###
 
   Oops. Every developer has done this at one time or another. I've done it, and them spent 8 hours debugging this mistake. [Raymond Camden](http://www.raymondcamden.com/2013/11/02/Seeing-two-geolocation-prompts-in-a-PhoneGapCordova-application) has also. OUCH! 
 
   Luckily on *Cordova/Phonegap CLI* this is dealt with, but on [Cordova/Phonegap SDK](http://docs.phonegap.com/en/4.0.0/config_ref_index.md.html#The%20config.xml%20File_the_feature_element) and [Phonegap Build](http://docs.build.phonegap.com/en_US/configuring_plugins.md.html#Plugins) **you** have to do this. It is referenced differently by both. The vocabulary is different for both. Read the docs.
 
-###<a name=009>9.</a> Using an online example for "phonegap CLI" and then using "phonegap Build" ###
+### <a name=009>9.</a> Using an online example for "phonegap CLI" and then using "phonegap Build" ###
 
   I confess to doing this. I also confess to giving people the wrong version. Sometimes, I have gave them Phonegap Build, when I should have given them Phonegap CLI.
 
@@ -157,7 +157,7 @@ LAST UPDATE: 2016-03-02
 
   If you are looking for additional guideance you the `whitelist` system, read the [`whitelist` matrix](whitelist-matrix.md)
 
-### <a name=011>11.</a> You need to get your plugins from NPM now.###
+### <a name=011>11.</a> You need to get your plugins from NPM now. ###
 
   The rules regarding sourcing your plugins can be rather confusing. The best thing to do is read the blog posts - below. Developers that use **CLI** can source from github, again see the blog post.
 
@@ -179,14 +179,14 @@ LAST UPDATE: 2016-03-02
   * Cordova [Cordova Plugins Registry becomes immutable](http://cordova.apache.org/news/2015/09/08/CPR-readonly.html) 2015/09/08
   * Cordova [Plugins Release and Moving plugins to npm](http://cordova.apache.org/announcements/2015/04/21/plugins-release-and-move-to-npm.html) 2015/04/21
 
-###<a name=012>12</a>. For *Phonegap Build* ONLY `<feature>` is deprecated ###
+### <a name=012>12</a>. For *Phonegap Build* ONLY `<feature>` is deprecated ###
 
   `<feature>` tags are deprecated. That means they are no longer used.
   You can [read about it here](http://docs.build.phonegap.com/en_US/configuring_features.md.html#Features)
   
   > Aside from the debug-server feature, the feature tag is essentially deprecated on PhoneGap Build since PhoneGap APIs were pluginized. Permissions are now generally managed by individual plugins, and application manifests and permissions can be modified directly using the config-file element. However for backwards-compatibility, they are still supported and map to device permissions on Android and Windows Phone 8:
 
-###<a name=013>13</a>. For some Cordova Plugins, there is likely an HTML5 API. ###
+### <a name=013>13</a>. For some Cordova Plugins, there is likely an HTML5 API. ###
 
   SEE: http://mobilehtml5.org/
 
@@ -240,7 +240,7 @@ So lets dig into the sort of mistakes people make and how not to make them again
 7. **The definition for using config.xml is different for ''Cordova'', ''Phonegap'', and ''Phonegap Build''.**<p />Although they are very similar, they are different. Please read the documentation.
 
 ----
-####<a name=footnotes>footnotes</a>####
+#### <a name=footnotes>footnotes</a> ####
 1. From the documentation, it is presumed the meaning for SDK is the SDK packaged for use with an IDE; such as Eclipse, Android Studio, [intel-xdk](http://xdk-software.intel.com/), MS Visual Studio, XCode, etc.
 
 ----
