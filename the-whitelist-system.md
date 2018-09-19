@@ -26,7 +26,11 @@ For the *Cordova `whitelist` system*, there four (4) unrelated systems (plus one
 
 To walk throught the various different systems would be tedious. As such, there are at least five (5) documents that directly support this blog. However, let's cut to the chase.
 
-<p>As such,*the code that follows* ***turns off ALL whitelist systems***. *This means your app is not secured against attacks. It is up to <u>you</u> to secure your App.* Below that, you can ***turn on and apply ALL the whitelist system***, complete with detailed *explanations, directions, examples, and tips*.
+<p>As such,*the code that follows*
+    ***turns off ALL whitelist systems***. 
+    *This means your app is not secured against attacks. It is up to <u>you</u> to secure your App.*
+    Below that, you can ***turn on and apply ALL the whitelist system***, complete with detailed
+    *explanations, directions, examples, and tips*.
 
 ## Turning It All Off ##
 
@@ -73,7 +77,7 @@ or [style](http://matthewjamestaylor.com/blog/adding-css-to-html-with-link-embed
          <true/>
          </dict>
 ```
-###You should now have full access, and be completely insecure.###
+### You should now have full access, and be completely insecure. ###
 
 - [whitelist-examples.md](whitelist-examples.md) - 10% done.
 - [`<access Examples />`](whitelist-access-examples.md) - 90% done.
