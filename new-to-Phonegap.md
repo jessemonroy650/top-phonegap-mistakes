@@ -137,7 +137,7 @@ LAST UPDATE: 2016-03-02
 
   To be clear, if you create an App with the command line tools, that App will NOT work with *Phonegap Build*; the structure is different. If you need a place to start, use this boilerplate [Phonegap--Generic-Boilerplate8](https://github.com/jessemonroy650/Phonegap--Generic-Boilerplate8). Note, this is an example. You still need to optimize this example, if you are going to use it.
 
-###<a name=010>10.</a> Not adding the new "white-list", "white-list plugin" parameters in config.xml AND "Content Security Policy"###
+### <a name=010>10.</a> Not adding the new "white-list", "white-list plugin" parameters in config.xml AND "Content Security Policy" ###
 
   This is sooo new and obnoxious, one can only have pity on returning developers. In addition, this was buried in both the *Phonegap blog* and the *Cordova blog*.
 
