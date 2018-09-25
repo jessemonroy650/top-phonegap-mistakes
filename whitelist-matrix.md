@@ -24,7 +24,7 @@ This is, in fact, a simple expert system &ndash; with you as the feedback. Meani
 9. [CSP (Content Security Policy)](#csp)?<br>**Apple's ATS**
 10. [ATS](#ats)?
 
-###1. <a name=version>Is my version of Cordova/Phonegap included</a>###
+### 1. <a name=version>Is my version of Cordova/Phonegap included</a> ###
 
 ```
 cordova -v
@@ -32,21 +32,21 @@ cordova -v
 
 It is recommend that you move to *Cordova Tools* V4.x as a minimum. Older versions are difficult to support and many plugins do not work correctly.
 
-| Your Version of<br>*Cordova/Phonegap Tools* <sup>¢</sup> | `whitelist`<br>support | notes |
+| Your Version of<br>*Cordova/Phonegap Tools* <sup>Â¢</sup> | `whitelist`<br>support | notes |
 |----------------------------------|---------|-------|
 | 2.x | Not support | deprecated |
 | 3.x | Available   | white-list, plugin |
 | 4.x | Required    | white-list, plugin |
-| 5.x<sup>¥</sup> | Required    | white-list, plugin, CSP |
-| Any above AND iOS9<sup>£</sup> | Required | Apple's ATS<sup>§</sup> |
+| 5.x<sup>Â¥</sup> | Required    | white-list, plugin, CSP |
+| Any above AND iOS9<sup>Â£</sup> | Required | Apple's ATS<sup>Â§</sup> |
 
-- ¢ = Cordova and Phonegap versions do NOT align, but are close. This version is not the \*pinned* version either. If you do not know the difference, [learn](http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/) &mdash; [official release policy](https://github.com/apache/cordova-coho/blob/master/docs/versioning-and-release-strategy.md).
-- ¥ = This include cli-5.1.0 and cli.5.2.0
-- £ = As of 2015-11-04, iOS9 is officially supported by Cordova ([SEE](https://cordova.apache.org/announcements/2015/11/02/cordova-ios-3.9.2.html)) ; *Phonegap Build* is still waiting
-- § = ATS requires &ndash; if you are using Apple's SSL, then the server you connect to must [run TLSv1.2](http://ste.vn/2015/06/10/configuring-app-transport-security-ios-9-osx-10-11/)
+- Â¢ = Cordova and Phonegap versions do NOT align, but are close. This version is not the \*pinned* version either. If you do not know the difference, [learn](http://devgirl.org/2014/11/07/cordovaphonegap-version-confusion/) &mdash; [official release policy](https://github.com/apache/cordova-coho/blob/master/docs/versioning-and-release-strategy.md).
+- Â¥ = This include cli-5.1.0 and cli.5.2.0
+- Â£ = As of 2015-11-04, iOS9 is officially supported by Cordova ([SEE](https://cordova.apache.org/announcements/2015/11/02/cordova-ios-3.9.2.html)) ; *Phonegap Build* is still waiting
+- Â§ = ATS requires &ndash; if you are using Apple's SSL, then the server you connect to must [run TLSv1.2](http://ste.vn/2015/06/10/configuring-app-transport-security-ios-9-osx-10-11/)
 - \*\* = [Beginning May 9, 2016](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/android-block-pre-4.1.1.md), Google Play will block publishing of any new apps or updates that use pre-4.1.1 versions of Apache Cordova.
 
-###2. <a name=guide>Which guide</a>###
+### 2. <a name=guide>Which guide</a> ###
 
 For all intensive purpose, there are three (3) whitelist guides. They all have mistakes, lack current information, and suffer from neglect. However, there are important pointers for each platform. So, if you are working on *Windows, Blackberry, Tizen*, or one of the other platform, do read the appropriate guide.
 
@@ -58,7 +58,7 @@ However, the best and most accurate information seems to come from from the docu
 4. [cordova-plugin-whitelist](https://www.npmjs.com/package/cordova-plugin-whitelist) - npm
 
 
-###3. <a name=plugin>Which plugin, `whitelist` or `legacy-whitelist`</a>###
+### 3. <a name=plugin>Which plugin, `whitelist` or `legacy-whitelist`</a> ###
 
 If you are not aware of it, we have move to an [NPM system](https://cordova.apache.org/announcements/2015/04/21/plugins-release-and-move-to-npm.html)
 
@@ -80,7 +80,7 @@ The Cordova `whitelist` has three (3) parts; `allow-navigation`, `allow-intent`,
 
 - [Cordova whitelist Examples]( whitelist-examples.md)
 
-###4. <a name=navigation>allow-navigation</a>###
+### 4. <a name=navigation>allow-navigation</a> ###
 
 Controls which URLs the \*WebView\* itself can be navigated to. Applies to top-level navigations only. 
 
@@ -90,7 +90,7 @@ By default, navigations only to `file://` URLs are allowed. To allow other URLs,
 
 **DANGEROUS-SETTING:** `<allow-navigation href="*" />`
 
-###5. <a name=intent>allow-intent</a>###
+### 5. <a name=intent>allow-intent</a> ###
 
 Controls which URLs the app is allowed to ask the \*system\* to open. By default, no external URLs are allowed.
 
@@ -100,7 +100,7 @@ This whitelist does not apply to plugins, only hyperlinks and calls to `window.o
 
 **DANGEROUS-SETTING:** `<allow-intent href="*" />`
 
-###6. <a name=access>access origin</a>###
+### 6. <a name=access>access origin</a> ###
 
 Controls which \*network\* requests (images, XHRs, etc) are allowed to be made (via cordova native hooks).
 
@@ -110,7 +110,7 @@ Without any `<access>` tags, only requests to `file://` URLs are allowed. Howeve
 
 **DANGEROUS-SETTING:** `<access origin="*" />`
 
-###7. <a name=inappbrowser>inappbrowser</a>###
+### 7. <a name=inappbrowser>inappbrowser</a> ###
 
 This is one point where the documentation conflicts with it's self. If you do a search for 'whitelist' on the [documentation](https://www.npmjs.com/package/cordova-plugin-inappbrowser) you will see conflicting lines. The inconsistencey in the writing style points to multiple authors, poor design, and neglect. At a minimum, expect a rewrite of the documentation.
 
@@ -122,18 +122,18 @@ This is one point where the documentation conflicts with it's self. If you do a 
 
 > _self: Opens in the Cordova WebView, if the URL is in the white list, otherwise it opens in the InAppBrowser.
 
-###8. <a name=config.xml>How do I apply those `config.xml` elements</a>###
+### 8. <a name=config.xml>How do I apply those `config.xml` elements</a> ###
 
 <b>FOREWARNED.</b> The documentation suggests that the CSP be used instead of `access origin`. I disagree. CSP is confusing and unclear. However, `access origin` is weak and ripe for more security warnings. There is inconsistency in both methods. *As a developer, you should make an objective decision on this.* <b>FOREWARNED.</b>
 
 | Which XML element  |  Controls  |  Quirks  |
 |--------------------|------------|----------|
-| `allow-navigation` | [WebView](webview.md)<sup>¿</sup> | *Android* applies this to iframes (non-http(s))
-| `allow-intent`     | URI or URL request to the system `window.open()`<sup>¿</sup> | 1. *Android* equivalent to BROWSEABLE<br>2. <b>does not apply to plugins</b>
-| `access origin`    | Controls network requests (images, XHRs, etc) via Cordova Hooks | *Android* makes allowance for [Talkback](http://www.androidcentral.com/what-google-talk-back) <sup>µ</sup><br>the default Cordova application includes `<access origin="*">`
+| `allow-navigation` | [WebView](webview.md)<sup>Â¿</sup> | *Android* applies this to iframes (non-http(s))
+| `allow-intent`     | URI or URL request to the system `window.open()`<sup>Â¿</sup> | 1. *Android* equivalent to BROWSEABLE<br>2. <b>does not apply to plugins</b>
+| `access origin`    | Controls network requests (images, XHRs, etc) via Cordova Hooks | *Android* makes allowance for [Talkback](http://www.androidcentral.com/what-google-talk-back) <sup>Âµ</sup><br>the default Cordova application includes `<access origin="*">`
 
-- ¿ = It unclear from the documentation how this interacts with `inappbrowser`.
-- µ = The documentation alludes that Android has this built-in, or hard-coded.
+- Â¿ = It unclear from the documentation how this interacts with `inappbrowser`.
+- Âµ = The documentation alludes that Android has this built-in, or hard-coded.
 
 - See [access by default](whitelist-examples.md#bydefault)
 
@@ -141,8 +141,8 @@ This is one point where the documentation conflicts with it's self. If you do a 
 #### [Cordova whitelist Examples]( whitelist-examples.md) ####
 
 
-##W3's CSP##
-###9. <a name=csp>CSP (Content Security Policy)</a>###
+## W3's CSP ##
+### 9. <a name=csp>CSP (Content Security Policy)</a> ###
 
 - [CSP Examples]( whitelist-csp-examples.md)
 
@@ -228,7 +228,7 @@ There are four (4) documents worth reading on this subject.
 - [CanIUse](http://caniuse.com/#search=csp)
 
 ## Apple's ATS##
-###10. <a name=ats>ATS</a>###
+### 10. <a name=ats>ATS</a> ###
 
 As part of Apples move to iOS 9, Apple is mandating the use of [Apple Transport System](https://web.archive.org/web/20150905111538/https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/) (ATS). This basically means that all web communications should use `https:` rather than `http:`. At the moment, it is easy to create exceptions to the ATS policy. Apple is likely to tighten up these exceptions over time, though it is difficult to see how they can make it 100% mandatory. The issue being that some server sites simply will not work over `https:` and may never convert.
 
@@ -278,7 +278,7 @@ Note, there are known issues with some sites using `https:` *and* Apple's ATS. I
 
 
 
-###11. <a name=notworking>Still not working</a>###
+### 11. <a name=notworking>Still not working</a> ###
 
 
 - You can search through all ["core" plugin bugs](plugins-core-bugs.md)
