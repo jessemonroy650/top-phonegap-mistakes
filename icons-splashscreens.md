@@ -2,7 +2,7 @@
 Date: 2016-01-11<br>
 Last Update: 2016-04-03
 
-###icons##
+### icons ##
 
 english                | name    | size  | dpi
 --------------------------------------------------
@@ -13,7 +13,7 @@ extra-high             | xhdpi   |  96px | ~320dpi
 extra-extra-high       | xxhdpi  | 180px | ~480dpi
 extra-extra-extra-high | xxxhdpi | 192px | ~640dpi
 
-###screens###
+### screens ###
 
     xlarge screens are at least 960dp x 720dp
     large screens are at least 640dp x 480dp
