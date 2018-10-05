@@ -4,14 +4,14 @@ Last Update: 2016-04-03
 
 ### icons ##
 
-english                | name    | size  | dpi
+| english                | name    | size  | dpi |
 --------------------------------------------------
-low                    | ldpi    |  36px | ~120dpi
-medium                 | mdpi    |  48px | ~160dpi
-high                   | hdpi    |  72px | ~240dpi
-extra-high             | xhdpi   |  96px | ~320dpi
-extra-extra-high       | xxhdpi  | 180px | ~480dpi
-extra-extra-extra-high | xxxhdpi | 192px | ~640dpi
+| low                    | ldpi    |  36px | ~120dpi |
+| medium                 | mdpi    |  48px | ~160dpi |
+| high                   | hdpi    |  72px | ~240dpi |
+| extra-high             | xhdpi   |  96px | ~320dpi |
+| extra-extra-high       | xxhdpi  | 180px | ~480dpi |
+| extra-extra-extra-high | xxxhdpi | 192px | ~640dpi |
 
 ### screens ###
 
