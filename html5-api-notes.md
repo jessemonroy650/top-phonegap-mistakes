@@ -8,10 +8,10 @@ Google: [html5 web api](https://www.google.com/search?q=html5+web+api)
 
 - [Capturing camera/picture data without PhoneGap](http://www.raymondcamden.com/2013/05/20/capturing-camerapicture-data-without-phonegap)
 
-###HTML <meta/> Meta Tag List###
+### HTML <meta/> Meta Tag List ###
 
 
-###htmlgoodies.com###
+### htmlgoodies.com ###
 
     - Contacts - The HTML5 specification mentions that the Contacts API allows to have a common contacts repository in the browser which can be access by any web application.
     - Selection - The selection API supports selecting items in DOM (supports CSS3 type of selectors), to be used along with JQUERY.
@@ -30,7 +30,7 @@ Google: [html5 web api](https://www.google.com/search?q=html5+web+api)
     - Forms - The Forms API can be used with the new data types supported with HTML5.
     - File API - The File APIs are used by the browser to provide secure access to the file system.
 
-###sitepoint.com###
+### sitepoint.com ###
 
     - High Resolution Time API
     - User Timing API
