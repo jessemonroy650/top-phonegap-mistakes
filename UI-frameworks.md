@@ -1,7 +1,7 @@
 ## UI (User Interface) Frameworks ##
 Last Update: 2015-10-11
 
-###Currently Popular###
+### Currently Popular ###
 * 'JQuery Mobile' from [JQuery](http://jquerymobile.com/)
 * 'Kendo UI Mobile' from [Telerik](http://www.kendoui.com/)
 * 'Sencha Touch' from [Senca](http://www.sencha.com/products/touch/)
@@ -21,7 +21,7 @@ Last Update: 2015-10-11
 - [ ] TITANIUM APPCELERATOR
 - [ ] appgyver steroids
 
-### Packagaes available###
+### Packagaes available ###
 
 * [PhoneJS](http://phonejs.devexpress.com/)
 * [EnyoJS](http://enyojs.com/)
