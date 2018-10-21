@@ -19,5 +19,5 @@ See also: [Bugs for Cordova "core" webview](core-bugs/plugins-core-bugs-webview.
 ### Windows 10 ###
 ### Firefox OS ###
 ### Ubuntu ###
-###Mobile/GeckoView###
+### Mobile/GeckoView ###
 ### Important References ###
